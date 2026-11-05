@@ -1,0 +1,1050 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>资讯 · 2026-11-05 · 第001期</title>
+<meta name="description" content="美国中期选举出现「蓝色浪潮」，民主党据测算同时拿下参众两院。市场把它读成三件事：战争可能收尾、财政赤字受限、AI 监管抬头。于是道指涨 1569 点、油价跌 9%、黄金站上 4060 美元。同一晚，英国央行准备三年来首次加息——和平交易压得住油价，压不住已经切换的通胀体制。">
+<meta name="color-scheme" content="light dark">
+<meta property="og:title" content="资讯 · 2026-11-05 · 第001期">
+<meta property="og:description" content="美国中期选举出现「蓝色浪潮」，民主党据测算同时拿下参众两院。市场把它读成三件事：战争可能收尾、财政赤字受限、AI 监管抬头。于是道指涨 1569 点、油价跌 9%、黄金站上 4060 美元。同一晚，英国央行准备三年来首次加息——和平交易压得住油价，压不住已经切换的通胀体制。">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/atom+xml" title="资讯 · 每日更新" href="feed.xml">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23a8382a'/%3E%3Ctext x='16' y='23' font-size='19' text-anchor='middle' fill='%23f7f3ea' font-family='serif'%3E%E8%AE%AF%3C/text%3E%3C/svg%3E">
+<style>
+/* ============================================================
+   资讯 · 个人情报台
+   手工排版的编辑部风格：纸色、墨色、朱红。
+   ============================================================ */
+
+:root {
+  --paper: #f7f3ea;
+  --paper-2: #fbf8f1;
+  --ink: #16171b;
+  --ink-2: #3c3a34;
+  --muted: #726c5e;
+  --rule: #ddd4c1;
+  --rule-strong: #c3b79d;
+  --accent: #a8382a;
+  --accent-soft: #f0e2d9;
+  --blue: #23486a;
+  --gold: #8d6f36;
+  --up: #b3352a;
+  --down: #1f6b4a;
+  --shadow: 0 1px 0 rgba(0,0,0,.04), 0 12px 32px -24px rgba(30,25,15,.45);
+  --serif: "Songti SC", "STSong", "SimSun", "Noto Serif CJK SC", Georgia, serif;
+  --sans: "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", system-ui, -apple-system, sans-serif;
+  --mono: "Cascadia Mono", "Consolas", "SFMono-Regular", monospace;
+  --max: 1180px;
+}
+
+html[data-theme="dark"] {
+  --paper: #111216;
+  --paper-2: #17181d;
+  --ink: #ece5d6;
+  --ink-2: #c8c1b1;
+  --muted: #928b7b;
+  --rule: #2a2b31;
+  --rule-strong: #3b3c44;
+  --accent: #d9705f;
+  --accent-soft: #2a1f1c;
+  --blue: #8fb3d1;
+  --gold: #c2a163;
+  --up: #e0705f;
+  --down: #59b389;
+  --shadow: 0 1px 0 rgba(255,255,255,.03), 0 18px 40px -28px rgba(0,0,0,.9);
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.8;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body::before {
+  content: "";
+  position: fixed; inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  opacity: .5;
+  background:
+    radial-gradient(1200px 500px at 15% -10%, rgba(168,56,42,.05), transparent 70%),
+    radial-gradient(900px 400px at 90% 0%, rgba(35,72,106,.05), transparent 70%);
+}
+
+a { color: inherit; text-decoration: none; }
+a:hover { color: var(--accent); }
+
+::selection { background: var(--accent); color: #fff; }
+
+.progress {
+  position: fixed; top: 0; left: 0; height: 2px; width: 0;
+  background: var(--accent); z-index: 100;
+  transition: width .12s linear;
+}
+
+/* ---------------- 顶栏 ---------------- */
+
+.topbar {
+  position: sticky; top: 0; z-index: 40;
+  background: color-mix(in srgb, var(--paper) 88%, transparent);
+  backdrop-filter: blur(10px) saturate(1.1);
+  border-bottom: 1px solid var(--rule);
+}
+
+.topbar-in {
+  max-width: var(--max); margin: 0 auto; padding: 9px 24px;
+  display: flex; align-items: center; gap: 18px;
+  font-size: 12.5px; letter-spacing: .04em; color: var(--muted);
+}
+
+.brand {
+  font-family: var(--serif); font-size: 15px; letter-spacing: .28em;
+  color: var(--ink); font-weight: 700;
+}
+
+.brand i { color: var(--accent); font-style: normal; }
+
+.topbar .spacer { flex: 1; }
+
+.topbar a { padding: 4px 2px; border-bottom: 1px solid transparent; }
+.topbar a:hover { border-bottom-color: var(--accent); color: var(--ink); }
+
+.icon-btn {
+  border: 1px solid var(--rule); background: transparent; color: var(--ink-2);
+  width: 30px; height: 26px; border-radius: 2px; cursor: pointer;
+  font-size: 13px; display: inline-flex; align-items: center; justify-content: center;
+  font-family: var(--sans);
+}
+.icon-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+/* ---------------- 报头 ---------------- */
+
+.masthead {
+  max-width: var(--max); margin: 0 auto; padding: 34px 24px 18px;
+  position: relative; z-index: 1;
+}
+
+.masthead .eyebrow {
+  display: flex; align-items: center; gap: 12px;
+  font-family: var(--mono); font-size: 10.5px; letter-spacing: .22em;
+  color: var(--muted); text-transform: uppercase;
+}
+
+.masthead .eyebrow .line { flex: 1; height: 1px; background: var(--rule); }
+
+.masthead h1 {
+  font-family: var(--serif);
+  font-weight: 900;
+  font-size: clamp(46px, 8vw, 88px);
+  line-height: 1.02;
+  letter-spacing: .04em;
+  margin: 12px 0 0;
+}
+
+.masthead h1 small {
+  display: block;
+  font-family: var(--sans);
+  font-size: 13px; font-weight: 400; letter-spacing: .38em;
+  color: var(--muted); margin-top: 12px;
+}
+
+.masthead-meta {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px 22px;
+  margin-top: 18px; padding-top: 14px; border-top: 2px solid var(--ink);
+  font-size: 13px; color: var(--ink-2);
+}
+
+.masthead-meta .date { font-family: var(--serif); font-size: 20px; font-weight: 700; letter-spacing: .06em; }
+.masthead-meta .issue { color: var(--accent); font-family: var(--mono); letter-spacing: .1em; }
+.masthead-meta .tagline { margin-left: auto; color: var(--muted); letter-spacing: .12em; font-size: 12px; }
+
+/* ---------------- 行情带 ---------------- */
+
+.ticker-wrap {
+  border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+  background: var(--paper-2);
+  overflow: hidden;
+}
+
+.ticker {
+  max-width: var(--max); margin: 0 auto; padding: 8px 24px;
+  display: flex; gap: 26px; overflow-x: auto; scrollbar-width: none;
+  white-space: nowrap;
+}
+.ticker::-webkit-scrollbar { display: none; }
+
+@media (min-width: 1100px) {
+  .ticker { flex-wrap: wrap; row-gap: 5px; overflow: visible; padding-top: 9px; padding-bottom: 9px; }
+}
+
+.tick { display: inline-flex; align-items: baseline; gap: 7px; font-size: 12.5px; }
+.tick .t-label { color: var(--muted); letter-spacing: .06em; }
+.tick .t-val { font-family: var(--mono); font-size: 12px; color: var(--ink-2); }
+.tick .t-chg { font-family: var(--mono); font-weight: 700; }
+.tick .up { color: var(--up); }
+.tick .down { color: var(--down); }
+
+/* ---------------- 导语 ---------------- */
+
+.lede {
+  max-width: 860px; margin: 0 auto; padding: 46px 24px 8px;
+  position: relative;
+}
+
+.lede p {
+  font-family: var(--serif);
+  font-size: clamp(21px, 2.6vw, 27px);
+  line-height: 1.85;
+  letter-spacing: .01em;
+  margin: 0;
+  text-align: justify;
+}
+
+.lede p::first-letter { font-size: 1.05em; color: var(--accent); }
+
+.lede .note {
+  margin-top: 22px; padding-left: 14px; border-left: 2px solid var(--accent);
+  font-family: var(--sans); font-size: 13.5px; line-height: 1.9; color: var(--muted);
+  text-align: left;
+}
+
+/* ---------------- 头条 ---------------- */
+
+.hero {
+  max-width: var(--max); margin: 34px auto 0; padding: 0 24px;
+  display: grid; grid-template-columns: 1.35fr .85fr; gap: 0;
+  border-top: 1px solid var(--rule-strong);
+  border-bottom: 1px solid var(--rule-strong);
+}
+
+.hero-main { padding: 26px 34px 30px 0; border-right: 1px solid var(--rule); }
+.hero-side { padding: 26px 0 30px 34px; display: flex; flex-direction: column; gap: 26px; }
+
+.kicker {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-family: var(--mono); font-size: 10.5px; letter-spacing: .2em;
+  color: var(--accent); text-transform: uppercase;
+}
+.kicker::before { content: ""; width: 22px; height: 1px; background: var(--accent); }
+
+.hero-main h2 {
+  font-family: var(--serif); font-weight: 900;
+  font-size: clamp(28px, 3.6vw, 40px); line-height: 1.32;
+  letter-spacing: .01em; margin: 12px 0 16px;
+}
+
+.hero-main .dek {
+  font-size: 16px; color: var(--ink-2); line-height: 1.95; margin: 0 0 18px;
+}
+
+.hero-main ul { margin: 0 0 18px; padding: 0; list-style: none; }
+.hero-main li {
+  position: relative; padding-left: 20px; margin-bottom: 10px;
+  font-size: 14.5px; color: var(--ink-2); line-height: 1.85;
+}
+.hero-main li::before {
+  content: "—"; position: absolute; left: 0; color: var(--accent);
+}
+
+.hero-side .item { padding-bottom: 20px; border-bottom: 1px dashed var(--rule); }
+.hero-side .item:last-child { border-bottom: none; padding-bottom: 0; }
+
+.hero-side h3 {
+  font-family: var(--serif); font-size: 21px; line-height: 1.5;
+  margin: 8px 0 8px; font-weight: 700;
+}
+.hero-side p { margin: 0; font-size: 13.8px; color: var(--ink-2); line-height: 1.85; }
+
+.src {
+  display: inline-block; margin-top: 10px;
+  font-size: 11.5px; color: var(--muted); letter-spacing: .03em;
+}
+.src:hover { color: var(--accent); }
+
+/* ---------------- 区块导航 ---------------- */
+
+.nav {
+  position: sticky; top: 45px; z-index: 30;
+  background: color-mix(in srgb, var(--paper) 92%, transparent);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--rule);
+}
+
+.nav-in {
+  max-width: var(--max); margin: 0 auto; padding: 0 24px;
+  display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none;
+}
+.nav-in::-webkit-scrollbar { display: none; }
+
+.nav a {
+  flex: none; padding: 11px 12px 9px; font-size: 12.8px; color: var(--muted);
+  border-bottom: 2px solid transparent; letter-spacing: .03em;
+}
+.nav a:hover { color: var(--ink); }
+.nav a.active { color: var(--accent); border-bottom-color: var(--accent); }
+
+/* ---------------- 通用区块 ---------------- */
+
+.block { max-width: var(--max); margin: 0 auto; padding: 52px 24px 0; scroll-margin-top: 100px; }
+
+.block-head {
+  display: flex; align-items: flex-end; gap: 16px;
+  padding-bottom: 12px; border-bottom: 1px solid var(--ink);
+  margin-bottom: 24px;
+}
+.block-head .no {
+  font-family: var(--mono); font-size: 11px; color: var(--accent);
+  letter-spacing: .18em; padding-bottom: 3px;
+}
+.block-head h2 {
+  font-family: var(--serif); font-size: 27px; margin: 0; font-weight: 900;
+  letter-spacing: .06em;
+}
+.block-head .intro {
+  margin-left: auto; max-width: 430px; text-align: right;
+  font-size: 12.5px; color: var(--muted); line-height: 1.7;
+}
+
+/* 全球扫描 */
+
+.regions { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--rule); border: 1px solid var(--rule); }
+
+.region {
+  background: var(--paper); padding: 22px 22px 18px;
+  display: flex; flex-direction: column; gap: 14px;
+}
+.region:hover { background: var(--paper-2); }
+
+.region header { display: flex; align-items: baseline; gap: 10px; }
+.region h3 { font-family: var(--serif); font-size: 20px; margin: 0; letter-spacing: .08em; }
+.region .en { font-family: var(--mono); font-size: 9.5px; letter-spacing: .16em; color: var(--muted); text-transform: uppercase; }
+.region .r-sum { font-size: 12.5px; color: var(--muted); line-height: 1.7; margin: 0; padding-bottom: 10px; border-bottom: 1px dashed var(--rule); }
+
+.region .ritem { padding-top: 2px; }
+.region .ritem h4 { font-size: 14.5px; margin: 0 0 3px; line-height: 1.6; font-weight: 700; }
+.region .ritem p { margin: 0; font-size: 12.8px; color: var(--ink-2); line-height: 1.75; }
+
+/* 板块条目 */
+
+.items { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px; background: var(--rule); border: 1px solid var(--rule); }
+
+.entry {
+  background: var(--paper); padding: 20px 22px 18px;
+  display: flex; flex-direction: column;
+}
+.entry:hover { background: var(--paper-2); }
+
+/* 条目数为奇数时，最后一条横跨两栏，避免留下空白格 */
+.items > .entry:last-child:nth-child(odd) { grid-column: 1 / -1; }
+.items > .entry:last-child:nth-child(odd) p { max-width: 78ch; }
+
+.entry h3 {
+  font-family: var(--serif); font-size: 18.5px; line-height: 1.55;
+  margin: 0 0 7px; font-weight: 700; letter-spacing: .01em;
+}
+.entry h3 a:hover { color: var(--accent); }
+.entry p { margin: 0 0 10px; font-size: 13.6px; line-height: 1.85; color: var(--ink-2); }
+
+.entry .meta { margin-top: auto; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+
+.tag {
+  font-size: 10.5px; letter-spacing: .06em; padding: 2px 7px;
+  border: 1px solid var(--rule-strong); color: var(--muted); border-radius: 2px;
+  white-space: nowrap;
+}
+
+/* ---------------- 深度 ---------------- */
+
+.deep { background: var(--ink); color: #efe9da; margin-top: 56px; padding: 0 0 10px; }
+
+html[data-theme="dark"] .deep { background: #07080a; }
+
+.deep .block-head { border-bottom-color: rgba(239,233,218,.28); margin-bottom: 0; max-width: var(--max); margin: 0 auto; padding: 44px 24px 14px; }
+.deep .block-head h2 { color: #f4efe2; }
+.deep .block-head .no { color: #d9705f; }
+.deep .block-head .intro { color: rgba(239,233,218,.55); }
+
+.analysis {
+  max-width: 860px; margin: 0 auto; padding: 44px 24px 46px;
+  border-bottom: 1px solid rgba(239,233,218,.14);
+}
+.analysis:last-of-type { border-bottom: none; }
+
+.analysis .kicker { color: #d9705f; }
+.analysis .kicker::before { background: #d9705f; }
+
+.analysis h3 {
+  font-family: var(--serif); font-weight: 900;
+  font-size: clamp(26px, 3.4vw, 38px); line-height: 1.35;
+  margin: 14px 0 18px; color: #f6f1e4; letter-spacing: .01em;
+}
+
+.analysis .thesis {
+  font-family: var(--serif); font-size: 19px; line-height: 1.9;
+  color: #e4dcc8; padding: 14px 0 14px 18px;
+  border-left: 2px solid #d9705f; margin: 0 0 22px;
+  text-align: justify;
+}
+
+.analysis .body p {
+  font-family: var(--serif);
+  font-size: 17px; line-height: 2.05; color: rgba(239,233,218,.88);
+  margin: 0 0 18px; text-align: justify; letter-spacing: .01em;
+}
+
+.analysis .body p:first-child::first-letter {
+  float: left; font-size: 3.1em; line-height: .95; padding: 6px 10px 0 0;
+  color: #d9705f; font-family: var(--serif); font-weight: 700;
+}
+
+.analysis .counter {
+  border: 1px solid rgba(239,233,218,.22); padding: 16px 18px;
+  margin: 26px 0 18px; font-size: 13.8px; line-height: 1.9;
+  color: rgba(239,233,218,.72); background: rgba(255,255,255,.03);
+}
+.analysis .counter b { color: #d9705f; font-weight: 700; letter-spacing: .04em; }
+
+.analysis .watch { margin: 0; padding: 0; list-style: none; display: grid; gap: 8px; }
+.analysis .watch li {
+  font-size: 12.8px; color: rgba(239,233,218,.7); padding-left: 18px; position: relative; line-height: 1.7;
+}
+.analysis .watch li::before {
+  content: "○"; position: absolute; left: 0; color: #d9705f; font-size: 9px; top: 3px;
+}
+.analysis .watch-label {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .2em;
+  color: rgba(239,233,218,.45); margin: 0 0 10px; text-transform: uppercase;
+}
+
+/* ---------------- 数据与日历 ---------------- */
+
+.panel-grid { display: grid; grid-template-columns: 1.15fr .85fr; gap: 40px; align-items: start; }
+
+table.data { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+table.data th {
+  text-align: left; font-weight: 400; font-size: 10.5px; letter-spacing: .16em;
+  color: var(--muted); padding: 0 0 8px; border-bottom: 1px solid var(--ink); text-transform: uppercase;
+}
+table.data td { padding: 9px 0; border-bottom: 1px solid var(--rule); }
+table.data td.num { font-family: var(--mono); text-align: right; font-size: 12.5px; }
+table.data td.chg { font-family: var(--mono); text-align: right; font-weight: 700; font-size: 12.5px; }
+table.data tr:hover td { background: var(--paper-2); }
+.up { color: var(--up); }
+.down { color: var(--down); }
+
+.data-note { font-size: 11.5px; color: var(--muted); margin-top: 12px; line-height: 1.7; }
+
+.mini-head {
+  margin: 0 0 2px; padding: 0 0 8px; border-bottom: 1px solid var(--ink);
+  font-family: var(--mono); font-size: 10.5px; letter-spacing: .16em;
+  color: var(--muted); text-transform: uppercase;
+}
+
+.cal { list-style: none; margin: 0; padding: 0; }
+.cal li {
+  display: grid; grid-template-columns: 62px 1fr; gap: 12px;
+  padding: 10px 0; border-bottom: 1px dashed var(--rule); font-size: 13.2px;
+}
+.cal time { font-family: var(--mono); font-size: 11.5px; color: var(--accent); padding-top: 2px; }
+.cal span { color: var(--ink-2); line-height: 1.7; }
+
+/* ---------------- 延伸阅读 ---------------- */
+
+.reading { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+.read {
+  border: 1px solid var(--rule); padding: 16px 18px; background: var(--paper-2);
+  display: flex; flex-direction: column; gap: 5px;
+}
+.read:hover { border-color: var(--accent); }
+.read .r-out { font-family: var(--mono); font-size: 10px; letter-spacing: .14em; color: var(--accent); text-transform: uppercase; }
+.read h3 { font-family: var(--serif); font-size: 17px; margin: 2px 0; line-height: 1.5; }
+.read p { margin: 0; font-size: 12.5px; color: var(--muted); line-height: 1.7; }
+
+/* ---------------- 页脚 ---------------- */
+
+.footer {
+  margin-top: 60px; border-top: 1px solid var(--ink);
+  background: var(--paper-2);
+}
+.footer-in {
+  max-width: var(--max); margin: 0 auto; padding: 30px 24px 40px;
+  display: grid; grid-template-columns: 1.1fr 1fr; gap: 30px;
+  font-size: 12.5px; color: var(--muted);
+}
+.footer h4 {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .2em;
+  color: var(--ink-2); margin: 0 0 10px; text-transform: uppercase;
+}
+.footer .srcs { display: flex; flex-wrap: wrap; gap: 6px 14px; }
+.footer .srcs span { color: var(--muted); }
+.footer .fine { line-height: 1.9; }
+.footer a { color: var(--ink-2); border-bottom: 1px solid var(--rule-strong); }
+
+.pager {
+  max-width: var(--max); margin: 0 auto; padding: 0 24px 10px;
+  display: flex; justify-content: space-between; font-size: 12.5px; color: var(--muted);
+}
+
+/* ---------------- 往期 ---------------- */
+
+.archive { max-width: var(--max); margin: 0 auto; padding: 20px 24px 60px; }
+.arch-item {
+  display: grid; grid-template-columns: 132px 1fr auto; gap: 22px; align-items: baseline;
+  padding: 22px 0; border-bottom: 1px solid var(--rule);
+}
+.arch-item:hover { border-bottom-color: var(--accent); }
+.arch-date { font-family: var(--mono); font-size: 12px; color: var(--muted); letter-spacing: .06em; }
+.arch-item h3 { font-family: var(--serif); font-size: 20px; margin: 0 0 6px; line-height: 1.5; }
+.arch-item p { margin: 0; font-size: 13px; color: var(--muted); line-height: 1.75; }
+.arch-no { font-family: var(--mono); font-size: 11px; color: var(--accent); }
+
+.empty { padding: 80px 24px; text-align: center; color: var(--muted); font-family: var(--serif); }
+
+/* ---------------- 速览 ---------------- */
+
+.brief { max-width: var(--max); margin: 0 auto; padding: 30px 24px 0; }
+
+.brief-label {
+  margin: 0 0 12px; font-family: var(--mono); font-size: 10px;
+  letter-spacing: .2em; color: var(--accent); text-transform: uppercase;
+}
+
+.brief-list {
+  columns: 2; column-gap: 42px; margin: 0; padding: 14px 0 0;
+  list-style: none; border-top: 1px solid var(--ink);
+}
+
+.brief-list li {
+  break-inside: avoid; display: grid; grid-template-columns: 26px 1fr; gap: 8px;
+  margin-bottom: 12px; font-size: 13.8px; line-height: 1.8; color: var(--ink-2);
+}
+.brief-list b { font-family: var(--mono); font-size: 10.5px; color: var(--accent); padding-top: 4px; }
+
+/* ---------------- 信号 / 与你 / 线索 ---------------- */
+
+.signals {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px;
+  background: var(--rule); border: 1px solid var(--rule);
+}
+
+.signal { background: var(--paper); padding: 22px 22px 18px; }
+.signal:hover { background: var(--paper-2); }
+.signal .idx { font-family: var(--serif); font-size: 44px; line-height: .9; color: var(--accent); opacity: .22; }
+.signal h3 { font-family: var(--serif); font-size: 19px; line-height: 1.5; margin: 8px 0; font-weight: 700; }
+.signal p { margin: 0; font-size: 13.4px; line-height: 1.85; color: var(--ink-2); }
+.signal .why { margin-top: 12px; padding-top: 10px; border-top: 1px dashed var(--rule); font-size: 12.6px; color: var(--muted); }
+.signal .why b { color: var(--accent); font-weight: 600; letter-spacing: .06em; }
+
+.personal { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.pcard { border: 1px solid var(--rule); background: var(--paper-2); padding: 18px 20px; }
+.pcard h3 { font-family: var(--serif); font-size: 18px; margin: 0 0 8px; }
+.pcard p { margin: 0; font-size: 13.4px; line-height: 1.85; color: var(--ink-2); }
+
+table.threads td { vertical-align: top; padding: 11px 0; font-size: 13.4px; }
+table.threads .note-cell { color: var(--ink-2); line-height: 1.75; }
+
+.chip {
+  display: inline-block; font-size: 10.5px; padding: 1px 6px;
+  border: 1px solid currentColor; border-radius: 2px; letter-spacing: .05em; white-space: nowrap;
+}
+.chip.new { color: var(--accent); }
+.chip.up { color: var(--up); }
+.chip.watch { color: var(--gold); }
+.chip.dead { color: var(--muted); }
+
+/* ---------------- 响应式 ---------------- */
+
+@media (max-width: 1000px) {
+  .regions { grid-template-columns: repeat(2, 1fr); }
+  .signals { grid-template-columns: 1fr; }
+  .hero { grid-template-columns: 1fr; }
+  .hero-main { border-right: none; border-bottom: 1px solid var(--rule); padding: 24px 0 26px; }
+  .hero-side { padding: 24px 0 26px; }
+  .panel-grid { grid-template-columns: 1fr; gap: 34px; }
+}
+
+@media (max-width: 720px) {
+  body { font-size: 15.5px; }
+  .topbar-in, .masthead, .block, .lede, .hero, .nav-in, .footer-in, .pager, .archive { padding-left: 18px; padding-right: 18px; }
+  .masthead { padding-top: 24px; }
+  .masthead h1 { font-size: 44px; }
+  .masthead-meta .tagline { margin-left: 0; width: 100%; }
+  .regions { grid-template-columns: 1fr; }
+  .items { grid-template-columns: 1fr; }
+  .reading { grid-template-columns: 1fr; }
+  .brief-list { columns: 1; }
+  .personal { grid-template-columns: 1fr; }
+  .block { padding-top: 38px; }
+  .block-head { flex-wrap: wrap; }
+  .block-head .intro { text-align: left; margin-left: 0; max-width: none; }
+  .analysis { padding-top: 34px; padding-bottom: 36px; }
+  .analysis .body p { font-size: 16px; }
+  .footer-in { grid-template-columns: 1fr; }
+  .arch-item { grid-template-columns: 1fr; gap: 6px; }
+  .lede { padding-top: 30px; }
+}
+
+@media print {
+  .topbar, .nav, .progress, .ticker-wrap, .pager { display: none; }
+  body { background: #fff; color: #000; }
+  .deep { background: #fff; color: #000; }
+  .analysis .body p, .analysis h3, .analysis .thesis { color: #000; }
+}
+
+</style>
+</head>
+<body data-prev="" data-next="">
+<div class="progress" id="progress"></div>
+<header class="topbar">
+  <div class="topbar-in">
+    <span class="brand">资<i>·</i>讯</span>
+    <span>2026-11-05</span>
+    <span class="spacer"></span>
+    <span></span>
+    <span></span>
+    <a href="archive.html">往期</a>
+    <a href="feed.xml" title="订阅">RSS</a>
+    <button class="icon-btn" id="copy-btn" title="复制本页链接">⧉</button>
+    <button class="icon-btn" id="theme-btn" title="切换深浅色" aria-label="切换深浅色">☾</button>
+  </div>
+</header>
+<div class="masthead">
+  <div class="eyebrow"><span>PERSONAL INTELLIGENCE</span><span class="line"></span><span>晨刊</span></div>
+  <h1>资讯<small>每 日 全 球 情 报 简 报</small></h1>
+  <div class="masthead-meta">
+    <span class="date">2026-11-05　星期四</span>
+    <span class="issue">第 001 期</span>
+    <span>约 20 分钟</span>
+    <span class="tagline">一个人读的全球情报简报</span>
+  </div>
+</div>
+<div class="ticker-wrap"><div class="ticker"><span class="tick"><span class="t-label">道琼斯</span><span class="t-chg up">▲ +3.03%</span></span><span class="tick"><span class="t-label">纳斯达克</span><span class="t-chg up">▲ +1.44%</span></span><span class="tick"><span class="t-label">上证指数</span><span class="t-chg up">▲ +2.16%</span></span><span class="tick"><span class="t-label">创业板指</span><span class="t-chg up">▲ +6.40%</span></span><span class="tick"><span class="t-label">恒生指数</span><span class="t-val">23,919.50</span><span class="t-chg up">▲ +1.67%</span></span><span class="tick"><span class="t-label">布伦特原油</span><span class="t-val">94.01</span><span class="t-chg down">▼ -9.43%</span></span><span class="tick"><span class="t-label">现货黄金</span><span class="t-val">4,060.13</span><span class="t-chg up">▲ +3.35%</span></span><span class="tick"><span class="t-label">美元指数</span><span class="t-val">101.53</span><span class="t-chg down">▼ -0.33%</span></span><span class="tick"><span class="t-label">美债 10Y</span><span class="t-val">4.884%</span><span class="t-chg down">▼ -8bp</span></span></div></div>
+<section class="lede">
+  <p>美国中期选举出现「蓝色浪潮」，民主党据测算同时拿下参众两院。市场把它读成三件事：战争可能收尾、财政赤字受限、AI 监管抬头。于是道指涨 1569 点、油价跌 9%、黄金站上 4060 美元。同一晚，英国央行准备三年来首次加息——和平交易压得住油价，压不住已经切换的通胀体制。</p>
+  <p class="note">本期是《资讯》第 1 期。它不追求「什么都有」，而是把一天里真正会改变判断的十件事讲透：先给你三分钟能读完的骨架，再给愿意深读的人三段长文。所有数字标注了来源与口径，冲突处直接写明。</p>
+</section>
+<section class="brief" id="brief">
+  <p class="brief-label">三分钟速览 · In Brief</p>
+  <ol class="brief-list"><li><b>01</b><span>民主党据测算夺回参众两院，特朗普承认伊朗战争是失利主因，并称不换国防部长。</span></li><li><b>02</b><span>油价单日崩跌：布伦特 94.01 美元（-9.43%），WTI 87.49 美元（-8.66%），和平交易抢跑谈判桌。</span></li><li><b>03</b><span>黄金涨 3.35% 至 4060 美元。它买的不是战争，是财政、央行独立性与政策不确定性。</span></li><li><b>04</b><span>英国央行预计今晚加息 25bp 至 4.00%，2023 年 8 月以来首次；通胀体制已经切换。</span></li><li><b>05</b><span>A 股成交重回 2 万亿，央行今日开展 3000 亿元买断式逆回购，内外风险偏好同向。</span></li></ol>
+</section>
+<section class="hero"><div class="hero-main">
+    <span class="kicker">头条</span>
+    <h2>蓝色浪潮：民主党夺回国会，特朗普的战争与关税进入倒计时</h2>
+    <p class="dek">据美媒测算，民主党在中期选举中同时拿下参众两院。特朗普承认「战争是失利的重要原因」，表示愿与民主党合作、不换国防部长，并称伊朗战争「将在我想要的时候结束」。民主党领袖则把撤销关税、结束伊朗战争列为优先项，同时刻意淡化弹劾。</p>
+    <ul><li>众议院全部席位改选、参议院多数易手，意味着 2027 年起财政扩张与关税立法都将被国会掣肘。</li><li>市场当晚给出「分裂政府」的典型定价：股涨、债涨、油崩、金涨、美元跌。</li><li>但 60 票程序门槛与总统否决权仍在，政策转向的幅度大概率小于市场想象。</li></ul>
+    <div class="meta"><span class="tag">媒体测算，待各州最终认证</span><a class="src" href="https://xnews.jin10.com/details/234250" target="_blank" rel="noopener">金十数据 · 全球财经早餐 ↗</a></div>
+  </div><div class="hero-side"><div class="item">
+      <span class="kicker">市场</span>
+      <h3>油价单日崩跌 9%：和平交易抢跑谈判桌</h3>
+      <p>布伦特收跌 9.43% 至 94.01 美元，WTI 跌 8.66% 至 87.49 美元，双双创 8 月 31 日以来最低。触发点是海湾国家反对再对伊朗开战、美伊谈判预计周五取得更明朗进展，市场把「战争溢价」一次性吐了出来。</p>
+      <a class="src" href="https://xnews.jin10.com/details/234250" target="_blank" rel="noopener">金十数据 ↗</a>
+    </div><div class="item">
+      <span class="kicker">中国</span>
+      <h3>3000 亿买断式逆回购与 A 股「大奇迹日」</h3>
+      <p>央行宣布 11 月 5 日开展 3000 亿元买断式逆回购；前一日 A 股午后单边上攻，沪指涨 2.16%、创业板指涨 6.40%、科创 50 涨 9.92%，成交额时隔 25 个交易日重回 2 万亿，超 4600 只个股上涨。</p>
+      <a class="src" href="https://fund.eastmoney.com/a/202611053922394152.html" target="_blank" rel="noopener">每日经济新闻 · 每经早参 ↗</a>
+    </div></div></section>
+<nav class="nav"><div class="nav-in"><a href="#world">全球扫描</a><a href="#signals">信号</a><a href="#s01">宏观 · 政策</a><a href="#s02">市场 · 资产</a><a href="#s03">科技 · AI</a><a href="#s04">产业 · 半导体</a><a href="#s05">能源 · 气候</a><a href="#s06">医药 · 健康</a><a href="#s07">商业 · 公司</a><a href="#s08">科学 · 社会</a><a href="#deep">深读</a><a href="#personal">与你</a><a href="#threads">线索</a><a href="#data">数据</a><a href="#reading">阅读</a></div></nav>
+<section class="block" id="world">
+  <div class="block-head"><span class="no">00</span><h2>全球扫描</h2>
+    <p class="intro">六个区域，各取当天最值得知道的两三件事。不追求齐全，只保留会改变判断的部分。</p></div>
+  <div class="regions"><article class="region">
+      <header><h3>美国</h3><span class="en">United States</span></header>
+      <p class="r-sum">选举结果压过了经济数据，华盛顿进入「分裂政府」时间。</p>
+      <div class="ritem"><h4>民主党据测算拿下参众两院</h4><p>共和党失去国会控制权。特朗普致电祝贺，称愿与民主党合作；万斯发长文把失利归因于伊朗战争。</p></div><div class="ritem"><h4>战争与关税：民主党领袖的两项优先</h4><p>众议院民主党领袖寻求撤销特朗普关税、推动结束伊朗战争，同时淡化弹劾议题，以避免政治上过度扩张。</p></div><div class="ritem"><h4>ADP 就业 +8.6 万，高于预期</h4><p>10 月 ADP 新增就业 8.6 万人，预期 6.7 万，前值 9 万。劳动力市场没有失速，给了美联储「按兵不动但保留加息选项」的空间。</p></div>
+    </article><article class="region">
+      <header><h3>欧洲</h3><span class="en">Europe</span></header>
+      <p class="r-sum">能源冲击把英国央行逼到墙角，欧盟则把乌克兰写进 2028 时间表。</p>
+      <div class="ritem"><h4>英国央行预计加息 25bp 至 4.00%</h4><p>这将是 2023 年 8 月以来首次加息。英国 CPI 已达 3.5%，1 月 Ofgem 能源上限预计上调 25%—30%，通胀峰值或上修至 4.75%。</p></div><div class="ritem"><h4>欧盟扩大路线图：乌克兰等四国 2028 年底前完成谈判</h4><p>欧委会年度扩大一揽子计划为乌克兰、黑山、阿尔巴尼亚、摩尔多瓦列出阶段性目标，强调进展取决于改革成效。</p></div><div class="ritem"><h4>乌克兰重建多方会谈在布鲁塞尔举行</h4><p>乌、德、法、英、美及北约、世界银行代表参加，重点讨论战后重建与经济发展方案。</p></div>
+    </article><article class="region">
+      <header><h3>中东</h3><span class="en">Middle East</span></header>
+      <p class="r-sum">战场没有停，谈判桌先热了；德黑兰对华盛顿的敌意不随选举改变。</p>
+      <div class="ritem"><h4>美伊谈判预计周五取得更明朗进展</h4><p>黎巴嫩媒体报道海湾国家反对再对伊朗开战；市场随即加大对局势降级的押注，国际原油盘中一度跌 10%。</p></div><div class="ritem"><h4>穆杰塔巴：美国党派更迭不改变敌意</h4><p>伊朗最高领袖称，认为中期选举能改变美方对伊敌意的人「大错特错」，对霸权敌人稍有屈服就会令其更肆无忌惮。</p></div><div class="ritem"><h4>加沙：哈马斯敦促调解方立即落实协议</h4><p>哈马斯发言人称协议执行不能停留在纸面，呼吁调解方与美国政府采取即时措施。停火进入「执行比签署更难」的阶段。</p></div>
+    </article><article class="region">
+      <header><h3>亚太</h3><span class="en">Asia-Pacific</span></header>
+      <p class="r-sum">印度完成对日本的名义 GDP 超越，存储链的跌幅则提醒亚洲科技股的另一面。</p>
+      <div class="ritem"><h4>印度 GDP 超越日本，升至全球第四</h4><p>日本在 2026 年再度让出排名。人口结构、汇率与名义增长共同作用，亚洲经济重心继续南移。</p></div><div class="ritem"><h4>SK 海力士跌 5%，存储板块承压</h4><p>美股存储链同步走弱：希捷跌超 8%，美光、闪迪跌 7%，西部数据跌超 6%。</p></div><div class="ritem"><h4>港股午后单边上扬，药明康德涨 12%</h4><p>恒指涨 1.67% 报 23919.5 点，创新药与贵金属领涨，光通信、PCB 等算力基建快速拉升。</p></div>
+    </article><article class="region">
+      <header><h3>中国</h3><span class="en">China</span></header>
+      <p class="r-sum">流动性、资本市场工具与产业政策三条线同时出手，节奏比力度更值得注意。</p>
+      <div class="ritem"><h4>央行 11 月 5 日开展 3000 亿元买断式逆回购</h4><p>以中期流动性工具对冲到期与政府债发行，保持银行体系流动性充裕。</p></div><div class="ritem"><h4>股票回购增持再贷款扩容</h4><p>支持对象扩至 21 家全国性银行与 5 家系统重要性城商行，宁波、江苏、上海、南京、北京银行入围。</p></div><div class="ritem"><h4>中加经贸磋商取得积极进展</h4><p>第 29 届中加经贸联委会首次部长级会议在北京举行，双方同意进一步延长初步联合安排的相关豁免措施。</p></div><div class="ritem"><h4>10 月新能源乘用车零售同比 -10%</h4><p>零售 114.8 万辆，环比 +6%；厂商批发 180.7 万辆，同比 +12%。零售与批发的剪刀差，说明渠道在补库存而不是终端在加速。</p></div>
+    </article><article class="region">
+      <header><h3>全球南方</h3><span class="en">Global South</span></header>
+      <p class="r-sum">巴西的政治连续性、萨赫勒的安全重构，是两个被低估的长期变量。</p>
+      <div class="ritem"><h4>卢拉连任，南方共同市场邻国重估筹码</h4><p>巴西政策连续意味着 Mercosur—欧盟协议与区域供应链整合的路径更可预测，邻国的主要风险从「巴西转向」变成「巴西增速」。</p></div><div class="ritem"><h4>萨赫勒地区格局悄然生变</h4><p>政变政权、外部雇佣力量与资源通道重新组合，法国与美国的影响力同步收缩，地区安全公共品出现真空。</p></div>
+    </article></div>
+</section>
+<section class="block" id="signals">
+  <div class="block-head"><span class="no">SIG</span><h2>被低估的信号</h2>
+    <p class="intro">三条没上头条、但会改变判断的细节。信号不等于结论，标注了它可能错在哪。</p></div>
+  <div class="signals"><article class="signal">
+      <div class="idx">01</div>
+      <h3>2 年期美债收益率创两个月新低</h3>
+      <p>10 年期跌 8bp、2 年期跌 6.6bp，短端跌得比长端更急，曲线在变陡。</p>
+      <p class="why"><b>为什么重要</b>　短端抢跑的是「美联储不会再加息」，而同一天英国央行准备加息。美英利差收窄，美元的下跌可能才刚开始。</p>
+    </article><article class="signal">
+      <div class="idx">02</div>
+      <h3>存储与光通信跌 7%—9%，应用层涨 5%—6%</h3>
+      <p>希捷 -8%、美光 -7%、CoreWeave -9%；微软 +6.6%、亚马逊 +6%、苹果 +5%。</p>
+      <p class="why"><b>为什么重要</b>　这不是板块轮动，是 AI 产业链的定价锚从「算力稀缺」切到「回报率与现金流」。领先指标是 HBM4 认证与推理价格，不是股价。</p>
+    </article><article class="signal">
+      <div class="idx">03</div>
+      <h3>字节封禁外部 AI，苹果国行调用千问</h3>
+      <p>同一天，两件事指向同一个方向：模型能力在趋同，数据边界在收紧。</p>
+      <p class="why"><b>为什么重要</b>　以后选 AI 工具，「数据留在哪」会和「模型多强」同等重要。这条对个人的影响，比对大厂更直接。</p>
+    </article></div>
+</section>
+<section class="block" id="s01">
+  <div class="block-head"><span class="no">01</span><h2>宏观 · 政策</h2>
+    <p class="intro">三份文件、一次会议、一个数据，构成今天的政策底稿。</p></div>
+  <div class="items"><article class="entry">
+      <h3>五部门印发《实施全面节约战略行动方案》</h3>
+      <p>明确大力推进燃煤锅炉、工业窑炉清洁替代，全面淘汰 10 蒸吨/小时及以下燃煤锅炉；同时加快布局稀贵金属资源循环利用项目。节约被重新定义为「资源安全」的一部分。</p>
+      <div class="meta"><span class="tag">已印发</span><a class="src" href="https://fund.eastmoney.com/a/202611053922394152.html" target="_blank" rel="noopener">每日经济新闻 ↗</a></div>
+    </article><article class="entry">
+      <h3>国务院金融工作报告：实施好支持资本市场的货币政策工具</h3>
+      <p>报告提出巩固完善资本市场稳市机制。工具已经在位，接下来看使用频率而非新设工具。</p>
+      <div class="meta"><span class="tag">官方表态</span><a class="src" href="http://finance.eastmoney.com/news/1344,202611043921034226.html" target="_blank" rel="noopener">东方财富 ↗</a></div>
+    </article><article class="entry">
+      <h3>上证港股通指数编制方案修订</h3>
+      <p>剔除上市不满 1 年的证券（市值前 10 或内地上市满 1 年除外），剔除过去一年日均成交额不足 500 万港元的证券，改为每季度调整。</p>
+      <div class="meta"><span class="tag">已公告</span><a class="src" href="https://fund.eastmoney.com/a/202611053922394152.html" target="_blank" rel="noopener">上海证券交易所（经每经转引） ↗</a></div>
+    </article></div>
+</section>
+<section class="block" id="s02">
+  <div class="block-head"><span class="no">02</span><h2>市场 · 资产</h2>
+    <p class="intro">同一个晚上，股、债、油、金、汇给出了五种方向，这是「政治风险溢价」在被重新定价。</p></div>
+  <div class="items"><article class="entry">
+      <h3>美股：应用层大涨，算力层大跌</h3>
+      <p>道指 +3.03%（+1569 点）、标普 +1.58%、纳指 +1.44%。微软、亚马逊涨超 6%，苹果涨超 5%；英伟达、特斯拉跌超 3%，CoreWeave 跌超 9%。</p>
+      <div class="meta"><span class="tag">已收盘</span><a class="src" href="https://xnews.jin10.com/details/234250" target="_blank" rel="noopener">金十数据 ↗</a></div>
+    </article><article class="entry">
+      <h3>美债与美元：2 年期收益率创两月新低</h3>
+      <p>10 年期美债收益率跌 8bp 至 4.884%，2 年期跌 6.6bp 至 4.546%；美元指数跌 0.33% 至 101.53。</p>
+      <div class="meta"><span class="tag">已收盘</span><a class="src" href="https://xnews.jin10.com/details/234250" target="_blank" rel="noopener">金十数据 ↗</a></div>
+    </article><article class="entry">
+      <h3>贵金属：黄金创 8 月中旬以来最大单日涨幅</h3>
+      <p>现货黄金 +3.35% 报 4060.13 美元/盎司，现货白银 +4.94% 报 52.24 美元/盎司。</p>
+      <div class="meta"><span class="tag">已收盘</span><a class="src" href="https://xnews.jin10.com/details/234250" target="_blank" rel="noopener">金十数据 ↗</a></div>
+    </article><article class="entry">
+      <h3>A 股与港股：成交额重回 2 万亿</h3>
+      <p>沪指 +2.16%、深成指 +4.22%、创业板指 +6.40%、科创 50 +9.92%；恒指 +1.67%，大市成交 2368.96 亿港元。</p>
+      <div class="meta"><span class="tag">已收盘</span><a class="src" href="https://xnews.jin10.com/details/234250" target="_blank" rel="noopener">金十数据 ↗</a></div>
+    </article><article class="entry">
+      <h3>口径提示：两家媒体的原油收盘价不一致</h3>
+      <p>金十记为 WTI 87.49 / 布伦特 94.01，每经记为 88.12 / 94.62。差异来自结算价与收盘价取样时点，本文以金十为准，引用时请注意区分。</p>
+      <div class="meta"><span class="tag">数值口径存疑</span><span class="src">编者核对</span></div>
+    </article></div>
+</section>
+<section class="block" id="s03">
+  <div class="block-head"><span class="no">03</span><h2>科技 · AI</h2>
+    <p class="intro">模型在扎堆发布，大厂在收紧边界，苹果在中国选择「混合方案」。</p></div>
+  <div class="items"><article class="entry">
+      <h3>腾讯混元发布 Hy4：首次引入视觉能力</h3>
+      <p>相比 preview 版本扩大预训练与后训练规模，强化指令遵循、长文理解、长程任务与深度研究，官方称首次跻身最强开源模型之列。</p>
+      <div class="meta"><span class="tag">已发布</span><a class="src" href="https://fund.eastmoney.com/a/202611053922394152.html" target="_blank" rel="noopener">每日经济新闻 ↗</a></div>
+    </article><article class="entry">
+      <h3>GPT-6.2 Astra 与 Claude Fable 5.5 同日曝光</h3>
+      <p>Codex 用量统计与 API 响应中出现 gpt-6.2-astra，传闻窗口 100 万 token；Anthropic 官网源码出现 Mythos 5.5 字样，Fable 5.5 传 100 万输入 / 12.8 万输出。均为线索而非官宣。</p>
+      <div class="meta"><span class="tag">传闻，待官宣</span><a class="src" href="https://eu.36kr.com/en/p/4051964645331847" target="_blank" rel="noopener">36 氪 / 爱范儿 ↗</a></div>
+    </article><article class="entry">
+      <h3>字节跳动限制外部 AI 工具访问内部资料</h3>
+      <p>对全公司 L4 级代码仓库与飞书文档实施外部 AI 访问封禁；知情人士称公开信息与个人场景不受限。数据边界正在成为模型之外的第二道护城河。</p>
+      <div class="meta"><span class="tag">企业规定</span><a class="src" href="https://fund.eastmoney.com/a/202611053922394152.html" target="_blank" rel="noopener">北京商报（经每经转引） ↗</a></div>
+    </article><article class="entry">
+      <h3>国行 Apple 智能上线：复杂任务调用千问</h3>
+      <p>iOS 27.3 Developer Beta 1 推送，Siri 支持双击底部横条打字交互；遇到复杂长任务会弹窗询问是否调用千问并需登录。混合方案拖累了体验一致性。</p>
+      <div class="meta"><span class="tag">开发者预览</span><a class="src" href="https://fund.eastmoney.com/a/202611053922394152.html" target="_blank" rel="noopener">界面新闻（经每经转引） ↗</a></div>
+    </article><article class="entry">
+      <h3>20 家单位联合发布《智能体发展自律公约》</h3>
+      <p>中国信通院、华为、阿里、腾讯、小米、百度、火山引擎等共同发起，提出抵制利用智能体实施算法压榨、黑灰产等行为。</p>
+      <div class="meta"><span class="tag">已发布</span><a class="src" href="https://fund.eastmoney.com/a/202611053922394152.html" target="_blank" rel="noopener">每日经济新闻 ↗</a></div>
+    </article></div>
+</section>
+<section class="block" id="s04">
+  <div class="block-head"><span class="no">04</span><h2>产业 · 半导体</h2>
+    <p class="intro">先进制程继续扩张，成熟制程开始退出，并购在光通信环节加速。</p></div>
+  <div class="items"><article class="entry">
+      <h3>三星计划 2030 年底前关闭 8 英寸晶圆代工所有产线</h3>
+      <p>8 英寸线对应电源管理、显示驱动、MCU 等成熟制程，退出意味着订单将向台积电、联电及中国大陆代工厂再分配。</p>
+      <div class="meta"><span class="tag">计划</span><a class="src" href="https://www.sohu.com/a/1096370023_115362" target="_blank" rel="noopener">数智早参（搜狐） ↗</a></div>
+    </article><article class="entry">
+      <h3>迈威尔科技以股票交易方式收购 Lumentum</h3>
+      <p>光通信纵向整合再下一城。此前市场已有传闻，官宣后两家公司股价当日仍跌超 7%，说明市场担心的是估值与摊薄，而不是战略方向。</p>
+      <div class="meta"><span class="tag">已宣布</span><a class="src" href="https://www.sohu.com/a/1096370023_115362" target="_blank" rel="noopener">数智早参（搜狐） ↗</a></div>
+    </article><article class="entry">
+      <h3>环球晶圆拟向美光私募 5 亿美元可转债</h3>
+      <p>以股权纽带锁定长期硅片供应，是存储厂与材料厂在周期高位互相绑定的典型动作。</p>
+      <div class="meta"><span class="tag">拟发行</span><a class="src" href="https://www.163.com/dy/article/LAQSEBG60534A4SC.html" target="_blank" rel="noopener">网易财经 ↗</a></div>
+    </article><article class="entry">
+      <h3>高通第四财季营收 104.4 亿美元，同比 -7.3%</h3>
+      <p>汽车业务营收 19.9 亿美元、同比 +89%，成为唯一高增长引擎；物联网 +4.5%；调整后运营收益同比 -27%。</p>
+      <div class="meta"><span class="tag">已披露财报</span><a class="src" href="https://fund.eastmoney.com/a/202611053922394152.html" target="_blank" rel="noopener">每日经济新闻 ↗</a></div>
+    </article><article class="entry">
+      <h3>阿里云部分无影硬件终端涨价</h3>
+      <p>官方归因于全球供应链环境变化与核心原材料成本上涨，涉及方舟、一体机、魔方多条产品线，并称将陆续调整其他型号。</p>
+      <div class="meta"><span class="tag">已生效</span><a class="src" href="https://fund.eastmoney.com/a/202611053922394152.html" target="_blank" rel="noopener">每日经济新闻 ↗</a></div>
+    </article></div>
+</section>
+<section class="block" id="s05">
+  <div class="block-head"><span class="no">05</span><h2>能源 · 气候</h2>
+    <p class="intro">油价在跌，煤锅炉在退，资源循环被写进节约战略——三条线都指向「安全」而非「便宜」。</p></div>
+  <div class="items"><article class="entry">
+      <h3>国际油价单日跌超 8%</h3>
+      <p>WTI 收 87.49 美元、布伦特收 94.01 美元。地缘溢价回吐的速度快于基本面变化，波动率本身成为新的风险源。</p>
+      <div class="meta"><span class="tag">已收盘</span><a class="src" href="https://xnews.jin10.com/details/234250" target="_blank" rel="noopener">金十数据 ↗</a></div>
+    </article><article class="entry">
+      <h3>欧洲天然气价格同步下滑</h3>
+      <p>布伦特跌超 8% 的同时欧洲气价走低。若持续，将缓和英国 1 月能源上限的上调幅度，但价格上限的传导有时滞。</p>
+      <div class="meta"><span class="tag">市场数据</span><a class="src" href="https://m.aa.com.tr/en/economy/brent-crude-falls-more-than-8-to-near-95-as-european-gas-prices-slide/4111699" target="_blank" rel="noopener">Anadolu Agency ↗</a></div>
+    </article><article class="entry">
+      <h3>10 蒸吨/小时以下燃煤锅炉全面淘汰</h3>
+      <p>《实施全面节约战略行动方案》给出明确退出的设备边界，工业园区与县域供热是主要受影响场景。</p>
+      <div class="meta"><span class="tag">已印发</span><a class="src" href="https://fund.eastmoney.com/a/202611053922394152.html" target="_blank" rel="noopener">每日经济新闻 ↗</a></div>
+    </article><article class="entry">
+      <h3>稀贵金属资源循环利用项目加快布局</h3>
+      <p>政策要求推进有价组分回收与高值化利用。在出口管制与资源安全背景下，城市矿山的经济性第一次被政策显性抬升。</p>
+      <div class="meta"><span class="tag">已印发</span><a class="src" href="https://fund.eastmoney.com/a/202611053922394152.html" target="_blank" rel="noopener">每日经济新闻 ↗</a></div>
+    </article></div>
+</section>
+<section class="block" id="s06">
+  <div class="block-head"><span class="no">06</span><h2>医药 · 健康</h2>
+    <p class="intro">创新药在港股领涨，支付端则在为 2027 年的目录做准备。</p></div>
+  <div class="items"><article class="entry">
+      <h3>药明康德港股涨 12.39%</h3>
+      <p>创新药板块整体走强，CXO 与 Biotech 同步修复。地缘政策风险与订单能见度仍是估值的主要变量。</p>
+      <div class="meta"><span class="tag">已收盘</span><a class="src" href="https://xnews.jin10.com/details/234250" target="_blank" rel="noopener">金十数据 ↗</a></div>
+    </article><article class="entry">
+      <h3>恒瑞医药 ADC 新适应症上市申请获受理</h3>
+      <p>注射用瑞康曲妥珠单抗一项新适应症获受理，市场推测方向为 HER2 阳性复发或转移性乳腺癌一线治疗（以官方公示为准）。</p>
+      <div class="meta"><span class="tag">已受理</span><a class="src" href="https://www.mrjjxw.com/articles/2026-10-28/4625572.html" target="_blank" rel="noopener">每日经济新闻 ↗</a></div>
+    </article><article class="entry">
+      <h3>安斯泰来引进 IL-12 抗体细胞因子疗法</h3>
+      <p>与 Tudax Biosciences 达成独家选择权与许可协议，交易潜在价值最高 13.4 亿美元，项目尚处临床前。</p>
+      <div class="meta"><span class="tag">已签约</span><a class="src" href="https://www.mrjjxw.com/articles/2026-10-28/4625572.html" target="_blank" rel="noopener">每日经济新闻 ↗</a></div>
+    </article><article class="entry">
+      <h3>2026 医保目录进入签约阶段</h3>
+      <p>9 月现场谈判竞价后，企业自 10 月 30 日起可签署协议，新版目录预计 11 月发布、2027 年 1 月 1 日施行。</p>
+      <div class="meta"><span class="tag">进行中</span><a class="src" href="https://www.bjnews.com.cn/detail/1792554703129930.html" target="_blank" rel="noopener">新京报 ↗</a></div>
+    </article></div>
+</section>
+<section class="block" id="s07">
+  <div class="block-head"><span class="no">07</span><h2>商业 · 公司</h2>
+    <p class="intro">选举、谣言与净值，三个故事讲的是同一件事：预期管理。</p></div>
+  <div class="items"><article class="entry">
+      <h3>特朗普媒体科技集团跌 24%</h3>
+      <p>选举结果直接冲击「特朗普交易」的核心标的，说明政治溢价资产在事件落地后会迅速去泡沫。</p>
+      <div class="meta"><span class="tag">已收盘</span><a class="src" href="https://xnews.jin10.com/details/234250" target="_blank" rel="noopener">金十数据 ↗</a></div>
+    </article><article class="entry">
+      <h3>比亚迪辟谣「天神之眼方案更换与停产」</h3>
+      <p>公司称相关传言不实，坚持全栈自研，智驾软件持续迭代。谣言之所以有市场，是因为市场对自研与外供的成本差极度敏感。</p>
+      <div class="meta"><span class="tag">企业澄清</span><a class="src" href="https://fund.eastmoney.com/a/202611053922394152.html" target="_blank" rel="noopener">每日经济新闻 ↗</a></div>
+    </article><article class="entry">
+      <h3>上汽奥迪「买一赠一」营销被立案</h3>
+      <p>上海嘉定区市场监管局已正式介入调查。营销创意的合规边界，正在被监管用个案逐条划清。</p>
+      <div class="meta"><span class="tag">已立案</span><a class="src" href="https://fund.eastmoney.com/a/202611053922394152.html" target="_blank" rel="noopener">华商报大风新闻（经每经转引） ↗</a></div>
+    </article><article class="entry">
+      <h3>但斌旗下产品净值跌至约 0.63 元</h3>
+      <p>东方港湾宏远 2 期截至 10 月 30 日单位净值约 0.63 元；同期部分知名私募产品净值更低。高波动策略在震荡市中的回撤控制再次被审视。</p>
+      <div class="meta"><span class="tag">已披露</span><a class="src" href="https://fund.eastmoney.com/a/202611053922394152.html" target="_blank" rel="noopener">上海证券报（经每经转引） ↗</a></div>
+    </article><article class="entry">
+      <h3>马斯克承认「干预选举」未奏效</h3>
+      <p>其向联邦政治委员会捐赠 4.45 亿美元，选举后发文称「猜我干预选举的激光通信这次没起作用」。资本对选举的影响力被公开质疑。</p>
+      <div class="meta"><span class="tag">公开表态</span><a class="src" href="https://fund.eastmoney.com/a/202611053922394152.html" target="_blank" rel="noopener">CCTV 国际时讯（经每经转引） ↗</a></div>
+    </article></div>
+</section>
+<section class="block" id="s08">
+  <div class="block-head"><span class="no">08</span><h2>科学 · 社会</h2>
+    <p class="intro">从幼年宇宙的黑洞到太阳耀斑的磁场，基础研究今天给了两条硬新闻。</p></div>
+  <div class="items"><article class="entry">
+      <h3>超低频引力波或揭示幼年宇宙如何「养」出超大黑洞</h3>
+      <p>脉冲星计时阵列的长期观测正在把引力波天文学推向 nHz 频段，这一频段对应的正是超大质量黑洞的合并与早期结构形成。</p>
+      <div class="meta"><span class="tag">研究进展</span><a class="src" href="https://www.stdaily.com/web/gdxw/2026-11/03/content_607656.html" target="_blank" rel="noopener">科技日报 ↗</a></div>
+    </article><article class="entry">
+      <h3>AIMS 望远镜首次观测到太阳耀斑下的磁场变化</h3>
+      <p>对耀斑期间光球磁场的直接观测，有助于把「磁场能量如何释放」从模型推向实证，进而改善空间天气预报。</p>
+      <div class="meta"><span class="tag">观测成果</span><a class="src" href="https://news.cctv.com/2026/11/04/ARTIc70V1LKYrE1odr2e1ubf261104.shtml" target="_blank" rel="noopener">央视新闻 ↗</a></div>
+    </article><article class="entry">
+      <h3>欧洲周末近 50 万人参加抗议活动</h3>
+      <p>生活成本、能源价格与移民议题叠加，欧洲街头政治重新活跃。它与央行加息在同一周发生，并非巧合。</p>
+      <div class="meta"><span class="tag">媒体报道</span><a class="src" href="https://sputniknews.cn/20261102/1073913637.html" target="_blank" rel="noopener">卫星通讯社 ↗</a></div>
+    </article></div>
+</section>
+<section class="deep" id="deep">
+  <div class="block-head"><span class="no">DEEP</span><h2>三段深读</h2>
+    <p class="intro">每篇都给论点、证据、反方与观察点。观点可以不同意，事实必须可核对。</p></div>
+  <article class="analysis">
+    <span class="kicker">深度 01 · 政治与资产</span>
+    <h3>蓝色浪潮之后：分裂政府如何重定价全球资产</h3>
+    <p class="thesis">市场今晚的五个方向不是矛盾，而是同一件事的五个侧面——「政治风险溢价」下移，「政策不确定性」上移。</p>
+    <div class="body"><p>先看事实。据美媒测算，民主党同时拿下参众两院；特朗普承认伊朗战争是失利的重要原因，并表示不换国防部长、愿与民主党合作；民主党领袖则把撤销关税与结束战争列为优先，同时刻意淡化弹劾。这套组合传递的信号非常清楚：未来两年，美国不会出现「统一政府」式的激进立法，但也绝不会回到 2024 年之前的政策惯性。</p><p>于是市场给出了教科书式的「分裂政府」定价。股指上涨，因为财政赤字扩张受限、赤字货币化的尾部风险下降；美债收益率下行 8bp，因为发债供给预期收缩；油价崩跌 9%，因为战争的政治支撑被抽走；黄金上涨 3.4%，因为财政纪律改善的另一面是「政策刺激缺位」，增长下行的保险需求上升；美元下跌，因为美国相对增长优势收窄。五个方向，一个逻辑。</p><p>但这里有一个容易被忽略的非对称：国会能阻止什么，比它能推动什么更确定。撤销关税需要立法，而总统否决权与参议院 60 票门槛让「撤销」大概率停留在姿态；结束伊朗战争则更多取决于白宫，而非国会。换句话说，关税的下降空间被高估，战争的结束速度被低估。这两条差异，会在未来几周里制造新的预期差。</p><p>历史经验也支持「别把中期选举当转折点」。1946 年以来，中期选举后 12 个月美股正收益率概率确实偏高，但真正驱动收益的是盈利周期，而非政治格局。分裂政府最确定的影响是「财政不再加码」，这意味着 2027 年的增长要更多依赖 AI 资本开支与居民消费——而这两者，恰好都处在需要验证的节点上。</p><p>对非美资产而言，美元走弱与美债收益率下行是双重利好。A 股与港股当晚的强势，一部分来自这个外部条件，另一部分来自央行 3000 亿元买断式逆回购与资本市场工具的持续使用。但要注意：外部条件是可逆的，内部流动性是可控的，两者不能互相替代。</p><p>最后是 AI 监管。民主党掌控国会意味着反垄断、算法问责、数据隐私的立法议程重新启动。这与「AI 资本开支支撑增长」的叙事存在张力。今晚应用层巨头大涨、算力链大跌，可能已经包含了这层定价——但更可能的是，市场只是借选举结果做了一次风格再平衡。</p></div>
+    <div class="counter"><b>反方</b>　反方观点：蓝色浪潮的立法含义被夸大。参议院 60 票门槛、总统否决权、2028 初选压力，会让民主党在关税与监管上选择「调查与听证」而非「立法」。若如此，risk-on 的持续性会比历史经验更强，而非更弱。</div>
+    <p class="watch-label">接下来盯什么</p><ul class="watch"><li>11 月 6 日：美伊谈判是否给出可验证的降级路径</li><li>12 月 FOMC：点阵图是否把「加息选项」正式写回</li><li>关税相关诉讼与国会听证的排期</li><li>2027 财年预算博弈中，AI 相关支出是否被削</li></ul>
+  </article><article class="analysis">
+    <span class="kicker">深度 02 · 科技与资本</span>
+    <h3>AI 的资本纪律时刻：为什么应用在涨、算力在跌</h3>
+    <p class="thesis">同一晚，微软、亚马逊、苹果涨超 5%—6%，美光、希捷、CoreWeave、迈威尔跌 6%—9%。这不是板块轮动，而是定价锚从「算力稀缺」切到「回报率与现金流」。</p>
+    <div class="body"><p>先把盘面拆开。涨的是拥有分发渠道与现金流的应用层：微软 +6.6%、亚马逊 +6%、苹果 +5%、谷歌 +3%。跌的是纯粹卖算力、卖存储、卖光模块的环节：希捷 -8%、美光 -7%、闪迪 -7%、西数 -6%、CoreWeave -9%、Nebius -7%、迈威尔与 Lumentum 各跌 7%。同一条产业链，两端反向，说明市场不再给「只要沾 AI 就涨」的估值。</p><p>触发因素有三个。第一，模型供给在爆炸：腾讯混元 Hy4 正式发布并首次引入视觉能力，GPT-6.2 Astra 与 Claude Fable 5.5 同日曝光（均为线索级信息），Qwen4、GLM-5.5 在传闻名单上。能力供给过剩的直接后果是推理价格下行，利好应用层，利空「按 token 收费」的中间层。</p><p>第二，资本开支的回报开始被追问。过去两年， hyperscaler 的 capex 可以用「军备竞赛」解释；当利率上行、财政刺激缺位、监管风险上升时，投资者会要求看到单位资本的收入与利用率，而不只是订单。这也是为什么同样是 AI，卖铲子的公司跌幅更大——它们的估值里包含了最多的「无限扩张」假设。</p><p>第三，数据边界在收紧。字节跳动对 L4 级代码仓库与飞书文档实施外部 AI 访问封禁，苹果国行 Apple 智能在复杂任务上调用千问并要求登录。这两件事指向同一个趋势：模型能力会趋同，谁能合法、稳定、低成本地拿到场景数据，谁才有定价权。护城河从「参数」移向「数据与分发」。</p><p>对投资者的含义是：AI 交易的贝塔阶段结束了，阿尔法阶段开始了。判断标准从「是否受益 AI」变成三条：单位算力的毛利率、客户留存与续约、capex 与自由现金流的匹配度。美光、希捷的下跌未必是周期见顶，但一定是「估值需要新的证据」；微软、亚马逊的上涨未必是基本面突变，但一定是「现金流折现的贴现率在下行」。</p><p>还有一个中国视角。Hy4 选择开源路线并补上视觉能力，意味着国内模型竞争进入「开源即基础设施」的阶段；而字节封禁外部工具、苹果引入千问，则说明大厂在「用别人的模型」与「守自己的数据」之间，已经做出了不同选择。这两条路径的分野，会在 2027 年变成生态之争。</p></div>
+    <div class="counter"><b>反方</b>　反方观点：存储与光通信的下跌更像涨幅过大后的获利了结。HBM4 的认证与订单仍然紧张，SK 海力士、美光的 2027 年产能已被预订；若下周财报给出更强的指引，今天的跌幅会被迅速抹平。</div>
+    <p class="watch-label">接下来盯什么</p><ul class="watch"><li>SK 海力士与美光的下一份财报及 HBM4 认证进度</li><li>推理 API 价格战是否延伸到企业级合同</li><li>国内开源模型（Hy4 / Qwen4 / GLM-5.5）的跑分与真实采用率</li><li>字节、苹果两类「数据边界」策略的监管反馈</li></ul>
+  </article><article class="analysis">
+    <span class="kicker">深度 03 · 宏观与能源</span>
+    <h3>和平交易与通胀体制：油价跌 9%，为什么不等于宽松</h3>
+    <p class="thesis">油价崩跌回吐的是「战争溢价」，不是「通胀体制」。英国 CPI 3.5%、峰值或达 4.75%，英国央行仍要加息——这才是今晚真正重要的信号。</p>
+    <div class="body"><p>先承认一个反直觉的事实：在油价单日跌 9% 的同一天，黄金涨了 3.35%，英国央行被预期加息 25bp，欧洲央行已经在 10 月底加过一次。如果市场真的相信「通胀结束、宽松将至」，这三件事不会同时发生。</p><p>答案在通胀的结构里。2026 年的通胀不是需求过热，而是能源冲击叠加劳动力市场的二次传导。英国 CPI 已达 3.5%，1 月 Ofgem 能源上限预计上调 25%—30%，英国央行自己的峰值预测可能从「略高于 4%」上修到 4.75%。油价下跌能压低 headline，却压不住电价传导、工资谈判与服务价格。MUFG 的判断很直白：英国央行不能再「主动观望」，因为等到第二轮效应确凿时，已经太晚。</p><p>这也解释了黄金与原油的背离。买黄金的人买的不是战争，而是「财政赤字、央行独立性、政策不确定性」这三样东西。中期选举带来分裂政府，赤字扩张受限——这对黄金本是利空；但同一结果也意味着财政对增长的支撑减弱、美联储的政治压力结构改变，于是黄金反而受益。金属市场在用上涨告诉你：它在交易「制度风险」，不是「地缘风险」。</p><p>对新兴市场而言，这是一个微妙的时间窗。美元走弱、美债收益率下行，缓解了汇率与资本流动压力；但若英国、欧洲继续加息，全球利率的「底」会被抬高，新兴市场的外债成本并不会同步下降。中国的情况相对独立：3000 亿元买断式逆回购与回购增持再贷款扩容，是内部流动性工具，定价权在国内。</p><p>真正需要盯的是「和平交易」能否转化为「增长交易」。如果美伊在周五给出可验证的降级路径，油价可能进一步下探，headline 通胀快速回落，央行获得转鸽空间——这是多头剧本。但如果谈判只是推迟，油价在 90 美元附近反复，那么央行会被困在「通胀高、增长弱」的夹缝里，实际利率上行，高估值资产承压。</p><p>最后一句话：不要用油价的涨跌去推断货币政策的方向。2026 年的央行反应函数，锚是核心通胀与工资，不是布伦特。</p></div>
+    <div class="counter"><b>反方</b>　反方观点：若油价跌至 80 美元以下并维持一个季度，headline 通胀会以更快速度回落，英国央行的加息可能变成「一次到位」，市场当前定价的四次加息明显过头。此时债券的配置价值会先于股票出现。</div>
+    <p class="watch-label">接下来盯什么</p><ul class="watch"><li>11 月 6 日美伊谈判的措辞与后续排期</li><li>英国 1 月能源价格上限的最终幅度</li><li>欧元区 9 月 PPI（今日 18:00）与美国初请失业金（21:30）</li><li>12 月 ECB 与 BoE 会议是否给出「终端利率」指引</li></ul>
+  </article>
+</section>
+<section class="block" id="personal">
+  <div class="block-head"><span class="no">YOU</span><h2>与你有关</h2>
+    <p class="intro">把宏观翻译成个人决策：换汇、房贷、工作。只谈机制，不给建议。</p></div>
+  <div class="personal"><article class="pcard"><h3>换汇与出境</h3><p>美元走弱、美债收益率下行，人民币的外部压力阶段性缓解。有美元支出的人，不必在今晚抢跑；但要盯 12 月 FOMC 是否把加息选项写回。</p></article><article class="pcard"><h3>房贷与理财</h3><p>3000 亿元买断式逆回购是中期流动性工具，不是降息。对个人的含义是：理财收益率下行的斜率，比政策利率的变动更值得盯。</p></article><article class="pcard"><h3>工作与 AI</h3><p>模型扎堆发布（Hy4、GPT-6.2、Fable 5.5）意味着工具会更便宜。真正值得投入的不是追新模型，而是判断「哪一段工作可以交出去」。</p></article></div>
+</section>
+<section class="block" id="threads">
+  <div class="block-head"><span class="no">THREAD</span><h2>线索追踪</h2>
+    <p class="intro">昨天的问题，今天有没有答案。状态：新增 / 升级 / 待验证 / 证伪。</p></div>
+  <table class="data threads">
+    <thead><tr><th style="width:22%">线索</th><th style="width:16%">状态</th><th>下一步看什么</th></tr></thead>
+    <tbody><tr><td>美伊谈判</td><td><span class="chip watch">待验证</span></td><td class="note-cell">周五是否给出可验证的降级路径。若只是推迟，油价会回到 95—100 美元区间。</td></tr><tr><td>英国央行加息</td><td><span class="chip new">新增</span></td><td class="note-cell">今晚 20:00 决议。若 7—2 通过，2 月再加一次是基准情形，终端利率 4.25%。</td></tr><tr><td>AI 资本开支</td><td><span class="chip up">升级</span></td><td class="note-cell">下周 SK 海力士、美光财报与 HBM4 认证进度，决定今晚的下跌是获利了结还是周期见顶。</td></tr><tr><td>关税撤销</td><td><span class="chip new">新增</span></td><td class="note-cell">民主党表态积极，但参议院 60 票门槛与总统否决权仍在。短期更可能是听证，而非立法。</td></tr></tbody>
+  </table>
+</section>
+<section class="block" id="data">
+  <div class="block-head"><span class="no">DATA</span><h2>数字与日程</h2>
+    <p class="intro">收盘价、收益率与今日待发布数据。口径不一致的地方，正文里已经写明。</p></div>
+  <div class="panel-grid">
+    <div>
+      <table class="data">
+        <thead><tr><th>标的</th><th style="text-align:right">最新</th><th style="text-align:right">涨跌</th></tr></thead>
+        <tbody><tr><td>道琼斯工业指数</td><td class="num">—</td><td class="chg up">+3.03%</td></tr><tr><td>标普 500</td><td class="num">—</td><td class="chg up">+1.58%</td></tr><tr><td>纳斯达克综合</td><td class="num">—</td><td class="chg up">+1.44%</td></tr><tr><td>上证指数</td><td class="num">—</td><td class="chg up">+2.16%</td></tr><tr><td>创业板指</td><td class="num">—</td><td class="chg up">+6.40%</td></tr><tr><td>恒生指数</td><td class="num">23,919.50</td><td class="chg up">+1.67%</td></tr><tr><td>布伦特原油</td><td class="num">94.01 美元</td><td class="chg down">-9.43%</td></tr><tr><td>WTI 原油</td><td class="num">87.49 美元</td><td class="chg down">-8.66%</td></tr><tr><td>现货黄金</td><td class="num">4,060.13 美元</td><td class="chg up">+3.35%</td></tr><tr><td>现货白银</td><td class="num">52.24 美元</td><td class="chg up">+4.94%</td></tr><tr><td>美元指数</td><td class="num">101.53</td><td class="chg down">-0.33%</td></tr><tr><td>美债 10 年期</td><td class="num">4.884%</td><td class="chg down">-8bp</td></tr></tbody>
+      </table>
+      <p class="data-note">除特别注明外，均为 11 月 4 日收盘数据；指数点位未取得可靠来源者以「—」表示，不做估算。</p>
+    </div>
+    <div><p class="mini-head">今日日程 · Calendar</p><ul class="cal"><li><time>08:00</time><span>达拉斯联储主席洛根主持活动前问答（2026 年 FOMC 票委）</span></li><li><time>15:00</time><span>商务部 11 月第 1 次例行新闻发布会</span></li><li><time>18:00</time><span>欧元区 9 月 PPI（预期 +2.5%，前值 +1.9%）</span></li><li><time>20:00</time><span>英国央行利率决定（市场预期加息 25bp 至 4.00%）</span></li><li><time>21:30</time><span>美国至 10 月 31 日当周初请失业金（预期 19.6 万，前值 19.4 万）</span></li><li><time>次日 02:00</time><span>欧洲央行行长拉加德、管委多伦茨发表讲话</span></li></ul></div>
+  </div>
+</section>
+<section class="block" id="reading">
+  <div class="block-head"><span class="no">READ</span><h2>延伸阅读</h2>
+    <p class="intro">如果你想回到原始材料，从这里开始。</p></div>
+  <div class="reading"><a class="read" href="https://www.mufgresearch.com/macro/european-macro-2-november-2026" target="_blank" rel="noopener">
+      <span class="r-out">MUFG Research</span>
+      <h3>BoE preview: Time for action</h3>
+      <p>把英国央行的「主动观望」为何走到尽头讲得最清楚的一篇，含 7-2 投票预测与终端利率判断。</p>
+    </a><a class="read" href="https://eu.36kr.com/en/p/4051964645331847" target="_blank" rel="noopener">
+      <span class="r-out">36 氪 / 爱范儿</span>
+      <h3>GPT-6.2 Astra 与 Fable 5.5 同日曝光</h3>
+      <p>模型线索的原始梳理，注意区分「源码泄露」「用量统计」「演示视频」三类证据强度。</p>
+    </a><a class="read" href="https://xnews.jin10.com/details/234250" target="_blank" rel="noopener">
+      <span class="r-out">金十数据</span>
+      <h3>金十数据全球财经早餐（11 月 5 日）</h3>
+      <p>当晚全球资产的完整快照，本文多条市场数据取自此处。</p>
+    </a><a class="read" href="https://www.upi.com/Voices/2026/11/02/latam-perspectives-brazil-lula-reelection-economic-consequences/1911793630812/" target="_blank" rel="noopener">
+      <span class="r-out">Infobae / UPI</span>
+      <h3>Brazil: the impact of Lula&#x27;s continuity on regional trade</h3>
+      <p>理解南美政治连续性与 Mercosur 谈判的一条线索。</p>
+    </a></div>
+</section>
+<div class="pager"><span></span><a href="archive.html">全部往期</a><span></span></div>
+<footer class="footer">
+  <div class="footer-in">
+    <div>
+      <h4>Sources</h4>
+      <div class="srcs"><span>金十数据</span><span>每日经济新闻</span><span>新华社</span><span>央视新闻</span><span>界面新闻</span><span>上海证券报</span><span>北京商报</span><span>MUFG Research</span><span>36 氪 / 爱范儿</span><span>科技日报</span><span>光明日报</span><span>中央日报（韩）</span><span>Anadolu Agency</span><span>UPI</span><span>Saba</span></div>
+    </div>
+    <div class="fine">
+      <h4>说明</h4>
+      生成时间 2026-11-05T09:40:00+08:00　·　第 001 期<br>手机 / 公网：<a href="https://continuing-rich-posts-bugs.trycloudflare.com" target="_blank" rel="noopener">https://continuing-rich-posts-bugs.trycloudflare.com</a><br>
+      价格为公开报道口径，可能因结算价与收盘价取样时点不同而存在差异；带「传闻」「待官宣」标记的内容尚未被官方确认。<br>
+      本页为个人学习用途的信息整理，不构成投资建议。键盘 ← → 可翻页。
+    </div>
+  </div>
+</footer>
+<a id="to-top" href="#" title="回到顶部" style="position:fixed;right:18px;bottom:18px;width:38px;height:38px;display:flex;align-items:center;justify-content:center;border:1px solid var(--rule-strong);background:var(--paper);color:var(--muted);opacity:0;transition:opacity .2s;z-index:50">↑</a>
+<script>/* 资讯 · 个人情报台 — 交互层（无依赖） */
+(function () {
+  'use strict';
+
+  var root = document.documentElement;
+
+  /* ---------- 主题 ---------- */
+  var KEY = 'zixun-theme';
+  function applyTheme(t) {
+    root.setAttribute('data-theme', t);
+    var b = document.getElementById('theme-btn');
+    if (b) b.textContent = t === 'dark' ? '☀' : '☾';
+  }
+  var saved = null;
+  try { saved = localStorage.getItem(KEY); } catch (e) {}
+  if (!saved && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) saved = 'dark';
+  var q = new URLSearchParams(location.search).get('theme');
+  applyTheme(q === 'dark' || q === 'light' ? q : (saved || 'light'));
+
+  document.addEventListener('click', function (e) {
+    var t = e.target.closest && e.target.closest('#theme-btn');
+    if (t) {
+      var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      applyTheme(next);
+      try { localStorage.setItem(KEY, next); } catch (e2) {}
+    }
+    var c = e.target.closest && e.target.closest('#copy-btn');
+    if (c) {
+      var url = location.href;
+      if (navigator.clipboard) navigator.clipboard.writeText(url);
+      var old = c.textContent;
+      c.textContent = '已复制';
+      setTimeout(function () { c.textContent = old; }, 1400);
+    }
+  });
+
+  /* ---------- 阅读进度 ---------- */
+  var bar = document.querySelector('.progress');
+  function onScroll() {
+    var h = document.documentElement.scrollHeight - window.innerHeight;
+    var p = h > 0 ? (window.scrollY / h) * 100 : 0;
+    if (bar) bar.style.width = p.toFixed(2) + '%';
+    var top = document.getElementById('to-top');
+    if (top) top.style.opacity = window.scrollY > 900 ? '1' : '0';
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  /* ---------- 目录高亮 ---------- */
+  var links = Array.prototype.slice.call(document.querySelectorAll('.nav a[href^="#"]'));
+  var targets = links.map(function (a) { return document.querySelector(a.getAttribute('href')); });
+  if ('IntersectionObserver' in window && targets.length) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (!en.isIntersecting) return;
+        var i = targets.indexOf(en.target);
+        if (i < 0) return;
+        links.forEach(function (l) { l.classList.remove('active'); });
+        links[i].classList.add('active');
+        if (links[i].scrollIntoView) {
+          links[i].scrollIntoView({ block: 'nearest', inline: 'center', behavior: 'smooth' });
+        }
+      });
+    }, { rootMargin: '-15% 0px -70% 0px', threshold: 0 });
+    targets.forEach(function (t) { if (t) io.observe(t); });
+  }
+
+  /* ---------- 键盘翻页 ---------- */
+  document.addEventListener('keydown', function (e) {
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+    var prev = document.body.getAttribute('data-prev');
+    var next = document.body.getAttribute('data-next');
+    if (e.key === 'ArrowLeft' && prev) location.href = prev;
+    if (e.key === 'ArrowRight' && next) location.href = next;
+  });
+})();
+</script>
+</body></html>
