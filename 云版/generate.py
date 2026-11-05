@@ -324,6 +324,12 @@ def fallback(items, date, issue):
 
 
 def next_issue(date):
+    today = DATA / f"{date}.json"
+    if today.exists():
+        try:
+            return int(json.loads(today.read_text(encoding="utf-8")).get("issue", 1))
+        except Exception:
+            pass
     issues = []
     for p in DATA.glob("*.json"):
         try:
