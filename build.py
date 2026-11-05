@@ -341,6 +341,13 @@ def numbers_block(data):
         for r in rows
     )
     note = f'<p class="data-note">{rich(num.get("note"))}</p>' if num.get("note") else ""
+    if rows:
+        left = f"""<table class="data">
+        <thead><tr><th>标的</th><th style="text-align:right">最新</th><th style="text-align:right">涨跌</th></tr></thead>
+        <tbody>{trs}</tbody>
+      </table>{note}"""
+    else:
+        left = f'<p class="data-note" style="margin-top:0">{rich(num.get("note")) or "本期未接入行情数据；文中数字均来自所引报道。"}</p>'
     cal = data.get("calendar") or []
     cal_html = "".join(
         f'<li><time>{e(c.get("time"))}</time><span>{rich(c.get("event"))}</span></li>' for c in cal
@@ -355,13 +362,7 @@ def numbers_block(data):
   <div class="block-head"><span class="no">DATA</span><h2>数字与日程</h2>
     <p class="intro">收盘价、收益率与今日待发布数据。口径不一致的地方，正文里已经写明。</p></div>
   <div class="panel-grid">
-    <div>
-      <table class="data">
-        <thead><tr><th>标的</th><th style="text-align:right">最新</th><th style="text-align:right">涨跌</th></tr></thead>
-        <tbody>{trs}</tbody>
-      </table>
-      {note}
-    </div>
+    <div>{left}</div>
     {cal_block}
   </div>
 </section>"""
