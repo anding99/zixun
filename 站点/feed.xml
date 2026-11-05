@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>资讯 · 个人情报台</title>
+  <subtitle>每天一份，全球视野与深度分析</subtitle>
+  <link href="http://127.0.0.1:8790/feed.xml" rel="self"/>
+  <link href="http://127.0.0.1:8790/"/>
+  <id>http://127.0.0.1:8790/</id>
+  <updated>2026-11-05T10:08:09+08:00</updated>
+  <author><name>个人情报台</name></author>
+  <entry>
+    <title>第001期 · 2026-11-05</title>
+    <link href="http://127.0.0.1:8790/2026-11-05.html"/>
+    <id>http://127.0.0.1:8790/2026-11-05.html</id>
+    <updated>2026-11-05T07:30:00+08:00</updated>
+    <summary type="html">美国中期选举出现「蓝色浪潮」，民主党据测算同时拿下参众两院。市场把它读成三件事：战争可能收尾、财政赤字受限、AI 监管抬头。于是道指涨 1569 点、油价跌 9%、黄金站上 4060 美元。同一晚，英国央行准备三年来首次加息——和平交易压得住油价，压不住已经切换的通胀体制。</summary>
+  </entry>
+</feed>
