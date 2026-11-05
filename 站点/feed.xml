@@ -2,16 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>资讯 · 个人情报台</title>
   <subtitle>每天一份，全球视野与深度分析</subtitle>
-  <link href="http://127.0.0.1:8790/feed.xml" rel="self"/>
-  <link href="http://127.0.0.1:8790/"/>
-  <id>http://127.0.0.1:8790/</id>
-  <updated>2026-11-05T10:08:09+08:00</updated>
+  <link href="https://anding99.github.io/zixun/feed.xml" rel="self"/>
+  <link href="https://anding99.github.io/zixun/"/>
+  <id>https://anding99.github.io/zixun/</id>
+  <updated>2026-11-05T03:19:03+00:00</updated>
   <author><name>个人情报台</name></author>
   <entry>
-    <title>第001期 · 2026-11-05</title>
-    <link href="http://127.0.0.1:8790/2026-11-05.html"/>
-    <id>http://127.0.0.1:8790/2026-11-05.html</id>
+    <title>第002期 · 2026-11-05</title>
+    <link href="https://anding99.github.io/zixun/2026-11-05.html"/>
+    <id>https://anding99.github.io/zixun/2026-11-05.html</id>
     <updated>2026-11-05T07:30:00+08:00</updated>
-    <summary type="html">美国中期选举出现「蓝色浪潮」，民主党据测算同时拿下参众两院。市场把它读成三件事：战争可能收尾、财政赤字受限、AI 监管抬头。于是道指涨 1569 点、油价跌 9%、黄金站上 4060 美元。同一晚，英国央行准备三年来首次加息——和平交易压得住油价，压不住已经切换的通胀体制。</summary>
+    <summary type="html">今天最该记住的一件事：美国期中选举把国会两院交回民主党，但真正的市场变量不是谁赢，而是共和党败选后对伊朗战争与关税政策的问责压力，能否在周五前转化为可验证的降级路径。BBC 把物价飙涨列为共和党惨败首因，说明战争成本已从地缘议题变成选举议题；民主党虽握有国会，但参议院 60 票门槛与总统否决权仍在，短期更可能是听证而非立法。对油价与美元而言，今天的关键不是庆祝，而是看白宫是否在周五给出停火或谈判的时间表。</summary>
   </entry>
 </feed>
