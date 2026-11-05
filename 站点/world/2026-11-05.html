@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>世界课 · 第001课 · 如果一种资源越用越便宜，它还算稀缺吗？</title>
+<meta name="description" content="如果一种资源越用越便宜，它还算稀缺吗？">
+<meta property="og:title" content="世界课 · 第001课 · 如果一种资源越用越便宜，它还算稀缺吗？">
+<style>
+:root{
+  --paper:#f5f1e6; --paper2:#faf7ee; --ink:#1b1a17; --ink2:#3d3a33;
+  --muted:#7a7365; --rule:#dbd2bd; --accent:#24405e; --warm:#a9502c; --soft:#e9e1cf;
+  --serif:"Songti SC","STSong","SimSun","Noto Serif CJK SC",Georgia,serif;
+  --sans:"Microsoft YaHei","PingFang SC","Hiragino Sans GB",system-ui,sans-serif;
+  --mono:"Cascadia Mono",Consolas,monospace;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:var(--paper);color:var(--ink);
+  font-family:var(--sans);font-size:16px;line-height:1.9;
+  -webkit-font-smoothing:antialiased;
+}
+body::before{
+  content:"";position:fixed;inset:0;pointer-events:none;opacity:.55;
+  background:radial-gradient(900px 420px at 12% -8%,rgba(36,64,94,.07),transparent 70%),
+             radial-gradient(700px 380px at 95% 4%,rgba(169,80,44,.05),transparent 70%);
+}
+a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+a:hover{color:var(--accent);border-bottom-color:var(--accent)}
+::selection{background:var(--accent);color:#fff}
+
+.wrap{max-width:760px;margin:0 auto;padding:0 26px;position:relative;z-index:1}
+
+.topbar{border-bottom:1px solid var(--rule);background:rgba(245,241,230,.86);backdrop-filter:blur(8px);position:sticky;top:0;z-index:10}
+.topbar .in{max-width:760px;margin:0 auto;padding:10px 26px;display:flex;gap:14px;align-items:baseline;font-size:12px;color:var(--muted);letter-spacing:.06em}
+.topbar b{font-family:var(--serif);font-size:14px;letter-spacing:.24em;color:var(--ink)}
+.topbar .sp{flex:1}
+
+header.mast{padding:56px 0 26px}
+.eyebrow{font-family:var(--mono);font-size:10px;letter-spacing:.24em;color:var(--muted);text-transform:uppercase;display:flex;align-items:center;gap:12px}
+.eyebrow::after{content:"";flex:1;height:1px;background:var(--rule)}
+h1{font-family:var(--serif);font-weight:900;font-size:clamp(34px,6vw,52px);letter-spacing:.06em;line-height:1.1;margin:14px 0 6px}
+.sub{font-size:13px;color:var(--muted);letter-spacing:.22em}
+.meta{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:baseline;margin-top:22px;padding-top:14px;border-top:2px solid var(--ink);font-size:12.5px;color:var(--ink2)}
+.meta .no{font-family:var(--mono);color:var(--warm);letter-spacing:.1em}
+.meta .week{margin-left:auto;color:var(--muted)}
+
+.weekbar{margin:26px 0 0;padding:10px 14px;background:var(--soft);border-left:3px solid var(--warm);font-size:13px;color:var(--ink2)}
+.weekbar b{font-family:var(--serif);font-size:15px;letter-spacing:.06em}
+
+.question{padding:44px 0 10px}
+.q-label{font-family:var(--mono);font-size:10px;letter-spacing:.22em;color:var(--warm);text-transform:uppercase}
+.question h2{font-family:var(--serif);font-weight:900;font-size:clamp(26px,4.2vw,36px);line-height:1.45;margin:12px 0 0;letter-spacing:.01em}
+.answer{font-family:var(--serif);font-size:18px;line-height:2;color:var(--ink2);margin:22px 0 0;padding-left:18px;border-left:2px solid var(--accent)}
+.answer b{color:var(--ink)}
+
+section{padding-top:38px}
+h3.label{font-family:var(--mono);font-size:10px;letter-spacing:.22em;color:var(--warm);text-transform:uppercase;margin:0 0 10px;display:flex;align-items:center;gap:10px}
+h3.label::after{content:"";flex:1;height:1px;background:var(--rule)}
+h2.title{font-family:var(--serif);font-size:26px;line-height:1.5;margin:0 0 18px;font-weight:700}
+.body p{font-family:var(--serif);font-size:17px;line-height:2.05;margin:0 0 18px;text-align:justify}
+.dropcap{float:left;font-size:3.2em;line-height:.9;padding:8px 12px 0 0;color:var(--warm);font-weight:700}
+.body b{font-weight:700}
+
+.pull{margin:26px 0;padding:18px 20px;border-top:1px solid var(--ink);border-bottom:1px solid var(--ink);font-family:var(--serif);font-size:19px;line-height:1.9;color:var(--ink);text-align:center}
+
+.counter{margin-top:22px;padding:18px 20px;border:1px solid var(--rule);background:var(--paper2);font-size:14px;line-height:1.9;color:var(--ink2)}
+.counter b{font-family:var(--mono);font-size:10px;letter-spacing:.18em;color:var(--warm);display:block;margin-bottom:6px}
+
+.world{margin-top:38px;padding:24px 0 8px;border-top:2px solid var(--ink);border-bottom:1px solid var(--rule)}
+.world .w-label{font-family:var(--mono);font-size:10px;letter-spacing:.22em;color:var(--warm);text-transform:uppercase;display:flex;gap:10px;align-items:center}
+.world .w-label .date{color:var(--muted);letter-spacing:.1em}
+.world h3{font-family:var(--serif);font-size:23px;line-height:1.55;margin:10px 0 14px;font-weight:700}
+.world p{font-family:var(--serif);font-size:16.5px;line-height:2;margin:0 0 14px;text-align:justify;color:var(--ink2)}
+.world p b{color:var(--ink)}
+.world .miss{margin-top:16px;padding:12px 15px;background:var(--paper2);border-left:2px solid var(--warm);font-size:14px;line-height:1.85;color:var(--ink2)}
+.world .miss b{font-family:var(--mono);font-size:9.5px;letter-spacing:.18em;color:var(--warm);display:block;margin-bottom:4px}
+
+.kid{margin-top:34px;padding:24px 24px 20px;background:var(--accent);color:#f4efe2;border-radius:2px}
+.kid .k-label{font-family:var(--mono);font-size:10px;letter-spacing:.22em;color:#c9b48f;text-transform:uppercase}
+.kid h3{font-family:var(--serif);font-size:22px;margin:8px 0 14px;color:#fff;font-weight:700}
+.kid ol{margin:0;padding-left:20px;font-family:var(--serif);font-size:16.5px;line-height:1.95}
+.kid li{margin-bottom:10px}
+.kid .exp{margin-top:16px;padding-top:14px;border-top:1px solid rgba(244,239,226,.28);font-size:13.5px;color:#e4d8bf}
+.kid .exp b{color:#f0c9a8}
+
+.reading ul{list-style:none;margin:0;padding:0}
+.reading li{padding:14px 0;border-bottom:1px solid var(--rule)}
+.reading .out{font-family:var(--mono);font-size:10px;letter-spacing:.16em;color:var(--warm);text-transform:uppercase}
+.reading .rt{font-family:var(--serif);font-size:17px;display:block;margin:3px 0 2px}
+.reading .rn{font-size:12.5px;color:var(--muted);line-height:1.7}
+
+.threads{margin-top:34px;padding-top:20px;border-top:2px solid var(--ink)}
+.threads h3{font-family:var(--serif);font-size:18px;margin:0 0 12px}
+.threads li{font-size:13.5px;color:var(--ink2);margin-bottom:8px;padding-left:16px;position:relative;line-height:1.75}
+.threads li::before{content:"○";position:absolute;left:0;top:2px;color:var(--warm);font-size:9px}
+.threads ul{list-style:none;margin:0;padding:0}
+
+footer{margin-top:56px;padding:22px 0 46px;border-top:1px solid var(--rule);font-size:12px;color:var(--muted);line-height:1.9}
+footer .fine{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
+
+@media(max-width:640px){
+  .wrap{padding:0 18px}
+  header.mast{padding-top:36px}
+  .answer{font-size:16.5px}
+  .body p{font-size:16px}
+  .dropcap{font-size:2.4em;padding:4px 8px 0 0}
+  .kid{padding:20px 18px}
+  .meta .week{margin-left:0;width:100%}
+}
+@media print{
+  .topbar{display:none}
+  body{background:#fff}
+  .kid{background:#eee;color:#000}
+  .kid h3,.kid li,.kid .exp{color:#000}
+}
+.arch{max-width:760px;margin:0 auto;padding:0 26px 60px}
+.arch a{display:block;padding:18px 0;border-bottom:1px solid var(--rule);border-left:none}
+.arch a:hover{background:var(--paper2)}
+.arch .d{font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:.08em}
+.arch .q{font-family:var(--serif);font-size:19px;line-height:1.6;margin:4px 0 2px;color:var(--ink)}
+.arch .t{font-size:12.5px;color:var(--muted)}
+</style>
+</head>
+<body><div class="topbar"><div class="in">
+  <b>世界课</b><span>每日一课</span><span class="sp"></span>
+  <span></span><span></span><a href="archive.html">往期</a>
+  <span>第 001 课</span><span>2026-11-05</span>
+</div></div><div class="wrap">
+<header class="mast">
+  <div class="eyebrow"><span>WORLD LESSONS · FOR A CURIOUS NINE-YEAR-OLD</span></div>
+  <h1>世界课</h1>
+  <div class="sub">给 父 与 子 的 每 日 一 课</div>
+  <div class="meta">
+    <span>2026-11-05　星期四</span>
+    <span class="no">第 001 课</span>
+    <span>约 8 分钟</span>
+    <span class="week">第 01 周 · 稀缺与选择</span>
+  </div>
+  <div class="weekbar"><b>本周主题：稀缺与选择</b>　钱、时间、注意力都不够用。经济学不是关于钱，是关于“不够用的时候怎么办”。这一周，我们看五种“不够用”。</div>
+</header>
+<div class="question">
+  <div class="q-label">今日一问 · Thursday , 科学</div>
+  <h2>如果一种资源越用越便宜，它还算稀缺吗？</h2>
+  <p class="answer">算，但稀缺的位置变了。太阳能电池板十年间价格跌了九成，硅没有变多，变便宜的是把硅提纯、切片、成板的知识与产线。真正稀缺的从来不是原子，而是把原子变成有用之物的工艺、能源和耐心。一个不显然的机制是：价格下跌往往不是稀缺消失，而是稀缺被转移到了别处——转移到电网的调峰能力、储能材料、土地和许可上。所以看到某样东西变便宜，值得追问的是：它把账单推给了谁。</p>
+</div>
+<section>
+  <h3 class="label">科学 · Science</h3>
+  <h2 class="title">东西变便宜，稀缺只是换了地方</h2>
+  <div class="body"><p><span class="dropcap">先</span>看一组事实。国际能源署多年统计显示，光伏组件价格自2010年以来下降约九成，锂离子电池组价格同期下降约八成五。按常识，价格暴跌意味着这东西不再稀缺。但同期全球光伏装机从几十吉瓦涨到超过一千六百吉瓦，硅料、白银、铜、铝的需求跟着暴涨。也就是说，东西更便宜了，用掉的物质却更多了。稀缺没有消失，它只是从『买不起』变成了『要得太多』。这是科学课上最容易被跳过的一步：价格曲线往下走，物质曲线往上走，两条线说的是同一件事的两面。</p><p>机制在哪里？在转化链。地壳里硅是第二多的元素，沙子几乎免费，但沙子不是芯片也不是电池。要把石英砂变成99.9999%的多晶硅，需要提纯、拉晶、切片、掺杂、封装，每一步都消耗能源、设备和人。科学上衡量稀缺，看的不是储量，而是㶲——可用的功。同样一吨硅，做成砂石铺路和做成电池片，可用功差了几个数量级。所以稀缺的真正定义是：在给定技术下，把低价值物质变成高价值物质所需要的那部分不可替代的投入。技术改进会压低这部分投入，于是价格跌；但需求扩张又会把它重新推高。</p><p>举一个具体例子。十九世纪铝比白银还贵，因为从铝土矿里分离铝极难，拿破仑三世用铝餐具宴客。1886年霍尔和埃鲁几乎同时发明电解法，铝价在几年内跌到原来的几十分之一，铝从贵金属变成做锅碗和飞机的普通材料。但请注意随后发生了什么：铝的需求爆炸，今天全球原铝年产量约七千万吨，电解铝耗电占全球电力约百分之三。稀缺从『炼不出来』变成了『电够不够、碳排不排得起』。这正是今天光伏和电池在重演的故事：化学难题被解开，账就转到了能源和电网上。</p><p>边界也要说清。不是所有稀缺都能被技术挪走。有些资源受热力学硬约束，比如化石燃料的碳预算，用一吨少一吨，且燃烧产物必须有人承担；有些受生态约束，比如淡水、耕地、渔业种群，转化效率再高也补不回被抽干的含水层。科学上区分两类稀缺：一类是知识稀缺，可以被发现和发明缓解；一类是存量稀缺，只能被替代或节约。把两者混为一谈，是政策误判的常见来源——以为电池便宜了，锂和钴的矿脉就会自己变长。</p><p>推论有三层。第一，判断一样东西是否稀缺，别只看价格，要看它背后的物质流和能量流，价格只是被补贴、规模和学习曲线扭曲过的影子。第二，技术降低的是转化成本，不是物质总量，所以越高效的社会往往总消耗越大，这叫杰文斯悖论，值得警惕但不必恐慌。第三，对个人也一样：时间变便宜的工具（搜索、AI）会让你做更多事，也会让你更忙。稀缺从来不消失，它只是换一个地方排队。看清队伍排在哪里，比抱怨队伍长有用。</p></div>
+  <div class="pull">价格下跌不是稀缺消失，而是稀缺从『炼不出来』挪到了『电够不够』。</div>
+  <div class="counter"><b>反方 · 最强的那个版本</b>最强的反方是：把稀缺说成『转化能力』的问题，可能给技术乐观主义递刀。真实世界里，许多稀缺根本不是知识不够，而是分配和权力问题——全球粮食产量足够喂饱所有人，饥饿却依然存在；淡水在总量上不紧张，紧张的是谁有权取用。用『提纯技术』的框架解释一切，会让人误以为再投一轮研发就能解决，从而绕开产权、补贴和议价能力这些真正卡住的地方。更尖锐地说，价格下跌有时恰恰是补贴和廉价劳动堆出来的假象，把稀缺挪走的是别人家的环境与工时，不是科学。这个反驳成立，所以本篇的框架只适用于受热力学约束的物质流，不适用于纯粹的制度性短缺。</div>
+</section>
+<section class="world">
+  <div class="w-label"><span>World Watch · 世界观察</span><span class="date">2026-11-05</span></div>
+  <h3>巴黎协定十年：承诺与账单</h3>
+  <p>今天多家媒体报道巴黎协定签署十周年，回顾近两百个国家承诺把升温控制在1.5摄氏度以内，并盘点谁兑现、谁落后。报道的基调是混合的：可再生能源装机增长远超十年前预期，但全球排放仍未明显下降，1.5度目标在多数评估里已接近失守。这是一次典型的『承诺很多、交付打折』的十年总结。</p><p>机制在于协定的结构。巴黎协定是自下而上的：各国自己提交国家自主贡献，没有强制配额，靠透明度和声誉约束。这种设计让参与度极高，几乎全球覆盖，但约束力弱。于是出现一个稳定模式：承诺容易，因为承诺的成本由未来政府承担；交付难，因为交付的成本落在当下的电价、油价和选票上。稀缺在这里表现为政治资本和时间，而不是技术。</p><p>被忽略的是统计口径。『排放下降』可以靠把工厂搬到境外实现，『绿电占比』可以靠调整分母实现，『资金承诺』可以靠贷款和担保计入。这些都不是造假，而是定义之争。真正难替代的指标是大气里的二氧化碳浓度，它不认口径，只认累积。十年过去，这个数字仍在上升，这是最诚实的记分牌。</p>
+  <div class="miss"><b>被忽略的一点</b>对理解世界的用处是：看任何国际承诺，先问三件事——谁付当下的账、指标怎么算、有没有一个不认口径的硬指标。这三问能让你在气候、贸易、军控新闻里少被话术带走。</div>
+</section>
+<section class="kid">
+  <div class="k-label">For a nine-year-old · 今晚可以问的三个问题</div>
+  <h3>不用讲道理，只问他怎么看</h3>
+  <ol><li>沙子和芯片的成分差不多，为什么一个几乎免费、一个很贵？</li><li>如果电池越来越便宜，我们是不是就可以随便用？</li><li>你觉得家里什么东西越买越多，但并没有更够用？</li></ol>
+  <div class="exp"><b>一个五分钟的小实验</b>：拿两块一样的方糖，一块整块放进温水，一块先碾碎再放，同时开始计时，看哪块先化完。记下时间差，想想『碎』省下的是什么。</div>
+</section>
+<section class="reading"><h3 class="label">Read · 延伸</h3><ul><li>
+      <span class="out">报道</span>
+      <a class="rt" href="https://www.aljazeera.com/news/2026/11/5/ten-years-of-the-paris-agreement-has-the-world-kept-its-climate-promises?traffic_source=rss" target="_blank" rel="noopener">Ten years of the Paris Agreement: Has the world kept its climate promises?</a>
+      <span class="rn">看承诺与交付之间的落差，注意它用了哪些指标。</span>
+    </li><li>
+      <span class="out">书</span>
+      <a class="rt" href="#" target="_blank" rel="noopener">《能源与文明》（Vaclav Smil）</a>
+      <span class="rn">讲能量流如何决定社会形态，适合和本篇对照读。</span>
+    </li><li>
+      <span class="out">论文</span>
+      <a class="rt" href="#" target="_blank" rel="noopener">Jevons 悖论相关综述（能源经济学）</a>
+      <span class="rn">效率提高为何常伴随总消耗上升，读结论部分即可。</span>
+    </li></ul></section>
+<div class="threads"><h3>长期线索 · 值得盯几年</h3><ul><li>关键矿产的提纯与加工环节：卡点会从矿藏转向冶炼产能。</li><li>电网与储能：发电变便宜后，稀缺会集中到调峰和输电许可上。</li><li>统计口径之争：排放、绿电、就业数据的定义会越来越像政治议题。</li></ul></div>
+<footer><div class="fine">
+    <span>世界课 · 第 001 课 · 2026-11-05</span>
+    <span>事实 / 推断 / 猜测，三种语气已尽量分开。不构成任何建议。</span>
+  </div></footer>
+</div></body></html>
