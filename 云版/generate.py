@@ -25,6 +25,9 @@ DATA = ROOT / "数据"
 PUBLIC = ROOT / "public"
 CST = timezone(timedelta(hours=8))
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import publish  # noqa: E402
+
 API_URL = os.environ.get("DEEPSEEK_BASE_URL", "https://api.deepseek.com").rstrip("/") + "/chat/completions"
 MODEL = os.environ.get("DEEPSEEK_MODEL", "deepseek-chat")
 
@@ -351,25 +354,14 @@ def previous_edition():
 
 def build():
     repo = os.environ.get("GITHUB_REPOSITORY", "")
-    if repo and "SITE_URL" not in os.environ:
+    site_url = os.environ.get("SITE_URL")
+    if repo and not site_url:
         owner, name = repo.split("/", 1)
-        os.environ["SITE_URL"] = (
+        site_url = (
             f"https://{owner.lower()}.github.io/" if name.lower() == f"{owner.lower()}.github.io"
             else f"https://{owner.lower()}.github.io/{name}/"
         )
-    subprocess.run([sys.executable, str(ROOT / "build.py")], check=True, cwd=str(ROOT))
-    src = ROOT / "站点"
-    if PUBLIC.exists():
-        for p in PUBLIC.rglob("*"):
-            if p.is_file():
-                p.unlink()
-    PUBLIC.mkdir(exist_ok=True)
-    for p in src.rglob("*"):
-        if p.is_file():
-            rel = p.relative_to(src)
-            dst = PUBLIC / rel
-            dst.parent.mkdir(parents=True, exist_ok=True)
-            dst.write_bytes(p.read_bytes())
+    publish.build_all(ROOT, site_url)
 
 
 def main():
