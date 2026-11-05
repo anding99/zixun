@@ -1,0 +1,10 @@
+# 本地运行时产物，不进仓库
+工具/
+_test/
+_edge*/
+公网链接.txt
+public/
+资源/预览-首屏.png
+资源/_*.png
+__pycache__/
+*.pyc
