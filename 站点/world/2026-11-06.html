@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>世界课 · 第002课 · 如果 AI 越聪明越便宜，为什么科技股反而一夜跌了两万亿？</title>
+<meta name="description" content="如果 AI 越聪明越便宜，为什么科技股反而一夜跌了两万亿？">
+<meta property="og:title" content="世界课 · 第002课 · 如果 AI 越聪明越便宜，为什么科技股反而一夜跌了两万亿？">
+<style>
+:root{
+  --paper:#f5f1e6; --paper2:#faf7ee; --ink:#1b1a17; --ink2:#3d3a33;
+  --muted:#7a7365; --rule:#dbd2bd; --accent:#24405e; --warm:#a9502c; --soft:#e9e1cf;
+  --serif:"Songti SC","STSong","SimSun","Noto Serif CJK SC",Georgia,serif;
+  --sans:"Microsoft YaHei","PingFang SC","Hiragino Sans GB",system-ui,sans-serif;
+  --mono:"Cascadia Mono",Consolas,monospace;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:var(--paper);color:var(--ink);
+  font-family:var(--sans);font-size:16px;line-height:1.9;
+  -webkit-font-smoothing:antialiased;
+}
+body::before{
+  content:"";position:fixed;inset:0;pointer-events:none;opacity:.55;
+  background:radial-gradient(900px 420px at 12% -8%,rgba(36,64,94,.07),transparent 70%),
+             radial-gradient(700px 380px at 95% 4%,rgba(169,80,44,.05),transparent 70%);
+}
+a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+a:hover{color:var(--accent);border-bottom-color:var(--accent)}
+::selection{background:var(--accent);color:#fff}
+
+.wrap{max-width:760px;margin:0 auto;padding:0 26px;position:relative;z-index:1}
+
+.topbar{border-bottom:1px solid var(--rule);background:rgba(245,241,230,.86);backdrop-filter:blur(8px);position:sticky;top:0;z-index:10}
+.topbar .in{max-width:760px;margin:0 auto;padding:10px 26px;display:flex;gap:14px;align-items:baseline;font-size:12px;color:var(--muted);letter-spacing:.06em}
+.topbar b{font-family:var(--serif);font-size:14px;letter-spacing:.24em;color:var(--ink)}
+.topbar .sp{flex:1}
+
+header.mast{padding:56px 0 26px}
+.eyebrow{font-family:var(--mono);font-size:10px;letter-spacing:.24em;color:var(--muted);text-transform:uppercase;display:flex;align-items:center;gap:12px}
+.eyebrow::after{content:"";flex:1;height:1px;background:var(--rule)}
+h1{font-family:var(--serif);font-weight:900;font-size:clamp(34px,6vw,52px);letter-spacing:.06em;line-height:1.1;margin:14px 0 6px}
+.sub{font-size:13px;color:var(--muted);letter-spacing:.22em}
+.meta{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:baseline;margin-top:22px;padding-top:14px;border-top:2px solid var(--ink);font-size:12.5px;color:var(--ink2)}
+.meta .no{font-family:var(--mono);color:var(--warm);letter-spacing:.1em}
+.meta .week{margin-left:auto;color:var(--muted)}
+
+.weekbar{margin:26px 0 0;padding:10px 14px;background:var(--soft);border-left:3px solid var(--warm);font-size:13px;color:var(--ink2)}
+.weekbar b{font-family:var(--serif);font-size:15px;letter-spacing:.06em}
+
+.question{padding:44px 0 10px}
+.q-label{font-family:var(--mono);font-size:10px;letter-spacing:.22em;color:var(--warm);text-transform:uppercase}
+.question h2{font-family:var(--serif);font-weight:900;font-size:clamp(26px,4.2vw,36px);line-height:1.45;margin:12px 0 0;letter-spacing:.01em}
+.answer{font-family:var(--serif);font-size:18px;line-height:2;color:var(--ink2);margin:22px 0 0;padding-left:18px;border-left:2px solid var(--accent)}
+.answer b{color:var(--ink)}
+
+section{padding-top:38px}
+h3.label{font-family:var(--mono);font-size:10px;letter-spacing:.22em;color:var(--warm);text-transform:uppercase;margin:0 0 10px;display:flex;align-items:center;gap:10px}
+h3.label::after{content:"";flex:1;height:1px;background:var(--rule)}
+h2.title{font-family:var(--serif);font-size:26px;line-height:1.5;margin:0 0 18px;font-weight:700}
+.body p{font-family:var(--serif);font-size:17px;line-height:2.05;margin:0 0 18px;text-align:justify}
+.dropcap{float:left;font-size:3.2em;line-height:.9;padding:8px 12px 0 0;color:var(--warm);font-weight:700}
+.body b{font-weight:700}
+
+.pull{margin:26px 0;padding:18px 20px;border-top:1px solid var(--ink);border-bottom:1px solid var(--ink);font-family:var(--serif);font-size:19px;line-height:1.9;color:var(--ink);text-align:center}
+
+.counter{margin-top:22px;padding:18px 20px;border:1px solid var(--rule);background:var(--paper2);font-size:14px;line-height:1.9;color:var(--ink2)}
+.counter b{font-family:var(--mono);font-size:10px;letter-spacing:.18em;color:var(--warm);display:block;margin-bottom:6px}
+
+.world{margin-top:38px;padding:24px 0 8px;border-top:2px solid var(--ink);border-bottom:1px solid var(--rule)}
+.world .w-label{font-family:var(--mono);font-size:10px;letter-spacing:.22em;color:var(--warm);text-transform:uppercase;display:flex;gap:10px;align-items:center}
+.world .w-label .date{color:var(--muted);letter-spacing:.1em}
+.world h3{font-family:var(--serif);font-size:23px;line-height:1.55;margin:10px 0 14px;font-weight:700}
+.world p{font-family:var(--serif);font-size:16.5px;line-height:2;margin:0 0 14px;text-align:justify;color:var(--ink2)}
+.world p b{color:var(--ink)}
+.world .miss{margin-top:16px;padding:12px 15px;background:var(--paper2);border-left:2px solid var(--warm);font-size:14px;line-height:1.85;color:var(--ink2)}
+.world .miss b{font-family:var(--mono);font-size:9.5px;letter-spacing:.18em;color:var(--warm);display:block;margin-bottom:4px}
+
+.kid{margin-top:34px;padding:24px 24px 20px;background:var(--accent);color:#f4efe2;border-radius:2px}
+.kid .k-label{font-family:var(--mono);font-size:10px;letter-spacing:.22em;color:#c9b48f;text-transform:uppercase}
+.kid h3{font-family:var(--serif);font-size:22px;margin:8px 0 14px;color:#fff;font-weight:700}
+.kid ol{margin:0;padding-left:20px;font-family:var(--serif);font-size:16.5px;line-height:1.95}
+.kid li{margin-bottom:10px}
+.kid .exp{margin-top:16px;padding-top:14px;border-top:1px solid rgba(244,239,226,.28);font-size:13.5px;color:#e4d8bf}
+.kid .exp b{color:#f0c9a8}
+
+.reading ul{list-style:none;margin:0;padding:0}
+.reading li{padding:14px 0;border-bottom:1px solid var(--rule)}
+.reading .out{font-family:var(--mono);font-size:10px;letter-spacing:.16em;color:var(--warm);text-transform:uppercase}
+.reading .rt{font-family:var(--serif);font-size:17px;display:block;margin:3px 0 2px}
+.reading .rn{font-size:12.5px;color:var(--muted);line-height:1.7}
+
+.threads{margin-top:34px;padding-top:20px;border-top:2px solid var(--ink)}
+.threads h3{font-family:var(--serif);font-size:18px;margin:0 0 12px}
+.threads li{font-size:13.5px;color:var(--ink2);margin-bottom:8px;padding-left:16px;position:relative;line-height:1.75}
+.threads li::before{content:"○";position:absolute;left:0;top:2px;color:var(--warm);font-size:9px}
+.threads ul{list-style:none;margin:0;padding:0}
+
+footer{margin-top:56px;padding:22px 0 46px;border-top:1px solid var(--rule);font-size:12px;color:var(--muted);line-height:1.9}
+footer .fine{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
+
+@media(max-width:640px){
+  .wrap{padding:0 18px}
+  header.mast{padding-top:36px}
+  .answer{font-size:16.5px}
+  .body p{font-size:16px}
+  .dropcap{font-size:2.4em;padding:4px 8px 0 0}
+  .kid{padding:20px 18px}
+  .meta .week{margin-left:0;width:100%}
+}
+@media print{
+  .topbar{display:none}
+  body{background:#fff}
+  .kid{background:#eee;color:#000}
+  .kid h3,.kid li,.kid .exp{color:#000}
+}
+.arch{max-width:760px;margin:0 auto;padding:0 26px 60px}
+.arch a{display:block;padding:18px 0;border-bottom:1px solid var(--rule);border-left:none}
+.arch a:hover{background:var(--paper2)}
+.arch .d{font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:.08em}
+.arch .q{font-family:var(--serif);font-size:19px;line-height:1.6;margin:4px 0 2px;color:var(--ink)}
+.arch .t{font-size:12.5px;color:var(--muted)}
+</style>
+</head>
+<body><div class="topbar"><div class="in">
+  <b>世界课</b><span>每日一课</span><span class="sp"></span>
+  <a href="2026-11-05.html">← 上一课</a><span></span><a href="archive.html">往期</a>
+  <span>第 002 课</span><span>2026-11-06</span>
+</div></div><div class="wrap">
+<header class="mast">
+  <div class="eyebrow"><span>WORLD LESSONS · FOR A CURIOUS NINE-YEAR-OLD</span></div>
+  <h1>世界课</h1>
+  <div class="sub">给 父 与 子 的 每 日 一 课</div>
+  <div class="meta">
+    <span>2026-11-06　星期五</span>
+    <span class="no">第 002 课</span>
+    <span>约 8 分钟</span>
+    <span class="week">第 01 周 · 稀缺与选择</span>
+  </div>
+  <div class="weekbar"><b>本周主题：稀缺与选择</b>　钱、时间、注意力都不够用。经济学不是关于钱，是关于“不够用的时候怎么办”。这一周，我们看五种“不够用”。</div>
+</header>
+<div class="question">
+  <div class="q-label">今日一问 · Friday , 现场</div>
+  <h2>如果 AI 越聪明越便宜，为什么科技股反而一夜跌了两万亿？</h2>
+  <p class="answer">因为市场卖的不是「智能」，而是「谁有资格建数据中心」。AI 越便宜，需要的算力、电力、土地和许可就越多，这些才是真正稀缺的东西。不显然的机制是：价格下跌打击的不是需求，而是「供给许可的确定性」。当国会可能收紧审批，投资者重估的不是 AI 有没有用，而是自己能不能按时把机房建起来。稀缺从芯片转移到了许可上。</p>
+</div>
+<section>
+  <h3 class="label">现场 · Field Notes</h3>
+  <h2 class="title">越便宜的东西，越会把稀缺赶到下一站</h2>
+  <div class="body"><p><span class="dropcap">今</span>天美国市场的现场很直接。期中选举后，民主党有望在国会占据强势多数，投资者担心数据中心建设和 AI 行业会面临更严的审查。科技股应声下跌，纳斯达克跌超 5%，市值蒸发约两万亿美元。与此同时，有报道说这轮「AI 反弹」可能影响 Anthropic 的上市时机。注意这里没有出现任何技术失败：模型还在变强，价格还在下降，但市场对「能不能顺利建起来」的判断变了。</p><p>机制是这样的：AI 的智能部分在快速变便宜，可它要落地，必须换成电、土地、冷却水、变电站和施工许可。这些东西不会因为算法进步而变多。于是稀缺没有消失，只是从「模型能力」搬到了「物理与制度入口」。价格信号最先反映的不是需求消失，而是入口的不确定性上升。许可一旦可能收紧，项目的时间表就变长，资金成本上升，估值先跌。</p><p>一个更小的例子是英伟达的货。有报道说，南加州一辆货车连同价值约 1140 万美元的英伟达硬件一起消失。芯片贵到值得被偷，说明稀缺还停在硬件这一层；而当芯片开始被大量买走，稀缺就移到了变电站和并网排队上。同一件东西，在不同阶段卡在不同的关口。</p><p>反方也成立：股价下跌可能只是对政策风险的过度反应，而不是真实稀缺的重新定价。历史上很多「监管恐慌」几个月就消散，AI 需求并未因此减少。所以这里要分清三种语气：事实是股价跌了、选举结果变了；推断是稀缺正从芯片转向许可；猜测是这种转移会持续几年。把猜测当事实，是这类判断最常见的错误。</p><p>推论是：判断一个行业缺什么，不要看它最贵的零件，要看它排队最长的地方。当模型变便宜，请去问电从哪来、许可谁批、并网排到第几年。对父亲和孩子都一样：稀缺不会消失，它只会换一个门口站着。学会找那个门口，比记住今天的股价有用得多。</p></div>
+  <div class="pull">价格下跌常常不是需求消失，而是稀缺换了一个门口站着。</div>
+  <div class="counter"><b>反方 · 最强的那个版本</b>最强的反方是：把股价下跌解释成「稀缺转移到许可」，可能只是给一次普通的政策恐慌套上了漂亮理论。市场每天都在为各种消息波动，期中选举后的抛售完全可能几周内被消化，AI 资本开支照旧。若真是许可稀缺，我们应该看到并网排队、变电站建设、电价这些慢变量同步恶化，而不是只有股价在动。用一次单日行情去论证结构性稀缺，是把噪音当信号。</div>
+</section>
+<section class="world">
+  <div class="w-label"><span>World Watch · 世界观察</span><span class="date">2026-11-06</span></div>
+  <h3>两万亿美元的一天：市场在怕什么</h3>
+  <p>11 月 5 日到 6 日，美国期中选举结果逐渐明朗，民主党有望在国会取得强势多数。市场立刻反应：科技股大跌，纳斯达克跌超 5%，约两万亿美元市值蒸发。报道说，投资者担心新国会和多个州会收紧对 AI 与数据中心的审查。</p><p>机制不复杂：数据中心是重资产、长周期、强许可的生意。审批一旦可能变严，项目时间表就拉长，融资成本上升，估值先行下调。市场卖的不是「AI 有没有用」，而是「能不能按时建起来」的确定性。</p><p>被忽略的是：这轮下跌发生在 AI 能力仍在进步的时候。也就是说，技术曲线和资产价格曲线可以短暂背离。真正决定中长期的是电力、土地、并网和许可这些慢变量，它们不会因为一次选举就消失，也不会因为一次反弹就解决。</p>
+  <div class="miss"><b>被忽略的一点</b>它提醒我们，读国际新闻时要把「价格」和「能力」分开看。价格反映的是预期和许可，能力反映的是工程现实。学会问「这次跌的是能力还是入口」，比记住跌幅更有用。</div>
+</section>
+<section class="kid">
+  <div class="k-label">For a nine-year-old · 今晚可以问的三个问题</div>
+  <h3>不用讲道理，只问他怎么看</h3>
+  <ol><li>如果 AI 越来越便宜，为什么建它需要的东西反而越来越难找？</li><li>你身边有什么东西，是越多人用就越难得到的？</li><li>如果明天学校规定不能新建教室，你觉得最先变贵的是什么？</li></ol>
+  <div class="exp"><b>一个五分钟的小实验</b>：拿一张纸，列出你家一天里最离不开的三样东西，再各写一句「如果它变便宜十倍，什么会变得不够用」。五分钟完成。</div>
+</section>
+<section class="reading"><h3 class="label">Read · 延伸</h3><ul><li>
+      <span class="out">NPR</span>
+      <a class="rt" href="https://www.npr.org/2026/11/05/nx-s1-6031987/stock-markets-ai-midterm-elections" target="_blank" rel="noopener">Fears about an AI crackdown after midterms sparks a $2 trillion rout in tech stocks</a>
+      <span class="rn">今天这条新闻的原始报道，适合对照事实与推断。</span>
+    </li><li>
+      <span class="out">BBC World</span>
+      <a class="rt" href="https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">Major tech stocks plunge as US midterms add to fears of AI slowdown</a>
+      <span class="rn">同一事件的不同写法，可以比较两家媒体强调什么。</span>
+    </li><li>
+      <span class="out">书</span>
+      <a class="rt" href="#" target="_blank" rel="noopener">《稀缺》Sendhil Mullainathan &amp; Eldar Shafiq</a>
+      <span class="rn">讲稀缺如何改变注意力与决策，可只读书名。</span>
+    </li></ul></section>
+<div class="threads"><h3>长期线索 · 值得盯几年</h3><ul><li>数据中心的并网排队与变电站建设周期：卡点会从芯片转向电力接入。</li><li>AI 监管的层级之争：联邦、州与地方审批谁说了算，会决定项目的时间表。</li><li>关键硬件的物流与安保：芯片贵到被偷，说明供应链的物理环节仍是稀缺入口。</li></ul></div>
+<footer><div class="fine">
+    <span>世界课 · 第 002 课 · 2026-11-06</span>
+    <span>事实 / 推断 / 猜测，三种语气已尽量分开。不构成任何建议。</span>
+  </div></footer>
+</div></body></html>
