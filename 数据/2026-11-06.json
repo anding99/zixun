@@ -1,0 +1,563 @@
+{
+  "lede": "今天最该记住的一件事：AI 交易第一次因政治变量而非利率变量被迫重新定价。中期选举后市场预期数据中心建设与 AI 行业将面临更严审查，科技股单日蒸发约 2 万亿美元，标普 500 跌 4.4%，为 2025 年「解放日」以来最惨一天。这意味着过去两年支撑美股估值的算力叙事，开始被选举政治与监管不确定性折价；同时 Anthropic 的 IPO 时点被投资人质疑，IREN 推迟部分微软 AI 基础设施交付，产业链从叙事层向交付层传导。今晚英国央行决议与周五美伊谈判窗口，是另两条可验证线索。",
+  "editor_note": "昨天的三条线索今天各有落点：AI 资本开支从「升级」进入验证期，看下周 SK 海力士、美光财报与 HBM4 认证；赫格塞斯明确拒绝退让，众议院表决才是真节点；关税撤销仍停在表态层。今天新增两条：英国央行今晚 20:00 决议，日本实际工资连涨九月为加息背书。",
+  "brief": [
+    "科技股单日蒸发约 2 万亿美元，标普 500 跌 4.4%，为 2025 年以来最惨一天。",
+    "中期选举后市场预期数据中心与 AI 行业面临更严审查，成为下跌直接触发因素。",
+    "投资人质疑 AI 反弹情绪将推迟 Anthropic 上市时点，一级市场开始被二级传导。",
+    "日本 9 月实际工资连涨第九个月，为日本央行进一步加息提供数据支撑。",
+    "法国全国示威数百万人参与，警方通报 448 人被捕、53 名警员受伤。"
+  ],
+  "top": [
+    {
+      "kicker": "头条",
+      "title": "AI 交易遭遇政治折价：科技股单日蒸发 2 万亿美元",
+      "summary": "中期选举结果落定后，市场把「数据中心建设与 AI 行业将面临更严审查」纳入定价，大型科技股周四录得 2025 年「解放日」抛售以来最大跌幅，纳斯达克重挫，标普 500 跌 4.4%，AI 板块市值合计缩水约 2 万亿美元。机制上，这不是盈利下修，而是监管风险溢价上升：算力扩张依赖审批、电力与地方政治许可，选举改变了这些环节的通过概率。",
+      "points": [
+        "标普 500 单日跌 4.4%，为 2025 年「解放日」以来最惨单日表现。",
+        "下跌触发点是选举后对数据中心建设与 AI 行业更严审查的预期，而非利率。",
+        "AI 板块市值合计蒸发约 2 万亿美元，估值中的监管溢价被重新定价。"
+      ],
+      "source": {
+        "name": "SCMP",
+        "url": "https://www.scmp.com/news/world/united-states-canada/article/3373465/ai-storm-dooms-tech-stocks-us2-trillion-decline-darkest-day-2025"
+      },
+      "status": "升级"
+    },
+    {
+      "kicker": "政策",
+      "title": "赫格塞斯拒退让，弹劾进入众议院时间表",
+      "summary": "美国国防部长赫格塞斯首次公开回应弹劾动议，称不会在「跛脚鸭国会」面前退缩，民主党的推动「不会奏效」。程序上，众议院最快下周表决，真正的观察点不是民主党票数，而是共和党内部是否把战争决策与中期选举败因正式挂钩——一旦挂钩，弹劾就从党派姿态变成党内清算工具。",
+      "points": [
+        "赫格塞斯称不会退缩，指国会为「跛脚鸭」，弹劾「不会奏效」。",
+        "众议院最快下周表决，程序节点比表态更值得跟踪。",
+        "关键变量是共和党是否将战争决策与选举败因绑定，决定弹劾性质。"
+      ],
+      "source": {
+        "name": "SCMP",
+        "url": "https://www.scmp.com/news/us/us-elections/article/3373466/defiant-hegseth-tells-democrats-their-impeachment-push-wont-work"
+      },
+      "status": "升级"
+    },
+    {
+      "kicker": "市场",
+      "title": "日本实际工资连涨九月，为加息路径补上最后一块数据",
+      "summary": "日本 9 月实际工资同比上升，为连续第九个月正增长，实际购买力修复使日本央行加息不再只是通胀叙事，而有收入端支撑。机制上，实际工资转正意味着内需型通胀可持续，央行退出宽松的政治阻力下降；对全球市场的含义是日元套息交易的成本继续抬升，风险资产的外部流动性边际收紧。",
+      "points": [
+        "9 月实际工资连续第九个月上升，收入端修复为加息提供依据。",
+        "实际工资转正使内需型通胀可持续，降低央行退出宽松的政治阻力。",
+        "对全球含义是日元套息成本抬升，风险资产外部流动性边际收紧。"
+      ],
+      "source": {
+        "name": "CNA",
+        "url": "https://www.channelnewsasia.com/business/japans-real-wages-rise-ninth-month-in-september-backing-boj-rate-hike-6529306"
+      },
+      "status": "新增"
+    }
+  ],
+  "regions": [
+    {
+      "name": "美国",
+      "en": "United States",
+      "summary": "选举结果重塑地方与联邦政治版图，市场同步重估监管风险。",
+      "items": [
+        {
+          "title": "纽森为全部 548 名死囚减刑",
+          "text": "加州州长纽森宣布将州内全部 548 名死囚的死刑减为终身监禁，称死刑与加州价值「不相容」。加州拥有全美最大死囚群体，此举在选举后立即落地，政治信号强于法律效果。",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/world/california-death-row-life-imprisonment-newsom-6529036"
+          }
+        },
+        {
+          "title": "拉曼击败巴斯当选洛杉矶市长",
+          "text": "印度出生的民主社会主义者尼蒂亚·拉曼击败现任民主党人凯伦·巴斯，成为美国第二大城市市长。两位昔日盟友围绕现况不满交锋，结果显示民主党内部左翼在地方选举中仍具动员优势。",
+          "source": {
+            "name": "中央社",
+            "url": "https://www.cna.com.tw/news/aopl/202611060012.aspx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "欧洲",
+      "en": "Europe",
+      "summary": "法国街头压力与欧洲机场安全扰动同时上升。",
+      "items": [
+        {
+          "title": "法国全国示威要求「体面工资」",
+          "text": "法国全国性罢工与游行持续，警方通报 448 人被捕、53 名警员受伤，参与人数达数十万。诉求集中在工资与购买力，直接指向马克龙政府在财政紧缩与民意之间的腾挪空间。",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/world/france-workers-strike-wage-protest-police-macron-6529011"
+          }
+        },
+        {
+          "title": "欧洲多国机场遭虚假炸弹威胁",
+          "text": "至少 27 个航班受虚假炸弹威胁影响，被迫紧急降落或疏散，机场运行出现连锁延误。事件呈跨国有组织特征，考验申根区内部航空安全的协同响应机制。",
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/hoax-bomb-threats-force-emergency-landings-evacuations-across-europe?traffic_source=rss"
+          }
+        }
+      ]
+    },
+    {
+      "name": "中东",
+      "en": "Middle East",
+      "summary": "西岸拆迁与美伊谈判窗口构成两条并行线索。",
+      "items": [
+        {
+          "title": "以军拆除比杜五栋住宅，逾百人流离",
+          "text": "以色列军队在占领的约旦河西岸比杜镇拆除五栋住宅，超过 100 名巴勒斯坦人流离失所。拆迁作为既成事实工具，持续压缩两国方案的地理空间，也构成谈判前的现实筹码。",
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/aje-onl-nf_israeli-demolitions-displace-palestinians-in-biddu-051126?traffic_source=rss"
+          }
+        },
+        {
+          "title": "美伊谈判：周五是否给出可验证降级路径",
+          "text": "上一期线索维持「待验证」状态。判断标准不变：若周五只给出推迟而非可核查的降级步骤，油价将回到 95—100 美元区间；若出现核查机制与时间表，风险溢价才有回落空间。",
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/5/generation-z-and-diversity-redefine-us-politics-in-groundbreaking-election?traffic_source=rss"
+          }
+        }
+      ]
+    },
+    {
+      "name": "亚太",
+      "en": "Asia Pacific",
+      "summary": "日本工资数据与新加坡 AI 叙事形成对照。",
+      "items": [
+        {
+          "title": "日本实际工资连涨九月",
+          "text": "9 月实际工资同比继续上升，为连续第九个月正增长。储蓄者重新发现利率，银行体系随之调整负债成本，构成日本货币政策正常化的内生支撑。",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/business/japans-real-wages-rise-ninth-month-in-september-backing-boj-rate-hike-6529306"
+          }
+        },
+        {
+          "title": "新加坡如何应对「职业阶梯断裂」的 AI 恐惧",
+          "text": "新加坡把土地与人力约束转化为拥抱 AI 的理由，而非设置暂停键。政策逻辑是以制度性再培训与产业引入对冲岗位替代焦虑，与欧美以审查为主的路径形成差异。",
+          "source": {
+            "name": "SCMP",
+            "url": "https://www.scmp.com/week-asia/economics/article/3373439/how-singapore-confronts-ai-fears-broken-career-ladder-no-pause-button"
+          }
+        }
+      ]
+    },
+    {
+      "name": "中国",
+      "en": "China",
+      "summary": "香港监控升级与巴西投资机会两条线。",
+      "items": [
+        {
+          "title": "香港警方本月启用 CCTV 人脸识别",
+          "text": "香港警方将在本月于扩展中的智能监控网络启用 AI 人脸识别，用于提升对失踪人员等的追踪效率。机制上，识别能力上线意味着监控从记录转向实时检索，隐私与合规边界需同步明确。",
+          "source": {
+            "name": "SCMP",
+            "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3373440/hong-kong-police-enable-ai-facial-recognition-cctv-network-month"
+          }
+        },
+        {
+          "title": "卢拉胜选是否也是中企在巴西的胜利",
+          "text": "在利润收窄与产能扩张的双重压力下，中国企业持续扩大海外布局寻找更高收益市场。巴西政治周期与中资投资节奏的耦合，决定拉美是否成为下一轮产能出海的主战场。",
+          "source": {
+            "name": "SCMP",
+            "url": "https://www.scmp.com/economy/global-economy/article/3373387/lulas-upset-win-also-victory-chinese-firms-brazil"
+          }
+        }
+      ]
+    },
+    {
+      "name": "全球南方",
+      "en": "Global South",
+      "summary": "选举司法与气候风险两条结构性线索。",
+      "items": [
+        {
+          "title": "南非非国大地方选举或创新低",
+          "text": "计票逾六成时非国大得票约 32%，市政选举可能录得新低。执政联盟的组阁成本上升，地方治理能力与财政纪律将同步承压。",
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/5/south-africas-anc-on-track-for-new-lows-in-local-polls?traffic_source=rss"
+          }
+        },
+        {
+          "title": "联合国：四分之三流离失所者身处气候危险区",
+          "text": "近 9000 万被迫流离失所者、约占全球总数四分之三，生活在高度暴露于气候灾害的国家。气候与流离失所的叠加，使人道救援从应急转向长期结构性支出。",
+          "source": {
+            "name": "France 24",
+            "url": "https://www.france24.com/en/environment/20261105-un-displaced-people-climate-risks"
+          }
+        }
+      ]
+    }
+  ],
+  "personal": [
+    {
+      "title": "今晚 20:00 英国央行决议",
+      "text": "看票型：若以 7—2 通过，则 2 月再加一次是基准情形，终端利率 4.25%。若分歧扩大到 6—3，需重估英镑与英债久期。"
+    },
+    {
+      "title": "下周 AI 产业链验证窗口",
+      "text": "SK 海力士与美光财报、HBM4 认证进度，决定今天的下跌是获利了结还是周期见顶。若认证延后叠加 IREN 交付推迟，则按周期处理。"
+    },
+    {
+      "title": "周五美伊谈判的可验证性",
+      "text": "只认核查机制与时间表，不认措辞。若仅为推迟，油价区间回到 95—100 美元，能源与航运头寸需对冲。"
+    }
+  ],
+  "threads": [
+    {
+      "name": "AI 资本开支",
+      "status": "升级",
+      "note": "下周 SK 海力士、美光财报与 HBM4 认证进度；IREN 已推迟部分微软 AI 基础设施交付，看是否扩散。"
+    },
+    {
+      "name": "赫格塞斯问责",
+      "status": "升级",
+      "note": "众议院最快下周表决；看共和党是否把战争决策与选举败因正式挂钩。"
+    },
+    {
+      "name": "美伊谈判",
+      "status": "待验证",
+      "note": "周五是否给出可核查的降级路径；若只是推迟，油价回到 95—100 美元。"
+    },
+    {
+      "name": "英国央行加息",
+      "status": "新增",
+      "note": "今晚 20:00 决议；7—2 通过则 2 月再加一次为基准，终端利率 4.25%。"
+    },
+    {
+      "name": "关税撤销",
+      "status": "新增",
+      "note": "民主党表态积极，但参议院 60 票门槛与总统否决权仍在；短期更可能是听证而非立法。"
+    }
+  ],
+  "reading": [
+    {
+      "title": "AI storm dooms tech stocks to US$2 trillion decline on darkest day since 2025",
+      "outlet": "SCMP",
+      "note": "跌幅结构与触发因素的完整复盘。",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3373465/ai-storm-dooms-tech-stocks-us2-trillion-decline-darkest-day-2025"
+    },
+    {
+      "title": "Exclusive: AI backlash could threaten Anthropic IPO timing",
+      "outlet": "CNA",
+      "note": "一级市场如何被二级情绪反向定价。",
+      "url": "https://www.channelnewsasia.com/business/exclusive-ai-backlash-could-threaten-anthropic-ipo-timing-potential-investors-say-6529336"
+    },
+    {
+      "title": "Inside Europe's China dilemma: trade war or economic opportunity?",
+      "outlet": "CNA",
+      "note": "欧洲在出口压力与投资就业之间的取舍框架。",
+      "url": "https://www.channelnewsasia.com/cna-insider/insider/europe-china-shock-dilemma-trade-war-export-surge-jobs-6525186"
+    },
+    {
+      "title": "Analysis: Japanese savers have rediscovered interest rates and banks are feeling it",
+      "outlet": "CNA",
+      "note": "利率正常化如何从家庭端传导至银行资产负债表。",
+      "url": "https://www.channelnewsasia.com/business/analysisjapanese-savers-have-rediscovered-interest-rates-and-banks-are-feeling-it-6529141"
+    }
+  ],
+  "sources": [
+    "BBC World",
+    "SCMP",
+    "NPR",
+    "CNA",
+    "The Guardian",
+    "France 24",
+    "Al Jazeera",
+    "Ars Technica",
+    "中央社"
+  ],
+  "sections": [
+    {
+      "no": "01",
+      "name": "宏观 · 政策",
+      "intro": "选举余波重塑政策概率，央行数据补上最后一块拼图。",
+      "items": [
+        {
+          "title": "赫格塞斯拒退让，弹劾进入众议院时间表",
+          "text": "美国国防部长赫格塞斯首次公开回应弹劾动议，称不会在「跛脚鸭国会」面前退缩，民主党的推动「不会奏效」。程序上众议院最快下周表决，观察点在于共和党内部是否把战争决策与选举败因挂钩。",
+          "tag": "弹劾",
+          "source": {
+            "name": "SCMP",
+            "url": "https://www.scmp.com/news/us/us-elections/article/3373466/defiant-hegseth-tells-democrats-their-impeachment-push-wont-work"
+          }
+        },
+        {
+          "title": "法国全国罢工要求「有尊严的工资」",
+          "text": "法国警方通报全国示威中 448 人被捕、53 名警员受伤，数十万人参与游行，诉求聚焦工资与购买力。欧洲工资—通胀黏性再获一例证。",
+          "tag": "劳工",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/world/france-workers-strike-wage-protest-police-macron-6529011"
+          }
+        }
+      ]
+    },
+    {
+      "no": "02",
+      "name": "市场 · 资产",
+      "intro": "AI 权重股拖累指数，避险与套息两条线同时收紧。",
+      "items": [
+        {
+          "title": "AI 风暴令科技股蒸发 2 万亿美元",
+          "text": "大型科技股周四录得 2025 年「解放日」抛售以来最大跌幅，纳斯达克重挫，标普 500 跌 4.4%，AI 板块市值合计缩水约 2 万亿美元，秋季以来 AI 交易的惩罚延续。",
+          "tag": "抛售",
+          "source": {
+            "name": "SCMP",
+            "url": "https://www.scmp.com/news/world/united-states-canada/article/3373465/ai-storm-dooms-tech-stocks-us2-trillion-decline-darkest-day-2025"
+          }
+        },
+        {
+          "title": "日本储户重新发现利率，银行感受到变化",
+          "text": "随着日本利率正常化推进，长期零利率下的储户行为开始转向，银行负债端与存款定价随之调整。这是实际工资转正之后，资金价格重估的微观印证。",
+          "tag": "利率",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/business/analysisjapanese-savers-have-rediscovered-interest-rates-and-banks-are-feeling-it-6529141"
+          }
+        }
+      ]
+    },
+    {
+      "no": "03",
+      "name": "科技 · AI",
+      "intro": "监管折价从指数传导到一级市场与教育采购。",
+      "items": [
+        {
+          "title": "AI 反弹情绪或威胁 Anthropic 上市时点",
+          "text": "潜在投资者称，AI 舆论与监管反弹可能影响 Anthropic 的 IPO 时间安排。一级市场发行窗口对二级市场风险溢价高度敏感，估值锚一旦下移，发行节奏就会后延。",
+          "tag": "IPO",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/business/exclusive-ai-backlash-could-threaten-anthropic-ipo-timing-potential-investors-say-6529336"
+          }
+        },
+        {
+          "title": "Google：学校可保留搜索，但 AI 搜索不可谈",
+          "text": "Google 表示学校可继续使用搜索而跳过 Gemini，但 AI 搜索本身不提供退出选项。形式上给了选择，实质上把 AI 嵌入设为默认基础设施。",
+          "tag": "教育",
+          "source": {
+            "name": "Ars Technica",
+            "url": ""
+          }
+        }
+      ]
+    },
+    {
+      "no": "04",
+      "name": "产业 · 半导体",
+      "intro": "算力扩张的交付节奏开始出现延迟信号。",
+      "items": [
+        {
+          "title": "IREN 营收超预期，但推迟部分微软 AI 基础设施交付",
+          "text": "IREN 季度营收高于预期，同时推迟部分面向微软的 AI 基础设施交付。数据中心从签约到通电的摩擦，正是监管风险溢价上升的物理来源。",
+          "tag": "数据中心",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/business/iren-tops-quarterly-revenue-estimates-delays-some-microsoft-ai-infrastructure-deliveries-6529076"
+          }
+        },
+        {
+          "title": "Axon 再投 12 亿美元于无人机厂商 Skydio",
+          "text": "Axon 追加 12 亿美元投资 Skydio，同时下调全年营收增速指引。公共安全硬件向无人机与自主系统延伸，但短期增长预期被下修。",
+          "tag": "无人机",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/business/axon-invests-12-billion-more-in-drone-maker-skydio-lowers-annual-revenue-growth-forecast-6529151"
+          }
+        }
+      ]
+    },
+    {
+      "no": "05",
+      "name": "能源 · 气候",
+      "intro": "气候风险与人口流动、跨境责任的法律化并行。",
+      "items": [
+        {
+          "title": "联合国：四分之三流离失所者身处气候危险区",
+          "text": "联合国难民署称，近 9000 万被迫流离失所者、即全球总数四分之三，生活在高度暴露于气候灾害的国家，呼吁加强保护与融资。",
+          "tag": "气候风险",
+          "source": {
+            "name": "France 24",
+            "url": "https://www.france24.com/en/environment/20261105-un-displaced-people-climate-risks"
+          }
+        },
+        {
+          "title": "新加坡雾霾法「长出牙齿」",
+          "text": "评论指出，新加坡过去只能在天际线被雾霾吞没后行动，如今在雾霾到来前即可采取措施，跨境责任追究前移。",
+          "tag": "治理",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/commentary/singapore-haze-law-indonesia-fire-companies-pay-6527156"
+          }
+        }
+      ]
+    },
+    {
+      "no": "06",
+      "name": "医药 · 健康",
+      "intro": "公共健康与司法、环境议题交叉。",
+      "items": [
+        {
+          "title": "德里毒冬空气回归，首都准备好了吗",
+          "text": "德里政府公布为期四个月的冬季行动计划，专家认为力度不足。空气污染的季节性回归，将持续压制城市劳动供给与医疗支出。",
+          "tag": "空气污染",
+          "source": {
+            "name": "BBC World",
+            "url": "https://www.bbc.co.uk/news/articles/cm78p0n09q3xo?at_medium=RSS&at_campaign=rss"
+          }
+        },
+        {
+          "title": "新加坡医生 Bethany Koh 执医英格兰女足劲旅",
+          "text": "从场边处理伤情到判定球员能否复出，新加坡籍医生 Bethany Koh 已为 60 余场女足赛事提供医疗保障，女性运动医学的专业化需求上升。",
+          "tag": "运动医学",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/women/singaporean-football-doctor-bethany-koh-england-6485191"
+          }
+        }
+      ]
+    },
+    {
+      "no": "07",
+      "name": "商业 · 公司",
+      "intro": "地产与消费品牌在成本与需求之间重排布局。",
+      "items": [
+        {
+          "title": "希慎 Lee Garden Eight 吸引律所撤离中环",
+          "text": "有报道称，在中环怡和大厦逾五十年的胡关李罗律师行将迁往铜锣湾，在希慎新项目预留约 3.9 万平方英尺。核心区租金与楼龄的权衡正在重写办公地图。",
+          "tag": "地产",
+          "source": {
+            "name": "SCMP",
+            "url": "https://www.scmp.com/business/article/3373395/hong-kong-developer-hysans-lee-garden-eight-draws-law-firm-out-central-sources"
+          }
+        },
+        {
+          "title": "索尼复刻初代 Walkman 耳机，加入 USB-C",
+          "text": "索尼为 70 年代 MDR-3 Walkman 耳机加入 USB-C 接口并保留橙色耳垫。复古硬件叠加现代接口，是消费电子在增量稀缺下的怀旧定价策略。",
+          "tag": "消费电子",
+          "source": {
+            "name": "Ars Technica",
+            "url": "https://arstechnica.com/gadgets/2026/11/sony-adds-usb-c-to-its-70s-era-mdr-3-walkman-headphones/"
+          }
+        }
+      ]
+    },
+    {
+      "no": "08",
+      "name": "科学 · 社会",
+      "intro": "技术进入司法与公共安全的深水区。",
+      "items": [
+        {
+          "title": "香港警方本月在监控网络启用 AI 人脸识别",
+          "text": "香港警方将在其扩展中的智能监控网络上启用 AI 人脸识别，用于提升对失踪人员等的追踪能力。生物识别规模化的合规边界随之成为焦点。",
+          "tag": "监控",
+          "source": {
+            "name": "SCMP",
+            "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3373440/hong-kong-police-enable-ai-facial-recognition-cctv-network-month"
+          }
+        },
+        {
+          "title": "加州州长将 548 名死囚减刑",
+          "text": "加州州长纽森宣布将全州 548 名死囚的死刑减为终身监禁，称死刑与本州价值观「不相容」。这是美国最大死囚群体的集体处置。",
+          "tag": "司法",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/world/california-death-row-life-imprisonment-newsom-6529036"
+          }
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "title": "AI 交易的政治折价，而非盈利折价",
+      "text": "中期选举后，市场把数据中心审批、电力配套与地方政治许可的通过概率下调计入价格，科技股单日蒸发约 2 万亿美元，标普 500 跌 4.4%，为 2025 年「解放日」抛售以来最差单日。",
+      "why": "关键在于跌的是估值里的监管风险溢价，不是盈利预期。这意味着 AI 资本开支的瓶颈从芯片转向审批与电力，谁能拿到许可、谁有电网接入权，将比算力参数更能决定明年的现金流节奏。"
+    },
+    {
+      "title": "赫格塞斯弹劾案的真实观察点",
+      "text": "赫格塞斯首次回应弹劾动议，称不会在「跛脚鸭国会」前退缩，民主党推动「不会奏效」。众议院最快下周表决。",
+      "why": "民主党票数并不重要，重要的是共和党内部是否把战争决策与中期选举败因正式挂钩。一旦挂钩，弹劾就从党派姿态变成党内清算工具，国防预算与采购节奏随之出现政治不确定性。"
+    },
+    {
+      "title": "日本实际工资连涨九月，套息成本抬升",
+      "text": "日本 9 月实际工资同比上升，连续第九个月正增长，实际购买力修复为央行加息补上收入端证据。",
+      "why": "实际工资转正意味着内需型通胀可持续，退出宽松的政治阻力下降。对全球市场的传导是日元套息交易成本继续抬升，风险资产的外部流动性边际收紧——这比日本国内利率本身更重要。"
+    }
+  ],
+  "analysis": [
+    {
+      "kicker": "深度 01 · 政治与资产",
+      "title": "选举把监管概率写进价格：AI 交易的“政治折价”从何而来",
+      "thesis": "周四的抛售并非盈利预期下修，而是市场把“审批、电力与地方许可通过概率下降”折算成更高的监管风险溢价，政治变量由此直接进入资产定价。",
+      "body": [
+        "中期选举结果落定后，市场迅速把“数据中心建设与 AI 行业将面临更严审查”纳入定价。大型科技股周四录得 2025 年“解放日”抛售以来最大单日跌幅，纳斯达克重挫，标普 500 下跌 4.4%，AI 板块市值合计缩水约 2 万亿美元。跌幅之大说明触发点不在财报季，而在选举结果改变了投资者对政策路径的预期。",
+        "关键在于传导链条的性质。算力扩张并不只取决于芯片供给和资本开支，还依赖土地审批、电网接入、地方政治许可与社区接受度。这些环节的通过概率一旦被重新评估，即便现金流预测不变，折现率也会上升。市值蒸发两万亿美元，本质上是分母端的变化，而不是分子端的崩塌。",
+        "这解释了为何AI龙头与电力、数据中心REITs、设备商同步承压。监管风险溢价具有横截面扩散性：它先打在审批周期最长的环节，再传导至依赖这些环节兑现订单的供应链。市场并非否定AI需求，而是在给“需求兑现的时间与条件”重新定价，久期越长的资产对折现率变化越敏感。",
+        "由此可以推论，后续价格的分水岭在于审查以何种形式落地。若限于信息披露与并网排队，风险溢价会随细则明朗而回落；若涉及地方层面的实质性否决权，则资本开支的确定性下降，估值中枢需要下移。观察选举后的州级表态与并网规则，比追踪单日跌幅更有信息量。",
+        "对资产配置的含义是，AI 交易的定价框架正从“算力稀缺”转向“许可稀缺”。同一赛道内，拥有已批项目、长期电力合同与地方关系储备的公司，相对溢价会扩大；依赖新增审批的公司折价加深。政治不再只是背景噪音，而是估值模型中的一项显性参数。"
+      ],
+      "counter": "反向情形同样存在：若新一届国会在预算与产业政策上仍需要科技资本的支持，审查可能停留在姿态层面，风险溢价随之快速回吐。此外，单日跌幅中往往混有拥挤交易的去杠杆成分，把全部跌幅归因于政治定价，可能高估了监管的实际约束力。",
+      "watch": [
+        "众议院与相关委员会是否就数据中心审查提出具体立法文本",
+        "主要数据中心所在州的并网与用地审批节奏变化",
+        "AI 板块与电力、设备股的相对表现是否持续分化"
+      ]
+    },
+    {
+      "kicker": "深度 02 · 科技与资本",
+      "title": "两万亿美元蒸发之后：AI资本开支的回报时钟被拨慢",
+      "thesis": "抛售暴露的不是AI需求证伪，而是资本开支与收入兑现之间的时间差被政治与电力约束拉长，回报时钟变慢将重塑科技资本的配置顺序。",
+      "body": [
+        "周四的下跌把AI资本开支的回报问题重新推到台前。过去两年，超大规模云厂商以数百亿美元级别的年度投入扩建数据中心，市场以“算力即护城河”给予估值溢价。当监管审查预期升温，投资者开始追问：这些投入的折旧周期内，收入能否按原计划兑现。",
+        "机制上，AI 投资的现金流曲线是前重后轻：资本开支先发生，收入随模型能力与客户渗透逐步释放。任何延长投产时间的因素——并网排队、审批延迟、设备交付——都会把收入曲线右移，而折旧与利息照常计提。结果不是项目失败，而是回报率在时间维度上被稀释。",
+        "这对资本配置顺序有直接影响。当回报时钟变慢，管理层会更倾向于把增量预算投向已获批、能快速上电的存量站点，而非绿地项目；同时提高对推理侧收入、单位算力毛利的考核权重。资本开支未必立刻下调，但结构会从“扩张优先”转向“兑现优先”。",
+        "半导体与设备环节的感受会分化。训练芯片订单与新建项目高度相关，对审批延迟更敏感；推理芯片、网络与电力设备则受益于存量站点提效。平台公司的处境取决于其收入结构：订阅与广告现金流稳定的巨头更能承受回报延后，纯算力租赁模式的公司则面临更紧的融资条件。",
+        "推论是，AI 交易的下一阶段将由“谁有电、谁有许可、谁能把算力变成毛利”来分层。资本不会撤离，但会要求更短的回 payback 与更清晰的合同背书。估值溢价从叙事转向可验证的产能与订单，这一转换通常伴随波动率上升而非趋势终结。"
+      ],
+      "counter": "若推理需求在明年出现超预期放量，回报时钟可能重新加速，当前折价反而构成买点。此外，巨头资产负债表雄厚，完全有能力以自有现金流跨过审批延迟期，把中小竞争者挤出局，行业集中度上升可能抵消短期的估值压缩。",
+      "watch": [
+        "超大规模云厂商下一季资本开支指引与在建项目进度披露",
+        "数据中心电力合同签约量与并网排队的平均时长",
+        "算力租赁价格与单位算力毛利的变化趋势"
+      ]
+    },
+    {
+      "kicker": "深度 03 · 宏观与能源",
+      "title": "日本实际工资九连涨：加息路径补上收入端，全球流动性边际收紧",
+      "thesis": "实际工资连续第九个月正增长，使日本央行加息从通胀叙事转为收入支撑的内需叙事，日元套息成本抬升将边际收紧全球风险资产的外部流动性。",
+      "body": [
+        "日本 9 月实际工资同比上升，为连续第九个月正增长。这一数据的意义不在于单月幅度，而在于方向的确立：名义工资涨幅持续跑赢物价，实际购买力进入修复通道。对长期受困于通缩记忆的日本经济而言，这是政策正常化所需的关键证据。",
+        "机制上，央行退出宽松需要两个条件：通胀可持续，且由内需而非进口成本驱动。实际工资转正意味着居民购买力回升，消费型通胀具备自我维持的基础，工资—物价的良性循环从假设变为可观测。政治阻力随之下降，加息不再需要以“暂时性通胀”作为掩护。",
+        "对全球市场的传导通过利差与套息交易实现。日元利率上行抬高借日元、投高收益资产的融资成本，套息交易的性价比下降，部分头寸会被动平仓。这不是流动性骤停，而是外部流动性的边际收紧，对估值高、依赖增量资金的风险资产影响更明显。",
+        "与能源和财政的交叉点在于进口成本。日本能源高度依赖进口，油价上行会侵蚀实际工资的修复成果，压缩央行的操作空间；财政端若以补贴对冲能源价格，又会削弱通胀信号的真实性。因此，工资数据改善与油价走势的组合同样重要。",
+        "推论是，日元套息成本抬升与AI 交易的政治折价可能形成共振：前者收紧外部资金，后者提高风险溢价，二者都指向高久期资产的分母端压力。日本央行的下一次会议措辞，将成为观察全球流动性拐点的重要窗口。"
+      ],
+      "counter": "实际工资改善部分来自一次性因素与统计口径，若油价反弹或补贴退坡，九连涨可能中断，央行仍可延后加息。此外，日元若因加息而过度升值，反而会抑制进口通胀，形成自我限制，套息交易的收缩幅度可能小于市场预期。",
+      "watch": [
+        "日本央行下次会议对工资与物价的表态及加息指引",
+        "美元兑日元汇率与套息交易头寸的调整节奏",
+        "国际油价走势及其对日本进口成本与实际工资的侵蚀"
+      ]
+    }
+  ],
+  "date": "2026-11-06",
+  "issue": 3,
+  "edition": "晨刊",
+  "generated_at": "2026-11-06T08:01:14+08:00",
+  "weekday": "星期五",
+  "tagline": "一个人读的全球情报简报",
+  "numbers": {
+    "rows": [],
+    "note": ""
+  },
+  "calendar": [],
+  "ticker": []
+}
