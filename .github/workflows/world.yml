@@ -2,8 +2,8 @@ name: 世界课
 
 on:
   schedule:
-    # UTC 00:00 = 北京时间 08:00
-    - cron: "0 0 * * *"
+    # UTC 00:07 = 北京时间 08:07（避开整点拥堵，GitHub 定时常有延迟）
+    - cron: "7 0 * * *"
   workflow_dispatch:
 
 permissions:
