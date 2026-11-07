@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>世界课 · 第003课 · 为什么阿姆斯特丹的市民要闯进微软的数据中心工地？</title>
+<meta name="description" content="为什么阿姆斯特丹的市民要闯进微软的数据中心工地？">
+<meta property="og:title" content="世界课 · 第003课 · 为什么阿姆斯特丹的市民要闯进微软的数据中心工地？">
+<style>
+:root{
+  --paper:#f5f1e6; --paper2:#faf7ee; --ink:#1b1a17; --ink2:#3d3a33;
+  --muted:#7a7365; --rule:#dbd2bd; --accent:#24405e; --warm:#a9502c; --soft:#e9e1cf;
+  --serif:"Songti SC","STSong","SimSun","Noto Serif CJK SC",Georgia,serif;
+  --sans:"Microsoft YaHei","PingFang SC","Hiragino Sans GB",system-ui,sans-serif;
+  --mono:"Cascadia Mono",Consolas,monospace;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:var(--paper);color:var(--ink);
+  font-family:var(--sans);font-size:16px;line-height:1.9;
+  -webkit-font-smoothing:antialiased;
+}
+body::before{
+  content:"";position:fixed;inset:0;pointer-events:none;opacity:.55;
+  background:radial-gradient(900px 420px at 12% -8%,rgba(36,64,94,.07),transparent 70%),
+             radial-gradient(700px 380px at 95% 4%,rgba(169,80,44,.05),transparent 70%);
+}
+a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+a:hover{color:var(--accent);border-bottom-color:var(--accent)}
+::selection{background:var(--accent);color:#fff}
+
+.wrap{max-width:760px;margin:0 auto;padding:0 26px;position:relative;z-index:1}
+
+.topbar{border-bottom:1px solid var(--rule);background:rgba(245,241,230,.86);backdrop-filter:blur(8px);position:sticky;top:0;z-index:10}
+.topbar .in{max-width:760px;margin:0 auto;padding:10px 26px;display:flex;gap:14px;align-items:baseline;font-size:12px;color:var(--muted);letter-spacing:.06em}
+.topbar b{font-family:var(--serif);font-size:14px;letter-spacing:.24em;color:var(--ink)}
+.topbar .sp{flex:1}
+
+header.mast{padding:56px 0 26px}
+.eyebrow{font-family:var(--mono);font-size:10px;letter-spacing:.24em;color:var(--muted);text-transform:uppercase;display:flex;align-items:center;gap:12px}
+.eyebrow::after{content:"";flex:1;height:1px;background:var(--rule)}
+h1{font-family:var(--serif);font-weight:900;font-size:clamp(34px,6vw,52px);letter-spacing:.06em;line-height:1.1;margin:14px 0 6px}
+.sub{font-size:13px;color:var(--muted);letter-spacing:.22em}
+.meta{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:baseline;margin-top:22px;padding-top:14px;border-top:2px solid var(--ink);font-size:12.5px;color:var(--ink2)}
+.meta .no{font-family:var(--mono);color:var(--warm);letter-spacing:.1em}
+.meta .week{margin-left:auto;color:var(--muted)}
+
+.weekbar{margin:26px 0 0;padding:10px 14px;background:var(--soft);border-left:3px solid var(--warm);font-size:13px;color:var(--ink2)}
+.weekbar b{font-family:var(--serif);font-size:15px;letter-spacing:.06em}
+
+.question{padding:44px 0 10px}
+.q-label{font-family:var(--mono);font-size:10px;letter-spacing:.22em;color:var(--warm);text-transform:uppercase}
+.question h2{font-family:var(--serif);font-weight:900;font-size:clamp(26px,4.2vw,36px);line-height:1.45;margin:12px 0 0;letter-spacing:.01em}
+.answer{font-family:var(--serif);font-size:18px;line-height:2;color:var(--ink2);margin:22px 0 0;padding-left:18px;border-left:2px solid var(--accent)}
+.answer b{color:var(--ink)}
+
+section{padding-top:38px}
+h3.label{font-family:var(--mono);font-size:10px;letter-spacing:.22em;color:var(--warm);text-transform:uppercase;margin:0 0 10px;display:flex;align-items:center;gap:10px}
+h3.label::after{content:"";flex:1;height:1px;background:var(--rule)}
+h2.title{font-family:var(--serif);font-size:26px;line-height:1.5;margin:0 0 18px;font-weight:700}
+.body p{font-family:var(--serif);font-size:17px;line-height:2.05;margin:0 0 18px;text-align:justify}
+.dropcap{float:left;font-size:3.2em;line-height:.9;padding:8px 12px 0 0;color:var(--warm);font-weight:700}
+.body b{font-weight:700}
+
+.pull{margin:26px 0;padding:18px 20px;border-top:1px solid var(--ink);border-bottom:1px solid var(--ink);font-family:var(--serif);font-size:19px;line-height:1.9;color:var(--ink);text-align:center}
+
+.counter{margin-top:22px;padding:18px 20px;border:1px solid var(--rule);background:var(--paper2);font-size:14px;line-height:1.9;color:var(--ink2)}
+.counter b{font-family:var(--mono);font-size:10px;letter-spacing:.18em;color:var(--warm);display:block;margin-bottom:6px}
+
+.world{margin-top:38px;padding:24px 0 8px;border-top:2px solid var(--ink);border-bottom:1px solid var(--rule)}
+.world .w-label{font-family:var(--mono);font-size:10px;letter-spacing:.22em;color:var(--warm);text-transform:uppercase;display:flex;gap:10px;align-items:center}
+.world .w-label .date{color:var(--muted);letter-spacing:.1em}
+.world h3{font-family:var(--serif);font-size:23px;line-height:1.55;margin:10px 0 14px;font-weight:700}
+.world p{font-family:var(--serif);font-size:16.5px;line-height:2;margin:0 0 14px;text-align:justify;color:var(--ink2)}
+.world p b{color:var(--ink)}
+.world .miss{margin-top:16px;padding:12px 15px;background:var(--paper2);border-left:2px solid var(--warm);font-size:14px;line-height:1.85;color:var(--ink2)}
+.world .miss b{font-family:var(--mono);font-size:9.5px;letter-spacing:.18em;color:var(--warm);display:block;margin-bottom:4px}
+
+.kid{margin-top:34px;padding:24px 24px 20px;background:var(--accent);color:#f4efe2;border-radius:2px}
+.kid .k-label{font-family:var(--mono);font-size:10px;letter-spacing:.22em;color:#c9b48f;text-transform:uppercase}
+.kid h3{font-family:var(--serif);font-size:22px;margin:8px 0 14px;color:#fff;font-weight:700}
+.kid ol{margin:0;padding-left:20px;font-family:var(--serif);font-size:16.5px;line-height:1.95}
+.kid li{margin-bottom:10px}
+.kid .exp{margin-top:16px;padding-top:14px;border-top:1px solid rgba(244,239,226,.28);font-size:13.5px;color:#e4d8bf}
+.kid .exp b{color:#f0c9a8}
+
+.reading ul{list-style:none;margin:0;padding:0}
+.reading li{padding:14px 0;border-bottom:1px solid var(--rule)}
+.reading .out{font-family:var(--mono);font-size:10px;letter-spacing:.16em;color:var(--warm);text-transform:uppercase}
+.reading .rt{font-family:var(--serif);font-size:17px;display:block;margin:3px 0 2px}
+.reading .rn{font-size:12.5px;color:var(--muted);line-height:1.7}
+
+.threads{margin-top:34px;padding-top:20px;border-top:2px solid var(--ink)}
+.threads h3{font-family:var(--serif);font-size:18px;margin:0 0 12px}
+.threads li{font-size:13.5px;color:var(--ink2);margin-bottom:8px;padding-left:16px;position:relative;line-height:1.75}
+.threads li::before{content:"○";position:absolute;left:0;top:2px;color:var(--warm);font-size:9px}
+.threads ul{list-style:none;margin:0;padding:0}
+
+footer{margin-top:56px;padding:22px 0 46px;border-top:1px solid var(--rule);font-size:12px;color:var(--muted);line-height:1.9}
+footer .fine{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
+
+@media(max-width:640px){
+  .wrap{padding:0 18px}
+  header.mast{padding-top:36px}
+  .answer{font-size:16.5px}
+  .body p{font-size:16px}
+  .dropcap{font-size:2.4em;padding:4px 8px 0 0}
+  .kid{padding:20px 18px}
+  .meta .week{margin-left:0;width:100%}
+}
+@media print{
+  .topbar{display:none}
+  body{background:#fff}
+  .kid{background:#eee;color:#000}
+  .kid h3,.kid li,.kid .exp{color:#000}
+}
+.arch{max-width:760px;margin:0 auto;padding:0 26px 60px}
+.arch a{display:block;padding:18px 0;border-bottom:1px solid var(--rule);border-left:none}
+.arch a:hover{background:var(--paper2)}
+.arch .d{font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:.08em}
+.arch .q{font-family:var(--serif);font-size:19px;line-height:1.6;margin:4px 0 2px;color:var(--ink)}
+.arch .t{font-size:12.5px;color:var(--muted)}
+</style>
+</head>
+<body><div class="topbar"><div class="in">
+  <b>世界课</b><span>每日一课</span><span class="sp"></span>
+  <a href="2026-11-06.html">← 上一课</a><span></span><a href="archive.html">往期</a>
+  <span>第 003 课</span><span>2026-11-07</span>
+</div></div><div class="wrap">
+<header class="mast">
+  <div class="eyebrow"><span>WORLD LESSONS · FOR A CURIOUS NINE-YEAR-OLD</span></div>
+  <h1>世界课</h1>
+  <div class="sub">给 父 与 子 的 每 日 一 课</div>
+  <div class="meta">
+    <span>2026-11-07　星期六</span>
+    <span class="no">第 003 课</span>
+    <span>约 8 分钟</span>
+    <span class="week">第 01 周 · 稀缺与选择</span>
+  </div>
+  <div class="weekbar"><b>本周主题：稀缺与选择</b>　钱、时间、注意力都不够用。经济学不是关于钱，是关于“不够用的时候怎么办”。这一周，我们看五种“不够用”。</div>
+</header>
+<div class="question">
+  <div class="q-label">今日一问 · Saturday , 共读</div>
+  <h2>为什么阿姆斯特丹的市民要闯进微软的数据中心工地？</h2>
+  <p class="answer">因为他们觉得数据中心占了自己的地、电和安静，却没给本地留下多少好处。不显然的机制是：数据中心的成本是本地化的，收益却是全球化的——电、水、土地、噪声留在当地，算力和利润流向别处。当这种不对称积累到一定程度，审批和选址就从技术问题变成政治问题，工地围栏成了最便宜的投票箱。</p>
+</div>
+<section>
+  <h3 class="label">共读 · Read Together</h3>
+  <h2 class="title">真正的稀缺不是资源，是谁来承担代价</h2>
+  <div class="body"><p><span class="dropcap">今</span>天有一条新闻：在阿姆斯特丹，抗议者闯进了微软数据中心的工地。同一周，美国中期选举后，一批民主党人承诺要收紧数据中心的审批。把这些放在一起看，会发现一个共同的形状：过去两年全世界都在抢建数据中心，现在轮到住在旁边的人说话了。他们不是反对计算，他们是在问一个很朴素的问题——为什么电费、水、噪声和施工的尘土留在我家门口，而算力和利润去了别处。</p><p>经济学把这类问题叫外部性：一项交易的成本没有全部记在做交易的人账上，而是漏给了第三方。数据中心要电、要水、要地、要接入电网，这些资源在具体的地方都是有限的。当有限的东西被大量占用，价格会涨，排队会变长，邻居会不满。稀缺从来不只是“东西不够”，更是“不够的时候，谁来让”。让的那一方如果一直不说话，最后就会用别的方式说话。</p><p>历史上这样的例子不少。十九世纪铁路修进城镇，征地与噪声的争议催生了最早的征地补偿规则；二十世纪机场扩建，夜航噪音让附近房价下跌，才有了宵禁和隔音补贴。规律很相似：先建、后吵、再定规则。规则通常不是禁止，而是把漏出去的成本重新装回账本——加价、补偿、限时、限址。数据中心大概也会走这条路，只是这次速度快得多。</p><p>边界也要说清楚：不是所有反对都合理。有些抗议来自对就业和税收的失望，有些来自对AI本身的恐惧，这两者混在一起时，很难分辨哪部分是真实的成本问题。反过来，把一切反对都说成“不懂技术”也不诚实。判断的标准可以很简单：这项成本有没有被记进谁的账本？如果没有，那争议就不是情绪，而是账没算完。</p><p>推论是：接下来几年，数据中心的竞争会从“谁有芯片”转向“谁拿得到许可”。选址、并网、用水权、地方议会，这些看起来琐碎的事，会决定算力能不能落地。对个人也一样——做选择时，先问成本落在谁身上，往往比问收益有多大更能看清一件事会不会长久。</p><p>稀缺的真正形态，不是东西不够，而是有人承担了没被记账的成本。</p></div>
+  <div class="pull">稀缺的真正形态，不是东西不够，而是有人承担了没被记账的成本。</div>
+  <div class="counter"><b>反方 · 最强的那个版本</b>最强的反方是：把抗议当成“账没算完”可能高估了它的理性。很多反对数据中心的行动，核心动力并非成本分配，而是对AI的不安、对大型科技公司的不信任，以及对“本地失去控制权”的焦虑——这些情绪无法靠补偿或加价解决。更麻烦的是，如果每个社区都能以成本为由否决项目，结果可能是数据中心被推到监管最松、最不在乎环境的地方去建，总体代价反而更高。也就是说，把成本装回账本听起来公平，实际操作中却可能变成“谁嗓门大谁赢”，最后既没有效率，也没有公平。</div>
+</section>
+<section class="world">
+  <div class="w-label"><span>World Watch · 世界观察</span><span class="date">2026-11-07</span></div>
+  <h3>一座工地围栏外的账本</h3>
+  <p>11月7日，阿姆斯特丹的抗议者闯入了微软数据中心的施工现场。报道说，这发生在几天前美国中期选举之后——那场选举里，一批民主党人正是以收紧数据中心为竞选承诺。欧洲的反对声浪正在扩散，从荷兰到爱尔兰，工地和听证会都变得拥挤。</p><p>机制不复杂：数据中心的选址依赖电网接入、土地许可和地方审批，而这三样都在地方政府手里。当电价上涨、电网排队、居民投诉变多，审批就从技术流程变成政治筹码。承诺“管一管数据中心”在选票上变得划算，于是项目的时间表不再由公司决定。</p><p>被忽略的是时间差。数据中心建成只要一两年，电网扩容和变电站建设却要五到十年。所以眼下的冲突不是终局，而是排队期的阵痛。真正决定胜负的，是谁愿意在这段排队里等，以及谁能让本地相信自己也分到了一份。</p><p>这件事提醒我们，全球化的算力有本地的地址。看懂一项技术能不能落地，不只看它多先进，还要看它落在谁家旁边、用了谁的电、经过了谁的投票。</p>
+  <div class="miss"><b>被忽略的一点</b>看懂世界的一个入口：任何宏大的技术叙事，最后都要落到具体的土地、电线和选票上。谁承担成本，谁就有最后的话语权。</div>
+</section>
+<section class="kid">
+  <div class="k-label">For a nine-year-old · 今晚可以问的三个问题</div>
+  <h3>不用讲道理，只问他怎么看</h3>
+  <ol><li>如果小区旁边要建一个很大的机房，你最想先问清楚哪一件事？</li><li>电费涨了、工作没增加，这算不算一种“有人占了便宜”？</li><li>如果所有人都反对在自己家旁边建，那这个东西最后会建在哪里？</li></ol>
+  <div class="exp"><b>一个五分钟的小实验</b>：拿一张纸，画一个你和家人共用的房间。写下三样大家都要用的东西（插座、桌子、灯），再写一句“谁先用、谁后让”的规则。五分钟。</div>
+</section>
+<section class="reading"><h3 class="label">Read · 延伸</h3><ul><li>
+      <span class="out">新闻</span>
+      <a class="rt" href="https://www.channelnewsasia.com/world/data-centre-protesters-microsoft-amsterdam-europe-6531886" target="_blank" rel="noopener">Protesters break into Microsoft data centre site in Amsterdam</a>
+      <span class="rn">看抗议者具体在反对什么，注意他们的诉求里哪些是成本，哪些是情绪。</span>
+    </li><li>
+      <span class="out">新闻</span>
+      <a class="rt" href="https://www.theguardian.com/business/2026/nov/06/global-stocks-plunge-amid-ai-slowdown-fears-after-democrats-midterm-triumph" target="_blank" rel="noopener">Global stocks fall amid &#x27;big worries over AI&#x27; after Democrats&#x27; midterms triumph</a>
+      <span class="rn">把市场反应和审批政治放在一起读，能看到预期是怎么被选举改变的。</span>
+    </li><li>
+      <span class="out">书</span>
+      <a class="rt" href="#" target="_blank" rel="noopener">《外部性经济学》相关入门章节（可找任何一本经济学原理教材的外部性一章）</a>
+      <span class="rn">读完能分清“成本漏给谁”和“谁来补”的区别。</span>
+    </li></ul></section>
+<div class="threads"><h3>长期线索 · 值得盯几年</h3><ul><li>数据中心的并网排队与变电站建设周期：卡点会从芯片转向电力接入。</li><li>AI监管的层级之争：联邦、州与地方审批谁说了算，会决定项目的时间表。</li><li>地方社区对大型基础设施的补偿机制：从征地到噪声，规则怎么把外部成本装回账本。</li></ul></div>
+<footer><div class="fine">
+    <span>世界课 · 第 003 课 · 2026-11-07</span>
+    <span>事实 / 推断 / 猜测，三种语气已尽量分开。不构成任何建议。</span>
+  </div></footer>
+</div></body></html>
