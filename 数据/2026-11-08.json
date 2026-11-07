@@ -1,0 +1,575 @@
+{
+  "lede": "今天最该记住的一件事：以色列总统把组阁优先权交给反对派艾森科特而非内坦雅胡，这可能是内坦雅胡时代结束的起点。赫佐格在周六晚宣布授权艾森科特28天组建联盟，前提是拿到61席；内坦雅胡阵营未获多数，但仍是议会最大单一政党之一，组阁失败则可能触发第三次选举。这一变化直接牵动加沙战后安排与美伊降级路径：若耶路撒冷进入看守状态，任何需要内阁批准的安全让步都会推迟，油价的风险溢价因此难以快速消退。",
+  "editor_note": "两条主线今天交叉：以色列组阁换人，中东降级路径的决策主体变得不确定；法国超14万人上街、克拉科夫枪击致六死，欧洲内部安全与生活成本压力同时显性化。AI资本开支线索仍在等SK海力士与美光财报，IREN推迟交付是否扩散是下周关键。",
+  "brief": [
+    "以色列总统授权反对派艾森科特组阁，内坦雅胡面临下台压力，28天内需凑齐61席。",
+    "法国超14万人抗议生活成本，巴黎、里昂动用催泪瓦斯，黄背心无视禁令上街。",
+    "波兰克拉科夫主广场随机枪击致六死，嫌犯被控迷恋极右，警方已将其拘押。",
+    "特朗普邀请UFC总裁怀特出任白宫新闻秘书，该职位自10月16日起空缺。",
+    "巴拉圭前总统潘尼亚遭弹劾后被捕，检方以背信、图利声请预防性羁押。"
+  ],
+  "top": [
+    {
+      "kicker": "头条",
+      "title": "以色列组阁权易手：艾森科特获28天，内坦雅胡时代进入倒计时",
+      "summary": "以色列总统赫佐格周六晚宣布，优先授权反对派领袖艾森科特组建政府，而非现任总理内坦雅胡。上周大选后，内坦雅胡阵营与对手均未取得议会多数，主要政党已向总统推荐艾森科特。艾森科特须在28天内凑齐61席；失败则可能触发新一轮选举。这一安排把加沙战后安排、对伊安全决策的拍板人推向不确定状态。",
+      "points": [
+        "组阁授权顺序改变意味着内坦雅胡失去优先组阁权，但其阵营仍是议会关键 bloc，任何联盟都绕不开。",
+        "28天窗口内，艾森科特需在右翼与中间派之间分配部长席位，安全与财政职位是筹码。",
+        "看守政府状态下，需要内阁批准的对伊降级或加沙安排会被推迟，油价风险溢价难快速消退。"
+      ],
+      "source": {
+        "name": "BBC World",
+        "url": "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "升级"
+    },
+    {
+      "kicker": "欧洲",
+      "title": "法国超14万人上街抗议生活成本，黄背心无视禁令",
+      "summary": "法国新一轮反生活成本抗议蔓延，内政部称超过14万人参与，巴黎与里昂警方动用催泪瓦斯，黄背心在巴黎无视集会禁令导致逮捕。内政部长称当局对骚乱与抢劫“已准备就绪”。抗议与2027年总统选战预热叠加，极左翼梅朗雄同日发布竞选纲领，把购买力与对以政策捆绑。",
+      "points": [
+        "抗议直接触发点是生活成本，机制上把能源价格、财政补贴与选举政治连成一条线。",
+        "黄背心无视禁令意味着执法与集会自由的冲突升级，内政部提前部署防抢劫。",
+        "梅朗雄借势发布“共享未来”纲领，把对以立场与购买力议题打包，争夺左翼选票。"
+      ],
+      "source": {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/7/more-than-140000-rally-as-new-protests-against-rising-costs-sweep-france?traffic_source=rss"
+      },
+      "status": "新增"
+    },
+    {
+      "kicker": "亚太",
+      "title": "中国“土豆之都”乌兰察布让位AI数据中心，算力扩张向内陆要地",
+      "summary": "CNA走访内蒙古乌兰察布，当地马铃薯农场正让位于大型AI数据中心，AI热潮改变生计与地貌。这一迁移的逻辑是电价、气候与土地成本：训练与推理负载需要稳定低價电力与散热条件，内陆城市以资源换投资。但水资源、电网消纳与地方债务是隐性约束，算力扩张的边际成本正在从芯片转向能源与土地。",
+      "points": [
+        "选址逻辑从沿海需求转向内陆电价与气候，数据中心把电力变成地方招商的核心筹码。",
+        "农业用地转工业用地改变当地就业结构，短期收入上升，长期土地与水资源约束显现。",
+        "与AI资本开支线索相连：芯片之外，电力与并网进度可能成为交付瓶颈。"
+      ],
+      "source": {
+        "name": "CNA",
+        "url": "https://www.channelnewsasia.com/east-asia/china-ai-data-centre-boom-inner-mongolia-6526706"
+      },
+      "status": "新增"
+    }
+  ],
+  "regions": [
+    {
+      "name": "美国",
+      "en": "United States",
+      "summary": "白宫新闻秘书空缺由UFC总裁补位，NASA启动新一批宇航员招募。",
+      "items": [
+        {
+          "title": "特朗普邀UFC总裁怀特出任白宫新闻秘书",
+          "text": "特朗普周六称已邀请UFC总裁怀特担任白宫新闻秘书，并称“请接下这份工作”。该职位自10月16日前任离职后一直空缺，前任任职不足一周。这一任命把白宫对外沟通进一步个人化，也意味着新闻发布会的功能可能从简报转向表演。",
+          "source": {
+            "name": "France 24",
+            "url": "https://www.france24.com/en/americas/20261107-a-violent-fighter-and-warrior-trump-offers-press-secretary-role-to-ufc-chief-dana-white"
+          }
+        },
+        {
+          "title": "NASA为Artemis计划招募新一批宇航员",
+          "text": "NASA开放新一批宇航员申请，入选者将参与Artemis计划并协助建设永久月球基地。招募规模与时间表未在报道中给出，但机制上反映美国载人航天从“插旗”转向常态化驻留，需要更多工程与地质背景人员。",
+          "source": {
+            "name": "SCMP",
+            "url": "https://www.scmp.com/news/world/united-states-canada/article/3373673/want-fly-moon-nasa-looking-new-astronauts-artemis-programme"
+          }
+        }
+      ]
+    },
+    {
+      "name": "欧洲",
+      "en": "Europe",
+      "summary": "法国生活成本抗议逾14万人，克拉科夫枪击致六死，波兰极右暴力显性化。",
+      "items": [
+        {
+          "title": "克拉科夫主广场随机枪击致六人死亡",
+          "text": "波兰克拉科夫主广场发生随机枪击，六人死亡，警方随后在嫌犯家中又发现三具遗体。嫌犯被描述为迷恋极右，已被拘押。事件把波兰的极右暴力与枪支管控问题同时推到台面，内政部面临安全审查压力。",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/world/gunman-fascinated-far-right-kills-six-in-krakow-poland-6533446"
+          }
+        },
+        {
+          "title": "欧洲疑似混合攻击增多，炸弹恐吓与超市网络攻击并行",
+          "text": "半岛电视台梳理欧洲多起疑似混合攻击：炸弹恐吓与超市网络攻击同时出现，安全部门难以归因。机制上，低成本的恐吓与网络入侵可以同时测试应急响应与供应链韧性，归因困难使威慑失效。",
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/video/inside-story/2026/11/7/who-is-behind-europes-suspected-hybrid-attacks?traffic_source=rss"
+          }
+        }
+      ]
+    },
+    {
+      "name": "中东",
+      "en": "Middle East",
+      "summary": "以色列组阁权易手，内坦雅胡面临下台压力，加沙与对伊决策进入不确定期。",
+      "items": [
+        {
+          "title": "赫佐格授权艾森科特组阁，内坦雅胡失去优先权",
+          "text": "以色列总统赫佐格周六晚宣布，优先授权反对派领袖艾森科特组建政府。艾森科特须在28天内取得61席，主要政党已向其推荐。内坦雅胡阵营未获多数，但仍为议会关键力量，组阁失败可能触发新选举。",
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/7/israels-president-picks-eisenkot-over-netanyahu-to-form-next-government?traffic_source=rss"
+          }
+        },
+        {
+          "title": "梅朗雄称若当选将对以色列吞并采取行动",
+          "text": "法国不屈党领袖梅朗雄在竞选纲领发布时承诺，若2027年当选总统，将对以色列的吞并行为采取行动。这一表态把法国对以政策与国内左翼选票绑定，若法国政局变化，欧洲在中东问题上的立场可能更趋分化。",
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/melenchon-promises-action-against-israeli-annexation-if-elected-president?traffic_source=rss"
+          }
+        }
+      ]
+    },
+    {
+      "name": "亚太",
+      "en": "Asia Pacific",
+      "summary": "中国内陆承接AI数据中心，李显龙呼吁澳大利亚深化与东南亚经济安全联系。",
+      "items": [
+        {
+          "title": "李显龙呼吁澳大利亚深化与东南亚经济安全联系",
+          "text": "新加坡国务资政李显龙表示，在碎片化的世界中，澳大利亚应深化与东南亚的经济与安全联系，并呼吁澳方增加对东南亚投资。机制上，这是把区域供应链韧性与安全承诺绑定，试图在美中之间维持东盟的中心性。",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/singapore/lee-hsien-loong-australia-asia-deepen-ties-6531531"
+          }
+        },
+        {
+          "title": "中国“土豆之都”让位AI数据中心",
+          "text": "CNA走访内蒙古乌兰察布，马铃薯农场正让位于大型AI数据中心。选址逻辑是电价、气候与土地成本，但水资源、电网消纳与地方债务构成隐性约束。算力扩张的边际成本正从芯片转向能源与土地。",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/east-asia/china-ai-data-centre-boom-inner-mongolia-6526706"
+          }
+        }
+      ]
+    },
+    {
+      "name": "中国",
+      "en": "China",
+      "summary": "青少年心理健康问题提前显现，AI数据中心向内陆扩张。",
+      "items": [
+        {
+          "title": "SCMP：激烈竞争下心理健康问题更早出现",
+          "text": "SCMP报道一名15岁学生出现胸闷、心悸等症状，反映中国激烈升学竞争下心理健康问题开始更早显现。报道以个体案例切入，机制上指向学业压力、家庭期待与心理服务供给不足的叠加。",
+          "source": {
+            "name": "SCMP",
+            "url": "https://www.scmp.com/news/china/politics/article/3373644/chinas-fierce-race-success-mental-health-struggles-are-starting-earlier"
+          }
+        },
+        {
+          "title": "乌兰察布数据中心扩张改变当地生计",
+          "text": "AI热潮推动内蒙古乌兰察布从农业转向数据中心集群，当地生计与地貌随之改变。这一迁移把电力、土地与气候变成算力竞争的新变量，也把地方财政与并网能力推到前台。",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/east-asia/china-ai-data-centre-boom-inner-mongolia-6526706"
+          }
+        }
+      ]
+    },
+    {
+      "name": "全球南方",
+      "en": "Global South",
+      "summary": "巴拉圭前总统遭弹劾后被捕，检方声请预防性羁押。",
+      "items": [
+        {
+          "title": "巴拉圭检方对前总统潘尼亚提出刑事指控",
+          "text": "巴拉圭检方对前总统潘尼亚提出背信与图利指控，并向法院声请预防性羁押。潘尼亚涉嫌卷入ueno bank倒闭丑闻，国会通过弹劾后其被捕并居家监禁。案件把银行监管失效与政治问责连在一起。",
+          "source": {
+            "name": "中央社",
+            "url": "https://www.cna.com.tw/news/aopl/202611080005.aspx"
+          }
+        },
+        {
+          "title": "潘尼亚弹劾后出庭应讯",
+          "text": "巴拉圭前总统潘尼亚在弹劾后出庭面对检察官，此前已被警方拘押并居家监禁。案件核心是银行倒闭丑闻中的背信与图利，后续看法院是否批准预防性羁押，以及是否牵出更多政商关系。",
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/7-11-clip-paraguay-former-president-detained-appears?traffic_source=rss"
+          }
+        }
+      ]
+    }
+  ],
+  "personal": [
+    {
+      "title": "盯住以色列28天组阁窗口的日历",
+      "text": "艾森科特获28天组阁授权，倒计时从周六晚开始。若中途失败，以色列可能进入第三次选举。对关注油价与中东仓位的人，这个日历比任何单一新闻都重要：看守政府的决策能力下降，降级路径会被推迟。",
+      "source": {
+        "name": "BBC World",
+        "url": "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_medium=RSS&at_campaign=rss"
+      }
+    },
+    {
+      "title": "AI资本开支线索：等SK海力士与美光财报",
+      "text": "IREN已推迟部分微软AI基础设施交付，下周SK海力士与美光财报及HBM4认证进度是关键验证点。若推迟扩散到其他承建方，说明瓶颈在电力与并网而非芯片；若仅是个案，则资本开支叙事仍成立。",
+      "source": {
+        "name": "CNA",
+        "url": "https://www.channelnewsasia.com/east-asia/china-ai-data-centre-boom-inner-mongolia-6526706"
+      }
+    },
+    {
+      "title": "法国抗议与2027选战的合流",
+      "text": "超14万人上街与梅朗雄发布竞选纲领同日发生，购买力议题正被左翼打包进对以政策与欧洲立场。若抗议持续到冬季能源账单季，法国财政补贴与欧盟财政规则之间的张力会重新显性化。",
+      "source": {
+        "name": "France 24",
+        "url": "https://www.france24.com/en/tv-shows/spotlight/20261107-france-unbowed-s-m%C3%A9lenchon-unveils-a-shared-future-manifesto-ahead-of-2027-presidential-race"
+      }
+    }
+  ],
+  "threads": [
+    {
+      "name": "AI资本开支",
+      "status": "升级",
+      "note": "下周SK海力士、美光财报与HBM4认证进度；IREN推迟交付是否扩散到其他承建方。"
+    },
+    {
+      "name": "赫格塞斯问责",
+      "status": "升级",
+      "note": "众议院最快下周表决；看共和党是否把战争决策与中期选举败因正式挂钩。"
+    },
+    {
+      "name": "美伊谈判",
+      "status": "待验证",
+      "note": "周五是否给出可核查的降级路径；若只是推迟，油价回到95—100美元区间。"
+    },
+    {
+      "name": "英国央行加息",
+      "status": "新增",
+      "note": "今晚20:00决议；7—2通过则2月再加一次为基准，终端利率4.25%。"
+    },
+    {
+      "name": "关税撤销",
+      "status": "待验证",
+      "note": "民主党表态积极，但参议院60票门槛与总统否决权仍在；短期更可能是听证而非立法。"
+    }
+  ],
+  "reading": [
+    {
+      "title": "US allies need a plan for a lame-duck Trump",
+      "outlet": "CNA / Bloomberg Opinion",
+      "note": "从盟友视角看跛脚鸭总统的外交不可预测性，适合对照今日白宫人事新闻阅读。",
+      "url": "https://www.channelnewsasia.com/commentary/us-midterms-lame-duck-president-trump-foreign-policy-6530601"
+    },
+    {
+      "title": "The surprising and often forgotten history of economic populism in Texas",
+      "outlet": "NPR",
+      "note": "德州经济民粹主义的历史，帮助理解美国生活成本政治的地方根源。",
+      "url": "https://www.npr.org/2026/11/07/nx-s1-6030759/the-surprising-and-often-forgotten-history-of-texas-tradition-of-economic-populism"
+    },
+    {
+      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "outlet": "Apiiro Blog",
+      "note": "编码代理的默认选项如何把密钥写进公开仓库，AI工具治理的具体案例。",
+      "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again"
+    },
+    {
+      "title": "Shadow of the Sun (2021)",
+      "outlet": "Matt Lakeman",
+      "note": "长文，适合周末慢读，训练对复杂系统的耐心。",
+      "url": "https://mattlakeman.org/2021/07/27/shadow-of-the-sun/"
+    }
+  ],
+  "sources": [
+    "BBC World",
+    "Al Jazeera",
+    "CNA",
+    "SCMP",
+    "France 24",
+    "NPR",
+    "中央社",
+    "Apiiro Blog",
+    "Matt Lakeman"
+  ],
+  "sections": [
+    {
+      "no": "01",
+      "name": "宏观 · 政策",
+      "intro": "组阁权与街头政治同时改写政策时钟。",
+      "items": [
+        {
+          "title": "以色列总统授权艾森科特组阁",
+          "text": "赫佐格宣布优先授权反对派领袖艾森科特组建政府，而非现任总理内坦雅胡；大选后两大阵营均未取得议会多数，主要政党已推荐艾森科特。他须在28天内凑齐61席，失败可能触发新一轮选举。",
+          "tag": "中东政治",
+          "source": {
+            "name": "BBC World",
+            "url": "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_medium=RSS&at_campaign=rss"
+          }
+        },
+        {
+          "title": "法国超14万人抗议生活成本",
+          "text": "新一轮反生活成本抗议蔓延，内政部称超过14万人参与，巴黎与里昂警方动用催泪瓦斯，黄背心在巴黎无视集会禁令导致逮捕。内政部长称当局对骚乱与抢劫“已准备就绪”。",
+          "tag": "欧洲社会",
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/7/more-than-140000-rally-as-new-protests-against-rising-costs-sweep-france?traffic_source=rss"
+          }
+        }
+      ]
+    },
+    {
+      "no": "02",
+      "name": "市场 · 资产",
+      "intro": "政治日程成为定价变量。",
+      "items": [
+        {
+          "title": "梅朗雄发布2027竞选纲领",
+          "text": "“不屈法国”领袖梅朗雄公布名为“共同未来”的总统竞选纲领，把购买力议题与对以政策捆绑，宣称“我们正面对人类文明的危机，而我们将获胜”。抗议与选战预热叠加。",
+          "tag": "法国选情",
+          "source": {
+            "name": "France 24",
+            "url": "https://www.france24.com/en/tv-shows/spotlight/20261107-france-unbowed-s-m%C3%A9lenchon-unveils-a-shared-future-manifesto-ahead-of-2027-presidential-race"
+          }
+        },
+        {
+          "title": "美盟友被建议为“跛脚鸭”特朗普做准备",
+          "text": "评论指出，更可靠的预测指标是特朗普会做他认为对自己最有利的事，盟友需为此制定预案。中期选举后的政策外溢与关税不确定性，仍是跨市场风险来源。",
+          "tag": "美国政策",
+          "source": {
+            "name": "CNA",
+            "url": ""
+          }
+        }
+      ]
+    },
+    {
+      "no": "03",
+      "name": "科技 · AI",
+      "intro": "算力向内陆要地，安全债同步累积。",
+      "items": [
+        {
+          "title": "乌兰察布：土豆之都改种数据中心",
+          "text": "CNA走访内蒙古乌兰察布，马铃薯农场正让位于大型AI数据中心，AI热潮改变生计与地貌。迁移逻辑是电价、气候与土地成本，训练与推理负载需要稳定低价电力与散热条件。",
+          "tag": "算力基建",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/east-asia/china-ai-data-centre-boom-inner-mongolia-6526706"
+          }
+        },
+        {
+          "title": "编码代理“不再询问”泄露口令",
+          "text": "有研究称，Claude Code的“Don't Ask Again”选项导致密码出现在1,122个公开GitHub文件中。AI编码工具的效率红利，正以密钥管理失控为代价被重新计价。",
+          "tag": "AI安全",
+          "source": {
+            "name": "Hacker News",
+            "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again"
+          }
+        }
+      ]
+    },
+    {
+      "no": "04",
+      "name": "产业 · 半导体",
+      "intro": "开发者工具与硬件叙事的边缘信号。",
+      "items": [
+        {
+          "title": "GitHub新版拉取请求概览页公测",
+          "text": "GitHub发布新的Pull Request概览页面公开预览，改进代码评审入口。协作工具的迭代节奏，仍是衡量开发者生态活跃度的低成本观察窗口。",
+          "tag": "开发者工具",
+          "source": {
+            "name": "GitHub Blog",
+            "url": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/"
+          }
+        },
+        {
+          "title": "Commodore工业设计师往事",
+          "text": "一篇回顾Commodore工业设计师Ira Velinsky的文章流传。硬件史提醒：产品成败常取决于工业设计与成本控制的结合，而非单纯算力参数。",
+          "tag": "硬件史",
+          "source": {
+            "name": "Commodore",
+            "url": "https://www.commodore.ca/commodore-history/ira-velinsky-commodores-amazing-industrial-designer/"
+          }
+        }
+      ]
+    },
+    {
+      "no": "05",
+      "name": "能源 · 气候",
+      "intro": "电力与水资源成为算力约束。",
+      "items": [
+        {
+          "title": "数据中心扩张的隐性约束",
+          "text": "内陆城市以资源换投资，但水资源、电网消纳与地方债务构成隐性约束。算力扩张的边际成本正从芯片转向能源与土地，供电与散热条件决定项目落地节奏。",
+          "tag": "电力约束",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/east-asia/china-ai-data-centre-boom-inner-mongolia-6526706"
+          }
+        },
+        {
+          "title": "扎波罗热面临无人机威胁",
+          "text": "曾是避难所的乌克兰扎波罗热，随俄方无人机逼近而风险上升。战区基础设施的脆弱性，仍是欧洲能源与供应链的尾部风险。",
+          "tag": "战区风险",
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/0711-reported-audrey-in-zaporizhzhia-071126?traffic_source=rss"
+          }
+        }
+      ]
+    },
+    {
+      "no": "06",
+      "name": "医药 · 健康",
+      "intro": "竞争压力前移到更年轻的群体。",
+      "items": [
+        {
+          "title": "中国竞争压力下心理健康问题低龄化",
+          "text": "SCMP报道15岁的Moon Chen在课业前感到胸闷与窒息感。报道指出，在激烈的成功竞赛中，心理健康困境正更早出现，青少年群体成为压力传导的末端。",
+          "tag": "公共健康",
+          "source": {
+            "name": "SCMP",
+            "url": "https://www.scmp.com/news/china/politics/article/3373644/chinas-fierce-race-success-mental-health-struggles-are-starting-earlier"
+          }
+        },
+        {
+          "title": "离线眨眼节律工具",
+          "text": "有开发者推出离线桌面应用，提醒长时间盯屏的工程师与设计师维持健康眨眼节律，以缓解眼疲劳。职业性用眼负荷正被产品化对待。",
+          "tag": "职业健康",
+          "source": {
+            "name": "Hacker News",
+            "url": "https://eyesrhythm.com/"
+          }
+        }
+      ]
+    },
+    {
+      "no": "07",
+      "name": "商业 · 公司",
+      "intro": "人事与贸易摩擦的非常规信号。",
+      "items": [
+        {
+          "title": "特朗普邀UFC总裁出任白宫新闻秘书",
+          "text": "特朗普称已邀请UFC总裁怀特出任白宫新闻秘书，该职位自10月16日以来一直悬缺。非常规人事安排延续了其对传播渠道的个人化掌控风格。",
+          "tag": "美国政治",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/world/trump-offers-press-secretary-role-ufc-chief-dana-white-6533481"
+          }
+        },
+        {
+          "title": "美加关税战遭批评",
+          "text": "密歇根州当选参议员Abdul El-Sayed批评特朗普对加拿大的贸易战。关税摩擦在地方政治层面持续发酵，供应链成本与盟友关系同时承压。",
+          "tag": "贸易摩擦",
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/abdul-el-sayed-slams-trumps-tariff-war-with-canada?traffic_source=rss"
+          }
+        }
+      ]
+    },
+    {
+      "no": "08",
+      "name": "科学 · 社会",
+      "intro": "从月球招募到街头暴力的社会切片。",
+      "items": [
+        {
+          "title": "NASA为阿耳忒弥斯招募新宇航员",
+          "text": "NASA开放新一批宇航员申请，以支持阿耳忒弥斯计划并建设永久月球基地。载人深空计划的推进，取决于人才储备而非单次发射。",
+          "tag": "航天",
+          "source": {
+            "name": "SCMP",
+            "url": "https://www.scmp.com/news/world/united-states-canada/article/3373673/want-fly-moon-nasa-looking-new-astronauts-artemis-programme"
+          }
+        },
+        {
+          "title": "克拉科夫枪击致六人死亡",
+          "text": "波兰克拉科夫主广场发生随机枪击，六人死亡，警方随后在其住所发现三具遗体；嫌疑人被描述为“迷恋极右翼”，已被拘押。欧洲社会极化风险再受关注。",
+          "tag": "公共安全",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/world/gunman-fascinated-far-right-kills-six-in-krakow-poland-6533446"
+          }
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "title": "以色列组阁权易手，安全决策进入空窗期",
+      "text": "总统赫佐格优先授权反对派领袖艾森科特组阁，须在28天内凑齐61席，内坦雅胡阵营未获多数。",
+      "why": "战时总理的决策权威被程序性削弱，加沙战后安排与对伊朗安全议题的拍板人可能悬置数周；若组阁失败触发重选，政策不确定性将进一步延长，能源与防务资产的风险溢价难以下降。"
+    },
+    {
+      "title": "法国生活成本抗议与2027选战合流",
+      "text": "内政部称超14万人上街，巴黎、里昂动用催泪瓦斯，黄背心无视禁令致逮捕；梅朗雄同日发布竞选纲领。",
+      "why": "抗议从物价议题转向选举动员，购买力与对外政策被捆绑，法国财政补贴压力与政治碎片化同时上升；欧元区核心国的政策可预期性下降，是评估欧洲资产时容易忽略的变量。"
+    },
+    {
+      "title": "算力扩张的边际成本从芯片转向能源与土地",
+      "text": "乌兰察布马铃薯农场让位于AI数据中心，逻辑是电价、气候与土地成本，隐性约束是水资源、电网消纳与地方债务。",
+      "why": "AI投资叙事长期聚焦芯片与模型，但内陆扩张真正卡在电力消纳与水资源；这意味着算力供给曲线受制于基础设施而非半导体，相关能源、电网与地方财政风险被系统性低估。"
+    }
+  ],
+  "analysis": [
+    {
+      "kicker": "深度 01 · 政治与资产",
+      "title": "组阁权易手：以色列政治风险溢价重新定价",
+      "thesis": "授权艾森科特组阁把以色列政策连续性打成问号，资产定价从“内坦雅胡稳定溢价”转向“政策真空折价”。",
+      "body": [
+        "以色列总统赫佐格周六晚宣布优先授权反对派领袖艾森科特组建政府，而非现任总理内坦雅胡。上周大选后，内坦雅胡阵营与对手均未取得议会多数，主要政党已向总统推荐艾森科特。艾森科特须在28天内凑齐61席，失败则可能触发新一轮选举。组阁权本身不改变议会席位，却改变了谁有资格拍板加沙战后安排与对伊安全决策，市场最忌讳的正是这种“授权已定、结果未定”的悬置状态。",
+        "以色列资产的风险溢价向来不只看安全事件，更看决策链条是否可预期。过去两年，内坦雅胡个人与执政联盟的存续本身就是一种定价锚：投资者知道他会在什么约束下做选择。如今授权转向艾森科特，等于把锚换成一个尚未成形的联合政府。28天窗口内，任何组阁让步——预算承诺、宗教征兵、司法安排——都会成为新政府上台后的政策成本，而这些成本最终由财政与货币当局消化。",
+        "从机制看，地缘风险溢价的传导有三条路径：主权信用利差、本币与外汇对冲成本、以及外资对科技与基建项目的久期偏好。组阁僵局延长会推高前两者，压制第三者。以色列经济高度依赖科技出口与外资，安全决策的不确定会先体现在股权风险溢价，再经由汇率与利率传导到实体融资成本。换句话说，政治真空不是抽象概念，它会以更高的贴现率出现。",
+        "推论是，短期市场会交易“组阁成功”的概率而非结果。若艾森科特在窗口内凑齐61席，政策连续性预期修复，溢价可能部分回吐；若失败并触发新一轮选举，则意味着加沙战后安排与对伊安全决策继续由看守逻辑主导，长期资本将要求更高的补偿。对区域资产而言，以色列政治的不确定还会外溢到周边主权债与能源合约的风险条款。",
+        "值得区分的是“政治事件”与“政策事件”。组阁权易手是前者，真正影响现金流的是后者：新政府是否延续现有财政路径、是否调整对伊安全策略、是否重启司法争议。投资者应把28天窗口当作观察政策事件概率的窗口，而非直接下注政治结果。对持有以色列敞口的组合，更有效的做法是压力测试贴现率上行，而非猜测谁当总理。"
+      ],
+      "counter": "反向看，组阁权易手也可能被市场解读为“去个人化”的利好：联合政府决策更分散，极端政策概率下降，风险溢价反而收窄。若艾森科特迅速组阁并释放务实信号，以色列资产可能迎来一轮修复，而非折价。",
+      "watch": [
+        "28天内艾森科特能否凑齐61席，以及联合协议中的财政与安全条款",
+        "以色列主权信用利差与本币对冲成本在窗口期的变化",
+        "加沙战后安排与对伊安全决策是否出现看守状态下的延迟"
+      ]
+    },
+    {
+      "kicker": "深度 02 · 科技与资本",
+      "title": "算力向内陆要地：AI资本开支的边际成本转移",
+      "thesis": "乌兰察布农场让位于AI数据中心，说明算力扩张的瓶颈正从芯片转向电力、散热与土地，资本开支回报的分母在变大。",
+      "body": [
+        "CNA走访内蒙古乌兰察布，当地马铃薯农场正让位于大型AI数据中心，AI热潮改变生计与地貌。这一迁移的逻辑是电价、气候与土地成本：训练与推理负载需要稳定低价电力与散热条件，内陆城市以资源换投资。表面看是产业选址问题，实质是AI资本开支结构的变化——芯片仍贵，但决定项目能否落地的，越来越是电与地。",
+        "过去两年，AI投资的叙事集中在GPU供给与模型能力，资本开支被理解为“买卡”。当算力规模进入训练与推理并重的阶段，成本曲线开始分化：芯片成本随供给改善有下行空间，电力与散热却是线性甚至阶梯上升的。内陆城市以低电价、冷凉气候和充裕土地承接数据中心，等于把一部分运营成本前置为基础设施投资，这改变了项目的现金流形态。",
+        "机制上，数据中心是重资产、长周期、低毛利的生意，回报取决于利用率与电价锁定。地方政府以资源换投资，企业以长期合约换成本确定性，双方都在把不确定性推给未来。水资源、电网消纳与地方债务是隐性约束：冷却用水、输电扩容、以及为招商形成的财政承诺，都会在项目投产后才显现。算力扩张的边际成本正从芯片转向能源与土地。",
+        "推论是，AI资本开支的回报率将越来越取决于选址与能源合约，而非单纯模型性能。对科技公司而言，自建或长租数据中心意味着更重的资产负债表；对地方而言，短期投资拉动与长期资源约束之间存在张力。若电价优势被消纳瓶颈抵消，数据中心的边际回报会下降，资本开支节奏也可能从“抢卡”转向“抢电”。",
+        "对资本市场，这意味着AI叙事的估值锚会部分从芯片股转向电力、冷却与电网设备。投资者需要区分“算力需求增长”与“算力项目回报”：前者确定，后者取决于能源成本与利用率。乌兰察布的案例提示，算力扩张不是无摩擦的，它会在水资源、电网与地方财政上留下账单，而这些账单最终会影响项目的贴现率。"
+      ],
+      "counter": "反向看，内陆数据中心可能被高估为趋势：芯片效率提升与模型推理优化会降低单位算力能耗，电价优势也可能因电网投资而收窄。若利用率不足，重资产反而成为负担，农场让位的叙事未必等于可持续的资本回报。",
+      "watch": [
+        "乌兰察布及同类内陆数据中心的电价锁定条款与电网消纳进度",
+        "冷却用水与地方财政承诺是否形成隐性约束",
+        "AI资本开支从芯片向电力与冷却设备转移的节奏"
+      ]
+    },
+    {
+      "kicker": "深度 03 · 宏观与能源",
+      "title": "生活成本抗议与算力用电：通胀的两条供给曲线",
+      "thesis": "法国反生活成本抗议与中国算力扩张看似无关，却共同指向同一宏观命题：能源与土地约束正在把通胀从需求端推向供给端。",
+      "body": [
+        "法国新一轮反生活成本抗议蔓延，内政部称超过14万人参与，巴黎与里昂警方动用催泪瓦斯，黄背心在巴黎无视集会禁令导致逮捕。内政部长称当局对骚乱与抢劫“已准备就绪”。抗议与2027年总统选战预热叠加，极左翼梅朗雄同日发布竞选纲领，把购买力与对以政策捆绑。购买力成为政治货币，说明通胀虽从高点回落，居民体感仍未修复。",
+        "把法国抗议与中国乌兰察布的数据中心放在一起看，会发现一条共同的供给曲线。前者是能源与食品价格冲击后的分配矛盾，后者是算力扩张对电力与土地的增量需求。两者都不属于传统需求管理能解决的问题：央行加息压不住电价的结构性上涨，财政补贴也只能缓冲而不能消除。通胀的构成正在从“需求过热”转向“供给瓶颈”。",
+        "机制上，能源是连接两者的枢纽。欧洲的电力成本受气价与电网投资约束，居民账单与工业竞争力同时承压；中国的内陆数据中心以低电价换投资，实质是把电力资源的配置权从居民与农业转向算力。当电力成为稀缺的选址要素，其价格就不再只是商品价格，而是政策变量。财政在两边都要出手：一边补贴购买力，一边为电网与地方债务兜底。",
+        "推论是，央行的通胀目标面临更复杂的供给冲击。若能源与土地约束持续，核心通胀的黏性会高于预期，降息路径将更依赖供给端改善而非需求降温。对财政而言，补贴与投资的双重承诺会推高赤字压力，尤其在选举周期。油价与电价的波动因此不只是商品故事，而是财政与货币的交汇点。",
+        "对资产定价，这意味着久期风险与能源敞口的再平衡。供给驱动的通胀不利于长久期债券，却利好能源与电网基础设施的现金流。法国抗议提示政治风险会放大财政扩张倾向，中国算力扩张提示电力需求的结构性增量。两者共同指向一个结论：下一轮通胀的边际来源在供给端，投资者应把能源与土地约束纳入宏观情景，而非只盯需求指标。"
+      ],
+      "counter": "反向看，供给冲击也可能是暂时的：欧洲气价回落与可再生能源扩张会缓解电力成本，法国抗议未必转化为持续财政扩张。若能源价格下行，供给型通胀叙事会迅速退潮，央行仍可回到需求框架，过度押注供给端可能误判。",
+      "watch": [
+        "法国抗议是否演变为持续性财政扩张与2027选战议题",
+        "欧洲电价与气价走势对居民账单与工业成本的传导",
+        "中国内陆数据中心用电增长对电网消纳与地方财政的压力"
+      ]
+    }
+  ],
+  "date": "2026-11-08",
+  "issue": 5,
+  "edition": "晨刊",
+  "generated_at": "2026-11-08T07:56:14+08:00",
+  "weekday": "星期日",
+  "tagline": "一个人读的全球情报简报",
+  "numbers": {
+    "rows": [],
+    "note": ""
+  },
+  "calendar": [],
+  "ticker": []
+}
