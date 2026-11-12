@@ -1,0 +1,971 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>资讯 · 2026-11-12 · 第009期</title>
+<meta name="description" content="今天最该记住的一件事：英伟达准备撤换CEO黄仁勋，AI资本开支周期第一次被公司治理事件而非需求或供给打断。WSJ报道董事会紧急磋商、FBI介入调查，NYT披露其与直接下属存在关系；此前市场只把黄仁勋调查当作个人丑闻，现在它升级为全球算力供应链的治理风险——客户下单节奏、HBM4认证、承建方交付都可能">
+<meta name="color-scheme" content="light dark">
+<meta property="og:title" content="资讯 · 2026-11-12 · 第009期">
+<meta property="og:description" content="今天最该记住的一件事：英伟达准备撤换CEO黄仁勋，AI资本开支周期第一次被公司治理事件而非需求或供给打断。WSJ报道董事会紧急磋商、FBI介入调查，NYT披露其与直接下属存在关系；此前市场只把黄仁勋调查当作个人丑闻，现在它升级为全球算力供应链的治理风险——客户下单节奏、HBM4认证、承建方交付都可能">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/atom+xml" title="资讯 · 每日更新" href="feed.xml">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23a8382a'/%3E%3Ctext x='16' y='23' font-size='19' text-anchor='middle' fill='%23f7f3ea' font-family='serif'%3E%E8%AE%AF%3C/text%3E%3C/svg%3E">
+<style>
+/* ============================================================
+   资讯 · 个人情报台
+   手工排版的编辑部风格：纸色、墨色、朱红。
+   ============================================================ */
+
+:root {
+  --paper: #f7f3ea;
+  --paper-2: #fbf8f1;
+  --ink: #16171b;
+  --ink-2: #3c3a34;
+  --muted: #726c5e;
+  --rule: #ddd4c1;
+  --rule-strong: #c3b79d;
+  --accent: #a8382a;
+  --accent-soft: #f0e2d9;
+  --blue: #23486a;
+  --gold: #8d6f36;
+  --up: #b3352a;
+  --down: #1f6b4a;
+  --shadow: 0 1px 0 rgba(0,0,0,.04), 0 12px 32px -24px rgba(30,25,15,.45);
+  --serif: "Songti SC", "STSong", "SimSun", "Noto Serif CJK SC", Georgia, serif;
+  --sans: "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", system-ui, -apple-system, sans-serif;
+  --mono: "Cascadia Mono", "Consolas", "SFMono-Regular", monospace;
+  --max: 1180px;
+}
+
+html[data-theme="dark"] {
+  --paper: #111216;
+  --paper-2: #17181d;
+  --ink: #ece5d6;
+  --ink-2: #c8c1b1;
+  --muted: #928b7b;
+  --rule: #2a2b31;
+  --rule-strong: #3b3c44;
+  --accent: #d9705f;
+  --accent-soft: #2a1f1c;
+  --blue: #8fb3d1;
+  --gold: #c2a163;
+  --up: #e0705f;
+  --down: #59b389;
+  --shadow: 0 1px 0 rgba(255,255,255,.03), 0 18px 40px -28px rgba(0,0,0,.9);
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.8;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body::before {
+  content: "";
+  position: fixed; inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  opacity: .5;
+  background:
+    radial-gradient(1200px 500px at 15% -10%, rgba(168,56,42,.05), transparent 70%),
+    radial-gradient(900px 400px at 90% 0%, rgba(35,72,106,.05), transparent 70%);
+}
+
+a { color: inherit; text-decoration: none; }
+a:hover { color: var(--accent); }
+
+::selection { background: var(--accent); color: #fff; }
+
+.progress {
+  position: fixed; top: 0; left: 0; height: 2px; width: 0;
+  background: var(--accent); z-index: 100;
+  transition: width .12s linear;
+}
+
+/* ---------------- 顶栏 ---------------- */
+
+.topbar {
+  position: sticky; top: 0; z-index: 40;
+  background: color-mix(in srgb, var(--paper) 88%, transparent);
+  backdrop-filter: blur(10px) saturate(1.1);
+  border-bottom: 1px solid var(--rule);
+}
+
+.topbar-in {
+  max-width: var(--max); margin: 0 auto; padding: 9px 24px;
+  display: flex; align-items: center; gap: 18px;
+  font-size: 12.5px; letter-spacing: .04em; color: var(--muted);
+}
+
+.brand {
+  font-family: var(--serif); font-size: 15px; letter-spacing: .28em;
+  color: var(--ink); font-weight: 700;
+}
+
+.brand i { color: var(--accent); font-style: normal; }
+
+.topbar .spacer { flex: 1; }
+
+.topbar a { padding: 4px 2px; border-bottom: 1px solid transparent; }
+.topbar a:hover { border-bottom-color: var(--accent); color: var(--ink); }
+
+.icon-btn {
+  border: 1px solid var(--rule); background: transparent; color: var(--ink-2);
+  width: 30px; height: 26px; border-radius: 2px; cursor: pointer;
+  font-size: 13px; display: inline-flex; align-items: center; justify-content: center;
+  font-family: var(--sans);
+}
+.icon-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+/* ---------------- 报头 ---------------- */
+
+.masthead {
+  max-width: var(--max); margin: 0 auto; padding: 34px 24px 18px;
+  position: relative; z-index: 1;
+}
+
+.masthead .eyebrow {
+  display: flex; align-items: center; gap: 12px;
+  font-family: var(--mono); font-size: 10.5px; letter-spacing: .22em;
+  color: var(--muted); text-transform: uppercase;
+}
+
+.masthead .eyebrow .line { flex: 1; height: 1px; background: var(--rule); }
+
+.masthead h1 {
+  font-family: var(--serif);
+  font-weight: 900;
+  font-size: clamp(46px, 8vw, 88px);
+  line-height: 1.02;
+  letter-spacing: .04em;
+  margin: 12px 0 0;
+}
+
+.masthead h1 small {
+  display: block;
+  font-family: var(--sans);
+  font-size: 13px; font-weight: 400; letter-spacing: .38em;
+  color: var(--muted); margin-top: 12px;
+}
+
+.masthead-meta {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px 22px;
+  margin-top: 18px; padding-top: 14px; border-top: 2px solid var(--ink);
+  font-size: 13px; color: var(--ink-2);
+}
+
+.masthead-meta .date { font-family: var(--serif); font-size: 20px; font-weight: 700; letter-spacing: .06em; }
+.masthead-meta .issue { color: var(--accent); font-family: var(--mono); letter-spacing: .1em; }
+.masthead-meta .tagline { margin-left: auto; color: var(--muted); letter-spacing: .12em; font-size: 12px; }
+
+/* ---------------- 行情带 ---------------- */
+
+.ticker-wrap {
+  border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+  background: var(--paper-2);
+  overflow: hidden;
+}
+
+.ticker {
+  max-width: var(--max); margin: 0 auto; padding: 8px 24px;
+  display: flex; gap: 26px; overflow-x: auto; scrollbar-width: none;
+  white-space: nowrap;
+}
+.ticker::-webkit-scrollbar { display: none; }
+
+@media (min-width: 1100px) {
+  .ticker { flex-wrap: wrap; row-gap: 5px; overflow: visible; padding-top: 9px; padding-bottom: 9px; }
+}
+
+.tick { display: inline-flex; align-items: baseline; gap: 7px; font-size: 12.5px; }
+.tick .t-label { color: var(--muted); letter-spacing: .06em; }
+.tick .t-val { font-family: var(--mono); font-size: 12px; color: var(--ink-2); }
+.tick .t-chg { font-family: var(--mono); font-weight: 700; }
+.tick .up { color: var(--up); }
+.tick .down { color: var(--down); }
+
+/* ---------------- 导语 ---------------- */
+
+.lede {
+  max-width: 860px; margin: 0 auto; padding: 46px 24px 8px;
+  position: relative;
+}
+
+.lede p {
+  font-family: var(--serif);
+  font-size: clamp(21px, 2.6vw, 27px);
+  line-height: 1.85;
+  letter-spacing: .01em;
+  margin: 0;
+  text-align: justify;
+}
+
+.lede p::first-letter { font-size: 1.05em; color: var(--accent); }
+
+.lede .note {
+  margin-top: 22px; padding-left: 14px; border-left: 2px solid var(--accent);
+  font-family: var(--sans); font-size: 13.5px; line-height: 1.9; color: var(--muted);
+  text-align: left;
+}
+
+/* ---------------- 头条 ---------------- */
+
+.hero {
+  max-width: var(--max); margin: 34px auto 0; padding: 0 24px;
+  display: grid; grid-template-columns: 1.35fr .85fr; gap: 0;
+  border-top: 1px solid var(--rule-strong);
+  border-bottom: 1px solid var(--rule-strong);
+}
+
+.hero-main { padding: 26px 34px 30px 0; border-right: 1px solid var(--rule); }
+.hero-side { padding: 26px 0 30px 34px; display: flex; flex-direction: column; gap: 26px; }
+
+.kicker {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-family: var(--mono); font-size: 10.5px; letter-spacing: .2em;
+  color: var(--accent); text-transform: uppercase;
+}
+.kicker::before { content: ""; width: 22px; height: 1px; background: var(--accent); }
+
+.hero-main h2 {
+  font-family: var(--serif); font-weight: 900;
+  font-size: clamp(28px, 3.6vw, 40px); line-height: 1.32;
+  letter-spacing: .01em; margin: 12px 0 16px;
+}
+
+.hero-main .dek {
+  font-size: 16px; color: var(--ink-2); line-height: 1.95; margin: 0 0 18px;
+}
+
+.hero-main ul { margin: 0 0 18px; padding: 0; list-style: none; }
+.hero-main li {
+  position: relative; padding-left: 20px; margin-bottom: 10px;
+  font-size: 14.5px; color: var(--ink-2); line-height: 1.85;
+}
+.hero-main li::before {
+  content: "—"; position: absolute; left: 0; color: var(--accent);
+}
+
+.hero-side .item { padding-bottom: 20px; border-bottom: 1px dashed var(--rule); }
+.hero-side .item:last-child { border-bottom: none; padding-bottom: 0; }
+
+.hero-side h3 {
+  font-family: var(--serif); font-size: 21px; line-height: 1.5;
+  margin: 8px 0 8px; font-weight: 700;
+}
+.hero-side p { margin: 0; font-size: 13.8px; color: var(--ink-2); line-height: 1.85; }
+
+.src {
+  display: inline-block; margin-top: 10px;
+  font-size: 11.5px; color: var(--muted); letter-spacing: .03em;
+}
+.src:hover { color: var(--accent); }
+
+/* ---------------- 区块导航 ---------------- */
+
+.nav {
+  position: sticky; top: 45px; z-index: 30;
+  background: color-mix(in srgb, var(--paper) 92%, transparent);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--rule);
+}
+
+.nav-in {
+  max-width: var(--max); margin: 0 auto; padding: 0 24px;
+  display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none;
+}
+.nav-in::-webkit-scrollbar { display: none; }
+
+.nav a {
+  flex: none; padding: 11px 12px 9px; font-size: 12.8px; color: var(--muted);
+  border-bottom: 2px solid transparent; letter-spacing: .03em;
+}
+.nav a:hover { color: var(--ink); }
+.nav a.active { color: var(--accent); border-bottom-color: var(--accent); }
+
+/* ---------------- 通用区块 ---------------- */
+
+.block { max-width: var(--max); margin: 0 auto; padding: 52px 24px 0; scroll-margin-top: 100px; }
+
+.block-head {
+  display: flex; align-items: flex-end; gap: 16px;
+  padding-bottom: 12px; border-bottom: 1px solid var(--ink);
+  margin-bottom: 24px;
+}
+.block-head .no {
+  font-family: var(--mono); font-size: 11px; color: var(--accent);
+  letter-spacing: .18em; padding-bottom: 3px;
+}
+.block-head h2 {
+  font-family: var(--serif); font-size: 27px; margin: 0; font-weight: 900;
+  letter-spacing: .06em;
+}
+.block-head .intro {
+  margin-left: auto; max-width: 430px; text-align: right;
+  font-size: 12.5px; color: var(--muted); line-height: 1.7;
+}
+
+/* 全球扫描 */
+
+.regions { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--rule); border: 1px solid var(--rule); }
+
+.region {
+  background: var(--paper); padding: 22px 22px 18px;
+  display: flex; flex-direction: column; gap: 14px;
+}
+.region:hover { background: var(--paper-2); }
+
+.region header { display: flex; align-items: baseline; gap: 10px; }
+.region h3 { font-family: var(--serif); font-size: 20px; margin: 0; letter-spacing: .08em; }
+.region .en { font-family: var(--mono); font-size: 9.5px; letter-spacing: .16em; color: var(--muted); text-transform: uppercase; }
+.region .r-sum { font-size: 12.5px; color: var(--muted); line-height: 1.7; margin: 0; padding-bottom: 10px; border-bottom: 1px dashed var(--rule); }
+
+.region .ritem { padding-top: 2px; }
+.region .ritem h4 { font-size: 14.5px; margin: 0 0 3px; line-height: 1.6; font-weight: 700; }
+.region .ritem p { margin: 0; font-size: 12.8px; color: var(--ink-2); line-height: 1.75; }
+
+/* 板块条目 */
+
+.items { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px; background: var(--rule); border: 1px solid var(--rule); }
+
+.entry {
+  background: var(--paper); padding: 20px 22px 18px;
+  display: flex; flex-direction: column;
+}
+.entry:hover { background: var(--paper-2); }
+
+/* 条目数为奇数时，最后一条横跨两栏，避免留下空白格 */
+.items > .entry:last-child:nth-child(odd) { grid-column: 1 / -1; }
+.items > .entry:last-child:nth-child(odd) p { max-width: 78ch; }
+
+.entry h3 {
+  font-family: var(--serif); font-size: 18.5px; line-height: 1.55;
+  margin: 0 0 7px; font-weight: 700; letter-spacing: .01em;
+}
+.entry h3 a:hover { color: var(--accent); }
+.entry p { margin: 0 0 10px; font-size: 13.6px; line-height: 1.85; color: var(--ink-2); }
+
+.entry .meta { margin-top: auto; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+
+.tag {
+  font-size: 10.5px; letter-spacing: .06em; padding: 2px 7px;
+  border: 1px solid var(--rule-strong); color: var(--muted); border-radius: 2px;
+  white-space: nowrap;
+}
+
+/* ---------------- 深度 ---------------- */
+
+.deep { background: var(--ink); color: #efe9da; margin-top: 56px; padding: 0 0 10px; }
+
+html[data-theme="dark"] .deep { background: #07080a; }
+
+.deep .block-head { border-bottom-color: rgba(239,233,218,.28); margin-bottom: 0; max-width: var(--max); margin: 0 auto; padding: 44px 24px 14px; }
+.deep .block-head h2 { color: #f4efe2; }
+.deep .block-head .no { color: #d9705f; }
+.deep .block-head .intro { color: rgba(239,233,218,.55); }
+
+.analysis {
+  max-width: 860px; margin: 0 auto; padding: 44px 24px 46px;
+  border-bottom: 1px solid rgba(239,233,218,.14);
+}
+.analysis:last-of-type { border-bottom: none; }
+
+.analysis .kicker { color: #d9705f; }
+.analysis .kicker::before { background: #d9705f; }
+
+.analysis h3 {
+  font-family: var(--serif); font-weight: 900;
+  font-size: clamp(26px, 3.4vw, 38px); line-height: 1.35;
+  margin: 14px 0 18px; color: #f6f1e4; letter-spacing: .01em;
+}
+
+.analysis .thesis {
+  font-family: var(--serif); font-size: 19px; line-height: 1.9;
+  color: #e4dcc8; padding: 14px 0 14px 18px;
+  border-left: 2px solid #d9705f; margin: 0 0 22px;
+  text-align: justify;
+}
+
+.analysis .body p {
+  font-family: var(--serif);
+  font-size: 17px; line-height: 2.05; color: rgba(239,233,218,.88);
+  margin: 0 0 18px; text-align: justify; letter-spacing: .01em;
+}
+
+.analysis .body p:first-child::first-letter {
+  float: left; font-size: 3.1em; line-height: .95; padding: 6px 10px 0 0;
+  color: #d9705f; font-family: var(--serif); font-weight: 700;
+}
+
+.analysis .counter {
+  border: 1px solid rgba(239,233,218,.22); padding: 16px 18px;
+  margin: 26px 0 18px; font-size: 13.8px; line-height: 1.9;
+  color: rgba(239,233,218,.72); background: rgba(255,255,255,.03);
+}
+.analysis .counter b { color: #d9705f; font-weight: 700; letter-spacing: .04em; }
+
+.analysis .watch { margin: 0; padding: 0; list-style: none; display: grid; gap: 8px; }
+.analysis .watch li {
+  font-size: 12.8px; color: rgba(239,233,218,.7); padding-left: 18px; position: relative; line-height: 1.7;
+}
+.analysis .watch li::before {
+  content: "○"; position: absolute; left: 0; color: #d9705f; font-size: 9px; top: 3px;
+}
+.analysis .watch-label {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .2em;
+  color: rgba(239,233,218,.45); margin: 0 0 10px; text-transform: uppercase;
+}
+
+/* ---------------- 数据与日历 ---------------- */
+
+.panel-grid { display: grid; grid-template-columns: 1.15fr .85fr; gap: 40px; align-items: start; }
+
+table.data { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+table.data th {
+  text-align: left; font-weight: 400; font-size: 10.5px; letter-spacing: .16em;
+  color: var(--muted); padding: 0 0 8px; border-bottom: 1px solid var(--ink); text-transform: uppercase;
+}
+table.data td { padding: 9px 0; border-bottom: 1px solid var(--rule); }
+table.data td.num { font-family: var(--mono); text-align: right; font-size: 12.5px; }
+table.data td.chg { font-family: var(--mono); text-align: right; font-weight: 700; font-size: 12.5px; }
+table.data tr:hover td { background: var(--paper-2); }
+.up { color: var(--up); }
+.down { color: var(--down); }
+
+.data-note { font-size: 11.5px; color: var(--muted); margin-top: 12px; line-height: 1.7; }
+
+.mini-head {
+  margin: 0 0 2px; padding: 0 0 8px; border-bottom: 1px solid var(--ink);
+  font-family: var(--mono); font-size: 10.5px; letter-spacing: .16em;
+  color: var(--muted); text-transform: uppercase;
+}
+
+.cal { list-style: none; margin: 0; padding: 0; }
+.cal li {
+  display: grid; grid-template-columns: 62px 1fr; gap: 12px;
+  padding: 10px 0; border-bottom: 1px dashed var(--rule); font-size: 13.2px;
+}
+.cal time { font-family: var(--mono); font-size: 11.5px; color: var(--accent); padding-top: 2px; }
+.cal span { color: var(--ink-2); line-height: 1.7; }
+
+/* ---------------- 延伸阅读 ---------------- */
+
+.reading { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+.read {
+  border: 1px solid var(--rule); padding: 16px 18px; background: var(--paper-2);
+  display: flex; flex-direction: column; gap: 5px;
+}
+.read:hover { border-color: var(--accent); }
+.read .r-out { font-family: var(--mono); font-size: 10px; letter-spacing: .14em; color: var(--accent); text-transform: uppercase; }
+.read h3 { font-family: var(--serif); font-size: 17px; margin: 2px 0; line-height: 1.5; }
+.read p { margin: 0; font-size: 12.5px; color: var(--muted); line-height: 1.7; }
+
+/* ---------------- 页脚 ---------------- */
+
+.footer {
+  margin-top: 60px; border-top: 1px solid var(--ink);
+  background: var(--paper-2);
+}
+.footer-in {
+  max-width: var(--max); margin: 0 auto; padding: 30px 24px 40px;
+  display: grid; grid-template-columns: 1.1fr 1fr; gap: 30px;
+  font-size: 12.5px; color: var(--muted);
+}
+.footer h4 {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .2em;
+  color: var(--ink-2); margin: 0 0 10px; text-transform: uppercase;
+}
+.footer .srcs { display: flex; flex-wrap: wrap; gap: 6px 14px; }
+.footer .srcs span { color: var(--muted); }
+.footer .fine { line-height: 1.9; }
+.footer a { color: var(--ink-2); border-bottom: 1px solid var(--rule-strong); }
+
+.pager {
+  max-width: var(--max); margin: 0 auto; padding: 0 24px 10px;
+  display: flex; justify-content: space-between; font-size: 12.5px; color: var(--muted);
+}
+
+/* ---------------- 往期 ---------------- */
+
+.archive { max-width: var(--max); margin: 0 auto; padding: 20px 24px 60px; }
+.arch-item {
+  display: grid; grid-template-columns: 132px 1fr auto; gap: 22px; align-items: baseline;
+  padding: 22px 0; border-bottom: 1px solid var(--rule);
+}
+.arch-item:hover { border-bottom-color: var(--accent); }
+.arch-date { font-family: var(--mono); font-size: 12px; color: var(--muted); letter-spacing: .06em; }
+.arch-item h3 { font-family: var(--serif); font-size: 20px; margin: 0 0 6px; line-height: 1.5; }
+.arch-item p { margin: 0; font-size: 13px; color: var(--muted); line-height: 1.75; }
+.arch-no { font-family: var(--mono); font-size: 11px; color: var(--accent); }
+
+.empty { padding: 80px 24px; text-align: center; color: var(--muted); font-family: var(--serif); }
+
+/* ---------------- 速览 ---------------- */
+
+.brief { max-width: var(--max); margin: 0 auto; padding: 30px 24px 0; }
+
+.brief-label {
+  margin: 0 0 12px; font-family: var(--mono); font-size: 10px;
+  letter-spacing: .2em; color: var(--accent); text-transform: uppercase;
+}
+
+.brief-list {
+  columns: 2; column-gap: 42px; margin: 0; padding: 14px 0 0;
+  list-style: none; border-top: 1px solid var(--ink);
+}
+
+.brief-list li {
+  break-inside: avoid; display: grid; grid-template-columns: 26px 1fr; gap: 8px;
+  margin-bottom: 12px; font-size: 13.8px; line-height: 1.8; color: var(--ink-2);
+}
+.brief-list b { font-family: var(--mono); font-size: 10.5px; color: var(--accent); padding-top: 4px; }
+
+/* ---------------- 信号 / 与你 / 线索 ---------------- */
+
+.signals {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px;
+  background: var(--rule); border: 1px solid var(--rule);
+}
+
+.signal { background: var(--paper); padding: 22px 22px 18px; }
+.signal:hover { background: var(--paper-2); }
+.signal .idx { font-family: var(--serif); font-size: 44px; line-height: .9; color: var(--accent); opacity: .22; }
+.signal h3 { font-family: var(--serif); font-size: 19px; line-height: 1.5; margin: 8px 0; font-weight: 700; }
+.signal p { margin: 0; font-size: 13.4px; line-height: 1.85; color: var(--ink-2); }
+.signal .why { margin-top: 12px; padding-top: 10px; border-top: 1px dashed var(--rule); font-size: 12.6px; color: var(--muted); }
+.signal .why b { color: var(--accent); font-weight: 600; letter-spacing: .06em; }
+
+.personal { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.pcard { border: 1px solid var(--rule); background: var(--paper-2); padding: 18px 20px; }
+.pcard h3 { font-family: var(--serif); font-size: 18px; margin: 0 0 8px; }
+.pcard p { margin: 0; font-size: 13.4px; line-height: 1.85; color: var(--ink-2); }
+
+table.threads td { vertical-align: top; padding: 11px 0; font-size: 13.4px; }
+table.threads .note-cell { color: var(--ink-2); line-height: 1.75; }
+
+.chip {
+  display: inline-block; font-size: 10.5px; padding: 1px 6px;
+  border: 1px solid currentColor; border-radius: 2px; letter-spacing: .05em; white-space: nowrap;
+}
+.chip.new { color: var(--accent); }
+.chip.up { color: var(--up); }
+.chip.watch { color: var(--gold); }
+.chip.dead { color: var(--muted); }
+
+/* ---------------- 响应式 ---------------- */
+
+@media (max-width: 1000px) {
+  .regions { grid-template-columns: repeat(2, 1fr); }
+  .signals { grid-template-columns: 1fr; }
+  .hero { grid-template-columns: 1fr; }
+  .hero-main { border-right: none; border-bottom: 1px solid var(--rule); padding: 24px 0 26px; }
+  .hero-side { padding: 24px 0 26px; }
+  .panel-grid { grid-template-columns: 1fr; gap: 34px; }
+}
+
+@media (max-width: 720px) {
+  body { font-size: 15.5px; }
+  .topbar-in, .masthead, .block, .lede, .hero, .nav-in, .footer-in, .pager, .archive { padding-left: 18px; padding-right: 18px; }
+  .masthead { padding-top: 24px; }
+  .masthead h1 { font-size: 44px; }
+  .masthead-meta .tagline { margin-left: 0; width: 100%; }
+  .regions { grid-template-columns: 1fr; }
+  .items { grid-template-columns: 1fr; }
+  .reading { grid-template-columns: 1fr; }
+  .brief-list { columns: 1; }
+  .personal { grid-template-columns: 1fr; }
+  .block { padding-top: 38px; }
+  .block-head { flex-wrap: wrap; }
+  .block-head .intro { text-align: left; margin-left: 0; max-width: none; }
+  .analysis { padding-top: 34px; padding-bottom: 36px; }
+  .analysis .body p { font-size: 16px; }
+  .footer-in { grid-template-columns: 1fr; }
+  .arch-item { grid-template-columns: 1fr; gap: 6px; }
+  .lede { padding-top: 30px; }
+}
+
+@media print {
+  .topbar, .nav, .progress, .ticker-wrap, .pager { display: none; }
+  body { background: #fff; color: #000; }
+  .deep { background: #fff; color: #000; }
+  .analysis .body p, .analysis h3, .analysis .thesis { color: #000; }
+}
+
+</style>
+</head>
+<body data-prev="2026-11-11.html" data-next="">
+<div class="progress" id="progress"></div>
+<header class="topbar">
+  <div class="topbar-in">
+    <span class="brand">资<i>·</i>讯</span>
+    <span>2026-11-12</span>
+    <span class="spacer"></span>
+    <a href="2026-11-11.html" title="上一期">← 上一期</a>
+    <span></span>
+    <a href="archive.html">往期</a>
+    <a href="feed.xml" title="订阅">RSS</a>
+    <button class="icon-btn" id="copy-btn" title="复制本页链接">⧉</button>
+    <button class="icon-btn" id="theme-btn" title="切换深浅色" aria-label="切换深浅色">☾</button>
+  </div>
+</header>
+<div class="masthead">
+  <div class="eyebrow"><span>PERSONAL INTELLIGENCE</span><span class="line"></span><span>晨刊</span></div>
+  <h1>资讯<small>每 日 全 球 情 报 简 报</small></h1>
+  <div class="masthead-meta">
+    <span class="date">2026-11-12　星期四</span>
+    <span class="issue">第 009 期</span>
+    <span>约 16 分钟</span>
+    <span class="tagline">一个人读的全球情报简报</span>
+  </div>
+</div>
+<section class="lede">
+  <p>今天最该记住的一件事：英伟达准备撤换CEO黄仁勋，AI资本开支周期第一次被公司治理事件而非需求或供给打断。WSJ报道董事会紧急磋商、FBI介入调查，NYT披露其与直接下属存在关系；此前市场只把黄仁勋调查当作个人丑闻，现在它升级为全球算力供应链的治理风险——客户下单节奏、HBM4认证、承建方交付都可能被重新定价。与此同时，民主党在密西西比参院补位成功，把中期选举后的参院版图再翻一席，华盛顿的立法日程将更不可预测。</p>
+  <p class="note">今日主线是治理风险压过基本面：英伟达换帅与赫格塞斯问责两条线索一升一降，说明市场对人事与程序事件的定价远快于政策本身。欧洲看都柏林峰会与西班牙大罢工，中东看特朗普与内塔尼亚胡的裂痕。</p>
+</section>
+<section class="brief" id="brief">
+  <p class="brief-label">三分钟速览 · In Brief</p>
+  <ol class="brief-list"><li><b>01</b><span>民主党人斯科特·科洛姆在密西西比参院选举中击败共和党现任海德-史密斯，为民主党再翻一席。</span></li><li><b>02</b><span>英伟达董事会紧急磋商黄仁勋去留，FBI介入调查，WSJ称公司准备撤换CEO。</span></li><li><b>03</b><span>特朗普退伍军人节演说称伊朗战争“很快结束”，并称要取得全面胜利而非93%的胜利。</span></li><li><b>04</b><span>西班牙14年来首次全国大罢工，数十万人上街抗议住房与生活成本，巴塞罗那发生冲突。</span></li><li><b>05</b><span>俄乌在阿布扎比和谈结束时同意大规模换俘，双方未公布具体人数。</span></li></ol>
+</section>
+<section class="hero"><div class="hero-main">
+    <span class="kicker">头条</span>
+    <h2>英伟达准备撤换黄仁勋：治理事件打断AI资本开支叙事</h2>
+    <p class="dek">WSJ报道英伟达正准备撤换CEO黄仁勋，董事会举行紧急磋商，FBI已介入调查；NYT披露黄与一名直接下属存在关系。盘后英伟达股价下跌，而大盘受科技股带动收涨。事件的关键不在丑闻本身，而在它发生在HBM4认证与下季度财报窗口前：客户下单节奏、承建方交付与供应链认证都可能被重新评估。</p>
+    <ul><li>董事会紧急磋商与FBI调查并行，公司治理程序先于业务决策启动。</li><li>事件落在HBM4认证与SK海力士、美光财报窗口前，供应链定价面临重估。</li><li>盘后英伟达下跌而大盘收涨，市场暂把它当作个股风险而非行业风险。</li></ul>
+    <div class="meta"><span class="tag">升级</span><a class="src" href="https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad" target="_blank" rel="noopener">Wall Street Journal / CNA ↗</a></div>
+  </div><div class="hero-side"><div class="item">
+      <span class="kicker">美国</span>
+      <h3>科洛姆赢下密西西比参院席位，民主党再翻一席</h3>
+      <p>民主党挑战者斯科特·科洛姆击败共和党现任辛迪·海德-史密斯，成为140多年来首位代表密西西比进入参议院的黑人。多家媒体称这是全国最接近的参院选战之一，也是中期选举后民主党翻轉的第八个参院席位。参院版图变化将影响关税撤销、战争权力法案等议程的排期与票数计算。</p>
+      <a class="src" href="https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">BBC / NPR ↗</a>
+    </div><div class="item">
+      <span class="kicker">中东</span>
+      <h3>特朗普称伊朗战争将结束，以媒曝与内塔尼亚胡飙骂</h3>
+      <p>特朗普在退伍军人节演说中为伊朗战争辩护，称冲突很快结束、世界将更安全，并称要取得“全面胜利”而非93%的胜利。以色列媒体报道，特朗普与内塔尼亚胡上周末通话时因是否恢复对伊朗战争立场相左，最终演成飙骂。美以在战争节奏上的分歧，直接关系到周五是否给出可核查的降级路径。</p>
+      <a class="src" href="https://www.cna.com.tw/news/aopl/202611120013.aspx" target="_blank" rel="noopener">中央社 / CNA ↗</a>
+    </div></div></section>
+<nav class="nav"><div class="nav-in"><a href="#world">全球扫描</a><a href="#signals">信号</a><a href="#s01">宏观 · 政策</a><a href="#s02">市场 · 资产</a><a href="#s03">科技 · AI</a><a href="#s04">产业 · 半导体</a><a href="#s05">能源 · 气候</a><a href="#s06">医药 · 健康</a><a href="#s07">商业 · 公司</a><a href="#s08">科学 · 社会</a><a href="#deep">深读</a><a href="#personal">与你</a><a href="#threads">线索</a><a href="#data">数据</a><a href="#reading">阅读</a></div></nav>
+<section class="block" id="world">
+  <div class="block-head"><span class="no">00</span><h2>全球扫描</h2>
+    <p class="intro">六个区域，各取当天最值得知道的两三件事。不追求齐全，只保留会改变判断的部分。</p></div>
+  <div class="regions"><article class="region">
+      <header><h3>美国</h3><span class="en">United States</span></header>
+      <p class="r-sum">参院版图再变，英伟达治理事件压过政策议程。</p>
+      <div class="ritem"><h4>科洛姆赢密西西比参院席位</h4><p>民主党人斯科特·科洛姆击败共和党现任海德-史密斯，成为140多年来首位代表密西西比进入参院的黑人。这是中期选举后民主党翻轉的第八个参院席位，将改变关税撤销、战争权力法案等议程的票数计算。</p></div><div class="ritem"><h4>赫格塞斯随行在无名战士墓前被卫兵训斥</h4><p>退伍军人节仪式后，无名战士墓卫兵对国防部长赫格塞斯及其顾问、工作人员发出言语训斥，原因是现场传出笑声。此事发生在众院程序性阻止弹劾动议之后，问责线索由立法渠道转向礼仪与舆论层面。</p></div>
+    </article><article class="region">
+      <header><h3>欧洲</h3><span class="en">Europe</span></header>
+      <p class="r-sum">都柏林峰会与西班牙大罢工同时考验欧洲内部稳定。</p>
+      <div class="ritem"><h4>欧洲领导人聚都柏林，爱尔兰启动史上最大安保</h4><p>约50名欧洲领导人本周在都柏林会晤，爱尔兰启动史上最大规模安保行动，背景是混合攻击担忧上升。峰会议题与安保部署本身，反映欧洲对基础设施与信息攻击的威胁评估在抬升。</p></div><div class="ritem"><h4>西班牙14年来首次全国大罢工</h4><p>西班牙主要工会因住房与生活成本发起14年来首次全国大罢工，数十万人参与，商业与公共交通停摆。巴塞罗那游行后发生冲突，示威者向警察投掷烟花并点燃垃圾桶。</p></div>
+    </article><article class="region">
+      <header><h3>中东</h3><span class="en">Middle East</span></header>
+      <p class="r-sum">加沙医疗设施再遭打击，美以在伊朗战争节奏上出现裂痕。</p>
+      <div class="ritem"><h4>以军打击汗尤尼斯医疗综合体，加沙九人死亡</h4><p>以色列 strikes 击中汗尤尼斯的纳赛尔医疗综合体，加沙各地共九人死亡。联合国呼吁紧急援助，以应对加沙地带强降雨。医疗设施反复成为打击目标，援助通道与停火谈判的人道压力同步上升。</p></div><div class="ritem"><h4>艾森科特推法案，瞄准内塔尼亚胡政策</h4><p>以色列总理职位竞争者加迪·艾森科特在立法会期开始时推出一系列法案，针对内塔尼亚胡及其政策。此举把以色列国内政治竞争与伊朗战争决策的分歧叠在一起，内塔尼亚胡的执政联盟面临双重压力。</p></div>
+    </article><article class="region">
+      <header><h3>亚太</h3><span class="en">Asia-Pacific</span></header>
+      <p class="r-sum">东南亚AI监管借澳大利亚模板，日本企业网络安全承压。</p>
+      <div class="ritem"><h4>东南亚能否复制澳大利亚AI保障措施</h4><p>分析人士称，澳大利亚对AI公司的新强制性保障措施可作为东南亚模板，但该地区需先建立制度与技术能力。监管模板的可移植性取决于执法机构与算力、数据基础设施的成熟度。</p></div><div class="ritem"><h4>路透调查：三分之一日本企业今年遭网络攻击</h4><p>路透调查显示，今年约三分之一日本企业或其服务提供商遭遇网络攻击。供应链环节的服务商成为薄弱点，企业安全投入与外包风险管理面临重估。</p></div>
+    </article><article class="region">
+      <header><h3>中国</h3><span class="en">China</span></header>
+      <p class="r-sum">华为系车企接近玛莎拉蒂合作，深圳APEC成中美低垂果实窗口。</p>
+      <div class="ritem"><h4>华为支持的电动车品牌接近与玛莎拉蒂达成协议</h4><p>消息人士称，中国豪华电动车品牌迈克萨斯正接近与意大利玛莎拉蒂达成合作，将共同开发车型以挑战豪华车市场。合作若落地，是中国电动车技术输出与欧洲品牌资产结合的又一案例。</p></div><div class="ritem"><h4>深圳APEC峰会成习特低垂果实窗口</h4><p>亚太经合组织峰会将于11月18日至19日在深圳举行，深圳还将承办习特后续两次会晤中的第一次。评论认为，双方在峰会前有低垂果实可摘，但关税撤销仍需参院60票门槛与总统否决权约束。</p></div>
+    </article><article class="region">
+      <header><h3>全球南方</h3><span class="en">Global South</span></header>
+      <p class="r-sum">中国声援古巴对抗制裁，刚果（金）修宪争议升温。</p>
+      <div class="ritem"><h4>中国表态支持古巴对抗制裁与外部干涉</h4><p>中国周三承诺支持古巴反对制裁与外国干涉。此前数日，华盛顿因古巴涉嫌供应相关物资而惩罚两家中国国有关联企业。哈瓦那在北京提出美国燃料压力议题，三方博弈把加勒比纳入中美摩擦前沿。</p></div><div class="ritem"><h4>齐塞克迪为修宪铺路，刚果（金）政治紧张</h4><p>刚果（金）一项扩大修宪公投条件的新法律引发政治紧张。与此同时，肯尼亚正式宣布结束某一紧急状态。修宪程序若推进，将改变总统权力结构与选举时间表。</p></div>
+    </article></div>
+</section>
+<section class="block" id="signals">
+  <div class="block-head"><span class="no">SIG</span><h2>被低估的信号</h2>
+    <p class="intro">三条没上头条、但会改变判断的细节。信号不等于结论，标注了它可能错在哪。</p></div>
+  <div class="signals"><article class="signal">
+      <div class="idx">01</div>
+      <h3>英伟达治理事件打断AI资本开支叙事</h3>
+      <p>WSJ报道英伟达准备撤换CEO黄仁勋，董事会紧急磋商，FBI介入；NYT披露黄与直接下属存在关系。盘后股价下跌，大盘仍受科技股带动收涨。</p>
+      <p class="why"><b>为什么重要</b>　关键不在丑闻，而在时点：事件落在HBM4认证与下季度财报窗口之前，客户下单节奏、承建方交付与供应链认证都可能被重新评估，AI资本开支的可预期性被治理风险替换，估值锚从订单转向治理折价。</p>
+    </article><article class="signal">
+      <div class="idx">02</div>
+      <h3>密西西比翻蓝，参院版图再变</h3>
+      <p>民主党挑战者科洛姆击败共和党现任海德-史密斯，成为140多年来首位代表密西西比进入参院的黑人，也是中期选举后民主党翻转的第八个参院席位。</p>
+      <p class="why"><b>为什么重要</b>　这是全国最接近的选战之一，票数结构变化会改变关税撤销、战争权力法案等议程的排期与计票。对市场而言，意味着贸易政策路径的不确定性上升，需要重新评估关税敏感行业的政策风险溢价。</p>
+    </article><article class="signal">
+      <div class="idx">03</div>
+      <h3>美以在伊朗战争节奏上出现公开分歧</h3>
+      <p>特朗普在退伍军人节演说中称伊朗战争很快结束、要取得全面胜利；以媒报道他与内塔尼亚胡上周末通话因是否恢复对伊战争立场相左，演成飙骂。</p>
+      <p class="why"><b>为什么重要</b>　分歧直接关系到周五能否给出可核查的降级路径。若降级路径可信，能源风险溢价与航运保费有回落空间；若通话裂痕扩大，油价与避险资产的尾部风险将重新定价，这比单次表态更值得跟踪。</p>
+    </article></div>
+</section>
+<section class="block" id="s01">
+  <div class="block-head"><span class="no">01</span><h2>宏观 · 政策</h2>
+    <p class="intro">美国选举版图与战争表态同时改写政策排期。</p></div>
+  <div class="items"><article class="entry">
+      <h3>科洛姆赢下密西西比参院席位</h3>
+      <p>民主党挑战者斯科特·科洛姆击败共和党现任辛迪·海德-史密斯，成为140多年来首位代表密西西比进入参议院的黑人。多家媒体称这是全国最接近的参院选战之一，也是中期选举后民主党翻转的第八个参院席位。</p>
+      <div class="meta"><span class="tag">选举</span><a class="src" href="https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">BBC World ↗</a></div>
+    </article><article class="entry">
+      <h3>特朗普称伊朗战争将结束，以媒曝与内塔尼亚胡飙骂</h3>
+      <p>特朗普在退伍军人节演说中为伊朗战争辩护，称冲突很快结束、世界将更安全，并称要取得“全面胜利”而非93%的胜利。以色列媒体报道，特朗普与内塔尼亚胡上周末通话时因是否恢复对伊朗战争立场相左，最终演成飙骂。</p>
+      <div class="meta"><span class="tag">地缘</span><a class="src" href="https://www.cna.com.tw/news/aopl/202611120013.aspx" target="_blank" rel="noopener">中央社 ↗</a></div>
+    </article></div>
+</section>
+<section class="block" id="s02">
+  <div class="block-head"><span class="no">02</span><h2>市场 · 资产</h2>
+    <p class="intro">科技股撑住大盘，英伟达盘后独自承压。</p></div>
+  <div class="items"><article class="entry">
+      <h3>科技股带动全球股市走高，英伟达盘后下跌</h3>
+      <p>科技股反弹提振全球股市，美元走强。大盘收涨的同时，英伟达在盘后交易中下跌，市场把治理事件与AI交易的整体情绪分开定价，资金暂时留在科技板块内部而非撤离。</p>
+      <div class="meta"><span class="tag">市场</span><a class="src" href="https://www.channelnewsasia.com/world/tech-us-stocks-wall-street-dollar-coreweave-6543901" target="_blank" rel="noopener">CNA ↗</a></div>
+    </article><article class="entry">
+      <h3>预测市场竞争升温，Polymarket裁员缩编</h3>
+      <p>随着预测市场竞争加剧，Polymarket削减岗位与合同。该赛道此前因选举周期获得高关注，如今进入成本与合规的淘汰阶段，商业模式能否在监管收紧下维持流动性成为关键。</p>
+      <div class="meta"><span class="tag">资产</span><a class="src" href="https://www.channelnewsasia.com/business/polymarket-cuts-jobs-contracts-prediction-market-competition-heats-up-6544106" target="_blank" rel="noopener">CNA ↗</a></div>
+    </article></div>
+</section>
+<section class="block" id="s03">
+  <div class="block-head"><span class="no">03</span><h2>科技 · AI</h2>
+    <p class="intro">AI治理与资本叙事同时被检验。</p></div>
+  <div class="items"><article class="entry">
+      <h3>东南亚能否照搬澳大利亚的AI护栏</h3>
+      <p>分析人士认为，澳大利亚对AI公司实施的新强制性护栏可作为东南亚的范本，但该地区需要先建立制度与技术能力，否则规则难以落地执行。</p>
+      <div class="meta"><span class="tag">监管</span><a class="src" href="https://www.scmp.com/week-asia/economics/article/3374089/can-southeast-asia-cut-and-paste-australias-ai-safeguards" target="_blank" rel="noopener">SCMP ↗</a></div>
+    </article><article class="entry">
+      <h3>Anthropic大型IPO引发FOMO，评论呼吁看招股书</h3>
+      <p>评论指出，Anthropic即将到来的IPO可能引发散户追高情绪，但对公司前景的兴奋不应盖过投资基本面，应读申报文件而非追逐热度。</p>
+      <div class="meta"><span class="tag">IPO</span><a class="src" href="https://www.channelnewsasia.com/commentary/anthropic-mega-ipo-spark-fomo-retail-investors-back-basics-6542546" target="_blank" rel="noopener">CNA ↗</a></div>
+    </article></div>
+</section>
+<section class="block" id="s04">
+  <div class="block-head"><span class="no">04</span><h2>产业 · 半导体</h2>
+    <p class="intro">英伟达治理事件落在认证与财报窗口前。</p></div>
+  <div class="items"><article class="entry">
+      <h3>英伟达准备撤换黄仁勋，董事会紧急磋商</h3>
+      <p>WSJ报道英伟达正准备撤换CEO黄仁勋，董事会举行紧急磋商，FBI已介入调查。事件发生在HBM4认证与下季度财报窗口之前，客户下单节奏与供应链认证可能被重新评估。</p>
+      <div class="meta"><span class="tag">治理</span><a class="src" href="https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad" target="_blank" rel="noopener">WSJ ↗</a></div>
+    </article><article class="entry">
+      <h3>NYT：黄仁勋与直接下属存在关系</h3>
+      <p>NYT披露黄仁勋与一名直接向他汇报的高管存在关系。报道使董事会治理程序与内部合规审查同时成为焦点，进一步压缩公司在关键交付窗口前的决策带宽。</p>
+      <div class="meta"><span class="tag">公司治理</span><a class="src" href="https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html" target="_blank" rel="noopener">NYT ↗</a></div>
+    </article></div>
+</section>
+<section class="block" id="s05">
+  <div class="block-head"><span class="no">05</span><h2>能源 · 气候</h2>
+    <p class="intro">战争节奏与能源设施布局共同影响风险溢价。</p></div>
+  <div class="items"><article class="entry">
+      <h3>伊朗将阿根廷海军空军列为“恐怖组织”</h3>
+      <p>此举发生在阿根廷米莱政府将伊朗革命卫队列为“恐怖组织”数月之后，双方对抗升级，为能源与航运的制裁风险再添一层不确定性。</p>
+      <div class="meta"><span class="tag">制裁</span><a class="src" href="https://www.aljazeera.com/news/2026/11/11/iran-designates-argentinian-navy-air-force-as-terrorist?traffic_source=rss" target="_blank" rel="noopener">Al Jazeera ↗</a></div>
+    </article><article class="entry">
+      <h3>德光岛军事训练与能源集群能否共存</h3>
+      <p>专家表示，要在同一岛屿容纳军事训练与能源运营，需要足够的安全缓冲与周密规划，空间只是挑战的一部分，安全与规划才是核心约束。</p>
+      <div class="meta"><span class="tag">基础设施</span><a class="src" href="https://www.channelnewsasia.com/singapore/pulau-tekong-military-training-live-firing-energy-cluster-ema-6538521" target="_blank" rel="noopener">CNA ↗</a></div>
+    </article></div>
+</section>
+<section class="block" id="s06">
+  <div class="block-head"><span class="no">06</span><h2>医药 · 健康</h2>
+    <p class="intro">加沙医疗设施再受冲击，人道通道承压。</p></div>
+  <div class="items"><article class="entry">
+      <h3>以军空袭加沙医疗综合体，多地九人死亡</h3>
+      <p>汗尤尼斯的纳赛尔医疗综合体遭袭，联合国呼吁紧急援助以应对加沙地带强降雨。医疗设施受损将放大疾病与物资短缺的二次风险。</p>
+      <div class="meta"><span class="tag">人道</span><a class="src" href="https://www.aljazeera.com/news/2026/11/11/israeli-strikes-hit-tent-camp-as-five-killed-in-gaza?traffic_source=rss" target="_blank" rel="noopener">Al Jazeera ↗</a></div>
+    </article><article class="entry">
+      <h3>日本三分之一企业或其服务商今年遭网络攻击</h3>
+      <p>路透调查显示，今年有三分之一日本企业或其服务提供商遭遇网络攻击。对医疗与健康数据密集行业而言，外包服务商成为最薄弱的一环。</p>
+      <div class="meta"><span class="tag">网络安全</span><a class="src" href="https://www.channelnewsasia.com/business/cyberattacks-hit-third-japan-firms-or-their-service-providers-year-reuters-poll-6544086" target="_blank" rel="noopener">CNA ↗</a></div>
+    </article></div>
+</section>
+<section class="block" id="s07">
+  <div class="block-head"><span class="no">07</span><h2>商业 · 公司</h2>
+    <p class="intro">中国车企出海与跨国品牌合作加速。</p></div>
+  <div class="items"><article class="entry">
+      <h3>华为支持的电动车品牌接近与玛莎拉蒂达成合作</h3>
+      <p>中国豪华电动车品牌尊界正接近与意大利品牌玛莎拉蒂达成合作，双方将共同开发车型，意在挑战豪华车市场现有格局。消息人士称协议尚未最终敲定。</p>
+      <div class="meta"><span class="tag">汽车</span><a class="src" href="https://www.scmp.com/business/china-evs/article/3374072/chinese-maserati-huawei-backed-ev-firm-nears-pact-italian-marque-sources-say" target="_blank" rel="noopener">SCMP ↗</a></div>
+    </article><article class="entry">
+      <h3>新加坡仍是中国企业出海首站吗</h3>
+      <p>随着国内利润收窄、产能扩张，中国企业持续扩大海外布局。在更严格的审查环境下，新加坡能否继续充当中国企业出海的第一站，正受到重新审视。</p>
+      <div class="meta"><span class="tag">出海</span><a class="src" href="https://www.scmp.com/economy/china-economy/article/3373856/under-higher-scrutiny-will-singapore-remain-chinese-firms-first-overseas-port-call" target="_blank" rel="noopener">SCMP ↗</a></div>
+    </article></div>
+</section>
+<section class="block" id="s08">
+  <div class="block-head"><span class="no">08</span><h2>科学 · 社会</h2>
+    <p class="intro">历史遗留与劳工议题同时进入公共视野。</p></div>
+  <div class="items"><article class="entry">
+      <h3>哈佛用于优生学研究的两具头骨归还巴西</h3>
+      <p>据信属于非洲人或非裔巴西人的两具头骨在经外交人员运送后归还巴西，其中一具被认为属于一名参与过历史事件的男性，涉及学术伦理与殖民遗留问题。</p>
+      <div class="meta"><span class="tag">历史</span><a class="src" href="https://www.theguardian.com/news/2026/nov/11/harvard-skulls-repatriated-brazil" target="_blank" rel="noopener">The Guardian ↗</a></div>
+    </article><article class="entry">
+      <h3>西班牙14年来首次总罢工，数十万人上街</h3>
+      <p>西班牙工人因住房与生活成本问题举行14年来首次总罢工，数十万人参与，巴塞罗那游行后爆发冲突，示威者向警察投掷烟花并点燃垃圾桶。</p>
+      <div class="meta"><span class="tag">劳工</span><a class="src" href="https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">BBC World ↗</a></div>
+    </article></div>
+</section>
+<section class="deep" id="deep">
+  <div class="block-head"><span class="no">DEEP</span><h2>三段深读</h2>
+    <p class="intro">每篇都给论点、证据、反方与观察点。观点可以不同意，事实必须可核对。</p></div>
+  <article class="analysis">
+    <span class="kicker">深度 01 · 政治与资产</span>
+    <h3>密西西比的席位与关税的票数：一场补选如何改写资产的风险折价</h3>
+    <p class="thesis">科洛姆翻转密西西比参院席位，把关税撤销与战争权力从口号变成可排期的议程，资产定价的折价因子随之重估。</p>
+    <div class="body"><p>民主党挑战者斯科特·科洛姆击败共和党现任辛迪·海德-史密斯，成为140多年来首位代表密西西比进入参议院的黑人。多家媒体称这是全国最接近的参院选战之一，也是中期选举后民主党翻转的第八个参院席位。席位本身不产生现金流，但它改变的是立法日程的可预测性，而可预测性正是风险溢价的分母。</p><p>参院版图变化的传导并不经过行政命令，而经过排期与票数计算。关税撤销需要委员会排期、需要足够票数抵御程序性阻挠；战争权力法案同样依赖议长与多数党领袖是否愿意把议案推上表决。翻转一席，等于把若干原本停在抽屉里的议案挪到台面上，市场对政策尾部风险的定价随之松动。</p><p>对资产而言，最先反应的不是股票指数，而是与贸易敞口和国防预算相关的板块。关税撤销概率上升，压低下游制造与零售的进口成本预期；战争权力约束增强，则削弱国防订单的久期假设。两者方向相反，却在同一件事上收敛：政策路径变得更可计算，波动率因此有下修空间。</p><p>需要警惕的是，一席多数并不等于立法能力。参院的程序规则、委员会主席的意愿、以及白宫是否配合，都会稀释翻转席位的实际权重。市场若把补选结果直接读成关税必然撤销，容易高估短期落地速度，低估程序摩擦带来的时间成本。</p><p>更稳的读法是把它当作概率分布的位移，而非确定性事件。选举、地缘、监管三者对资产的作用，往往通过改变预期分布的尾部形状实现，而非直接改变中枢。科洛姆的席位让尾部变薄，但中枢仍由通胀与盈利决定，这也是为什么股指当日反应温和。</p><p></p></div>
+    <div class="counter"><b>反方</b>　反方会指出，参院翻转席位的立法效力常被高估，程序性阻挠与委员会把关足以让议程原地踏步；若白宫以行政手段绕开立法，关税与战争权力的实际路径未必改变，市场对补选的反应可能只是一次情绪性重估。</div>
+    <p class="watch-label">接下来盯什么</p><ul class="watch"><li>参院是否就关税撤销相关议案安排委员会听证或程序性表决</li><li>战争权力法案的联署人数与多数党领袖的排期表态</li><li>贸易敞口与国防板块的相对表现是否出现持续分化</li></ul>
+  </article><article class="analysis">
+    <span class="kicker">深度 02 · 科技与资本</span>
+    <h3>CEO更替传闻撞上HBM4认证窗口：英伟达的治理折价如何传导到资本开支</h3>
+    <p class="thesis">撤换黄仁勋的传闻本身不改变算力需求，但它落在HBM4认证与财报窗口前，把治理不确定性转译成客户下单节奏与供应链认证的重新评估。</p>
+    <div class="body"><p>WSJ报道英伟达正准备撤换CEO黄仁勋，董事会举行紧急磋商，FBI已介入调查；NYT披露黄与一名直接下属存在关系。盘后英伟达股价下跌，而大盘受科技股带动收涨。事件的关键不在丑闻本身，而在它发生的时间点：HBM4认证与下季度财报窗口之前。</p><p>AI资本开支叙事的脆弱处，在于它依赖一条极长的协作链：客户下单、承建方交付、供应链认证，每一环都需要对手方对公司治理与决策连续性的信任。CEO更替传闻不会让GPU需求消失，但会让采购委员会在签字前多问一句：明年的路线图由谁拍板。</p><p>HBM4认证是这条链上最敏感的节点。认证需要供应商与客户工程团队长期对接，任何管理层变动都可能触发认证节奏的重排。若认证推迟一个季度，云厂商的资本开支确认时点随之后移，财报上的收入确认与折旧起点都会改变，估值模型的分母随之调整。</p><p>盘后股价下跌而大盘收涨，说明市场把这件事读成公司特有风险，而非行业需求转向。这是治理折价的典型形态：同一赛道的其他标的未必受益，因为客户不会因为一家公司换CEO就改换技术路线，但会推迟签约，等待治理结构明朗。</p><p>推论是，短期看认证与财报窗口的措辞，中期看董事会是否给出可核查的交接安排。若交接平稳、路线图不变，折价会快速收敛；若调查扩大、决策层出现真空，客户下单节奏的推迟会先体现在供应链订单，再体现在资本开支指引。</p><p></p></div>
+    <div class="counter"><b>反方</b>　反方认为，英伟达的护城河来自CUDA生态与产能锁定，客户即便担忧治理也难以短期切换供应商；董事会若迅速确认继任者并重申路线图，治理折价可能在一两个交易日内被抹平，把传闻当作资本开支拐点为时过早。</div>
+    <p class="watch-label">接下来盯什么</p><ul class="watch"><li>董事会对CEO去留与交接安排的正式表态</li><li>HBM4认证进度与主要供应商的对接节奏</li><li>下季度财报指引中客户下单与交付措辞的变化</li></ul>
+  </article><article class="analysis">
+    <span class="kicker">深度 03 · 宏观与能源</span>
+    <h3>战争将结束的表态与油价的风险溢价：降级路径能否被核查</h3>
+    <p class="thesis">特朗普称伊朗战争将很快结束，但美以在战争节奏上的分歧意味着降级路径尚未可核查，油价的战争溢价因此难以单边回落。</p>
+    <div class="body"><p>特朗普在退伍军人节演说中为伊朗战争辩护，称冲突很快结束、世界将更安全，并称要取得全面胜利而非93%的胜利。以色列媒体报道，特朗普与内塔尼亚胡上周末通话时因是否恢复对伊朗战争立场相左，最终演成飙骂。表态与分歧同时存在，构成当前油价定价的核心矛盾。</p><p>对宏观而言，战争对通胀的传导主要经过能源价格与运输成本。油价中的战争溢价并非对已发生供给中断的定价，而是对中断概率的定价。当一方宣称结束、另一方主张恢复，概率分布并未收敛，溢价便难以被系统性剔除，只能随时间衰减。</p><p>周五是否给出可核查的降级路径，是判断溢价能否回落的关键。可核查意味着有停火时点、有监督机制、有双方共同确认的步骤；缺少任何一项，市场只能把表态当作噪音，把仓位建立在概率而非承诺上。这也是为何口头表态对油价的推动往往短暂。</p><p>财政维度同样受影响。战争支出计入赤字，降级则释放财政空间，但释放的时点取决于冲突是否真正停止。若降级路径模糊，财政既无法确认节省，也无法排除追加拨款，长端利率对期限溢价的定价就缺少锚点，央行在通胀判断上也只能保持谨慎。</p><p>更可能的路径是油价在高位区间震荡而非单边下行，直到出现可核查的步骤。对通胀而言，这意味着能源分项对整体CPI的拖累减弱，央行降息的门槛相应抬高。投资者应把注意力从表态转向机制：谁监督、何时生效、如何验证。</p><p></p></div>
+    <div class="counter"><b>反方</b>　反方认为，美国已是能源净出口国，油价上涨对本土通胀的传导弱于以往，战争溢价更多体现在全球基准而非美国终端价格；若冲突迅速降级，油价可能快速回吐，把当前溢价读成持续通胀压力会高估央行紧缩的必要性。</div>
+    <p class="watch-label">接下来盯什么</p><ul class="watch"><li>周五是否公布停火时点与监督机制等可核查步骤</li><li>布伦特与WTI近月合约的战争溢价是否持续收窄</li><li>美国长端利率与能源分项CPI的联动变化</li></ul>
+  </article>
+</section>
+<section class="block" id="personal">
+  <div class="block-head"><span class="no">YOU</span><h2>与你有关</h2>
+    <p class="intro">把宏观翻译成个人决策：换汇、房贷、工作。只谈机制，不给建议。</p></div>
+  <div class="personal"><article class="pcard"><h3>英伟达换帅：先看客户下单节奏，再看HBM4认证</h3><p>黄仁勋去留若进入实质程序，短期看两点：云厂商与主权算力客户是否推迟下单，以及SK海力士、美光财报中HBM4认证进度是否被重新排期。IREN推迟交付是否扩散到其他承建方，是判断资本开支是否真被打断的先行指标。</p></article><article class="pcard"><h3>英国央行今晚20:00决议：7比2则2月再加一次</h3><p>今晚20:00英国央行公布决议。若以7比2通过加息，则2月再加一次为基准情形，终端利率4.25%。看投票分歧与声明措辞，比看单次加息幅度更重要。</p></article><article class="pcard"><h3>美伊降级路径：周五是可核查窗口</h3><p>特朗普称战争很快结束，但以媒曝其与内塔尼亚胡争吵。周五是否给出可核查的降级路径是关键；若只是推迟，油价回到95至100美元区间，通胀与央行路径都要重算。</p></article></div>
+</section>
+<section class="block" id="threads">
+  <div class="block-head"><span class="no">THREAD</span><h2>线索追踪</h2>
+    <p class="intro">昨天的问题，今天有没有答案。状态：新增 / 升级 / 待验证 / 证伪。</p></div>
+  <table class="data threads">
+    <thead><tr><th style="width:22%">线索</th><th style="width:16%">状态</th><th>下一步看什么</th></tr></thead>
+    <tbody><tr><td>AI资本开支</td><td><span class="chip up">升级</span></td><td class="note-cell">下周SK海力士、美光财报与HBM4认证进度；IREN推迟交付是否扩散到其他承建方；黄仁勋调查是否改变客户下单节奏。</td></tr><tr><td>赫格塞斯问责</td><td><span class="chip dead">证伪</span></td><td class="note-cell">众院程序性阻止弹劾动议，看参院是否另开听证、司法渠道是否接手，以及战争权力法案是否进入排期。</td></tr><tr><td>美伊谈判</td><td><span class="chip watch">待验证</span></td><td class="note-cell">周五是否给出可核查的降级路径；若只是推迟，油价回到95至100美元区间。</td></tr><tr><td>英国央行加息</td><td><span class="chip new">新增</span></td><td class="note-cell">今晚20:00决议；若7比2通过，则2月再加一次为基准，终端利率4.25%。</td></tr><tr><td>关税撤销</td><td><span class="chip watch">待验证</span></td><td class="note-cell">民主党表态积极，但参议院60票门槛与总统否决权仍在；短期更可能是听证而非立法。</td></tr></tbody>
+  </table>
+</section>
+<section class="block" id="data">
+  <div class="block-head"><span class="no">DATA</span><h2>数字与日程</h2>
+    <p class="intro">收盘价、收益率与今日待发布数据。口径不一致的地方，正文里已经写明。</p></div>
+  <div class="panel-grid">
+    <div><p class="data-note" style="margin-top:0">本期未接入行情数据；文中数字均来自所引报道。</p></div>
+    
+  </div>
+</section>
+<section class="block" id="reading">
+  <div class="block-head"><span class="no">READ</span><h2>延伸阅读</h2>
+    <p class="intro">如果你想回到原始材料，从这里开始。</p></div>
+  <div class="reading"><a class="read" href="https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad" target="_blank" rel="noopener">
+      <span class="r-out">Wall Street Journal</span>
+      <h3>Nvidia is preparing to oust Jensen Huang</h3>
+      <p>董事会紧急磋商与FBI调查的一手报道，判断治理事件边界的基准文本。</p>
+    </a><a class="read" href="https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html" target="_blank" rel="noopener">
+      <span class="r-out">New York Times</span>
+      <h3>Jensen Huang said to have had relationship with executive who reports to him</h3>
+      <p>关系披露的细节来源，决定董事会程序与调查范围如何展开。</p>
+    </a><a class="read" href="https://www.scmp.com/week-asia/economics/article/3374089/can-southeast-asia-cut-and-paste-australias-ai-safeguards" target="_blank" rel="noopener">
+      <span class="r-out">SCMP</span>
+      <h3>Can Southeast Asia cut and paste Australia&#x27;s AI safeguards?</h3>
+      <p>监管模板移植的制度条件清单，适合对照中国与欧盟路径阅读。</p>
+    </a><a class="read" href="https://www.scmp.com/opinion/china-opinion/article/3373661/low-hanging-fruit-xi-and-trump-pluck-shenzhen-apec-summit" target="_blank" rel="noopener">
+      <span class="r-out">SCMP</span>
+      <h3>Low-hanging fruit for Xi and Trump to pluck at Shenzhen Apec summit</h3>
+      <p>深圳APEC前的议程盘点，关税与会晤排期的现实约束写得清楚。</p>
+    </a></div>
+</section>
+<div class="pager"><a href="2026-11-11.html">← 2026-11-11</a><a href="archive.html">全部往期</a><span></span></div>
+<footer class="footer">
+  <div class="footer-in">
+    <div>
+      <h4>Sources</h4>
+      <div class="srcs"><span>SCMP</span><span>BBC World</span><span>Al Jazeera</span><span>France 24</span><span>CNA</span><span>NPR</span><span>中央社</span><span>Wall Street Journal</span><span>New York Times</span><span>Ars Technica</span><span>The Guardian</span></div>
+    </div>
+    <div class="fine">
+      <h4>说明</h4>
+      生成时间 2026-11-12T08:07:29+08:00　·　第 009 期<br>
+      价格为公开报道口径，可能因结算价与收盘价取样时点不同而存在差异；带「传闻」「待官宣」标记的内容尚未被官方确认。<br>
+      本页为个人学习用途的信息整理，不构成投资建议。键盘 ← → 可翻页。
+    </div>
+  </div>
+</footer>
+<a id="to-top" href="#" title="回到顶部" style="position:fixed;right:18px;bottom:18px;width:38px;height:38px;display:flex;align-items:center;justify-content:center;border:1px solid var(--rule-strong);background:var(--paper);color:var(--muted);opacity:0;transition:opacity .2s;z-index:50">↑</a>
+<script>/* 资讯 · 个人情报台 — 交互层（无依赖） */
+(function () {
+  'use strict';
+
+  var root = document.documentElement;
+
+  /* ---------- 主题 ---------- */
+  var KEY = 'zixun-theme';
+  function applyTheme(t) {
+    root.setAttribute('data-theme', t);
+    var b = document.getElementById('theme-btn');
+    if (b) b.textContent = t === 'dark' ? '☀' : '☾';
+  }
+  var saved = null;
+  try { saved = localStorage.getItem(KEY); } catch (e) {}
+  if (!saved && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) saved = 'dark';
+  var q = new URLSearchParams(location.search).get('theme');
+  applyTheme(q === 'dark' || q === 'light' ? q : (saved || 'light'));
+
+  document.addEventListener('click', function (e) {
+    var t = e.target.closest && e.target.closest('#theme-btn');
+    if (t) {
+      var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      applyTheme(next);
+      try { localStorage.setItem(KEY, next); } catch (e2) {}
+    }
+    var c = e.target.closest && e.target.closest('#copy-btn');
+    if (c) {
+      var url = location.href;
+      if (navigator.clipboard) navigator.clipboard.writeText(url);
+      var old = c.textContent;
+      c.textContent = '已复制';
+      setTimeout(function () { c.textContent = old; }, 1400);
+    }
+  });
+
+  /* ---------- 阅读进度 ---------- */
+  var bar = document.querySelector('.progress');
+  function onScroll() {
+    var h = document.documentElement.scrollHeight - window.innerHeight;
+    var p = h > 0 ? (window.scrollY / h) * 100 : 0;
+    if (bar) bar.style.width = p.toFixed(2) + '%';
+    var top = document.getElementById('to-top');
+    if (top) top.style.opacity = window.scrollY > 900 ? '1' : '0';
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  /* ---------- 目录高亮 ---------- */
+  var links = Array.prototype.slice.call(document.querySelectorAll('.nav a[href^="#"]'));
+  var targets = links.map(function (a) { return document.querySelector(a.getAttribute('href')); });
+  if ('IntersectionObserver' in window && targets.length) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (!en.isIntersecting) return;
+        var i = targets.indexOf(en.target);
+        if (i < 0) return;
+        links.forEach(function (l) { l.classList.remove('active'); });
+        links[i].classList.add('active');
+        if (links[i].scrollIntoView) {
+          links[i].scrollIntoView({ block: 'nearest', inline: 'center', behavior: 'smooth' });
+        }
+      });
+    }, { rootMargin: '-15% 0px -70% 0px', threshold: 0 });
+    targets.forEach(function (t) { if (t) io.observe(t); });
+  }
+
+  /* ---------- 键盘翻页 ---------- */
+  document.addEventListener('keydown', function (e) {
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+    var prev = document.body.getAttribute('data-prev');
+    var next = document.body.getAttribute('data-next');
+    if (e.key === 'ArrowLeft' && prev) location.href = prev;
+    if (e.key === 'ArrowRight' && next) location.href = next;
+  });
+})();
+</script>
+</body></html>

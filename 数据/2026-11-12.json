@@ -1,0 +1,568 @@
+{
+  "lede": "今天最该记住的一件事：英伟达准备撤换CEO黄仁勋，AI资本开支周期第一次被公司治理事件而非需求或供给打断。WSJ报道董事会紧急磋商、FBI介入调查，NYT披露其与直接下属存在关系；此前市场只把黄仁勋调查当作个人丑闻，现在它升级为全球算力供应链的治理风险——客户下单节奏、HBM4认证、承建方交付都可能被重新定价。与此同时，民主党在密西西比参院补位成功，把中期选举后的参院版图再翻一席，华盛顿的立法日程将更不可预测。",
+  "editor_note": "今日主线是治理风险压过基本面：英伟达换帅与赫格塞斯问责两条线索一升一降，说明市场对人事与程序事件的定价远快于政策本身。欧洲看都柏林峰会与西班牙大罢工，中东看特朗普与内塔尼亚胡的裂痕。",
+  "brief": [
+    "民主党人斯科特·科洛姆在密西西比参院选举中击败共和党现任海德-史密斯，为民主党再翻一席。",
+    "英伟达董事会紧急磋商黄仁勋去留，FBI介入调查，WSJ称公司准备撤换CEO。",
+    "特朗普退伍军人节演说称伊朗战争“很快结束”，并称要取得全面胜利而非93%的胜利。",
+    "西班牙14年来首次全国大罢工，数十万人上街抗议住房与生活成本，巴塞罗那发生冲突。",
+    "俄乌在阿布扎比和谈结束时同意大规模换俘，双方未公布具体人数。"
+  ],
+  "top": [
+    {
+      "kicker": "头条",
+      "title": "英伟达准备撤换黄仁勋：治理事件打断AI资本开支叙事",
+      "summary": "WSJ报道英伟达正准备撤换CEO黄仁勋，董事会举行紧急磋商，FBI已介入调查；NYT披露黄与一名直接下属存在关系。盘后英伟达股价下跌，而大盘受科技股带动收涨。事件的关键不在丑闻本身，而在它发生在HBM4认证与下季度财报窗口前：客户下单节奏、承建方交付与供应链认证都可能被重新评估。",
+      "points": [
+        "董事会紧急磋商与FBI调查并行，公司治理程序先于业务决策启动。",
+        "事件落在HBM4认证与SK海力士、美光财报窗口前，供应链定价面临重估。",
+        "盘后英伟达下跌而大盘收涨，市场暂把它当作个股风险而非行业风险。"
+      ],
+      "source": {
+        "name": "Wall Street Journal / CNA",
+        "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad"
+      },
+      "status": "升级"
+    },
+    {
+      "kicker": "美国",
+      "title": "科洛姆赢下密西西比参院席位，民主党再翻一席",
+      "summary": "民主党挑战者斯科特·科洛姆击败共和党现任辛迪·海德-史密斯，成为140多年来首位代表密西西比进入参议院的黑人。多家媒体称这是全国最接近的参院选战之一，也是中期选举后民主党翻轉的第八个参院席位。参院版图变化将影响关税撤销、战争权力法案等议程的排期与票数计算。",
+      "points": [
+        "科洛姆击败现任海德-史密斯，密西西比40多年来首次选出民主党参议员。",
+        "这是中期选举后民主党翻轉的第八个参院席位，参院票数结构继续移动。",
+        "关税撤销与战争权力法案的排期将受新票数结构影响。"
+      ],
+      "source": {
+        "name": "BBC / NPR",
+        "url": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss"
+      },
+      "status": "新增"
+    },
+    {
+      "kicker": "中东",
+      "title": "特朗普称伊朗战争将结束，以媒曝与内塔尼亚胡飙骂",
+      "summary": "特朗普在退伍军人节演说中为伊朗战争辩护，称冲突很快结束、世界将更安全，并称要取得“全面胜利”而非93%的胜利。以色列媒体报道，特朗普与内塔尼亚胡上周末通话时因是否恢复对伊朗战争立场相左，最终演成飙骂。美以在战争节奏上的分歧，直接关系到周五是否给出可核查的降级路径。",
+      "points": [
+        "特朗普称战争很快结束并要全面胜利，措辞指向升级而非收尾。",
+        "以媒称特朗普与内塔尼亚胡因是否恢复战争爆发争吵，美以节奏出现裂痕。",
+        "周五是否给出可核查降级路径，是油价能否离开95至100美元区间的关键。"
+      ],
+      "source": {
+        "name": "中央社 / CNA",
+        "url": "https://www.cna.com.tw/news/aopl/202611120013.aspx"
+      },
+      "status": "待验证"
+    }
+  ],
+  "regions": [
+    {
+      "name": "美国",
+      "en": "United States",
+      "summary": "参院版图再变，英伟达治理事件压过政策议程。",
+      "items": [
+        {
+          "title": "科洛姆赢密西西比参院席位",
+          "text": "民主党人斯科特·科洛姆击败共和党现任海德-史密斯，成为140多年来首位代表密西西比进入参院的黑人。这是中期选举后民主党翻轉的第八个参院席位，将改变关税撤销、战争权力法案等议程的票数计算。",
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/11/democrat-scott-colom-wins-closely-watched-us-senate-race-in-mississippi?traffic_source=rss"
+          }
+        },
+        {
+          "title": "赫格塞斯随行在无名战士墓前被卫兵训斥",
+          "text": "退伍军人节仪式后，无名战士墓卫兵对国防部长赫格塞斯及其顾问、工作人员发出言语训斥，原因是现场传出笑声。此事发生在众院程序性阻止弹劾动议之后，问责线索由立法渠道转向礼仪与舆论层面。",
+          "source": {
+            "name": "SCMP",
+            "url": "https://www.scmp.com/news/world/united-states-canada/article/3374128/hegseth-and-staff-scolded-guard-after-laughter-heard-tomb-unknown-soldier"
+          }
+        }
+      ]
+    },
+    {
+      "name": "欧洲",
+      "en": "Europe",
+      "summary": "都柏林峰会与西班牙大罢工同时考验欧洲内部稳定。",
+      "items": [
+        {
+          "title": "欧洲领导人聚都柏林，爱尔兰启动史上最大安保",
+          "text": "约50名欧洲领导人本周在都柏林会晤，爱尔兰启动史上最大规模安保行动，背景是混合攻击担忧上升。峰会议题与安保部署本身，反映欧洲对基础设施与信息攻击的威胁评估在抬升。",
+          "source": {
+            "name": "France 24",
+            "url": "https://www.france24.com/en/european-leaders-gather-in-dublin-under-the-shadow-of-hybrid-threats"
+          }
+        },
+        {
+          "title": "西班牙14年来首次全国大罢工",
+          "text": "西班牙主要工会因住房与生活成本发起14年来首次全国大罢工，数十万人参与，商业与公共交通停摆。巴塞罗那游行后发生冲突，示威者向警察投掷烟花并点燃垃圾桶。",
+          "source": {
+            "name": "BBC World",
+            "url": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss"
+          }
+        }
+      ]
+    },
+    {
+      "name": "中东",
+      "en": "Middle East",
+      "summary": "加沙医疗设施再遭打击，美以在伊朗战争节奏上出现裂痕。",
+      "items": [
+        {
+          "title": "以军打击汗尤尼斯医疗综合体，加沙九人死亡",
+          "text": "以色列 strikes 击中汗尤尼斯的纳赛尔医疗综合体，加沙各地共九人死亡。联合国呼吁紧急援助，以应对加沙地带强降雨。医疗设施反复成为打击目标，援助通道与停火谈判的人道压力同步上升。",
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/11/israeli-strikes-hit-tent-camp-as-five-killed-in-gaza?traffic_source=rss"
+          }
+        },
+        {
+          "title": "艾森科特推法案，瞄准内塔尼亚胡政策",
+          "text": "以色列总理职位竞争者加迪·艾森科特在立法会期开始时推出一系列法案，针对内塔尼亚胡及其政策。此举把以色列国内政治竞争与伊朗战争决策的分歧叠在一起，内塔尼亚胡的执政联盟面临双重压力。",
+          "source": {
+            "name": "France 24",
+            "url": "https://www.france24.com/en/tv-shows/a-propos/20261111-gadi-eisenkot-unveils-agenda-to-reverse-netanyahu-s-policies"
+          }
+        }
+      ]
+    },
+    {
+      "name": "亚太",
+      "en": "Asia-Pacific",
+      "summary": "东南亚AI监管借澳大利亚模板，日本企业网络安全承压。",
+      "items": [
+        {
+          "title": "东南亚能否复制澳大利亚AI保障措施",
+          "text": "分析人士称，澳大利亚对AI公司的新强制性保障措施可作为东南亚模板，但该地区需先建立制度与技术能力。监管模板的可移植性取决于执法机构与算力、数据基础设施的成熟度。",
+          "source": {
+            "name": "SCMP",
+            "url": "https://www.scmp.com/week-asia/economics/article/3374089/can-southeast-asia-cut-and-paste-australias-ai-safeguards"
+          }
+        },
+        {
+          "title": "路透调查：三分之一日本企业今年遭网络攻击",
+          "text": "路透调查显示，今年约三分之一日本企业或其服务提供商遭遇网络攻击。供应链环节的服务商成为薄弱点，企业安全投入与外包风险管理面临重估。",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/business/cyberattacks-hit-third-japan-firms-or-their-service-providers-year-reuters-poll-6544086"
+          }
+        }
+      ]
+    },
+    {
+      "name": "中国",
+      "en": "China",
+      "summary": "华为系车企接近玛莎拉蒂合作，深圳APEC成中美低垂果实窗口。",
+      "items": [
+        {
+          "title": "华为支持的电动车品牌接近与玛莎拉蒂达成协议",
+          "text": "消息人士称，中国豪华电动车品牌迈克萨斯正接近与意大利玛莎拉蒂达成合作，将共同开发车型以挑战豪华车市场。合作若落地，是中国电动车技术输出与欧洲品牌资产结合的又一案例。",
+          "source": {
+            "name": "SCMP",
+            "url": "https://www.scmp.com/business/china-evs/article/3374072/chinese-maserati-huawei-backed-ev-firm-nears-pact-italian-marque-sources-say"
+          }
+        },
+        {
+          "title": "深圳APEC峰会成习特低垂果实窗口",
+          "text": "亚太经合组织峰会将于11月18日至19日在深圳举行，深圳还将承办习特后续两次会晤中的第一次。评论认为，双方在峰会前有低垂果实可摘，但关税撤销仍需参院60票门槛与总统否决权约束。",
+          "source": {
+            "name": "SCMP",
+            "url": "https://www.scmp.com/opinion/china-opinion/article/3373661/low-hanging-fruit-xi-and-trump-pluck-shenzhen-apec-summit"
+          }
+        }
+      ]
+    },
+    {
+      "name": "全球南方",
+      "en": "Global South",
+      "summary": "中国声援古巴对抗制裁，刚果（金）修宪争议升温。",
+      "items": [
+        {
+          "title": "中国表态支持古巴对抗制裁与外部干涉",
+          "text": "中国周三承诺支持古巴反对制裁与外国干涉。此前数日，华盛顿因古巴涉嫌供应相关物资而惩罚两家中国国有关联企业。哈瓦那在北京提出美国燃料压力议题，三方博弈把加勒比纳入中美摩擦前沿。",
+          "source": {
+            "name": "SCMP",
+            "url": "https://www.scmp.com/news/china/diplomacy/article/3374127/china-backs-cuba-havana-raises-us-fuel-pressure-beijing"
+          }
+        },
+        {
+          "title": "齐塞克迪为修宪铺路，刚果（金）政治紧张",
+          "text": "刚果（金）一项扩大修宪公投条件的新法律引发政治紧张。与此同时，肯尼亚正式宣布结束某一紧急状态。修宪程序若推进，将改变总统权力结构与选举时间表。",
+          "source": {
+            "name": "France 24",
+            "url": "https://www.france24.com/en/tshisekedi-paves-way-for-constitutional-change"
+          }
+        }
+      ]
+    }
+  ],
+  "personal": [
+    {
+      "title": "英伟达换帅：先看客户下单节奏，再看HBM4认证",
+      "text": "黄仁勋去留若进入实质程序，短期看两点：云厂商与主权算力客户是否推迟下单，以及SK海力士、美光财报中HBM4认证进度是否被重新排期。IREN推迟交付是否扩散到其他承建方，是判断资本开支是否真被打断的先行指标。"
+    },
+    {
+      "title": "英国央行今晚20:00决议：7比2则2月再加一次",
+      "text": "今晚20:00英国央行公布决议。若以7比2通过加息，则2月再加一次为基准情形，终端利率4.25%。看投票分歧与声明措辞，比看单次加息幅度更重要。"
+    },
+    {
+      "title": "美伊降级路径：周五是可核查窗口",
+      "text": "特朗普称战争很快结束，但以媒曝其与内塔尼亚胡争吵。周五是否给出可核查的降级路径是关键；若只是推迟，油价回到95至100美元区间，通胀与央行路径都要重算。"
+    }
+  ],
+  "threads": [
+    {
+      "name": "AI资本开支",
+      "status": "升级",
+      "note": "下周SK海力士、美光财报与HBM4认证进度；IREN推迟交付是否扩散到其他承建方；黄仁勋调查是否改变客户下单节奏。"
+    },
+    {
+      "name": "赫格塞斯问责",
+      "status": "证伪",
+      "note": "众院程序性阻止弹劾动议，看参院是否另开听证、司法渠道是否接手，以及战争权力法案是否进入排期。"
+    },
+    {
+      "name": "美伊谈判",
+      "status": "待验证",
+      "note": "周五是否给出可核查的降级路径；若只是推迟，油价回到95至100美元区间。"
+    },
+    {
+      "name": "英国央行加息",
+      "status": "新增",
+      "note": "今晚20:00决议；若7比2通过，则2月再加一次为基准，终端利率4.25%。"
+    },
+    {
+      "name": "关税撤销",
+      "status": "待验证",
+      "note": "民主党表态积极，但参议院60票门槛与总统否决权仍在；短期更可能是听证而非立法。"
+    }
+  ],
+  "reading": [
+    {
+      "title": "Nvidia is preparing to oust Jensen Huang",
+      "outlet": "Wall Street Journal",
+      "note": "董事会紧急磋商与FBI调查的一手报道，判断治理事件边界的基准文本。",
+      "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad"
+    },
+    {
+      "title": "Jensen Huang said to have had relationship with executive who reports to him",
+      "outlet": "New York Times",
+      "note": "关系披露的细节来源，决定董事会程序与调查范围如何展开。",
+      "url": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html"
+    },
+    {
+      "title": "Can Southeast Asia cut and paste Australia's AI safeguards?",
+      "outlet": "SCMP",
+      "note": "监管模板移植的制度条件清单，适合对照中国与欧盟路径阅读。",
+      "url": "https://www.scmp.com/week-asia/economics/article/3374089/can-southeast-asia-cut-and-paste-australias-ai-safeguards"
+    },
+    {
+      "title": "Low-hanging fruit for Xi and Trump to pluck at Shenzhen Apec summit",
+      "outlet": "SCMP",
+      "note": "深圳APEC前的议程盘点，关税与会晤排期的现实约束写得清楚。",
+      "url": "https://www.scmp.com/opinion/china-opinion/article/3373661/low-hanging-fruit-xi-and-trump-pluck-shenzhen-apec-summit"
+    }
+  ],
+  "sources": [
+    "SCMP",
+    "BBC World",
+    "Al Jazeera",
+    "France 24",
+    "CNA",
+    "NPR",
+    "中央社",
+    "Wall Street Journal",
+    "New York Times",
+    "Ars Technica",
+    "The Guardian"
+  ],
+  "sections": [
+    {
+      "no": "01",
+      "name": "宏观 · 政策",
+      "intro": "美国选举版图与战争表态同时改写政策排期。",
+      "items": [
+        {
+          "title": "科洛姆赢下密西西比参院席位",
+          "text": "民主党挑战者斯科特·科洛姆击败共和党现任辛迪·海德-史密斯，成为140多年来首位代表密西西比进入参议院的黑人。多家媒体称这是全国最接近的参院选战之一，也是中期选举后民主党翻转的第八个参院席位。",
+          "tag": "选举",
+          "source": {
+            "name": "BBC World",
+            "url": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss"
+          }
+        },
+        {
+          "title": "特朗普称伊朗战争将结束，以媒曝与内塔尼亚胡飙骂",
+          "text": "特朗普在退伍军人节演说中为伊朗战争辩护，称冲突很快结束、世界将更安全，并称要取得“全面胜利”而非93%的胜利。以色列媒体报道，特朗普与内塔尼亚胡上周末通话时因是否恢复对伊朗战争立场相左，最终演成飙骂。",
+          "tag": "地缘",
+          "source": {
+            "name": "中央社",
+            "url": "https://www.cna.com.tw/news/aopl/202611120013.aspx"
+          }
+        }
+      ]
+    },
+    {
+      "no": "02",
+      "name": "市场 · 资产",
+      "intro": "科技股撑住大盘，英伟达盘后独自承压。",
+      "items": [
+        {
+          "title": "科技股带动全球股市走高，英伟达盘后下跌",
+          "text": "科技股反弹提振全球股市，美元走强。大盘收涨的同时，英伟达在盘后交易中下跌，市场把治理事件与AI交易的整体情绪分开定价，资金暂时留在科技板块内部而非撤离。",
+          "tag": "市场",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/world/tech-us-stocks-wall-street-dollar-coreweave-6543901"
+          }
+        },
+        {
+          "title": "预测市场竞争升温，Polymarket裁员缩编",
+          "text": "随着预测市场竞争加剧，Polymarket削减岗位与合同。该赛道此前因选举周期获得高关注，如今进入成本与合规的淘汰阶段，商业模式能否在监管收紧下维持流动性成为关键。",
+          "tag": "资产",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/business/polymarket-cuts-jobs-contracts-prediction-market-competition-heats-up-6544106"
+          }
+        }
+      ]
+    },
+    {
+      "no": "03",
+      "name": "科技 · AI",
+      "intro": "AI治理与资本叙事同时被检验。",
+      "items": [
+        {
+          "title": "东南亚能否照搬澳大利亚的AI护栏",
+          "text": "分析人士认为，澳大利亚对AI公司实施的新强制性护栏可作为东南亚的范本，但该地区需要先建立制度与技术能力，否则规则难以落地执行。",
+          "tag": "监管",
+          "source": {
+            "name": "SCMP",
+            "url": "https://www.scmp.com/week-asia/economics/article/3374089/can-southeast-asia-cut-and-paste-australias-ai-safeguards"
+          }
+        },
+        {
+          "title": "Anthropic大型IPO引发FOMO，评论呼吁看招股书",
+          "text": "评论指出，Anthropic即将到来的IPO可能引发散户追高情绪，但对公司前景的兴奋不应盖过投资基本面，应读申报文件而非追逐热度。",
+          "tag": "IPO",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/commentary/anthropic-mega-ipo-spark-fomo-retail-investors-back-basics-6542546"
+          }
+        }
+      ]
+    },
+    {
+      "no": "04",
+      "name": "产业 · 半导体",
+      "intro": "英伟达治理事件落在认证与财报窗口前。",
+      "items": [
+        {
+          "title": "英伟达准备撤换黄仁勋，董事会紧急磋商",
+          "text": "WSJ报道英伟达正准备撤换CEO黄仁勋，董事会举行紧急磋商，FBI已介入调查。事件发生在HBM4认证与下季度财报窗口之前，客户下单节奏与供应链认证可能被重新评估。",
+          "tag": "治理",
+          "source": {
+            "name": "WSJ",
+            "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad"
+          }
+        },
+        {
+          "title": "NYT：黄仁勋与直接下属存在关系",
+          "text": "NYT披露黄仁勋与一名直接向他汇报的高管存在关系。报道使董事会治理程序与内部合规审查同时成为焦点，进一步压缩公司在关键交付窗口前的决策带宽。",
+          "tag": "公司治理",
+          "source": {
+            "name": "NYT",
+            "url": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html"
+          }
+        }
+      ]
+    },
+    {
+      "no": "05",
+      "name": "能源 · 气候",
+      "intro": "战争节奏与能源设施布局共同影响风险溢价。",
+      "items": [
+        {
+          "title": "伊朗将阿根廷海军空军列为“恐怖组织”",
+          "text": "此举发生在阿根廷米莱政府将伊朗革命卫队列为“恐怖组织”数月之后，双方对抗升级，为能源与航运的制裁风险再添一层不确定性。",
+          "tag": "制裁",
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/11/iran-designates-argentinian-navy-air-force-as-terrorist?traffic_source=rss"
+          }
+        },
+        {
+          "title": "德光岛军事训练与能源集群能否共存",
+          "text": "专家表示，要在同一岛屿容纳军事训练与能源运营，需要足够的安全缓冲与周密规划，空间只是挑战的一部分，安全与规划才是核心约束。",
+          "tag": "基础设施",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/singapore/pulau-tekong-military-training-live-firing-energy-cluster-ema-6538521"
+          }
+        }
+      ]
+    },
+    {
+      "no": "06",
+      "name": "医药 · 健康",
+      "intro": "加沙医疗设施再受冲击，人道通道承压。",
+      "items": [
+        {
+          "title": "以军空袭加沙医疗综合体，多地九人死亡",
+          "text": "汗尤尼斯的纳赛尔医疗综合体遭袭，联合国呼吁紧急援助以应对加沙地带强降雨。医疗设施受损将放大疾病与物资短缺的二次风险。",
+          "tag": "人道",
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/11/israeli-strikes-hit-tent-camp-as-five-killed-in-gaza?traffic_source=rss"
+          }
+        },
+        {
+          "title": "日本三分之一企业或其服务商今年遭网络攻击",
+          "text": "路透调查显示，今年有三分之一日本企业或其服务提供商遭遇网络攻击。对医疗与健康数据密集行业而言，外包服务商成为最薄弱的一环。",
+          "tag": "网络安全",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/business/cyberattacks-hit-third-japan-firms-or-their-service-providers-year-reuters-poll-6544086"
+          }
+        }
+      ]
+    },
+    {
+      "no": "07",
+      "name": "商业 · 公司",
+      "intro": "中国车企出海与跨国品牌合作加速。",
+      "items": [
+        {
+          "title": "华为支持的电动车品牌接近与玛莎拉蒂达成合作",
+          "text": "中国豪华电动车品牌尊界正接近与意大利品牌玛莎拉蒂达成合作，双方将共同开发车型，意在挑战豪华车市场现有格局。消息人士称协议尚未最终敲定。",
+          "tag": "汽车",
+          "source": {
+            "name": "SCMP",
+            "url": "https://www.scmp.com/business/china-evs/article/3374072/chinese-maserati-huawei-backed-ev-firm-nears-pact-italian-marque-sources-say"
+          }
+        },
+        {
+          "title": "新加坡仍是中国企业出海首站吗",
+          "text": "随着国内利润收窄、产能扩张，中国企业持续扩大海外布局。在更严格的审查环境下，新加坡能否继续充当中国企业出海的第一站，正受到重新审视。",
+          "tag": "出海",
+          "source": {
+            "name": "SCMP",
+            "url": "https://www.scmp.com/economy/china-economy/article/3373856/under-higher-scrutiny-will-singapore-remain-chinese-firms-first-overseas-port-call"
+          }
+        }
+      ]
+    },
+    {
+      "no": "08",
+      "name": "科学 · 社会",
+      "intro": "历史遗留与劳工议题同时进入公共视野。",
+      "items": [
+        {
+          "title": "哈佛用于优生学研究的两具头骨归还巴西",
+          "text": "据信属于非洲人或非裔巴西人的两具头骨在经外交人员运送后归还巴西，其中一具被认为属于一名参与过历史事件的男性，涉及学术伦理与殖民遗留问题。",
+          "tag": "历史",
+          "source": {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/news/2026/nov/11/harvard-skulls-repatriated-brazil"
+          }
+        },
+        {
+          "title": "西班牙14年来首次总罢工，数十万人上街",
+          "text": "西班牙工人因住房与生活成本问题举行14年来首次总罢工，数十万人参与，巴塞罗那游行后爆发冲突，示威者向警察投掷烟花并点燃垃圾桶。",
+          "tag": "劳工",
+          "source": {
+            "name": "BBC World",
+            "url": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss"
+          }
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "title": "英伟达治理事件打断AI资本开支叙事",
+      "text": "WSJ报道英伟达准备撤换CEO黄仁勋，董事会紧急磋商，FBI介入；NYT披露黄与直接下属存在关系。盘后股价下跌，大盘仍受科技股带动收涨。",
+      "why": "关键不在丑闻，而在时点：事件落在HBM4认证与下季度财报窗口之前，客户下单节奏、承建方交付与供应链认证都可能被重新评估，AI资本开支的可预期性被治理风险替换，估值锚从订单转向治理折价。"
+    },
+    {
+      "title": "密西西比翻蓝，参院版图再变",
+      "text": "民主党挑战者科洛姆击败共和党现任海德-史密斯，成为140多年来首位代表密西西比进入参院的黑人，也是中期选举后民主党翻转的第八个参院席位。",
+      "why": "这是全国最接近的选战之一，票数结构变化会改变关税撤销、战争权力法案等议程的排期与计票。对市场而言，意味着贸易政策路径的不确定性上升，需要重新评估关税敏感行业的政策风险溢价。"
+    },
+    {
+      "title": "美以在伊朗战争节奏上出现公开分歧",
+      "text": "特朗普在退伍军人节演说中称伊朗战争很快结束、要取得全面胜利；以媒报道他与内塔尼亚胡上周末通话因是否恢复对伊战争立场相左，演成飙骂。",
+      "why": "分歧直接关系到周五能否给出可核查的降级路径。若降级路径可信，能源风险溢价与航运保费有回落空间；若通话裂痕扩大，油价与避险资产的尾部风险将重新定价，这比单次表态更值得跟踪。"
+    }
+  ],
+  "analysis": [
+    {
+      "kicker": "深度 01 · 政治与资产",
+      "title": "密西西比的席位与关税的票数：一场补选如何改写资产的风险折价",
+      "thesis": "科洛姆翻转密西西比参院席位，把关税撤销与战争权力从口号变成可排期的议程，资产定价的折价因子随之重估。",
+      "body": [
+        "民主党挑战者斯科特·科洛姆击败共和党现任辛迪·海德-史密斯，成为140多年来首位代表密西西比进入参议院的黑人。多家媒体称这是全国最接近的参院选战之一，也是中期选举后民主党翻转的第八个参院席位。席位本身不产生现金流，但它改变的是立法日程的可预测性，而可预测性正是风险溢价的分母。",
+        "参院版图变化的传导并不经过行政命令，而经过排期与票数计算。关税撤销需要委员会排期、需要足够票数抵御程序性阻挠；战争权力法案同样依赖议长与多数党领袖是否愿意把议案推上表决。翻转一席，等于把若干原本停在抽屉里的议案挪到台面上，市场对政策尾部风险的定价随之松动。",
+        "对资产而言，最先反应的不是股票指数，而是与贸易敞口和国防预算相关的板块。关税撤销概率上升，压低下游制造与零售的进口成本预期；战争权力约束增强，则削弱国防订单的久期假设。两者方向相反，却在同一件事上收敛：政策路径变得更可计算，波动率因此有下修空间。",
+        "需要警惕的是，一席多数并不等于立法能力。参院的程序规则、委员会主席的意愿、以及白宫是否配合，都会稀释翻转席位的实际权重。市场若把补选结果直接读成关税必然撤销，容易高估短期落地速度，低估程序摩擦带来的时间成本。",
+        "更稳的读法是把它当作概率分布的位移，而非确定性事件。选举、地缘、监管三者对资产的作用，往往通过改变预期分布的尾部形状实现，而非直接改变中枢。科洛姆的席位让尾部变薄，但中枢仍由通胀与盈利决定，这也是为什么股指当日反应温和。",
+        ""
+      ],
+      "counter": "反方会指出，参院翻转席位的立法效力常被高估，程序性阻挠与委员会把关足以让议程原地踏步；若白宫以行政手段绕开立法，关税与战争权力的实际路径未必改变，市场对补选的反应可能只是一次情绪性重估。",
+      "watch": [
+        "参院是否就关税撤销相关议案安排委员会听证或程序性表决",
+        "战争权力法案的联署人数与多数党领袖的排期表态",
+        "贸易敞口与国防板块的相对表现是否出现持续分化"
+      ]
+    },
+    {
+      "kicker": "深度 02 · 科技与资本",
+      "title": "CEO更替传闻撞上HBM4认证窗口：英伟达的治理折价如何传导到资本开支",
+      "thesis": "撤换黄仁勋的传闻本身不改变算力需求，但它落在HBM4认证与财报窗口前，把治理不确定性转译成客户下单节奏与供应链认证的重新评估。",
+      "body": [
+        "WSJ报道英伟达正准备撤换CEO黄仁勋，董事会举行紧急磋商，FBI已介入调查；NYT披露黄与一名直接下属存在关系。盘后英伟达股价下跌，而大盘受科技股带动收涨。事件的关键不在丑闻本身，而在它发生的时间点：HBM4认证与下季度财报窗口之前。",
+        "AI资本开支叙事的脆弱处，在于它依赖一条极长的协作链：客户下单、承建方交付、供应链认证，每一环都需要对手方对公司治理与决策连续性的信任。CEO更替传闻不会让GPU需求消失，但会让采购委员会在签字前多问一句：明年的路线图由谁拍板。",
+        "HBM4认证是这条链上最敏感的节点。认证需要供应商与客户工程团队长期对接，任何管理层变动都可能触发认证节奏的重排。若认证推迟一个季度，云厂商的资本开支确认时点随之后移，财报上的收入确认与折旧起点都会改变，估值模型的分母随之调整。",
+        "盘后股价下跌而大盘收涨，说明市场把这件事读成公司特有风险，而非行业需求转向。这是治理折价的典型形态：同一赛道的其他标的未必受益，因为客户不会因为一家公司换CEO就改换技术路线，但会推迟签约，等待治理结构明朗。",
+        "推论是，短期看认证与财报窗口的措辞，中期看董事会是否给出可核查的交接安排。若交接平稳、路线图不变，折价会快速收敛；若调查扩大、决策层出现真空，客户下单节奏的推迟会先体现在供应链订单，再体现在资本开支指引。",
+        ""
+      ],
+      "counter": "反方认为，英伟达的护城河来自CUDA生态与产能锁定，客户即便担忧治理也难以短期切换供应商；董事会若迅速确认继任者并重申路线图，治理折价可能在一两个交易日内被抹平，把传闻当作资本开支拐点为时过早。",
+      "watch": [
+        "董事会对CEO去留与交接安排的正式表态",
+        "HBM4认证进度与主要供应商的对接节奏",
+        "下季度财报指引中客户下单与交付措辞的变化"
+      ]
+    },
+    {
+      "kicker": "深度 03 · 宏观与能源",
+      "title": "战争将结束的表态与油价的风险溢价：降级路径能否被核查",
+      "thesis": "特朗普称伊朗战争将很快结束，但美以在战争节奏上的分歧意味着降级路径尚未可核查，油价的战争溢价因此难以单边回落。",
+      "body": [
+        "特朗普在退伍军人节演说中为伊朗战争辩护，称冲突很快结束、世界将更安全，并称要取得全面胜利而非93%的胜利。以色列媒体报道，特朗普与内塔尼亚胡上周末通话时因是否恢复对伊朗战争立场相左，最终演成飙骂。表态与分歧同时存在，构成当前油价定价的核心矛盾。",
+        "对宏观而言，战争对通胀的传导主要经过能源价格与运输成本。油价中的战争溢价并非对已发生供给中断的定价，而是对中断概率的定价。当一方宣称结束、另一方主张恢复，概率分布并未收敛，溢价便难以被系统性剔除，只能随时间衰减。",
+        "周五是否给出可核查的降级路径，是判断溢价能否回落的关键。可核查意味着有停火时点、有监督机制、有双方共同确认的步骤；缺少任何一项，市场只能把表态当作噪音，把仓位建立在概率而非承诺上。这也是为何口头表态对油价的推动往往短暂。",
+        "财政维度同样受影响。战争支出计入赤字，降级则释放财政空间，但释放的时点取决于冲突是否真正停止。若降级路径模糊，财政既无法确认节省，也无法排除追加拨款，长端利率对期限溢价的定价就缺少锚点，央行在通胀判断上也只能保持谨慎。",
+        "更可能的路径是油价在高位区间震荡而非单边下行，直到出现可核查的步骤。对通胀而言，这意味着能源分项对整体CPI的拖累减弱，央行降息的门槛相应抬高。投资者应把注意力从表态转向机制：谁监督、何时生效、如何验证。",
+        ""
+      ],
+      "counter": "反方认为，美国已是能源净出口国，油价上涨对本土通胀的传导弱于以往，战争溢价更多体现在全球基准而非美国终端价格；若冲突迅速降级，油价可能快速回吐，把当前溢价读成持续通胀压力会高估央行紧缩的必要性。",
+      "watch": [
+        "周五是否公布停火时点与监督机制等可核查步骤",
+        "布伦特与WTI近月合约的战争溢价是否持续收窄",
+        "美国长端利率与能源分项CPI的联动变化"
+      ]
+    }
+  ],
+  "date": "2026-11-12",
+  "issue": 9,
+  "edition": "晨刊",
+  "generated_at": "2026-11-12T08:07:29+08:00",
+  "weekday": "星期四",
+  "tagline": "一个人读的全球情报简报",
+  "numbers": {
+    "rows": [],
+    "note": ""
+  },
+  "calendar": [],
+  "ticker": []
+}
