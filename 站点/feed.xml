@@ -5,8 +5,15 @@
   <link href="https://anding99.github.io/zixun/feed.xml" rel="self"/>
   <link href="https://anding99.github.io/zixun/"/>
   <id>https://anding99.github.io/zixun/</id>
-  <updated>2026-11-13T01:05:39+00:00</updated>
+  <updated>2026-11-13T23:58:35+00:00</updated>
   <author><name>个人情报台</name></author>
+  <entry>
+    <title>第011期 · 2026-11-14</title>
+    <link href="https://anding99.github.io/zixun/2026-11-14.html"/>
+    <id>https://anding99.github.io/zixun/2026-11-14.html</id>
+    <updated>2026-11-14T07:30:00+08:00</updated>
+    <summary type="html">今天最该记住的一件事：美国全国空域因空管通信故障被联邦航空管理局（FAA）下令全面停飞，这是美国历史上第三次全国性地面停飞，而它发生在一场更深的系统性依赖之上——同一天微软全球服务中断近24小时、国家气象局报告全国性网络与通信异常。三条互不相关的技术故障在同一周叠加，说明美国关键基础设施的单点脆弱已从假设变成可观测的常态；FAA此前刚把AI流量建议扩展到全美空域，而空管工会未被纳入，技术升级与人力协商的脱节正是风险敞口。停飞本身会解除，但“谁在为冗余付费”这个问题不会。</summary>
+  </entry>
   <entry>
     <title>第010期 · 2026-11-13</title>
     <link href="https://anding99.github.io/zixun/2026-11-13.html"/>

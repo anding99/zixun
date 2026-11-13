@@ -1,0 +1,574 @@
+{
+  "lede": "今天最该记住的一件事：美国全国空域因空管通信故障被联邦航空管理局（FAA）下令全面停飞，这是美国历史上第三次全国性地面停飞，而它发生在一场更深的系统性依赖之上——同一天微软全球服务中断近24小时、国家气象局报告全国性网络与通信异常。三条互不相关的技术故障在同一周叠加，说明美国关键基础设施的单点脆弱已从假设变成可观测的常态；FAA此前刚把AI流量建议扩展到全美空域，而空管工会未被纳入，技术升级与人力协商的脱节正是风险敞口。停飞本身会解除，但“谁在为冗余付费”这个问题不会。",
+  "editor_note": "今天把美国航空停摆放在首位，不是因为它最戏剧化，而是因为它同时暴露了监管、技术与人力三条线的错位。英伟达接班与国会调查、APEC前的中美贸易委员会，是本周真正需要跟踪的两条长线。",
+  "brief": [
+    "FAA因空管通信故障下令全美出发航班停飞，为史上第三次全国地面停飞，交通部长称正在调查。",
+    "国土安全部长穆林称目前不存在对美国的安全威胁，但旅客在停机坪滞留且缺乏信息。",
+    "美中在川习深圳APEC会晤前举行首次贸易委员会会议，议题为建立公平平衡的贸易关系。",
+    "美国国会扩大对英伟达的调查，要求黄仁勋与川普政府官员作证，聚焦对华先进芯片出口。",
+    "英伟达董事会称正遴选猎才公司协助寻找CEO人选，尚未正式接洽任何潜在候选人。"
+  ],
+  "top": [
+    {
+      "kicker": "头条",
+      "title": "全美航班停飞：一次通信故障击穿三层冗余",
+      "summary": "FAA以“影响所有航路交通管制中心的通信问题”为由，下令全美机场暂停出发航班，这是美国历史上第三次全国性地面停飞。交通部长达菲称正在调查，国土安全部长穆林在白宫简报中表示目前不构成安全威胁。事件与同日微软近24小时全球中断、国家气象局全国性网络异常并列，指向同一类问题：关键系统冗余不足且信息发布滞后。",
+      "points": [
+        "停飞范围覆盖全美机场，属史上第三次全国地面停飞，触发原因是空管通信而非安全事件。",
+        "FAA此前将AI流量建议扩展至全美空域，但空管工会未参与，技术部署与人力协商脱节。",
+        "穆林称无安全威胁，但旅客滞留停机坪且缺乏信息，恢复时间表尚未给出。"
+      ],
+      "source": {
+        "name": "NPR",
+        "url": "https://www.npr.org/2026/11/13/nx-s1-6040403/faa-nationwide-groundstop-airports"
+      },
+      "status": "新增"
+    },
+    {
+      "kicker": "芯片",
+      "title": "国会扩大英伟达调查，接班问题与出口管制并轨",
+      "summary": "美国国会扩大对英伟达的调查，要求前CEO黄仁勋及川普政府官员作证，焦点是先进芯片对华出口的国家安全风险与白宫是否施加了不当监督。同日英伟达董事会表示正遴选猎才公司寻找CEO人选，尚未正式接洽任何候选人，并称对个别候选人的揣测为时过早。公司治理与出口管制两条线在同一周交汇，使英伟达同时面对市场与政治两类不确定性。",
+      "points": [
+        "调查要求黄仁勋与川普政府官员作证，核心是对华先进芯片出口的国安风险与白宫监督。",
+        "董事会称正遴选猎才公司，尚未接洽候选人，接班程序处于早期阶段。",
+        "下周SK海力士、美光财报与HBM4认证进度，是AI资本开支叙事的第一个检验点。"
+      ],
+      "source": {
+        "name": "SCMP",
+        "url": "https://www.scmp.com/news/china/diplomacy/article/3374412/us-congress-widens-nvidia-probe-seeking-testimony-jensen-huang-and-trump-officials"
+      },
+      "status": "升级"
+    },
+    {
+      "kicker": "中美",
+      "title": "川习会前，美中首次贸易委员会会议落地",
+      "summary": "在川普预计下周访问中国、出席深圳APEC峰会并会晤习近平之前，美中经贸官员举行了首次贸易委员会会议，目标是建立公平且平衡的贸易关系。这一机制性安排先于首脑会晤落地，意味着双方在峰会前试图把可交付成果制度化，而非仅依赖领导人个人互动。对市场而言，委员会能否产出可核查的清单，比峰会本身更具指示意义。",
+      "points": [
+        "首次贸易委员会会议在川习深圳会晤前举行，定位为建立公平平衡的贸易关系。",
+        "机制先于首脑会晤落地，显示双方倾向把成果制度化而非仅靠个人外交。",
+        "检验点在于委员会是否给出可核查的关税或采购清单，而非会后表态。"
+      ],
+      "source": {
+        "name": "中央社",
+        "url": "https://www.cna.com.tw/news/aopl/202611140008.aspx"
+      },
+      "status": "新增"
+    }
+  ],
+  "regions": [
+    {
+      "name": "美国",
+      "en": "United States",
+      "summary": "全国停飞与微软中断同日发生，基础设施冗余成为焦点。",
+      "items": [
+        {
+          "title": "FAA下令全美出发航班停飞",
+          "text": "FAA以影响所有航路交通管制中心的通信问题为由发布全国地面停飞令，为史上第三次。交通部长达菲称正在调查，恢复时间未定，旅客大面积滞留。",
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/13/us-grounds-all-flights-after-communication-issue?traffic_source=rss"
+          }
+        },
+        {
+          "title": "微软为近24小时全球中断致歉",
+          "text": "微软就持续近24小时的全球服务中断公开致歉。专家称事件是“严酷提醒”，显示全球对少数大型科技供应商的依赖程度过高。",
+          "source": {
+            "name": "BBC World",
+            "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss"
+          }
+        }
+      ]
+    },
+    {
+      "name": "欧洲",
+      "en": "Europe",
+      "summary": "欧盟将派五国加机构外交官参与乌克兰谈判。",
+      "items": [
+        {
+          "title": "欧盟五国代表将参与乌克兰谈判",
+          "text": "欧洲理事会主席科斯塔表示，布鲁塞尔将派出欧盟及英、法、德、意、波五国外交官参加乌克兰和平谈判，形成欧洲层面的统一代表结构。",
+          "source": {
+            "name": "France 24",
+            "url": "https://www.france24.com/en/europe/20261113-europe-to-send-diplomats-from-across-the-continent-to-ukraine-peace-talks"
+          }
+        },
+        {
+          "title": "欧盟对华补贴执念掩盖自身停滞",
+          "text": "评论指出，欧盟委员会正推动保护工业机械与化工部门免受中国进口冲击，并考虑“ kill switch”机制，但此举掩盖了欧洲自身的结构性停滞。",
+          "source": {
+            "name": "SCMP",
+            "url": "https://www.scmp.com/opinion/world-opinion/article/3373980/eus-fixation-chinese-subsidies-masks-its-own-structural-stagnation"
+          }
+        }
+      ]
+    },
+    {
+      "name": "中东",
+      "en": "Middle East",
+      "summary": "美伊降级路径仍待验证，油价区间是观察指标。",
+      "items": [
+        {
+          "title": "美伊谈判的可核查降级尚未出现",
+          "text": "上一期线索显示，周五是否给出可核查的降级路径是关键；若只是推迟，油价将回到95至100美元区间。目前尚无机制性进展披露。",
+          "source": {
+            "name": "France 24",
+            "url": "https://www.france24.com/en/americas/20261113-us-flight-authority-orders-national-ground-stop-over-air-traffic-control-communication-issue"
+          }
+        },
+        {
+          "title": "萨拉赫打破埃及进球纪录",
+          "text": "萨拉赫刷新埃及国家队进球纪录，突尼斯则在比赛中负于利比亚。体育层面的区域赛事照常推进。",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/sport/salah-breaks-egypt-scoring-record-tunisia-lose-libya-6550811"
+          }
+        }
+      ]
+    },
+    {
+      "name": "亚太",
+      "en": "Asia-Pacific",
+      "summary": "东盟马尼拉峰会聚焦南海与缅甸，年底COC难成。",
+      "items": [
+        {
+          "title": "东盟峰会在马尼拉召开",
+          "text": "东盟领导人齐聚马尼拉，南海行为准则与缅甸危机为主要议题。分析人士认为，东盟与中国年底前完成COC谈判的可能性不高。",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/asia/asean-summit-manila-south-china-sea-myanmar-6549311"
+          }
+        },
+        {
+          "title": "马六甲州选检验安华马来支持度",
+          "text": "马六甲州选投票日举行，近70万选民从79名候选人中选出28个州议席，被视为对安华政府马来支持度的关键检验。",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/asia/melaka-election-anwar-ph-bn-pn-6545371"
+          }
+        }
+      ]
+    },
+    {
+      "name": "中国",
+      "en": "China",
+      "summary": "进博会显示外资供应商对华销售难度上升。",
+      "items": [
+        {
+          "title": "中国 shopping list 的变化",
+          "text": "在上海进口博览会期间，出口商与行业专家表示，从菲律宾菠萝到法国化妆品，中国仍对外国有需求，但外资供应商面临更艰难的销售环境。",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/east-asia/shanghai-import-expo-china-foreign-suppliers-consumer-demand-6535701"
+          }
+        },
+        {
+          "title": "黄仁勋风波令新加坡芯片枢纽承压",
+          "text": "黄仁勋相关风波把焦点投向新加坡作为芯片枢纽的成功，以及其作为涉嫌非法交易地点的角色，对亲商的新加坡构成外交与监管难题。",
+          "source": {
+            "name": "BBC World",
+            "url": "https://www.bbc.co.uk/news/articles/ck1exevgql4qo?at_medium=RSS&at_campaign=rss"
+          }
+        }
+      ]
+    },
+    {
+      "name": "全球南方",
+      "en": "Global South",
+      "summary": "冈比亚大选五人角逐，巴罗寻求第三任期。",
+      "items": [
+        {
+          "title": "冈比亚公布总统选举候选人",
+          "text": "冈比亚选举委员会公布五名正式总统候选人，现任总统巴罗寻求第三任期，选举竞争格局正式确定。",
+          "source": {
+            "name": "France 24",
+            "url": "https://www.france24.com/en/gambia-s-adama-barrow-seeks-third-term"
+          }
+        },
+        {
+          "title": "Anthropic IPO 投资者质疑领先持续性",
+          "text": "独家报道显示投资者涌向Anthropic的IPO，但同时质疑其AI领先地位的可持续性，估值与竞争壁垒成为核心争议。",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/business/exclusive-investors-flock-anthropic-ipo-question-durability-ai-lead-6550701"
+          }
+        }
+      ]
+    }
+  ],
+  "personal": [
+    {
+      "title": "检查你的航班与备份通信",
+      "text": "全国停飞期间，出发航班全面暂停且信息发布滞后。若近期有美国行程，优先确认航司改签政策，并准备一条不依赖单一云服务的通信备份。",
+      "source": {
+        "name": "NPR",
+        "url": "https://www.npr.org/2026/11/13/nx-s1-6040397/stuck-on-the-tarmac-without-information-travelers-share-their-ground-stop-experiences"
+      }
+    },
+    {
+      "title": "GLP-1用药依从性的成本问题",
+      "text": "数百万美国人未按处方使用GLP-1药物，成本与可及性障碍推动人们改用调整剂量或未经批准的版本，健康风险与支出结构同时被扭曲。",
+      "source": {
+        "name": "Ars Technica",
+        "url": "https://arstechnica.com/health/2026/11/millions-in-us-use-unapproved-glp-1s-and-use-them-in-unapproved-ways/"
+      }
+    },
+    {
+      "title": "肌少症的早期自测",
+      "text": "年龄相关肌肉流失可能在外观不变时发生。医生建议通过DXA与握力测试识别肌少症，早筛比事后补练更有效。",
+      "source": {
+        "name": "CNA",
+        "url": "https://www.channelnewsasia.com/wellness/sarcopenia-muscle-loss-tests-dexa-handgrip-strength-ageing-6542351"
+      }
+    }
+  ],
+  "threads": [
+    {
+      "name": "AI资本开支",
+      "status": "升级",
+      "note": "黄仁勋辞职叠加国会听证；下周SK海力士、美光财报与HBM4认证进度是第一个检验点，观察IREN推迟交付是否扩散到其他承建方。"
+    },
+    {
+      "name": "赫格塞斯问责",
+      "status": "证伪",
+      "note": "众院程序性阻止弹劾动议；看参院是否另开听证、司法渠道是否接手，以及战争权力法案是否进入排期。"
+    },
+    {
+      "name": "美伊谈判",
+      "status": "待验证",
+      "note": "周五是否给出可核查的降级路径；若只是推迟，油价回到95至100美元区间。"
+    },
+    {
+      "name": "英国央行加息",
+      "status": "新增",
+      "note": "今晚20:00决议；若7比2通过，则2月再加一次为基准，终端利率4.25%。"
+    },
+    {
+      "name": "关税撤销",
+      "status": "待验证",
+      "note": "民主党表态积极，但参议院60票门槛与总统否决权仍在；短期更可能是听证而非立法。"
+    }
+  ],
+  "reading": [
+    {
+      "title": "Jensen Huang may prove that the ‘irreplaceable CEO’ is a myth",
+      "outlet": "CNA / Bloomberg Opinion",
+      "note": "讨论继任者如何运营一家围绕已离任者建立的公司。",
+      "url": "https://www.channelnewsasia.com/commentary/nvidia-succession-plan-jensen-huang-irreplaceable-ceo-myth-6549121"
+    },
+    {
+      "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
+      "outlet": "Ars Technica",
+      "note": "航司欢迎该AI工具，但空管工会未被纳入，是今天停飞的背景注脚。",
+      "url": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/"
+    },
+    {
+      "title": "Midterm losses could give Trump a quest to emerge from Apec summit as a winner",
+      "outlet": "SCMP",
+      "note": "分析中期选举失利如何塑造川普在APEC的行为逻辑。",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3374333/midterm-losses-could-give-trump-quest-emerge-apec-summit-winner"
+    },
+    {
+      "title": "EU’s fixation on Chinese subsidies masks its own structural stagnation",
+      "outlet": "SCMP",
+      "note": "从欧盟产业防御工具切入，讨论欧洲内部的结构性问题。",
+      "url": "https://www.scmp.com/opinion/world-opinion/article/3373980/eus-fixation-chinese-subsidies-masks-its-own-structural-stagnation"
+    }
+  ],
+  "sources": [
+    "NPR",
+    "SCMP",
+    "中央社",
+    "CNA",
+    "BBC World",
+    "Al Jazeera",
+    "France 24",
+    "Ars Technica"
+  ],
+  "sections": [
+    {
+      "no": "01",
+      "name": "宏观 · 政策",
+      "intro": "全国停飞与美中机制化接触同日推进，政策不确定性从航空扩散至贸易。",
+      "items": [
+        {
+          "title": "FAA下令全美地面停飞，为史上第三次",
+          "text": "FAA以影响所有航路交通管制中心的通信问题为由，下令全美机场暂停出发航班，交通部长达菲称正在调查。国土安全部长穆林在白宫简报中表示目前不构成安全威胁，但停飞可能持续一段时间。",
+          "tag": "航空监管",
+          "source": {
+            "name": "Ars Technica",
+            "url": "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/"
+          }
+        },
+        {
+          "title": "川习APEC会晤前，美中举行首次贸易委员会会议",
+          "text": "川普预计下周访问中国、出席深圳APEC峰会并会晤习近平。会晤前，美中经贸官员举行首次贸易委员会会议，以建立公平且平衡的贸易关系，试图在峰会前把可交付成果制度化。",
+          "tag": "贸易机制",
+          "source": {
+            "name": "中央社",
+            "url": "https://www.cna.com.tw/news/aopl/202611140008.aspx"
+          }
+        }
+      ]
+    },
+    {
+      "no": "02",
+      "name": "市场 · 资产",
+      "intro": "股市经历动荡一周后仍录得周涨幅，AI新股热度与耐久性质疑并存。",
+      "items": [
+        {
+          "title": "美股下跌但仍录得上涨周",
+          "text": "经历数个动荡交易日后，美股周五收跌，但全周仍录得涨幅。市场在航空停飞与科技系统中断的消息面下维持韧性，投资者继续评估政策与运营风险对风险资产的传导。",
+          "tag": "美股",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/world/stocks-fall-wall-street-notches-winning-week-after-several-turbulent-days-6550656"
+          }
+        },
+        {
+          "title": "投资者涌向Anthropic IPO，但质疑AI领先地位耐久性",
+          "text": "独家报道显示，投资者蜂拥参与Anthropic的IPO，同时对该公司AI领先优势能否持续提出疑问。认购热度与基本面审视同时上升，反映一级市场对AI资产的定价分歧正在扩大。",
+          "tag": "IPO",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/business/exclusive-investors-flock-anthropic-ipo-question-durability-ai-lead-6550701"
+          }
+        }
+      ]
+    },
+    {
+      "no": "03",
+      "name": "科技 · AI",
+      "intro": "微软全球中断致歉，FAA却扩大AI建议工具覆盖全美空域，可靠性争议升温。",
+      "items": [
+        {
+          "title": "微软为近24小时全球中断致歉",
+          "text": "微软就持续近24小时的全球服务中断表示“深感抱歉”。专家称该事件是“严酷提醒”，显示世界对少数大型科技供应商的依赖程度之高，与同日航空与气象系统故障形成呼应。",
+          "tag": "云服务",
+          "source": {
+            "name": "BBC World",
+            "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss"
+          }
+        },
+        {
+          "title": "FAA将AI建议扩展至全美空域拥堵管理",
+          "text": "FAA扩大AI建议工具的使用范围，以管理全美空域的空中交通拥堵。航空公司对该工具表示赞赏，但空中交通管制员工会未被纳入相关过程，引发对责任边界与人工监督的讨论。",
+          "tag": "AI治理",
+          "source": {
+            "name": "Ars Technica",
+            "url": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/"
+          }
+        }
+      ]
+    },
+    {
+      "no": "04",
+      "name": "产业 · 半导体",
+      "intro": "国会扩大英伟达调查，黄仁勋 scandal 也让新加坡芯片枢纽角色受审视。",
+      "items": [
+        {
+          "title": "美国国会扩大英伟达调查，要求黄仁勋与川普官员作证",
+          "text": "在有关前英伟达CEO的爆料后，美国议员持续要求就先进芯片对华出口的潜在国家安全风险及白宫监督问题作出回答。调查扩大至要求黄仁勋及川普政府官员作证，出口管制与政治监督并轨。",
+          "tag": "出口管制",
+          "source": {
+            "name": "SCMP",
+            "url": "https://www.scmp.com/news/china/diplomacy/article/3374412/us-congress-widens-nvidia-probe-seeking-testimony-jensen-huang-and-trump-officials"
+          }
+        },
+        {
+          "title": "黄仁勋 scandal 让新加坡芯片枢纽角色承压",
+          "text": "相关 scandal 把聚光灯投向新加坡作为芯片枢纽的成功，以及其作为涉嫌非法贸易地点的角色。转口与合规审查趋严，可能影响区域芯片贸易流向与跨国企业的本地布局。",
+          "tag": "供应链",
+          "source": {
+            "name": "BBC World",
+            "url": "https://www.bbc.co.uk/news/articles/ck1exevgql4qo?at_medium=RSS&at_campaign=rss"
+          }
+        }
+      ]
+    },
+    {
+      "no": "05",
+      "name": "能源 · 气候",
+      "intro": "国家气象局全国性网络异常，与航空停飞同日发生，关键公共系统可靠性受关注。",
+      "items": [
+        {
+          "title": "美国国家气象局报告全国性网络与通信问题",
+          "text": "美国国家气象局报告出现全国范围的互联网与通信问题。该事件与FAA全国停飞、微软全球中断同日发生，使关键公共信息系统的冗余与故障披露机制再度成为焦点。",
+          "tag": "公共系统",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/technology/us-national-weather-service-reports-nationwide-internet-communications-issues-2026-11-13/"
+          }
+        },
+        {
+          "title": "纽奥良港油轮撞河轮，约130名乘客受困后展开救援",
+          "text": "美国纽奥良港附近一艘油轮与一艘停泊的河上邮轮碰撞，邮轮上约130名乘客，船身倾斜部分沉入水中，救援行动已展开。事故凸显内河航运与港口作业的安全与保险风险。",
+          "tag": "航运安全",
+          "source": {
+            "name": "中央社",
+            "url": "https://www.cna.com.tw/news/aopl/202611140007.aspx"
+          }
+        }
+      ]
+    },
+    {
+      "no": "06",
+      "name": "医药 · 健康",
+      "intro": "GLP-1药物被大量非处方化使用，肌少症筛查需求上升，健康管理转向早筛与可及性。",
+      "items": [
+        {
+          "title": "数百万美国人未按处方使用GLP-1药物",
+          "text": "成本与可及性障碍正推动人们以修改后的方式使用GLP-1药物，甚至转向未经批准的版本。非规范使用扩大，给疗效评估、药物安全与支付体系带来新的不确定性。",
+          "tag": "药物可及性",
+          "source": {
+            "name": "Ars Technica",
+            "url": "https://arstechnica.com/health/2026/11/millions-in-us-use-unapproved-glp-1s-and-use-them-in-unapproved-ways/"
+          }
+        },
+        {
+          "title": "肌少症可早筛：DEXA与握力测试帮助识别隐形肌肉流失",
+          "text": "外表可能看不出变化，但肌肉或已在无声萎缩。医生介绍与年龄相关的肌肉流失迹象，以及DEXA扫描、握力测试等可检测肌少症的方法，提示早筛与干预的窗口。",
+          "tag": "老龄健康",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/wellness/sarcopenia-muscle-loss-tests-dexa-handgrip-strength-ageing-6542351"
+          }
+        }
+      ]
+    },
+    {
+      "no": "07",
+      "name": "商业 · 公司",
+      "intro": "英伟达接班安排未定，索罗斯基金加码英特尔，公司治理与仓位调整同周发生。",
+      "items": [
+        {
+          "title": "英伟达董事会：正遴选猎才公司寻找CEO人选",
+          "text": "英伟达董事会表示，正在遴选猎才公司协助寻找CEO人选，尚未正式接洽任何潜在候选人，并称目前对任何个别候选人的揣测都言之过早。接班不确定性叠加国会调查，治理风险上升。",
+          "tag": "公司治理",
+          "source": {
+            "name": "中央社",
+            "url": "https://www.cna.com.tw/news/aopl/202611140011.aspx"
+          }
+        },
+        {
+          "title": "索罗斯基金第三季度将英特尔持股增至逾3.4亿美元",
+          "text": "索罗斯基金在第三季度把对英特尔的持股提高至逾3.4亿美元。在半导体政策与出口管制不确定性上升之际，大型基金增持美国本土晶圆制造资产，释放对产业政策受益者的配置信号。",
+          "tag": "持仓变动",
+          "source": {
+            "name": "CNA",
+            "url": ""
+          }
+        }
+      ]
+    },
+    {
+      "no": "08",
+      "name": "科学 · 社会",
+      "intro": "星舰双捕获受挫，东盟聚焦南海与缅甸，科技与地缘议程并行。",
+      "items": [
+        {
+          "title": "SpaceX星舰双捕获受挫，助推器落入海洋",
+          "text": "SpaceX周五发射星舰，进行迄今最大胆的测试：一次22小时飞行，目标是在加速月球与火星旅行的一步中捕获整枚火箭。但双捕获未能实现，助推器最终落入海洋。",
+          "tag": "航天",
+          "source": {
+            "name": "SCMP",
+            "url": "https://www.scmp.com/news/world/united-states-canada/article/3374413/spacexs-bid-starship-double-catch-thwarted-booster-ends-ocean"
+          }
+        },
+        {
+          "title": "东盟领导人在马尼拉聚首，南海与缅甸成焦点",
+          "text": "东盟领导人齐聚马尼拉，南海行为准则与缅甸政治危机成为主要议题。分析人士认为，东盟与中国年底前完成南海行为准则谈判的可能性不大，缅甸危机仍是区域挑战。",
+          "tag": "地缘",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/asia/asean-summit-manila-south-china-sea-myanmar-6549311"
+          }
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "title": "通信故障击穿三层冗余，全国停飞暴露关键系统脆弱性",
+      "text": "FAA以影响所有航路交通管制中心的通信问题为由，下令全美机场暂停出发航班，为美国史上第三次全国性地面停飞。交通部长达菲称正在调查，国土安全部长穆林表示目前不构成安全威胁。",
+      "why": "与同日微软近24小时全球中断、国家气象局全国性网络异常并列，指向同一类问题：关键系统冗余不足且信息发布滞后。对投资者而言，基础设施可靠性正从技术议题变为可定价的运营风险。"
+    },
+    {
+      "title": "国会扩大英伟达调查，治理与出口管制两条线交汇",
+      "text": "美国国会扩大对英伟达的调查，要求前CEO黄仁勋及川普政府官员作证，焦点是先进芯片对华出口的国家安全风险与白宫是否施加不当监督。同日董事会表示正遴选猎才公司寻找CEO人选。",
+      "why": "公司治理与出口管制在同一周交汇，使英伟达同时面对市场与政治两类不确定性。接班安排未定叠加国会取证，任何证词都可能改变对华销售预期，并波及新加坡等转口枢纽的合规叙事。"
+    },
+    {
+      "title": "川习会前贸易委员会先落地，机制化安排比峰会更具指示意义",
+      "text": "在川普预计下周访问中国、出席深圳APEC峰会并会晤习近平之前，美中经贸官员举行首次贸易委员会会议，目标是建立公平且平衡的贸易关系。",
+      "why": "机制性安排先于首脑会晤落地，意味着双方试图把可交付成果制度化，而非仅依赖领导人个人互动。对市场而言，委员会能否产出可核查的清单，比峰会本身更能指示关税与出口管制的走向。"
+    }
+  ],
+  "analysis": [
+    {
+      "kicker": "深度 01 · 政治与资产",
+      "title": "当监管与选举同时定价：英伟达的两条不确定性曲线",
+      "thesis": "英伟达本周同时被国会调查和CEO接班问题牵动，说明政治风险已从背景变量变成可直接定价的资产因子。",
+      "body": [
+        "美国国会扩大对英伟达的调查，要求前CEO黄仁勋及川普政府官员作证，焦点是先进芯片对华出口的国家安全风险，以及白宫是否施加了不当监督。同一周，董事会表示正遴选猎才公司寻找CEO人选，尚未正式接洽任何候选人。两条消息分属监管与治理，却落在同一家公司、同一周内，市场必须同时为它们定价。",
+        "政治风险的定价方式与业绩风险不同。业绩可以通过财报验证，监管风险只能通过程序节点折现：作证安排、听证日程、是否形成立法草案。每一个节点都会改变投资者对“最坏情形”的概率判断，而概率一旦移动，估值倍数就先于盈利预期调整。出口管制的边界越模糊，风险溢价就越难压缩。",
+        "接班问题叠加进来，使不确定性从外部转向内部。CEO遴选本身是长期工程，但“尚未接洽任何候选人”的表述意味着过渡方案还未成形。对一家市值高度集中于单一叙事的企业而言，治理连续性直接关系到资本开支承诺的可信度。投资者不只在问谁接班，更在问既定路线会不会被重估。",
+        "把这两条线放在选举周期里看，逻辑更清楚。出口管制是少数在两党间都有共识的议题，国会主动扩大调查，等于在选举语境下抢占议题主导权。企业因此面对的不是一次性合规成本，而是随政治日历波动的持续审查。资产定价里，“政策不确定性折价”会变成常态项而非一次性项。",
+        "对资产配置的含义是，半导体龙头的风险来源正在从需求侧转向制度侧。需求可以跟踪订单，制度只能跟踪程序。当同一家公司同时被市场和政治两类不确定性拉扯，分散化的意义不在于换赛道，而在于识别哪些敞口对程序节点敏感、哪些对盈利周期敏感。"
+      ],
+      "counter": "反向看，调查作证与CEO遴选都停留在程序早期，未必形成实质约束。若听证未产出立法草案，市场可能迅速消化并回到业绩主线；历史上出口管制预期也多次被企业以许可与产品调整化解。把程序节点等同于风险实现，容易高估短期冲击。",
+      "watch": [
+        "国会作证安排与是否形成立法草案",
+        "白宫对出口许可的具体口径变化",
+        "英伟达CEO遴选的正式接洽进展"
+      ]
+    },
+    {
+      "kicker": "深度 02 · 科技与资本",
+      "title": "三层冗余被一次故障击穿：关键系统的资本开支错配",
+      "thesis": "全美航班停飞与微软全球中断同日发生，暴露的不是单点故障，而是关键系统冗余投资长期低于其社会价值。",
+      "body": [
+        "FAA以“影响所有航路交通管制中心的通信问题”为由，下令全美机场暂停出发航班，这是美国历史上第三次全国性地面停飞。交通部长达菲称正在调查，国土安全部长穆林在白宫简报中表示目前不构成安全威胁。同日，微软经历近24小时全球中断，国家气象局出现全国性网络异常。三起事件指向同一类问题。",
+        "所谓三层冗余，通常指链路、系统与流程三层备份。一次通信故障能击穿全部三层，说明备份之间存在共同依赖，或者切换流程从未在真实负载下验证。冗余的价值不在于存在，而在于被演练过、被独立供电、被独立运维。若三层共享同一供应商或同一套变更流程，它们实际上只是一层。",
+        "这背后是资本开支的激励错配。云与通信基础设施的回报来自利用率，冗余意味着闲置产能，天然与利润率对立。企业有动力把冗余压到监管与合同允许的最低线，而监管往往在事故后才更新标准。于是系统可靠性变成一种被系统性低估的公共品，成本由乘客、医院、气象预警等外部主体承担。",
+        "信息发布滞后是第二个问题。三起事件中，公众获得的都是片段式说明，缺少统一的时间线与影响范围。对资本市场而言，信息滞后本身就是波动来源：交易员无法区分局部故障与系统性风险，只能先减仓再求证。可靠性不只由技术决定，也由披露节奏决定。",
+        "推论是，关键基础设施的资本开支逻辑可能被重新校准。若监管在事故后提高冗余与演练要求，云与通信供应商的资本开支将上升，短期压制利润率，长期换取更低的尾部风险。投资者需要区分两类支出：扩张产能的支出与购买可靠性的支出，后者的回报体现在避免灾难，而非收入增长。"
+      ],
+      "counter": "另一种解读是，这类事件频率极低，属于可接受的尾部风险，过度冗余会推高全社会成本并抑制创新。历史上多数全国性停飞在数小时内恢复，市场影响有限。若监管反应温和，资本开支不会显著重估，可靠性折价也难以持续。",
+      "watch": [
+        "FAA对通信故障的调查结论与整改要求",
+        "微软中断的技术归因与SLA条款变化",
+        "监管是否提出冗余与演练的强制标准"
+      ]
+    },
+    {
+      "kicker": "深度 03 · 宏观与能源",
+      "title": "峰会前的机制化：贸易委员会对通胀与油价的先行信号",
+      "thesis": "美中在川习会前落地贸易委员会，其宏观意义在于为关税与供应链预期提供可核查的锚，从而影响通胀路径与能源需求判断。",
+      "body": [
+        "在川普预计下周访问中国、出席深圳APEC峰会并会晤习近平之前，美中经贸官员举行了首次贸易委员会会议，目标是建立公平且平衡的贸易关系。这一机制性安排先于首脑会晤落地，意味着双方试图把可交付成果制度化，而非仅依赖领导人个人互动。对宏观判断而言，机制先于峰会是一个值得注意的顺序。",
+        "通胀视角下，关税是少数能同时推高商品价格与不确定性溢价的工具。企业面对关税时，会提前囤货、调整供应链、重签合同，这些行为本身就会在季度数据里留下痕迹。贸易委员会若能产出可核查的清单，哪怕内容有限，也能降低企业为最坏情形支付的预防性成本，从而缓和商品端的结构性压力。",
+        "能源需求是第二条传导链。制造业订单、航运量与集装箱吞吐对贸易安排高度敏感，而这些又直接对应柴油与航空燃油需求。峰会前的机制化安排若稳定了预期，企业补库存的节奏会更平滑，能源需求的波动区间随之收窄。反过来，若委员会空转，油价对消息面的敏感度会重新上升。",
+        "货币政策层面，央行关注的是预期是否可锚定。财政与贸易政策的不确定性会抬高期限溢价，使降息路径更难沟通。一个能定期开会、能发布清单的委员会，为央行提供了观察外部冲击的窗口。它的价值不在于解决分歧，而在于把分歧变成可跟踪的序列，而不是偶发的冲击。",
+        "推论是，市场应把注意力从峰会本身转向委员会的产出物：是否有清单、是否有时间表、是否有核查机制。首脑会晤提供方向，委员会提供刻度。对通胀、油价与利率路径而言，可核查的刻度比宏大的表述更有指示意义，因为它决定了企业敢不敢把预防性成本降下来。"
+      ],
+      "counter": "机制化也可能只是姿态。若委员会缺乏授权与执行工具，清单流于表述，市场会迅速折价，关税与供应链不确定性依旧。此外，能源需求更多由全球增长与OPEC+供给决定，贸易机制的影响可能被更强的周期力量覆盖。",
+      "watch": [
+        "贸易委员会是否发布可核查的清单与时间表",
+        "峰会前后关税与出口管制的具体调整",
+        "制造业订单与航运量对机制落地的反应"
+      ]
+    }
+  ],
+  "date": "2026-11-14",
+  "issue": 11,
+  "edition": "晨刊",
+  "generated_at": "2026-11-14T07:58:35+08:00",
+  "weekday": "星期六",
+  "tagline": "一个人读的全球情报简报",
+  "numbers": {
+    "rows": [],
+    "note": ""
+  },
+  "calendar": [],
+  "ticker": []
+}
