@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>世界课 · 第010课 · 美国所有飞机同时停飞，是不是因为微软系统坏了？</title>
+<meta name="description" content="美国所有飞机同时停飞，是不是因为微软系统坏了？">
+<meta property="og:title" content="世界课 · 第010课 · 美国所有飞机同时停飞，是不是因为微软系统坏了？">
+<style>
+:root{
+  --paper:#f5f1e6; --paper2:#faf7ee; --ink:#1b1a17; --ink2:#3d3a33;
+  --muted:#7a7365; --rule:#dbd2bd; --accent:#24405e; --warm:#a9502c; --soft:#e9e1cf;
+  --serif:"Songti SC","STSong","SimSun","Noto Serif CJK SC",Georgia,serif;
+  --sans:"Microsoft YaHei","PingFang SC","Hiragino Sans GB",system-ui,sans-serif;
+  --mono:"Cascadia Mono",Consolas,monospace;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:var(--paper);color:var(--ink);
+  font-family:var(--sans);font-size:16px;line-height:1.9;
+  -webkit-font-smoothing:antialiased;
+}
+body::before{
+  content:"";position:fixed;inset:0;pointer-events:none;opacity:.55;
+  background:radial-gradient(900px 420px at 12% -8%,rgba(36,64,94,.07),transparent 70%),
+             radial-gradient(700px 380px at 95% 4%,rgba(169,80,44,.05),transparent 70%);
+}
+a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+a:hover{color:var(--accent);border-bottom-color:var(--accent)}
+::selection{background:var(--accent);color:#fff}
+
+.wrap{max-width:760px;margin:0 auto;padding:0 26px;position:relative;z-index:1}
+
+.topbar{border-bottom:1px solid var(--rule);background:rgba(245,241,230,.86);backdrop-filter:blur(8px);position:sticky;top:0;z-index:10}
+.topbar .in{max-width:760px;margin:0 auto;padding:10px 26px;display:flex;gap:14px;align-items:baseline;font-size:12px;color:var(--muted);letter-spacing:.06em}
+.topbar b{font-family:var(--serif);font-size:14px;letter-spacing:.24em;color:var(--ink)}
+.topbar .sp{flex:1}
+
+header.mast{padding:56px 0 26px}
+.eyebrow{font-family:var(--mono);font-size:10px;letter-spacing:.24em;color:var(--muted);text-transform:uppercase;display:flex;align-items:center;gap:12px}
+.eyebrow::after{content:"";flex:1;height:1px;background:var(--rule)}
+h1{font-family:var(--serif);font-weight:900;font-size:clamp(34px,6vw,52px);letter-spacing:.06em;line-height:1.1;margin:14px 0 6px}
+.sub{font-size:13px;color:var(--muted);letter-spacing:.22em}
+.meta{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:baseline;margin-top:22px;padding-top:14px;border-top:2px solid var(--ink);font-size:12.5px;color:var(--ink2)}
+.meta .no{font-family:var(--mono);color:var(--warm);letter-spacing:.1em}
+.meta .week{margin-left:auto;color:var(--muted)}
+
+.weekbar{margin:26px 0 0;padding:10px 14px;background:var(--soft);border-left:3px solid var(--warm);font-size:13px;color:var(--ink2)}
+.weekbar b{font-family:var(--serif);font-size:15px;letter-spacing:.06em}
+
+.question{padding:44px 0 10px}
+.q-label{font-family:var(--mono);font-size:10px;letter-spacing:.22em;color:var(--warm);text-transform:uppercase}
+.question h2{font-family:var(--serif);font-weight:900;font-size:clamp(26px,4.2vw,36px);line-height:1.45;margin:12px 0 0;letter-spacing:.01em}
+.answer{font-family:var(--serif);font-size:18px;line-height:2;color:var(--ink2);margin:22px 0 0;padding-left:18px;border-left:2px solid var(--accent)}
+.answer b{color:var(--ink)}
+
+section{padding-top:38px}
+h3.label{font-family:var(--mono);font-size:10px;letter-spacing:.22em;color:var(--warm);text-transform:uppercase;margin:0 0 10px;display:flex;align-items:center;gap:10px}
+h3.label::after{content:"";flex:1;height:1px;background:var(--rule)}
+h2.title{font-family:var(--serif);font-size:26px;line-height:1.5;margin:0 0 18px;font-weight:700}
+.body p{font-family:var(--serif);font-size:17px;line-height:2.05;margin:0 0 18px;text-align:justify}
+.dropcap{float:left;font-size:3.2em;line-height:.9;padding:8px 12px 0 0;color:var(--warm);font-weight:700}
+.body b{font-weight:700}
+
+.pull{margin:26px 0;padding:18px 20px;border-top:1px solid var(--ink);border-bottom:1px solid var(--ink);font-family:var(--serif);font-size:19px;line-height:1.9;color:var(--ink);text-align:center}
+
+.counter{margin-top:22px;padding:18px 20px;border:1px solid var(--rule);background:var(--paper2);font-size:14px;line-height:1.9;color:var(--ink2)}
+.counter b{font-family:var(--mono);font-size:10px;letter-spacing:.18em;color:var(--warm);display:block;margin-bottom:6px}
+
+.world{margin-top:38px;padding:24px 0 8px;border-top:2px solid var(--ink);border-bottom:1px solid var(--rule)}
+.world .w-label{font-family:var(--mono);font-size:10px;letter-spacing:.22em;color:var(--warm);text-transform:uppercase;display:flex;gap:10px;align-items:center}
+.world .w-label .date{color:var(--muted);letter-spacing:.1em}
+.world h3{font-family:var(--serif);font-size:23px;line-height:1.55;margin:10px 0 14px;font-weight:700}
+.world p{font-family:var(--serif);font-size:16.5px;line-height:2;margin:0 0 14px;text-align:justify;color:var(--ink2)}
+.world p b{color:var(--ink)}
+.world .miss{margin-top:16px;padding:12px 15px;background:var(--paper2);border-left:2px solid var(--warm);font-size:14px;line-height:1.85;color:var(--ink2)}
+.world .miss b{font-family:var(--mono);font-size:9.5px;letter-spacing:.18em;color:var(--warm);display:block;margin-bottom:4px}
+
+.kid{margin-top:34px;padding:24px 24px 20px;background:var(--accent);color:#f4efe2;border-radius:2px}
+.kid .k-label{font-family:var(--mono);font-size:10px;letter-spacing:.22em;color:#c9b48f;text-transform:uppercase}
+.kid h3{font-family:var(--serif);font-size:22px;margin:8px 0 14px;color:#fff;font-weight:700}
+.kid ol{margin:0;padding-left:20px;font-family:var(--serif);font-size:16.5px;line-height:1.95}
+.kid li{margin-bottom:10px}
+.kid .exp{margin-top:16px;padding-top:14px;border-top:1px solid rgba(244,239,226,.28);font-size:13.5px;color:#e4d8bf}
+.kid .exp b{color:#f0c9a8}
+
+.reading ul{list-style:none;margin:0;padding:0}
+.reading li{padding:14px 0;border-bottom:1px solid var(--rule)}
+.reading .out{font-family:var(--mono);font-size:10px;letter-spacing:.16em;color:var(--warm);text-transform:uppercase}
+.reading .rt{font-family:var(--serif);font-size:17px;display:block;margin:3px 0 2px}
+.reading .rn{font-size:12.5px;color:var(--muted);line-height:1.7}
+
+.threads{margin-top:34px;padding-top:20px;border-top:2px solid var(--ink)}
+.threads h3{font-family:var(--serif);font-size:18px;margin:0 0 12px}
+.threads li{font-size:13.5px;color:var(--ink2);margin-bottom:8px;padding-left:16px;position:relative;line-height:1.75}
+.threads li::before{content:"○";position:absolute;left:0;top:2px;color:var(--warm);font-size:9px}
+.threads ul{list-style:none;margin:0;padding:0}
+
+footer{margin-top:56px;padding:22px 0 46px;border-top:1px solid var(--rule);font-size:12px;color:var(--muted);line-height:1.9}
+footer .fine{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
+
+@media(max-width:640px){
+  .wrap{padding:0 18px}
+  header.mast{padding-top:36px}
+  .answer{font-size:16.5px}
+  .body p{font-size:16px}
+  .dropcap{font-size:2.4em;padding:4px 8px 0 0}
+  .kid{padding:20px 18px}
+  .meta .week{margin-left:0;width:100%}
+}
+@media print{
+  .topbar{display:none}
+  body{background:#fff}
+  .kid{background:#eee;color:#000}
+  .kid h3,.kid li,.kid .exp{color:#000}
+}
+.arch{max-width:760px;margin:0 auto;padding:0 26px 60px}
+.arch a{display:block;padding:18px 0;border-bottom:1px solid var(--rule);border-left:none}
+.arch a:hover{background:var(--paper2)}
+.arch .d{font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:.08em}
+.arch .q{font-family:var(--serif);font-size:19px;line-height:1.6;margin:4px 0 2px;color:var(--ink)}
+.arch .t{font-size:12.5px;color:var(--muted)}
+</style>
+</head>
+<body><div class="topbar"><div class="in">
+  <b>世界课</b><span>每日一课</span><span class="sp"></span>
+  <a href="2026-11-13.html">← 上一课</a><span></span><a href="archive.html">往期</a>
+  <span>第 010 课</span><span>2026-11-14</span>
+</div></div><div class="wrap">
+<header class="mast">
+  <div class="eyebrow"><span>WORLD LESSONS · FOR A CURIOUS NINE-YEAR-OLD</span></div>
+  <h1>世界课</h1>
+  <div class="sub">给 父 与 子 的 每 日 一 课</div>
+  <div class="meta">
+    <span>2026-11-14　星期六</span>
+    <span class="no">第 010 课</span>
+    <span>约 8 分钟</span>
+    <span class="week">第 02 周 · 因果与相关</span>
+  </div>
+  <div class="weekbar"><b>本周主题：因果与相关</b>　两件事一起发生，不等于一件导致了另一件。这一周，我们练习把“看起来有关”拆成“真的有关”。</div>
+</header>
+<div class="question">
+  <div class="q-label">今日一问 · Saturday , 共读</div>
+  <h2>美国所有飞机同时停飞，是不是因为微软系统坏了？</h2>
+  <p class="answer">不是同一件事。FAA 停飞的理由是空管通信系统故障，国土安全部明确说与微软 365 全球当机无关。不显然的机制是：两件事同时发生，人脑会自动把它们连成一条因果链，因为“同时”最省力。但航空管制和办公软件跑在不同的网络上，共用的是同一段时间，不是同一根电缆。</p>
+</div>
+<section>
+  <h3 class="label">共读 · Read Together</h3>
+  <h2 class="title">同时发生，不等于一个造成另一个</h2>
+  <div class="body"><p>2026 年 11 月 13 日，美国联邦航空总署（FAA）下令全国航班暂停起飞，原因是空管通信系统出现故障。这是 2001 年 911 之后美国历史上极少见的全国性停飞。同一天，微软 365 服务在全球出现当机，Outlook 和 Teams 一度无法使用。两条新闻几乎同时出现在手机推送里，很多人第一反应是：微软坏了，所以飞机停了。但美国国土安全部长穆林在简报会上明确说，现阶段不排除任何可能性，不过这件事与微软系统故障无关。</p><p>为什么“同时”会被读成“因为”？因为人脑是一台找原因的机器，当两个事件挨得很近，最省力的解释就是把它们连成一条线。要判断真假因果，得看机制：两件事是否共享同一条通道。空管通信跑在专用的航空网络和无线电系统上，微软 365 跑在公共互联网的数据中心里。它们共享的是同一段时间，不是同一根电缆。共享时间只产生相关，共享通道才可能产生因果。</p><p>生活里也一样。一个孩子换了座位后成绩下降，家长容易归因于座位；但可能只是那段时间睡眠变差，或者课程变难。一个城市冰淇淋销量上升，溺水人数也上升，两者高度相关，但真正的原因是夏天到了：热天让人吃冰淇淋，也让人下水。冰淇淋不是溺水的原因，夏天才是那个共同通道。找到共同通道，相关才会变成因果。</p><p>反过来说，也不能因为“可能是巧合”就否定所有因果。判断边界在于：有没有可检验的机制，以及去掉这个原因后结果是否改变。如果空管通信故障排除后航班恢复，而微软服务还在修，那就说明两者独立。如果每次微软当机都伴随空管故障，才值得追问共享通道。相关性是线索，不是判决。</p><p>所以今天可以带走一个习惯：看到两件事同时发生，先别急着说“因为”，先问它们共享的是时间还是通道。这个习惯不会让你变冷漠，反而让你更接近真相。对父亲来说，这也是教孩子的一种克制：世界很复杂，最快的解释往往不是最对的解释。</p></div>
+  <div class="pull">相关是线索，因果要机制；同时发生只说明它们共享了时间。</div>
+  <div class="counter"><b>反方 · 最强的那个版本</b>最强的反方是：把两件事说成“只是相关”太轻巧了。现代基础设施高度耦合，空管通信、云服务、支付网络可能共享数据中心、光纤和电力。微软当机与空管故障即便没有直接因果，也可能共享同一层脆弱性。要求“共享通道才算因果”会让我们错过系统性风险：真正危险的不是 A 导致 B，而是 A 和 B 同时被同一个底层拖垮。</div>
+</section>
+<section class="world">
+  <div class="w-label"><span>World Watch · 世界观察</span><span class="date">2026-11-14</span></div>
+  <h3>FAA 全国停飞：一次通信故障的连锁</h3>
+  <p>11 月 13 日，FAA 因空管通信系统故障，下令全美所有准备起飞的航班暂停。这是 911 之后美国第二度全国停飞。交通部长说明问题是“影响所有空中交通管制中心的通信问题”，国土安全部长穆林表示目前不认为存在安全威胁，并明确说与微软 365 全球当机无关。</p><p>机制是：现代航空不是一架飞机在飞，而是一张由塔台、雷达、航路中心组成的协调网络。任何一个通信节点失效，整个网络为了安全会选择“停下来”，而不是“冒险继续”。停飞不是故障本身，而是系统对故障的防御反应。</p><p>被忽略的是：停飞令的代价由谁承担。旅客被困在机舱里没有信息，航空公司调度被打乱，小机场最先受影响。我们容易盯着“故障原因”，却很少问“防御机制的成本落在谁身上”。</p>
+  <div class="miss"><b>被忽略的一点</b>理解世界的一个用处：当系统选择“停下来”时，要同时看两件事——故障在哪，以及停下来的代价由谁支付。</div>
+</section>
+<section class="kid">
+  <div class="k-label">For a nine-year-old · 今晚可以问的三个问题</div>
+  <h3>不用讲道理，只问他怎么看</h3>
+  <ol><li>你今天有没有看到两件事同时发生，然后马上觉得一件事是另一件事的原因？</li><li>如果要证明“座位换了所以成绩下降”，你会去找哪些别的可能？</li><li>冰淇淋卖得多的时候溺水也多，你觉得真正的原因可能是什么？</li></ol>
+  <div class="exp"><b>一个五分钟的小实验</b>：拿两个杯子，一杯放热水一杯放冷水，同时各滴一滴墨水，观察扩散快慢。记下：温度同时影响两杯，但两杯并没有互相影响。</div>
+</section>
+<section class="reading"><h3 class="label">Read · 延伸</h3><ul><li>
+      <span class="out">中央社</span>
+      <a class="rt" href="https://www.cna.com.tw/news/aopl/202611140013.aspx" target="_blank" rel="noopener">FAA 因通讯中断下达全美航班暂停起飞 911 后第二度</a>
+      <span class="rn">事实层：停飞令的时间、范围与官方措辞。</span>
+    </li><li>
+      <span class="out">NPR</span>
+      <a class="rt" href="https://www.npr.org/2026/11/13/nx-s1-6040418/dhs-head-markwayne-mullin-says-there-is-not-a-threat-to-the-u-s-amid-faa-ground-stop" target="_blank" rel="noopener">DHS head says there is not a threat to the U.S. amid FAA ground stop</a>
+      <span class="rn">官方如何把“通信故障”和“安全威胁”分开。</span>
+    </li><li>
+      <span class="out">Al Jazeera</span>
+      <a class="rt" href="https://www.aljazeera.com/video/newsfeed/2026/11/14/microsoft-services-begin-recovering-after-global-outage?traffic_source=rss" target="_blank" rel="noopener">Microsoft services begin recovering after global outage</a>
+      <span class="rn">同一天的另一条新闻，用来练习“同时≠因果”。</span>
+    </li></ul></section>
+<div class="threads"><h3>长期线索 · 值得盯几年</h3><ul><li>关键基础设施的耦合度：云服务、空管、电力、支付是否共享同一层脆弱性，以及监管是否要求披露共享依赖。</li><li>全国性停飞令的决策标准：什么条件下系统选择“全部停下”，代价如何分摊，旅客信息权如何保障。</li><li>因果推断的公共教育：媒体和官方在“同时发生”的新闻里，如何标注相关与因果的区别。</li></ul></div>
+<footer><div class="fine">
+    <span>世界课 · 第 010 课 · 2026-11-14</span>
+    <span>事实 / 推断 / 猜测，三种语气已尽量分开。不构成任何建议。</span>
+  </div></footer>
+</div></body></html>
