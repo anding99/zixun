@@ -1,0 +1,561 @@
+{
+  "lede": "今天最该记住的一件事：英伟达危机已从公司治理问题升级为美国对华技术管制的执法问题——财政部长贝森特给董事会十天自证合规，司法部刑事调查在走，黄仁勋回任议题与出口管制调查同时压顶。这意味着AI芯片流向中国的争议不再由公司公关消化，而由监管与司法程序定价；叠加联合发射联盟Vulcan首飞失败、亚马逊卫星载荷全毁，美国在算力与太空两条战略供应链上同日受挫，市场对AI资本开支的容错空间正在收窄。",
+  "editor_note": "上一期三条线索今日分化：AI资本开支升级为监管事件，赫格塞斯问责被众院程序性阻断而证伪，美伊谈判仍待周五检验。今日新增主线是英伟达的合规倒计时与航天发射的可靠性缺口，两者共同指向同一件事——美国战略产业的执行风险正在被重新定价。",
+  "brief": [
+    "贝森特要求英伟达董事会十天内证明遵守出口管制，司法部刑事调查同步进行。",
+    "逾15.8万人联署要求黄仁勋复职，马斯克与优步联合创始人署名，董事会承压。",
+    "联合发射联盟Vulcan发射失败，亚马逊互联网卫星载荷全毁，系该公司20年首次全损。",
+    "日本三季度GDP年化萎缩0.1%，内需与外需同时走弱，央行正常化路径再添变数。",
+    "美国机场在三天停飞令后恢复运行，NTSB初步认定油轮转向故障导致新奥尔良撞船。"
+  ],
+  "top": [
+    {
+      "kicker": "头条",
+      "title": "英伟达危机进入合规倒计时：财政部十天期限叠加刑事调查",
+      "summary": "美国财政部长贝森特公开要求英伟达董事会十日内证明其遵守出口管制，并主张由外部人士执掌公司；司法部针对先进AI芯片经东南亚流入中国的刑事调查正在进行。与此同时，金融时报报道黄仁勋正与盟友讨论回任CEO，逾15.8万人联署施压董事会。公司治理、出口管制与刑事风险三条线首次同日交汇。",
+      "points": [
+        "贝森特给出十天合规自证期限，把公司治理问题转为监管执法时间表。",
+        "司法部调查聚焦芯片经东南亚转口，若成立将牵动整个分销链条。",
+        "联署规模逾15.8万且含知名科技人士，董事会罢免与复职成本同时上升。"
+      ],
+      "source": {
+        "name": "Al Jazeera",
+        "url": ""
+      },
+      "status": "升级"
+    },
+    {
+      "kicker": "航天",
+      "title": "Vulcan首飞失败，亚马逊卫星载荷全毁",
+      "summary": "联合发射联盟的Vulcan火箭在发射中失败，所载亚马逊互联网卫星全部损毁，这是该公司20年历史上首次整箭任务失败。对试图以多供应商打破SpaceX垄断的美国政府与商业客户而言，可靠性叙事受挫，星座部署时间表与保险定价将同步重估。",
+      "points": [
+        "失败发生在ULA成立20年来首次整箭任务全损，认证节奏被打断。",
+        "亚马逊互联网星座部署延后，直接抬高与星链竞争的时间成本。",
+        "国家安全发射的双供应商格局需要重新评估风险分摊与备份运力。"
+      ],
+      "source": {
+        "name": "Ars Technica",
+        "url": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors/"
+      },
+      "status": "新增"
+    },
+    {
+      "kicker": "宏观",
+      "title": "日本三季度年化萎缩0.1%，正常化路径再添变数",
+      "summary": "日本7至9月GDP年化收缩0.1%，经济重新落入负增长区间。在通胀与工资数据仍是央行决策核心的背景下，外需疲弱与内需不足同时出现，使加息时点更依赖数据而非既定路线，日元与日债的波动区间可能扩大。",
+      "points": [
+        "年化0.1%的收缩幅度虽小，但方向逆转改变市场对复苏持续性的判断。",
+        "外需走弱叠加内需不足，央行加息需要更强的工资证据支撑。",
+        "若后续数据继续走弱，日元套息交易的平仓压力会外溢至全球风险资产。"
+      ],
+      "source": {
+        "name": "CNA",
+        "url": "https://www.channelnewsasia.com/business/japans-economy-contracts-annualised-01-in-july-september-6553646"
+      },
+      "status": "新增"
+    }
+  ],
+  "regions": [
+    {
+      "name": "美国",
+      "en": "United States",
+      "summary": "英伟达合规倒计时与航天发射失败同日冲击战略产业信心。",
+      "items": [
+        {
+          "title": "财政部给英伟达十天合规期限",
+          "text": "贝森特要求董事会在十天内证明公司遵守出口管制，并主张由外部人士出任CEO。司法部刑事调查同步推进，焦点是先进AI芯片是否经东南亚流入中国，调查结果将决定分销链条的责任边界。",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/world/us-treasury-chief-nvidia-ai-chips-china-jensen-huang-6553411"
+          }
+        },
+        {
+          "title": "英特尔遭股东起诉，股价此前暴跌29%",
+          "text": "股东在股价单日重挫29%后提起诉讼，争议核心是公司对经营与产能状况的披露是否充分。诉讼将把代工转型的资本开支节奏与信息披露义务一并推入司法审查，抬高后续融资的沟通成本。",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/business/intel-sued-shareholders-following-29-stock-plunge-6553566"
+          }
+        }
+      ]
+    },
+    {
+      "name": "欧洲",
+      "en": "Europe",
+      "summary": "捷克大规模抗议公共媒体资金改革，巴黎以禁令限制校园周边示威。",
+      "items": [
+        {
+          "title": "捷克数十万人抗议公共媒体资金改革",
+          "text": "布拉格出现数十万人规模集会，反对民族主义政府改组公共媒体拨款机制。政府称广播机构需要削减成本，批评者认为这将削弱编辑独立性与新闻自由，争议已从预算问题转为制度问题。",
+          "source": {
+            "name": "BBC World",
+            "url": "https://www.bbc.co.uk/news/articles/cm8e0knr7604o?at_medium=RSS&at_campaign=rss"
+          }
+        },
+        {
+          "title": "巴黎警方禁止十所学校与五所大学周边抗议",
+          "text": "巴黎警察局长福尔宣布11月16日至20日在十所中学与五所大学周边禁止抗议。该措施以公共秩序为由限制集会，实际效果是把校园动员从固定地点驱散，考验禁令在法律上的可执行性。",
+          "source": {
+            "name": "BBC World",
+            "url": "https://www.bbc.co.uk/news/articles/cqm2j0jvep4eo?at_medium=RSS&at_campaign=rss"
+          }
+        }
+      ]
+    },
+    {
+      "name": "中东",
+      "en": "Middle East",
+      "summary": "四国施压以色列放行加沙援助，胡塞单方面释放600名被押人员。",
+      "items": [
+        {
+          "title": "澳英加意四国要求以色列放行加沙援助",
+          "text": "四国联合声明称以色列阻止帐篷等物资进入加沙，随着冬季洪水加剧人道危机，要求其允许关键援助通行，并称当前状况完全可逆。声明把援助准入与冬季时点绑定，形成持续的外交压力。",
+          "source": {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/australia-news/2026/nov/16/australia-uk-canada-italy-urge-israel-critical-aid-gaza-winter-ntwnfb"
+          }
+        },
+        {
+          "title": "胡塞单方面释放600名战争被押人员",
+          "text": "胡塞方面释放600名在内战期间被关押的人员，属单方面人道举措。此举可能为后续换俘谈判设定基准，也意在改善其对外形象；释放规模与名单构成将决定这一动作是否具备谈判价值。",
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/yemens-houthis-unilaterally-release-600-war-detainees?traffic_source=rss"
+          }
+        }
+      ]
+    },
+    {
+      "name": "亚太",
+      "en": "Asia-Pacific",
+      "summary": "日本经济重回负增长，泰国清查外国人违规持有房产。",
+      "items": [
+        {
+          "title": "日本三季度GDP年化萎缩0.1%",
+          "text": "7至9月经济年化收缩0.1%，内外需同时走弱。数据削弱复苏叙事，使央行加息更依赖工资与通胀证据，日元与日债的波动区间可能因此扩大，并影响套息交易的仓位调整。",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/business/japans-economy-contracts-annualised-01-in-july-september-6553646"
+          }
+        },
+        {
+          "title": "泰国清查外国人房产，马来西亚承接富裕买家",
+          "text": "持续一年的执法行动显示，许多以为在泰国拥有房产的外国人从未合法取得产权。产权不确定性正在把买家推向马来西亚，区域房地产的合规成本与资金流向同时被重估。",
+          "source": {
+            "name": "SCMP",
+            "url": "https://www.scmp.com/week-asia/people/article/3374379/foreigners-thailand-lose-homes-malaysia-courts-wealthy-buyers"
+          }
+        }
+      ]
+    },
+    {
+      "name": "中国",
+      "en": "China",
+      "summary": "香港航运受地缘政治制约，专家称可对接内地潜力。",
+      "items": [
+        {
+          "title": "专家：地缘政治仍是香港航运最大挑战",
+          "text": "业界人士指出，地缘政治将持续制约香港航运竞争力，但特朗普暂缓进一步措施的迹象提供了缓冲空间。香港的应对方向是衔接内地货源与中转能力，把制度优势转化为航线与货量。",
+          "source": {
+            "name": "SCMP",
+            "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3374474/geopolitics-still-threat-shipping-hong-kong-can-tap-chinas-potential-experts"
+          }
+        },
+        {
+          "title": "塞尔维亚前外长谈“地缘衰退”中的中国崛起",
+          "text": "曾任联大主席的耶雷米奇在专访中讨论“地缘政治衰退”背景下中国的角色。其视角代表部分非西方国家对外部秩序松动的判断，也为中国在中东欧的叙事提供可引用的第三方表述。",
+          "source": {
+            "name": "SCMP",
+            "url": "https://www.scmp.com/news/china/diplomacy/article/3374485/serbias-ex-foreign-minister-vuk-jeremic-chinas-rise-geopolitical-recession"
+          }
+        }
+      ]
+    },
+    {
+      "name": "全球南方",
+      "en": "Global South",
+      "summary": "墨西哥毒枭创始人去世，记者遇害；加纳利群岛两日涌入近2200名移民。",
+      "items": [
+        {
+          "title": "墨西哥瓜达拉哈拉集团创始人去世",
+          "text": "被称为“毒枭中的毒枭”的费利克斯·加利亚多因多器官衰竭在医院去世，终年80岁。他奠定了墨西哥跨境贩毒网络的组织形态，其死亡不会改变现有集团碎片化与暴力竞争的格局。",
+          "source": {
+            "name": "France 24",
+            "url": "https://www.france24.com/en/americas/20261115-miguel-angel-felix-gallardo-mexican-drug-lord-dies"
+          }
+        },
+        {
+          "title": "报道失踪人口的墨西哥记者在阿卡普尔科遇害",
+          "text": "墨西哥当局就记者弗洛雷斯之死启动谋杀调查，他长期报道安全、社会议题与失踪人口。案件把地方治安与新闻从业风险再次并置，调查进展将检验当地保护机制的实效。",
+          "source": {
+            "name": "SCMP",
+            "url": "https://www.scmp.com/news/world/americas/article/3374520/mexican-journalist-who-reported-missing-persons-found-dead-acapulco"
+          }
+        }
+      ]
+    }
+  ],
+  "personal": [
+    {
+      "title": "把英伟达的十天期限写进日历",
+      "text": "贝森特给出的十天合规自证期限是可核查的硬节点。届时看董事会是否引入外部人士、是否披露出口管制的内部审计结果，比看联署人数更能判断风险是否外溢到供应链。"
+    },
+    {
+      "title": "Vulcan失败后重估发射保险与备份运力",
+      "text": "整箭任务全损会改变保险定价与发射排期。关注亚马逊星座的替代发射合同是否转向其他供应商，以及国家安全发射任务是否调整双供应商的份额分配。"
+    },
+    {
+      "title": "日本负增长后的日元仓位检查",
+      "text": "年化0.1%的收缩使加息更依赖数据。若后续工资与通胀数据不配合，日元套息交易的平仓会放大风险资产波动，持仓应预留汇率对冲空间。"
+    }
+  ],
+  "threads": [
+    {
+      "name": "AI资本开支",
+      "status": "升级",
+      "note": "从公司治理升级为出口管制执法；看十天内董事会是否披露内部审计，以及IREN推迟交付是否扩散至其他算力租赁商。"
+    },
+    {
+      "name": "赫格塞斯问责",
+      "status": "证伪",
+      "note": "众院程序性阻止弹劾动议；转看参院是否另开听证、司法渠道是否接手，战争权力法案是否进入排期。"
+    },
+    {
+      "name": "美伊谈判",
+      "status": "待验证",
+      "note": "周五是否给出可核查的降级路径；若只是推迟，油价回到95至100美元区间。"
+    },
+    {
+      "name": "英国央行加息",
+      "status": "新增",
+      "note": "今晚20:00决议；若7比2通过，则2月再加一次为基准，终端利率4.25%。"
+    },
+    {
+      "name": "关税撤销",
+      "status": "待验证",
+      "note": "民主党表态积极，但参院60票门槛与总统否决权仍在；短期更可能是听证而非立法。"
+    }
+  ],
+  "reading": [
+    {
+      "title": "Jensen Huang’s downfall will accelerate US-China ‘great decoupling’",
+      "outlet": "CNA",
+      "note": "把个人丑闻放进技术脱钩的结构里看，指出政治损害可能先于事实认定发生。",
+      "url": "https://www.channelnewsasia.com/commentary/nvidia-jensen-huang-affair-us-china-ai-tech-decoupling-6552516"
+    },
+    {
+      "title": "5 steps China, US and Russia could take at Apec to defuse nuclear risk",
+      "outlet": "SCMP",
+      "note": "以深圳APEC为场景提出三边核风险管控的具体步骤，可作会议前瞻的框架参考。",
+      "url": "https://www.scmp.com/opinion/china-opinion/article/3374204/5-steps-china-us-and-russia-could-take-apec-defuse-nuclear-risk"
+    },
+    {
+      "title": "Commentary: Microsoft discovers AI can’t keep the email going",
+      "outlet": "CNA",
+      "note": "从大规模服务中断切入，讨论AI裁员与服务可靠性之间的张力，适合对照算力叙事。",
+      "url": "https://www.channelnewsasia.com/commentary/commentary-microsoft-discovers-ai-cant-keep-email-going-6552846"
+    },
+    {
+      "title": "The Hofmann Wobble: Wikipedia and the problem of historical memory",
+      "outlet": "Harper's",
+      "note": "关于百科条目如何被改写与记忆如何被覆盖，适合在信息核验成为日常时重读。",
+      "url": "https://harpers.org/archive/2023/12/the-hofmann-wobble-wikipedia-and-the-problem-of-historical-memory/"
+    }
+  ],
+  "sources": [
+    "SCMP",
+    "CNA",
+    "BBC World",
+    "Al Jazeera",
+    "France 24",
+    "The Guardian",
+    "Ars Technica",
+    "NPR",
+    "中央社",
+    "Hacker News"
+  ],
+  "sections": [
+    {
+      "no": "01",
+      "name": "宏观 · 政策",
+      "intro": "增长与政策路径同时承压，数据依赖取代既定路线。",
+      "items": [
+        {
+          "title": "日本三季度年化萎缩0.1%，正常化路径再添变数",
+          "text": "日本7至9月GDP年化收缩0.1%，经济重新落入负增长区间。外需疲弱与内需不足同时出现，使加息时点更依赖数据而非既定路线，日元与日债波动区间可能扩大。",
+          "tag": "增长",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/business/japans-economy-contracts-annualised-01-in-july-september-6553646"
+          }
+        },
+        {
+          "title": "美国机场在三日中断后预计恢复正常",
+          "text": "美国航空当局周五发布罕见的禁飞令后，数千架次美国相关航班被取消或延误；机场预计逐步恢复常态，航空运力与旅客信心短期受扰。",
+          "tag": "交通",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/world/us-airports-expected-return-normal-after-three-days-disruption-6553621"
+          }
+        }
+      ]
+    },
+    {
+      "no": "02",
+      "name": "市场 · 资产",
+      "intro": "单一事件驱动个股与板块重估，风险定价更趋事件化。",
+      "items": [
+        {
+          "title": "英特尔遭股东起诉，此前股价暴跌29%",
+          "text": "英特尔因股价单日暴跌29%后被股东起诉，诉讼围绕信息披露与经营预期展开，公司治理与转型执行力再受审视，半导体板块估值分歧加大。",
+          "tag": "诉讼",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/business/intel-sued-shareholders-following-29-stock-plunge-6553566"
+          }
+        },
+        {
+          "title": "地缘政治仍是香港航运最大挑战",
+          "text": "专家指出地缘政治将持续困扰香港航运业竞争力，但香港可对接内地潜力；特朗普暗示暂缓进一步措施，为航线与运价预期提供短暂缓冲。",
+          "tag": "航运",
+          "source": {
+            "name": "SCMP",
+            "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3374474/geopolitics-still-threat-shipping-hong-kong-can-tap-chinas-potential-experts"
+          }
+        }
+      ]
+    },
+    {
+      "no": "03",
+      "name": "科技 · AI",
+      "intro": "AI龙头的治理与合规风险正转化为行业级变量。",
+      "items": [
+        {
+          "title": "美财长要求英伟达十日内证明出口合规并主张外部人士执掌",
+          "text": "贝森特公开要求英伟达董事会十日内证明遵守出口管制，并主张由外部人士执掌公司；司法部针对先进AI芯片经东南亚流入中国的刑事调查正在进行，三条风险线同日交汇。",
+          "tag": "管制",
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/15/us-treasury-chief-calls-for-outsider-to-lead-embattled-tech-firm-nvidia?traffic_source=rss"
+          }
+        },
+        {
+          "title": "黄仁勋与盟友讨论回任CEO，逾15.8万人联署施压",
+          "text": "金融时报报道黄仁勋正与盟友讨论回任CEO，马斯克与优步联合创始人等逾15.8万人联署要求其复职并等待独立调查；董事会面临治理与舆论双重压力。",
+          "tag": "治理",
+          "source": {
+            "name": "France 24",
+            "url": "https://www.france24.com/en/technology/20261115-elon-musk-uber-co-founder-jensen-huang-nvidia-reinstate"
+          }
+        }
+      ]
+    },
+    {
+      "no": "04",
+      "name": "产业 · 半导体",
+      "intro": "出口管制执行与供应链流向成为半导体核心变量。",
+      "items": [
+        {
+          "title": "美财政部要求英伟达尽快给出答案",
+          "text": "英伟达因最先进AI芯片经东南亚流入中国的指控面临新一轮审查，司法部刑事调查同步进行；合规举证时限与外部托管主张叠加，供应链流向核查趋严。",
+          "tag": "合规",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/world/us-treasury-chief-nvidia-ai-chips-china-jensen-huang-6553411"
+          }
+        },
+        {
+          "title": "Megaspeed称与英伟达前负责人相关的疑似中国间谍已于2025年离职",
+          "text": "英伟达风波引发先进AI芯片是否在美方限制下流入中国的质疑；Megaspeed表示相关人员在2025年已离职，企业人事与出口合规审查的关联度上升。",
+          "tag": "调查",
+          "source": {
+            "name": "BBC World",
+            "url": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss"
+          }
+        }
+      ]
+    },
+    {
+      "no": "05",
+      "name": "能源 · 气候",
+      "intro": "航天与工业事故提醒基础设施与环境的尾部风险。",
+      "items": [
+        {
+          "title": "Vulcan火箭发射失败，亚马逊卫星载荷全毁",
+          "text": "联合发射联盟Vulcan火箭发射失败，所载亚马逊互联网卫星全部损毁，这是该公司20年历史上首次整箭任务失败；星座部署时间表与保险定价将同步重估。",
+          "tag": "航天",
+          "source": {
+            "name": "Ars Technica",
+            "url": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors/"
+          }
+        },
+        {
+          "title": "SpaceXAI南黑文设施化学品泄漏至排水沟",
+          "text": "位于南黑文的SpaceXAI设施发生化学品泄漏并流入排水沟，环境处置与监管跟进成为关注点，工业设施的环境合规风险再次进入视野。",
+          "tag": "环境",
+          "source": {
+            "name": "Hacker News",
+            "url": "https://wreg.com/news/chemical-spills-into-drainage-ditch-at-spacexai-in-southaven/"
+          }
+        }
+      ]
+    },
+    {
+      "no": "06",
+      "name": "医药 · 健康",
+      "intro": "筛查认知与公共卫生沟通仍是健康议题主线。",
+      "items": [
+        {
+          "title": "HPV阳性不等于宫颈癌，医生解释何时需要干预",
+          "text": "多数HPV感染可自然清除，但部分型别可引起宫颈细胞改变并可能最终致癌；医生说明感染后应如何随访与干预，强调筛查而非恐慌。",
+          "tag": "筛查",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/women/positive-hpv-test-cervical-cancer-risk-6527016"
+          }
+        },
+        {
+          "title": "加沙冬季临近，四国敦促以色列放行关键援助",
+          "text": "澳大利亚、英国、加拿大与意大利发表联合声明，敦促以色列允许关键援助进入加沙，称当前局势“完全可以逆转”；洪水加剧人道危机，公共卫生风险上升。",
+          "tag": "人道",
+          "source": {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/australia-news/2026/nov/16/australia-uk-canada-italy-urge-israel-critical-aid-gaza-winter-ntwnfb"
+          }
+        }
+      ]
+    },
+    {
+      "no": "07",
+      "name": "商业 · 公司",
+      "intro": "治理、网络安全与平台信任构成公司层面的三重考验。",
+      "items": [
+        {
+          "title": "Coles调查网络安全事件，称无证据显示客户数据受损",
+          "text": "澳大利亚零售商Coles正调查一起网络安全事件，表示暂无证据显示客户数据遭到泄露；零售业数据安全与应急披露机制再受关注。",
+          "tag": "网络安全",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/business/coles-probes-cyber-security-incident-says-no-evidence-customer-data-compromised-6553541"
+          }
+        },
+        {
+          "title": "旧Bitly短链接遭劫持",
+          "text": "有报道指旧Bitly短链接正被劫持，企业历史营销链接可能被导向恶意页面；品牌方与平台需清理存量短链并加强链接生命周期管理。",
+          "tag": "平台",
+          "source": {
+            "name": "Hacker News",
+            "url": "https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/"
+          }
+        }
+      ]
+    },
+    {
+      "no": "08",
+      "name": "科学 · 社会",
+      "intro": "从深空里程碑到历史记忆保存，科学与社会的边界持续交织。",
+      "items": [
+        {
+          "title": "旅行者1号本周距地球约160亿英里",
+          "text": "NASA旅行者1号作为距地球最远的人造物体，本周将达到新里程碑，距地球约160亿英里；深空通信与探测器寿命管理继续刷新纪录。",
+          "tag": "深空",
+          "source": {
+            "name": "NPR",
+            "url": "https://www.npr.org/2026/11/15/nx-s1-6041716/a-long-long-ways-from-home-voyager-1-is-now-farther-than-anything-man-has-sent-into-space"
+          }
+        },
+        {
+          "title": "互联网档案馆保存Salon三十年新闻",
+          "text": "互联网档案馆宣布保存Salon三十年新闻内容，为数字新闻的长期存档与历史记忆提供样本；平台化媒体内容的可持久获取问题再受关注。",
+          "tag": "存档",
+          "source": {
+            "name": "Hacker News",
+            "url": "https://blog.archive.org/2026/11/12/preserving-30-years-of-salon-journalism/"
+          }
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "title": "英伟达治理、管制与刑事三线同日交汇",
+      "text": "财政部长贝森特要求董事会十日内证明出口合规并主张外部人士执掌，司法部对先进AI芯片经东南亚流入中国的刑事调查同步推进；黄仁勋正与盟友讨论回任，逾15.8万人联署施压。",
+      "why": "这是美国首次以财政与司法双轨同时施压单一芯片龙头，合规成本与治理不确定性将外溢至供应链、客户与估值；若CEO更替或外部托管成真，出口管制执行口径可能整体收紧。"
+    },
+    {
+      "title": "Vulcan首飞失败摧毁亚马逊卫星载荷",
+      "text": "联合发射联盟Vulcan火箭发射失败，所载亚马逊互联网卫星全部损毁，为该公司20年历史上首次整箭任务失败。",
+      "why": "多供应商打破SpaceX垄断的可靠性叙事受挫，星座部署时间表与保险定价将同步重估；美国政府与商业客户对发射备份冗余的定价逻辑面临改写。"
+    },
+    {
+      "title": "日本三季度年化萎缩0.1%",
+      "text": "日本7至9月GDP年化收缩0.1%，经济重新落入负增长区间，外需疲弱与内需不足同时出现。",
+      "why": "在通胀与工资仍是央行决策核心的背景下，加息时点更依赖数据而非既定路线，日元与日债的波动区间可能扩大，套息交易与亚洲资金流向面临再定价。"
+    }
+  ],
+  "analysis": [
+    {
+      "kicker": "深度 01 · 政治与资产",
+      "title": "当财政部长点名董事会：英伟达的合规倒计时如何被定价",
+      "thesis": "英伟达的风险已从单一出口管制问题，升级为治理、合规与刑事三条线同日交汇的政治事件，资产定价的锚正从订单转向制度不确定性。",
+      "body": [
+        "美国财政部长贝森特公开要求英伟达董事会十日内证明其遵守出口管制，并主张由外部人士执掌公司；司法部针对先进AI芯片经东南亚流入中国的刑事调查同步推进。这是三条性质不同的压力线首次在同一天交汇：行政部门的合规问责、公司治理层面的控制权质疑、以及刑事调查的程序风险。对市场而言，最直接的变化不是某一项处罚的金额，而是不确定性来源从“政策会否收紧”变成“公司会否被重组”。",
+        "出口管制的执行逻辑历来依赖企业自查与许可申报，监管者真正稀缺的是可验证的合规证据。十日举证期限把举证责任前移到董事会，等于要求公司用内部记录自证清白；一旦无法在期限内完成，行政层面的处罚与刑事层面的调查就可能形成互相引用的证据链。这条机制的关键在于时间：合规倒计时压缩了公司从容应对的空间，也压缩了投资者评估风险的时间窗口。",
+        "治理层面的变量同样被放大。金融时报报道黄仁勋正与盟友讨论回任CEO，逾15.8万人联署施压董事会，说明外部股东与公众舆论正在把合规问题转化为控制权问题。对资产定价而言，管理层更迭本身不必然利空，但它会改变市场对战略连续性的假设，尤其是当公司同时面对刑事调查时，任何人事变动都可能被解读为对调查的应对而非经营选择。",
+        "由此可以推论，英伟达的估值将出现分层：订单与算力需求决定的长期现金流预期变化有限，但治理折价与合规折价会在短期集中体现，波动率而非方向成为主要交易特征。更广泛地看，当监管者公开点名董事会，政治与资产的边界就被重新划定——企业不再只是政策的接受者，而是政策工具的一部分。这一变化对同类半导体公司的溢出效应，可能比英伟达自身的股价更值得关注。"
+      ],
+      "counter": "反向看，行政喊话与刑事调查并不等于定罪，历史上不少出口管制争议以和解或许可调整收场；若十日内公司提交完整合规记录，风险溢价可能迅速回吐。把治理争议直接等同于基本面恶化，容易高估短期冲击。",
+      "watch": [
+        "财政部十日举证期限到期后，董事会是否披露合规记录及外部人士安排",
+        "司法部东南亚渠道调查是否出现具名被告或公司层面的指控",
+        "联署股东与机构投资者是否提出正式董事会改选动议"
+      ]
+    },
+    {
+      "kicker": "深度 02 · 科技与资本",
+      "title": "Vulcan首飞失败：多供应商叙事的一次可靠性重估",
+      "thesis": "Vulcan整箭任务首次失败摧毁亚马逊卫星载荷，冲击的不只是一次发射，而是美国政府与商业客户用以打破SpaceX垄断的可靠性叙事，星座部署时间表与保险定价将同步重估。",
+      "body": [
+        "联合发射联盟的Vulcan火箭在发射中失败，所载亚马逊互联网卫星全部损毁，这是该公司20年历史上首次整箭任务失败。对一家以高可靠性为品牌资产的发射服务商而言，首次整箭失败的时间点尤其敏感：Vulcan正处在争取国家安全发射订单与商业星座合同的关键阶段，而载荷方亚马逊的卫星互联网计划又高度依赖发射节奏。",
+        "发射市场的经济学核心是保险与排期。一次整箭失败会同时推高再保费率与发射许可的审查强度，客户为对冲风险往往要求更长的排期缓冲，这直接拉长星座部署的现金流回收周期。对亚马逊而言，卫星损毁是资本开支的即时减记，更棘手的是轨道位置与频谱使用的时限约束——部署延迟可能触发监管层面的履约压力，而非仅仅是财务损失。",
+        "从竞争格局看，美国政府与商业客户推动多供应商策略，本意是降低对单一供应商的依赖，Vulcan被视为关键备选。失败并不意味着策略逆转，但会改变采购方的风险权重：可靠性记录需要时间重建，而时间恰是星座竞赛中最稀缺的资源。SpaceX的议价能力因此可能短期增强，但监管与客户分散供应商的意愿也会同步上升，形成方向相反的两股力量。",
+        "推论是，发射服务将出现“可靠性溢价”的重新定价：成熟火箭的合同价格与保险成本差距拉大，新火箭的验证周期被拉长，资本开支的节奏从“抢窗口”转向“保成功”。对科技与资本的关系而言，这是一次提醒——卫星互联网的估值模型建立在发射成功率的隐含假设上，当假设被打破，折现率的上调会比收入预测的下调来得更快。"
+      ],
+      "counter": "一次失败不构成趋势，联合发射联盟拥有长期发射记录，事故调查若快速定位并修复，客户信心可能在一个发射周期内恢复；亚马逊也可转向其他供应商分散风险，实际部署延迟或小于市场第一反应。",
+      "watch": [
+        "事故调查初步结论是否指向系统性设计问题而非单次异常",
+        "亚马逊是否调整星座部署时间表或转向其他发射供应商",
+        "再保险市场对发射险费率的调整幅度与生效时间"
+      ]
+    },
+    {
+      "kicker": "深度 03 · 宏观与能源",
+      "title": "日本年化萎缩0.1%：正常化路径为何更依赖数据而非路线",
+      "thesis": "日本三季度年化萎缩0.1%使经济重回负增长，外需疲弱与内需不足同时出现，央行加息时点因此更依赖数据验证而非既定路线，日元与日债的波动区间可能扩大。",
+      "body": [
+        "日本7至9月GDP年化收缩0.1%，经济重新落入负增长区间。这一读数出现在通胀与工资数据仍是央行决策核心的背景下，含义微妙：价格端尚未给出足以确认正常化的信号，增长端却已转负。对政策制定者而言，这不是简单的“该不该加息”问题，而是“数据是否支持任何方向的动作”问题。",
+        "机制上，日本本轮正常化的前提是工资与物价形成良性循环，而这一循环需要内需承接。外需疲弱削弱出口企业的利润与加薪能力，内需不足则使服务价格缺乏持续上行基础，两者同时出现会拉长数据验证的等待期。央行此前强调依据数据决策，如今数据本身变得矛盾，政策路径的“路线感”被进一步稀释，市场对每次会议的概率定价将更敏感。",
+        "对资产价格的影响集中在汇率与利率两端。若加息预期因增长转负而推迟，日元可能承压，但美日利差的方向同样取决于美国政策，单边押注的风险上升；日债方面，增长疲弱本应压低收益率，然而通胀黏性与财政扩张预期又构成上行压力，期限利差的变化可能比绝对水平更有信息量。波动区间的扩大，本身就是政策不确定性的一种定价。",
+        "更广的宏观含义在于，日本是主要经济体中最后一个仍在正常化轨道上的央行。其三季度转负提醒市场，通胀回落与增长放缓可能同时发生，财政刺激的边际效果也在递减。对全球资产而言，日元作为融资货币的角色若因波动上升而弱化，套息交易的平仓风险会传导至风险资产；能源价格与外部需求的变化，则会通过贸易条件继续影响日本的复苏节奏。"
+      ],
+      "counter": "单季年化萎缩0.1%幅度很小，且可能受临时因素扰动，后续季度若反弹，央行仍可按原节奏推进；通胀与工资数据若持续偏强，增长转负未必阻止加息，市场对正常化的定价也未必显著后移。",
+      "watch": [
+        "下一季度GDP修正值与消费、出口分项是否延续疲弱",
+        "日本央行会议对工资与物价数据的表述是否改变",
+        "日元汇率与十年期日债收益率的波动区间是否同步扩大"
+      ]
+    }
+  ],
+  "date": "2026-11-16",
+  "issue": 13,
+  "edition": "晨刊",
+  "generated_at": "2026-11-16T08:04:34+08:00",
+  "weekday": "星期一",
+  "tagline": "一个人读的全球情报简报",
+  "numbers": {
+    "rows": [],
+    "note": ""
+  },
+  "calendar": [],
+  "ticker": []
+}
