@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>世界课 · 第012课 · 全美停飞三天，为什么修好一根线要等好几年？</title>
+<meta name="description" content="全美停飞三天，为什么修好一根线要等好几年？">
+<meta property="og:title" content="世界课 · 第012课 · 全美停飞三天，为什么修好一根线要等好几年？">
+<style>
+:root{
+  --paper:#f5f1e6; --paper2:#faf7ee; --ink:#1b1a17; --ink2:#3d3a33;
+  --muted:#7a7365; --rule:#dbd2bd; --accent:#24405e; --warm:#a9502c; --soft:#e9e1cf;
+  --serif:"Songti SC","STSong","SimSun","Noto Serif CJK SC",Georgia,serif;
+  --sans:"Microsoft YaHei","PingFang SC","Hiragino Sans GB",system-ui,sans-serif;
+  --mono:"Cascadia Mono",Consolas,monospace;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:var(--paper);color:var(--ink);
+  font-family:var(--sans);font-size:16px;line-height:1.9;
+  -webkit-font-smoothing:antialiased;
+}
+body::before{
+  content:"";position:fixed;inset:0;pointer-events:none;opacity:.55;
+  background:radial-gradient(900px 420px at 12% -8%,rgba(36,64,94,.07),transparent 70%),
+             radial-gradient(700px 380px at 95% 4%,rgba(169,80,44,.05),transparent 70%);
+}
+a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+a:hover{color:var(--accent);border-bottom-color:var(--accent)}
+::selection{background:var(--accent);color:#fff}
+
+.wrap{max-width:760px;margin:0 auto;padding:0 26px;position:relative;z-index:1}
+
+.topbar{border-bottom:1px solid var(--rule);background:rgba(245,241,230,.86);backdrop-filter:blur(8px);position:sticky;top:0;z-index:10}
+.topbar .in{max-width:760px;margin:0 auto;padding:10px 26px;display:flex;gap:14px;align-items:baseline;font-size:12px;color:var(--muted);letter-spacing:.06em}
+.topbar b{font-family:var(--serif);font-size:14px;letter-spacing:.24em;color:var(--ink)}
+.topbar .sp{flex:1}
+
+header.mast{padding:56px 0 26px}
+.eyebrow{font-family:var(--mono);font-size:10px;letter-spacing:.24em;color:var(--muted);text-transform:uppercase;display:flex;align-items:center;gap:12px}
+.eyebrow::after{content:"";flex:1;height:1px;background:var(--rule)}
+h1{font-family:var(--serif);font-weight:900;font-size:clamp(34px,6vw,52px);letter-spacing:.06em;line-height:1.1;margin:14px 0 6px}
+.sub{font-size:13px;color:var(--muted);letter-spacing:.22em}
+.meta{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:baseline;margin-top:22px;padding-top:14px;border-top:2px solid var(--ink);font-size:12.5px;color:var(--ink2)}
+.meta .no{font-family:var(--mono);color:var(--warm);letter-spacing:.1em}
+.meta .week{margin-left:auto;color:var(--muted)}
+
+.weekbar{margin:26px 0 0;padding:10px 14px;background:var(--soft);border-left:3px solid var(--warm);font-size:13px;color:var(--ink2)}
+.weekbar b{font-family:var(--serif);font-size:15px;letter-spacing:.06em}
+
+.question{padding:44px 0 10px}
+.q-label{font-family:var(--mono);font-size:10px;letter-spacing:.22em;color:var(--warm);text-transform:uppercase}
+.question h2{font-family:var(--serif);font-weight:900;font-size:clamp(26px,4.2vw,36px);line-height:1.45;margin:12px 0 0;letter-spacing:.01em}
+.answer{font-family:var(--serif);font-size:18px;line-height:2;color:var(--ink2);margin:22px 0 0;padding-left:18px;border-left:2px solid var(--accent)}
+.answer b{color:var(--ink)}
+
+section{padding-top:38px}
+h3.label{font-family:var(--mono);font-size:10px;letter-spacing:.22em;color:var(--warm);text-transform:uppercase;margin:0 0 10px;display:flex;align-items:center;gap:10px}
+h3.label::after{content:"";flex:1;height:1px;background:var(--rule)}
+h2.title{font-family:var(--serif);font-size:26px;line-height:1.5;margin:0 0 18px;font-weight:700}
+.body p{font-family:var(--serif);font-size:17px;line-height:2.05;margin:0 0 18px;text-align:justify}
+.dropcap{float:left;font-size:3.2em;line-height:.9;padding:8px 12px 0 0;color:var(--warm);font-weight:700}
+.body b{font-weight:700}
+
+.pull{margin:26px 0;padding:18px 20px;border-top:1px solid var(--ink);border-bottom:1px solid var(--ink);font-family:var(--serif);font-size:19px;line-height:1.9;color:var(--ink);text-align:center}
+
+.counter{margin-top:22px;padding:18px 20px;border:1px solid var(--rule);background:var(--paper2);font-size:14px;line-height:1.9;color:var(--ink2)}
+.counter b{font-family:var(--mono);font-size:10px;letter-spacing:.18em;color:var(--warm);display:block;margin-bottom:6px}
+
+.world{margin-top:38px;padding:24px 0 8px;border-top:2px solid var(--ink);border-bottom:1px solid var(--rule)}
+.world .w-label{font-family:var(--mono);font-size:10px;letter-spacing:.22em;color:var(--warm);text-transform:uppercase;display:flex;gap:10px;align-items:center}
+.world .w-label .date{color:var(--muted);letter-spacing:.1em}
+.world h3{font-family:var(--serif);font-size:23px;line-height:1.55;margin:10px 0 14px;font-weight:700}
+.world p{font-family:var(--serif);font-size:16.5px;line-height:2;margin:0 0 14px;text-align:justify;color:var(--ink2)}
+.world p b{color:var(--ink)}
+.world .miss{margin-top:16px;padding:12px 15px;background:var(--paper2);border-left:2px solid var(--warm);font-size:14px;line-height:1.85;color:var(--ink2)}
+.world .miss b{font-family:var(--mono);font-size:9.5px;letter-spacing:.18em;color:var(--warm);display:block;margin-bottom:4px}
+
+.kid{margin-top:34px;padding:24px 24px 20px;background:var(--accent);color:#f4efe2;border-radius:2px}
+.kid .k-label{font-family:var(--mono);font-size:10px;letter-spacing:.22em;color:#c9b48f;text-transform:uppercase}
+.kid h3{font-family:var(--serif);font-size:22px;margin:8px 0 14px;color:#fff;font-weight:700}
+.kid ol{margin:0;padding-left:20px;font-family:var(--serif);font-size:16.5px;line-height:1.95}
+.kid li{margin-bottom:10px}
+.kid .exp{margin-top:16px;padding-top:14px;border-top:1px solid rgba(244,239,226,.28);font-size:13.5px;color:#e4d8bf}
+.kid .exp b{color:#f0c9a8}
+
+.reading ul{list-style:none;margin:0;padding:0}
+.reading li{padding:14px 0;border-bottom:1px solid var(--rule)}
+.reading .out{font-family:var(--mono);font-size:10px;letter-spacing:.16em;color:var(--warm);text-transform:uppercase}
+.reading .rt{font-family:var(--serif);font-size:17px;display:block;margin:3px 0 2px}
+.reading .rn{font-size:12.5px;color:var(--muted);line-height:1.7}
+
+.threads{margin-top:34px;padding-top:20px;border-top:2px solid var(--ink)}
+.threads h3{font-family:var(--serif);font-size:18px;margin:0 0 12px}
+.threads li{font-size:13.5px;color:var(--ink2);margin-bottom:8px;padding-left:16px;position:relative;line-height:1.75}
+.threads li::before{content:"○";position:absolute;left:0;top:2px;color:var(--warm);font-size:9px}
+.threads ul{list-style:none;margin:0;padding:0}
+
+footer{margin-top:56px;padding:22px 0 46px;border-top:1px solid var(--rule);font-size:12px;color:var(--muted);line-height:1.9}
+footer .fine{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
+
+@media(max-width:640px){
+  .wrap{padding:0 18px}
+  header.mast{padding-top:36px}
+  .answer{font-size:16.5px}
+  .body p{font-size:16px}
+  .dropcap{font-size:2.4em;padding:4px 8px 0 0}
+  .kid{padding:20px 18px}
+  .meta .week{margin-left:0;width:100%}
+}
+@media print{
+  .topbar{display:none}
+  body{background:#fff}
+  .kid{background:#eee;color:#000}
+  .kid h3,.kid li,.kid .exp{color:#000}
+}
+.arch{max-width:760px;margin:0 auto;padding:0 26px 60px}
+.arch a{display:block;padding:18px 0;border-bottom:1px solid var(--rule);border-left:none}
+.arch a:hover{background:var(--paper2)}
+.arch .d{font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:.08em}
+.arch .q{font-family:var(--serif);font-size:19px;line-height:1.6;margin:4px 0 2px;color:var(--ink)}
+.arch .t{font-size:12.5px;color:var(--muted)}
+</style>
+</head>
+<body><div class="topbar"><div class="in">
+  <b>世界课</b><span>每日一课</span><span class="sp"></span>
+  <a href="2026-11-15.html">← 上一课</a><span></span><a href="archive.html">往期</a>
+  <span>第 012 课</span><span>2026-11-16</span>
+</div></div><div class="wrap">
+<header class="mast">
+  <div class="eyebrow"><span>WORLD LESSONS · FOR A CURIOUS NINE-YEAR-OLD</span></div>
+  <h1>世界课</h1>
+  <div class="sub">给 父 与 子 的 每 日 一 课</div>
+  <div class="meta">
+    <span>2026-11-16　星期一</span>
+    <span class="no">第 012 课</span>
+    <span>约 8 分钟</span>
+    <span class="week">第 02 周 · 因果与相关</span>
+  </div>
+  <div class="weekbar"><b>本周主题：因果与相关</b>　两件事一起发生，不等于一件导致了另一件。这一周，我们练习把“看起来有关”拆成“真的有关”。</div>
+</header>
+<div class="question">
+  <div class="q-label">今日一问 · Monday , 机制</div>
+  <h2>全美停飞三天，为什么修好一根线要等好几年？</h2>
+  <p class="answer">因为空管不是一根线，而是一张几十年层层叠起来的网：旧铜线、旧雷达、旧程序、旧合同，彼此咬合。换一根线，要停一部分系统、重新认证、培训人员、等预算批复，任何一步卡住，整张网都不许动。不显然的机制是：系统越老，替换越慢——不是技术难，而是没人敢在飞行高峰按下暂停键，于是只能等故障替他们按。</p>
+</div>
+<section>
+  <h3 class="label">机制 · Mechanism</h3>
+  <h2 class="title">停飞三天，暴露的是三十年的欠账</h2>
+  <div class="body"><p>2026年11月13日，美国航空当局下令全国航班停飞，这是极罕见的一次“地面停摆”。到16日，数千架次航班仍被取消或延误，运输部长说正常运营可能要到周一才恢复。国会此前已给交通部125亿美元升级老旧的空管系统，总统又提出要500亿，民主党议员则要求先看清楚钱怎么花。一个承包商的小失误，让整个国家的天空安静了三天。</p><p>机制在于：空管系统不是一台机器，而是一层压一层的旧结构。铜线、雷达、程序、合同、人员资质，每一层都按几十年前的节奏设计，彼此咬合。换掉其中一段，要停一部分系统、重新认证、培训人员、等预算批复。任何一步卡住，整张网都不许动。系统越老，替换越慢——不是技术难，而是没人敢在飞行高峰按下暂停键，于是只能等故障替他们按。</p><p>类似的例子在别处也出现过。新奥尔良一艘油轮与邮轮相撞，初步调查指向“操舵故障”——一个零件失效，牵出整条船的操作链条。孟加拉国成衣厂工人罢工要求月薪3万塔卡，表面是工资，背后是订单价格、汇率、品牌压价层层传导。这些事看起来不相关，但结构一样：一个看得见的故障，背后是一串看不见的、被时间锁住的环节。</p><p>反例也要说清楚：并不是所有慢都值得同情。有些系统老旧，是因为预算被反复挪去别处，或因为没人愿意承担升级期间的短期混乱。这时候“慢”不是自我保护，而是拖延的代价被转嫁给了乘客。区分两者，要看有没有人真的在为替换排时间表，而不是只在故障后追加一笔钱。钱到账不等于系统换新，这是边界。</p><p>推论是：看到一个大故障，先别急着找“谁的错”。问三个问题——这个系统上一次大修是什么时候？替换它需要谁点头？点头之后要停多久？这三个问题能解释大部分“为什么修得这么慢”。对个人也一样：一个反复出问题的小习惯，背后往往不是意志力，而是一串没被拆开的旧环节。拆环节，比下决心有用。</p></div>
+  <div class="pull">大故障很少只有一个原因，它是一串被时间锁住的环节同时到期。</div>
+  <div class="counter"><b>反方 · 最强的那个版本</b>反方可以说：把停飞归因于“三十年欠账”太便宜了。真正的问题是治理——预算年年批、项目年年拖，承包商换了一茬又一茬，责任却没人担。如果机制真是“系统越老越慢”，那为什么有些国家同样老旧却很少停飞？可见关键不在老化本身，而在有没有人被迫为拖延付账。这个反驳成立，它提醒我们：结构解释不能变成免责。</div>
+</section>
+<section class="world">
+  <div class="w-label"><span>World Watch · 世界观察</span><span class="date">2026-11-16</span></div>
+  <h3>停飞之后，钱到了系统就能换新吗</h3>
+  <p>11月13日美国航空当局下令全国停飞，到16日仍有数千架次航班取消或延误。国会此前已拨款125亿美元升级空管，总统又提出500亿的新要求，民主党议员则要求先看透明账目再谈追加。</p><p>机制是：拨款和换系统是两件事。钱批下来，还要经过招标、认证、培训、分段停机。空管不能整体关掉重装，只能一段一段换，每换一段都要保证备份真的能顶上。所以资金到位和系统焕新之间，隔着好几年。</p><p>被忽略的是：公众记住的是停飞那三天，记不住的是之前三十年里每一次“再等等”。故障只是把欠账一次性摊开。真正决定下一次停飞会不会来的，不是这次追加了多少钱，而是有没有人把替换时间表公开出来。</p>
+  <div class="miss"><b>被忽略的一点</b>看国际新闻时，别只看“出了什么事”，要看“这件事之前被推迟了多少次”。一个国家的应急能力，往往藏在它平时敢不敢给自己排时间表里。</div>
+</section>
+<section class="kid">
+  <div class="k-label">For a nine-year-old · 今晚可以问的三个问题</div>
+  <h3>不用讲道理，只问他怎么看</h3>
+  <ol><li>你家里有没有一个坏了很久、但一直没修的东西？为什么没修？</li><li>如果修它要停用一整天，你愿意选哪天？</li><li>你觉得是修的人慢，还是决定修的人慢？</li></ol>
+  <div class="exp"><b>一个五分钟的小实验</b>：找一根旧充电线和一个新充电线，分别给同一个设备充电，各记一分钟电量变化。再想想：如果换线要停用一整天，你会怎么安排？</div>
+</section>
+<section class="reading"><h3 class="label">Read · 延伸</h3><ul><li>
+      <span class="out">NPR</span>
+      <a class="rt" href="https://www.npr.org/2026/11/15/nx-s1-6041683/flight-disruptions-expected-to-last-into-monday" target="_blank" rel="noopener">Flight disruptions expected to last into Monday</a>
+      <span class="rn">停飞后续与125亿美元升级拨款的最新进展。</span>
+    </li><li>
+      <span class="out">Al Jazeera</span>
+      <a class="rt" href="https://www.aljazeera.com/news/2026/11/16/after-a-nationwide-ground-stop-us-faces-aviation-infrastructure-questions?traffic_source=rss" target="_blank" rel="noopener">After a nationwide ground stop, US faces aviation infrastructure questions</a>
+      <span class="rn">500亿追加要求与民主党要求透明账目的分歧。</span>
+    </li><li>
+      <span class="out">书</span>
+      <a class="rt" href="#" target="_blank" rel="noopener">Normal Accidents（Charles Perrow）</a>
+      <span class="rn">讲复杂系统里的小故障如何被结构放大，可只读前两章。</span>
+    </li></ul></section>
+<div class="threads"><h3>长期线索 · 值得盯几年</h3><ul><li>美国空管铜线换光纤的实际进度：分段停机的排期是否公开，备份是否真的能顶上。</li><li>125亿与500亿之间的账目透明度：追加预算会不会变成又一次“故障后拨款”。</li><li>复杂系统的“正常事故”：还有哪些行业在用同样的方式等故障替他们按暂停键。</li></ul></div>
+<footer><div class="fine">
+    <span>世界课 · 第 012 课 · 2026-11-16</span>
+    <span>事实 / 推断 / 猜测，三种语气已尽量分开。不构成任何建议。</span>
+  </div></footer>
+</div></body></html>
