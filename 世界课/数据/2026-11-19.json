@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-19",
+  "weekday": "星期四",
+  "weekday_index": 3,
+  "issue": 15,
+  "week": 3,
+  "theme": "激励",
+  "theme_note": "人不是按道理行动，是按激励行动。这一周，我们看规则如何悄悄改变人的行为。",
+  "minutes": 6,
+  "question": "今天世界上发生的事，哪一件会在五年后还被提起？",
+  "answer": "今天这期没有写成。下面的三条原始报道，是素材里最重要的三件事；明天会补上完整的一课。",
+  "column": {
+    "kind": "科学",
+    "kind_en": "Science",
+    "title": "今日三条原始报道",
+    "body": [
+      "Crimean Bridge attacked again, Russian official says。The head of Crimea said traffic was suspended after another attack on the link between mainland Russia and the occupied ",
+      "2 tech firms team up to build network to make AI agents safer at handling sensitive data。The network is aimed, for instance, at helping AI agents safely perform bank functions such as overseas transfers and di",
+      "US-China science ties fray as visa hurdles and security scrutiny grow。Peking University professor Li Yulong’s team celebrated when six scientists detailing their research on detecting neural"
+    ],
+    "pull": ""
+  },
+  "world": {
+    "title": "",
+    "paras": [],
+    "miss": ""
+  },
+  "counter": "",
+  "kid": {
+    "questions": [
+      "今天你听到的最奇怪的一件事是什么？",
+      "它为什么会发生？",
+      "如果是你，会怎么做？"
+    ],
+    "experiment": ""
+  },
+  "reading": [
+    {
+      "out": "BBC World",
+      "title": "Crimean Bridge attacked again, Russian official says",
+      "note": "The head of Crimea said traffic was suspended after another attack on the link b",
+      "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "out": "CNA",
+      "title": "2 tech firms team up to build network to make AI agents safer at handling sensitive data",
+      "note": "The network is aimed, for instance, at helping AI agents safely perform bank fun",
+      "url": "https://www.channelnewsasia.com/singapore/ai-agents-tenon-security-network-terminal-3-affinidi-6561221"
+    },
+    {
+      "out": "SCMP",
+      "title": "US-China science ties fray as visa hurdles and security scrutiny grow",
+      "note": "Peking University professor Li Yulong’s team celebrated when six scientists deta",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3374973/us-china-science-ties-fray-visa-hurdles-and-security-scrutiny-grow"
+    }
+  ],
+  "threads": [
+    "世界的注意力从哪里来，又去了哪里。"
+  ],
+  "sources": [
+    "BBC World",
+    "CNA",
+    "SCMP"
+  ]
+}
