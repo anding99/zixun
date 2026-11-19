@@ -1,0 +1,971 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>资讯 · 2026-11-19 · 第016期</title>
+<meta name="description" content="今天最该记住的是：AI资本竞赛已进入“定价—管制—执法”三线并行的新阶段，市场对算力资产的定价开始与出口管制风险直接挂钩。Anthropic以83美元定价、募资813亿美元上市，估值约1.4万亿至1.5万亿美元，但同日美股仍下跌，说明巨额IPO不再自动等于风险偏好回升。与此同时，美国众院委员会就微软">
+<meta name="color-scheme" content="light dark">
+<meta property="og:title" content="资讯 · 2026-11-19 · 第016期">
+<meta property="og:description" content="今天最该记住的是：AI资本竞赛已进入“定价—管制—执法”三线并行的新阶段，市场对算力资产的定价开始与出口管制风险直接挂钩。Anthropic以83美元定价、募资813亿美元上市，估值约1.4万亿至1.5万亿美元，但同日美股仍下跌，说明巨额IPO不再自动等于风险偏好回升。与此同时，美国众院委员会就微软">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/atom+xml" title="资讯 · 每日更新" href="feed.xml">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23a8382a'/%3E%3Ctext x='16' y='23' font-size='19' text-anchor='middle' fill='%23f7f3ea' font-family='serif'%3E%E8%AE%AF%3C/text%3E%3C/svg%3E">
+<style>
+/* ============================================================
+   资讯 · 个人情报台
+   手工排版的编辑部风格：纸色、墨色、朱红。
+   ============================================================ */
+
+:root {
+  --paper: #f7f3ea;
+  --paper-2: #fbf8f1;
+  --ink: #16171b;
+  --ink-2: #3c3a34;
+  --muted: #726c5e;
+  --rule: #ddd4c1;
+  --rule-strong: #c3b79d;
+  --accent: #a8382a;
+  --accent-soft: #f0e2d9;
+  --blue: #23486a;
+  --gold: #8d6f36;
+  --up: #b3352a;
+  --down: #1f6b4a;
+  --shadow: 0 1px 0 rgba(0,0,0,.04), 0 12px 32px -24px rgba(30,25,15,.45);
+  --serif: "Songti SC", "STSong", "SimSun", "Noto Serif CJK SC", Georgia, serif;
+  --sans: "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", system-ui, -apple-system, sans-serif;
+  --mono: "Cascadia Mono", "Consolas", "SFMono-Regular", monospace;
+  --max: 1180px;
+}
+
+html[data-theme="dark"] {
+  --paper: #111216;
+  --paper-2: #17181d;
+  --ink: #ece5d6;
+  --ink-2: #c8c1b1;
+  --muted: #928b7b;
+  --rule: #2a2b31;
+  --rule-strong: #3b3c44;
+  --accent: #d9705f;
+  --accent-soft: #2a1f1c;
+  --blue: #8fb3d1;
+  --gold: #c2a163;
+  --up: #e0705f;
+  --down: #59b389;
+  --shadow: 0 1px 0 rgba(255,255,255,.03), 0 18px 40px -28px rgba(0,0,0,.9);
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.8;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body::before {
+  content: "";
+  position: fixed; inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  opacity: .5;
+  background:
+    radial-gradient(1200px 500px at 15% -10%, rgba(168,56,42,.05), transparent 70%),
+    radial-gradient(900px 400px at 90% 0%, rgba(35,72,106,.05), transparent 70%);
+}
+
+a { color: inherit; text-decoration: none; }
+a:hover { color: var(--accent); }
+
+::selection { background: var(--accent); color: #fff; }
+
+.progress {
+  position: fixed; top: 0; left: 0; height: 2px; width: 0;
+  background: var(--accent); z-index: 100;
+  transition: width .12s linear;
+}
+
+/* ---------------- 顶栏 ---------------- */
+
+.topbar {
+  position: sticky; top: 0; z-index: 40;
+  background: color-mix(in srgb, var(--paper) 88%, transparent);
+  backdrop-filter: blur(10px) saturate(1.1);
+  border-bottom: 1px solid var(--rule);
+}
+
+.topbar-in {
+  max-width: var(--max); margin: 0 auto; padding: 9px 24px;
+  display: flex; align-items: center; gap: 18px;
+  font-size: 12.5px; letter-spacing: .04em; color: var(--muted);
+}
+
+.brand {
+  font-family: var(--serif); font-size: 15px; letter-spacing: .28em;
+  color: var(--ink); font-weight: 700;
+}
+
+.brand i { color: var(--accent); font-style: normal; }
+
+.topbar .spacer { flex: 1; }
+
+.topbar a { padding: 4px 2px; border-bottom: 1px solid transparent; }
+.topbar a:hover { border-bottom-color: var(--accent); color: var(--ink); }
+
+.icon-btn {
+  border: 1px solid var(--rule); background: transparent; color: var(--ink-2);
+  width: 30px; height: 26px; border-radius: 2px; cursor: pointer;
+  font-size: 13px; display: inline-flex; align-items: center; justify-content: center;
+  font-family: var(--sans);
+}
+.icon-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+/* ---------------- 报头 ---------------- */
+
+.masthead {
+  max-width: var(--max); margin: 0 auto; padding: 34px 24px 18px;
+  position: relative; z-index: 1;
+}
+
+.masthead .eyebrow {
+  display: flex; align-items: center; gap: 12px;
+  font-family: var(--mono); font-size: 10.5px; letter-spacing: .22em;
+  color: var(--muted); text-transform: uppercase;
+}
+
+.masthead .eyebrow .line { flex: 1; height: 1px; background: var(--rule); }
+
+.masthead h1 {
+  font-family: var(--serif);
+  font-weight: 900;
+  font-size: clamp(46px, 8vw, 88px);
+  line-height: 1.02;
+  letter-spacing: .04em;
+  margin: 12px 0 0;
+}
+
+.masthead h1 small {
+  display: block;
+  font-family: var(--sans);
+  font-size: 13px; font-weight: 400; letter-spacing: .38em;
+  color: var(--muted); margin-top: 12px;
+}
+
+.masthead-meta {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px 22px;
+  margin-top: 18px; padding-top: 14px; border-top: 2px solid var(--ink);
+  font-size: 13px; color: var(--ink-2);
+}
+
+.masthead-meta .date { font-family: var(--serif); font-size: 20px; font-weight: 700; letter-spacing: .06em; }
+.masthead-meta .issue { color: var(--accent); font-family: var(--mono); letter-spacing: .1em; }
+.masthead-meta .tagline { margin-left: auto; color: var(--muted); letter-spacing: .12em; font-size: 12px; }
+
+/* ---------------- 行情带 ---------------- */
+
+.ticker-wrap {
+  border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+  background: var(--paper-2);
+  overflow: hidden;
+}
+
+.ticker {
+  max-width: var(--max); margin: 0 auto; padding: 8px 24px;
+  display: flex; gap: 26px; overflow-x: auto; scrollbar-width: none;
+  white-space: nowrap;
+}
+.ticker::-webkit-scrollbar { display: none; }
+
+@media (min-width: 1100px) {
+  .ticker { flex-wrap: wrap; row-gap: 5px; overflow: visible; padding-top: 9px; padding-bottom: 9px; }
+}
+
+.tick { display: inline-flex; align-items: baseline; gap: 7px; font-size: 12.5px; }
+.tick .t-label { color: var(--muted); letter-spacing: .06em; }
+.tick .t-val { font-family: var(--mono); font-size: 12px; color: var(--ink-2); }
+.tick .t-chg { font-family: var(--mono); font-weight: 700; }
+.tick .up { color: var(--up); }
+.tick .down { color: var(--down); }
+
+/* ---------------- 导语 ---------------- */
+
+.lede {
+  max-width: 860px; margin: 0 auto; padding: 46px 24px 8px;
+  position: relative;
+}
+
+.lede p {
+  font-family: var(--serif);
+  font-size: clamp(21px, 2.6vw, 27px);
+  line-height: 1.85;
+  letter-spacing: .01em;
+  margin: 0;
+  text-align: justify;
+}
+
+.lede p::first-letter { font-size: 1.05em; color: var(--accent); }
+
+.lede .note {
+  margin-top: 22px; padding-left: 14px; border-left: 2px solid var(--accent);
+  font-family: var(--sans); font-size: 13.5px; line-height: 1.9; color: var(--muted);
+  text-align: left;
+}
+
+/* ---------------- 头条 ---------------- */
+
+.hero {
+  max-width: var(--max); margin: 34px auto 0; padding: 0 24px;
+  display: grid; grid-template-columns: 1.35fr .85fr; gap: 0;
+  border-top: 1px solid var(--rule-strong);
+  border-bottom: 1px solid var(--rule-strong);
+}
+
+.hero-main { padding: 26px 34px 30px 0; border-right: 1px solid var(--rule); }
+.hero-side { padding: 26px 0 30px 34px; display: flex; flex-direction: column; gap: 26px; }
+
+.kicker {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-family: var(--mono); font-size: 10.5px; letter-spacing: .2em;
+  color: var(--accent); text-transform: uppercase;
+}
+.kicker::before { content: ""; width: 22px; height: 1px; background: var(--accent); }
+
+.hero-main h2 {
+  font-family: var(--serif); font-weight: 900;
+  font-size: clamp(28px, 3.6vw, 40px); line-height: 1.32;
+  letter-spacing: .01em; margin: 12px 0 16px;
+}
+
+.hero-main .dek {
+  font-size: 16px; color: var(--ink-2); line-height: 1.95; margin: 0 0 18px;
+}
+
+.hero-main ul { margin: 0 0 18px; padding: 0; list-style: none; }
+.hero-main li {
+  position: relative; padding-left: 20px; margin-bottom: 10px;
+  font-size: 14.5px; color: var(--ink-2); line-height: 1.85;
+}
+.hero-main li::before {
+  content: "—"; position: absolute; left: 0; color: var(--accent);
+}
+
+.hero-side .item { padding-bottom: 20px; border-bottom: 1px dashed var(--rule); }
+.hero-side .item:last-child { border-bottom: none; padding-bottom: 0; }
+
+.hero-side h3 {
+  font-family: var(--serif); font-size: 21px; line-height: 1.5;
+  margin: 8px 0 8px; font-weight: 700;
+}
+.hero-side p { margin: 0; font-size: 13.8px; color: var(--ink-2); line-height: 1.85; }
+
+.src {
+  display: inline-block; margin-top: 10px;
+  font-size: 11.5px; color: var(--muted); letter-spacing: .03em;
+}
+.src:hover { color: var(--accent); }
+
+/* ---------------- 区块导航 ---------------- */
+
+.nav {
+  position: sticky; top: 45px; z-index: 30;
+  background: color-mix(in srgb, var(--paper) 92%, transparent);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--rule);
+}
+
+.nav-in {
+  max-width: var(--max); margin: 0 auto; padding: 0 24px;
+  display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none;
+}
+.nav-in::-webkit-scrollbar { display: none; }
+
+.nav a {
+  flex: none; padding: 11px 12px 9px; font-size: 12.8px; color: var(--muted);
+  border-bottom: 2px solid transparent; letter-spacing: .03em;
+}
+.nav a:hover { color: var(--ink); }
+.nav a.active { color: var(--accent); border-bottom-color: var(--accent); }
+
+/* ---------------- 通用区块 ---------------- */
+
+.block { max-width: var(--max); margin: 0 auto; padding: 52px 24px 0; scroll-margin-top: 100px; }
+
+.block-head {
+  display: flex; align-items: flex-end; gap: 16px;
+  padding-bottom: 12px; border-bottom: 1px solid var(--ink);
+  margin-bottom: 24px;
+}
+.block-head .no {
+  font-family: var(--mono); font-size: 11px; color: var(--accent);
+  letter-spacing: .18em; padding-bottom: 3px;
+}
+.block-head h2 {
+  font-family: var(--serif); font-size: 27px; margin: 0; font-weight: 900;
+  letter-spacing: .06em;
+}
+.block-head .intro {
+  margin-left: auto; max-width: 430px; text-align: right;
+  font-size: 12.5px; color: var(--muted); line-height: 1.7;
+}
+
+/* 全球扫描 */
+
+.regions { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--rule); border: 1px solid var(--rule); }
+
+.region {
+  background: var(--paper); padding: 22px 22px 18px;
+  display: flex; flex-direction: column; gap: 14px;
+}
+.region:hover { background: var(--paper-2); }
+
+.region header { display: flex; align-items: baseline; gap: 10px; }
+.region h3 { font-family: var(--serif); font-size: 20px; margin: 0; letter-spacing: .08em; }
+.region .en { font-family: var(--mono); font-size: 9.5px; letter-spacing: .16em; color: var(--muted); text-transform: uppercase; }
+.region .r-sum { font-size: 12.5px; color: var(--muted); line-height: 1.7; margin: 0; padding-bottom: 10px; border-bottom: 1px dashed var(--rule); }
+
+.region .ritem { padding-top: 2px; }
+.region .ritem h4 { font-size: 14.5px; margin: 0 0 3px; line-height: 1.6; font-weight: 700; }
+.region .ritem p { margin: 0; font-size: 12.8px; color: var(--ink-2); line-height: 1.75; }
+
+/* 板块条目 */
+
+.items { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px; background: var(--rule); border: 1px solid var(--rule); }
+
+.entry {
+  background: var(--paper); padding: 20px 22px 18px;
+  display: flex; flex-direction: column;
+}
+.entry:hover { background: var(--paper-2); }
+
+/* 条目数为奇数时，最后一条横跨两栏，避免留下空白格 */
+.items > .entry:last-child:nth-child(odd) { grid-column: 1 / -1; }
+.items > .entry:last-child:nth-child(odd) p { max-width: 78ch; }
+
+.entry h3 {
+  font-family: var(--serif); font-size: 18.5px; line-height: 1.55;
+  margin: 0 0 7px; font-weight: 700; letter-spacing: .01em;
+}
+.entry h3 a:hover { color: var(--accent); }
+.entry p { margin: 0 0 10px; font-size: 13.6px; line-height: 1.85; color: var(--ink-2); }
+
+.entry .meta { margin-top: auto; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+
+.tag {
+  font-size: 10.5px; letter-spacing: .06em; padding: 2px 7px;
+  border: 1px solid var(--rule-strong); color: var(--muted); border-radius: 2px;
+  white-space: nowrap;
+}
+
+/* ---------------- 深度 ---------------- */
+
+.deep { background: var(--ink); color: #efe9da; margin-top: 56px; padding: 0 0 10px; }
+
+html[data-theme="dark"] .deep { background: #07080a; }
+
+.deep .block-head { border-bottom-color: rgba(239,233,218,.28); margin-bottom: 0; max-width: var(--max); margin: 0 auto; padding: 44px 24px 14px; }
+.deep .block-head h2 { color: #f4efe2; }
+.deep .block-head .no { color: #d9705f; }
+.deep .block-head .intro { color: rgba(239,233,218,.55); }
+
+.analysis {
+  max-width: 860px; margin: 0 auto; padding: 44px 24px 46px;
+  border-bottom: 1px solid rgba(239,233,218,.14);
+}
+.analysis:last-of-type { border-bottom: none; }
+
+.analysis .kicker { color: #d9705f; }
+.analysis .kicker::before { background: #d9705f; }
+
+.analysis h3 {
+  font-family: var(--serif); font-weight: 900;
+  font-size: clamp(26px, 3.4vw, 38px); line-height: 1.35;
+  margin: 14px 0 18px; color: #f6f1e4; letter-spacing: .01em;
+}
+
+.analysis .thesis {
+  font-family: var(--serif); font-size: 19px; line-height: 1.9;
+  color: #e4dcc8; padding: 14px 0 14px 18px;
+  border-left: 2px solid #d9705f; margin: 0 0 22px;
+  text-align: justify;
+}
+
+.analysis .body p {
+  font-family: var(--serif);
+  font-size: 17px; line-height: 2.05; color: rgba(239,233,218,.88);
+  margin: 0 0 18px; text-align: justify; letter-spacing: .01em;
+}
+
+.analysis .body p:first-child::first-letter {
+  float: left; font-size: 3.1em; line-height: .95; padding: 6px 10px 0 0;
+  color: #d9705f; font-family: var(--serif); font-weight: 700;
+}
+
+.analysis .counter {
+  border: 1px solid rgba(239,233,218,.22); padding: 16px 18px;
+  margin: 26px 0 18px; font-size: 13.8px; line-height: 1.9;
+  color: rgba(239,233,218,.72); background: rgba(255,255,255,.03);
+}
+.analysis .counter b { color: #d9705f; font-weight: 700; letter-spacing: .04em; }
+
+.analysis .watch { margin: 0; padding: 0; list-style: none; display: grid; gap: 8px; }
+.analysis .watch li {
+  font-size: 12.8px; color: rgba(239,233,218,.7); padding-left: 18px; position: relative; line-height: 1.7;
+}
+.analysis .watch li::before {
+  content: "○"; position: absolute; left: 0; color: #d9705f; font-size: 9px; top: 3px;
+}
+.analysis .watch-label {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .2em;
+  color: rgba(239,233,218,.45); margin: 0 0 10px; text-transform: uppercase;
+}
+
+/* ---------------- 数据与日历 ---------------- */
+
+.panel-grid { display: grid; grid-template-columns: 1.15fr .85fr; gap: 40px; align-items: start; }
+
+table.data { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+table.data th {
+  text-align: left; font-weight: 400; font-size: 10.5px; letter-spacing: .16em;
+  color: var(--muted); padding: 0 0 8px; border-bottom: 1px solid var(--ink); text-transform: uppercase;
+}
+table.data td { padding: 9px 0; border-bottom: 1px solid var(--rule); }
+table.data td.num { font-family: var(--mono); text-align: right; font-size: 12.5px; }
+table.data td.chg { font-family: var(--mono); text-align: right; font-weight: 700; font-size: 12.5px; }
+table.data tr:hover td { background: var(--paper-2); }
+.up { color: var(--up); }
+.down { color: var(--down); }
+
+.data-note { font-size: 11.5px; color: var(--muted); margin-top: 12px; line-height: 1.7; }
+
+.mini-head {
+  margin: 0 0 2px; padding: 0 0 8px; border-bottom: 1px solid var(--ink);
+  font-family: var(--mono); font-size: 10.5px; letter-spacing: .16em;
+  color: var(--muted); text-transform: uppercase;
+}
+
+.cal { list-style: none; margin: 0; padding: 0; }
+.cal li {
+  display: grid; grid-template-columns: 62px 1fr; gap: 12px;
+  padding: 10px 0; border-bottom: 1px dashed var(--rule); font-size: 13.2px;
+}
+.cal time { font-family: var(--mono); font-size: 11.5px; color: var(--accent); padding-top: 2px; }
+.cal span { color: var(--ink-2); line-height: 1.7; }
+
+/* ---------------- 延伸阅读 ---------------- */
+
+.reading { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+.read {
+  border: 1px solid var(--rule); padding: 16px 18px; background: var(--paper-2);
+  display: flex; flex-direction: column; gap: 5px;
+}
+.read:hover { border-color: var(--accent); }
+.read .r-out { font-family: var(--mono); font-size: 10px; letter-spacing: .14em; color: var(--accent); text-transform: uppercase; }
+.read h3 { font-family: var(--serif); font-size: 17px; margin: 2px 0; line-height: 1.5; }
+.read p { margin: 0; font-size: 12.5px; color: var(--muted); line-height: 1.7; }
+
+/* ---------------- 页脚 ---------------- */
+
+.footer {
+  margin-top: 60px; border-top: 1px solid var(--ink);
+  background: var(--paper-2);
+}
+.footer-in {
+  max-width: var(--max); margin: 0 auto; padding: 30px 24px 40px;
+  display: grid; grid-template-columns: 1.1fr 1fr; gap: 30px;
+  font-size: 12.5px; color: var(--muted);
+}
+.footer h4 {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .2em;
+  color: var(--ink-2); margin: 0 0 10px; text-transform: uppercase;
+}
+.footer .srcs { display: flex; flex-wrap: wrap; gap: 6px 14px; }
+.footer .srcs span { color: var(--muted); }
+.footer .fine { line-height: 1.9; }
+.footer a { color: var(--ink-2); border-bottom: 1px solid var(--rule-strong); }
+
+.pager {
+  max-width: var(--max); margin: 0 auto; padding: 0 24px 10px;
+  display: flex; justify-content: space-between; font-size: 12.5px; color: var(--muted);
+}
+
+/* ---------------- 往期 ---------------- */
+
+.archive { max-width: var(--max); margin: 0 auto; padding: 20px 24px 60px; }
+.arch-item {
+  display: grid; grid-template-columns: 132px 1fr auto; gap: 22px; align-items: baseline;
+  padding: 22px 0; border-bottom: 1px solid var(--rule);
+}
+.arch-item:hover { border-bottom-color: var(--accent); }
+.arch-date { font-family: var(--mono); font-size: 12px; color: var(--muted); letter-spacing: .06em; }
+.arch-item h3 { font-family: var(--serif); font-size: 20px; margin: 0 0 6px; line-height: 1.5; }
+.arch-item p { margin: 0; font-size: 13px; color: var(--muted); line-height: 1.75; }
+.arch-no { font-family: var(--mono); font-size: 11px; color: var(--accent); }
+
+.empty { padding: 80px 24px; text-align: center; color: var(--muted); font-family: var(--serif); }
+
+/* ---------------- 速览 ---------------- */
+
+.brief { max-width: var(--max); margin: 0 auto; padding: 30px 24px 0; }
+
+.brief-label {
+  margin: 0 0 12px; font-family: var(--mono); font-size: 10px;
+  letter-spacing: .2em; color: var(--accent); text-transform: uppercase;
+}
+
+.brief-list {
+  columns: 2; column-gap: 42px; margin: 0; padding: 14px 0 0;
+  list-style: none; border-top: 1px solid var(--ink);
+}
+
+.brief-list li {
+  break-inside: avoid; display: grid; grid-template-columns: 26px 1fr; gap: 8px;
+  margin-bottom: 12px; font-size: 13.8px; line-height: 1.8; color: var(--ink-2);
+}
+.brief-list b { font-family: var(--mono); font-size: 10.5px; color: var(--accent); padding-top: 4px; }
+
+/* ---------------- 信号 / 与你 / 线索 ---------------- */
+
+.signals {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px;
+  background: var(--rule); border: 1px solid var(--rule);
+}
+
+.signal { background: var(--paper); padding: 22px 22px 18px; }
+.signal:hover { background: var(--paper-2); }
+.signal .idx { font-family: var(--serif); font-size: 44px; line-height: .9; color: var(--accent); opacity: .22; }
+.signal h3 { font-family: var(--serif); font-size: 19px; line-height: 1.5; margin: 8px 0; font-weight: 700; }
+.signal p { margin: 0; font-size: 13.4px; line-height: 1.85; color: var(--ink-2); }
+.signal .why { margin-top: 12px; padding-top: 10px; border-top: 1px dashed var(--rule); font-size: 12.6px; color: var(--muted); }
+.signal .why b { color: var(--accent); font-weight: 600; letter-spacing: .06em; }
+
+.personal { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.pcard { border: 1px solid var(--rule); background: var(--paper-2); padding: 18px 20px; }
+.pcard h3 { font-family: var(--serif); font-size: 18px; margin: 0 0 8px; }
+.pcard p { margin: 0; font-size: 13.4px; line-height: 1.85; color: var(--ink-2); }
+
+table.threads td { vertical-align: top; padding: 11px 0; font-size: 13.4px; }
+table.threads .note-cell { color: var(--ink-2); line-height: 1.75; }
+
+.chip {
+  display: inline-block; font-size: 10.5px; padding: 1px 6px;
+  border: 1px solid currentColor; border-radius: 2px; letter-spacing: .05em; white-space: nowrap;
+}
+.chip.new { color: var(--accent); }
+.chip.up { color: var(--up); }
+.chip.watch { color: var(--gold); }
+.chip.dead { color: var(--muted); }
+
+/* ---------------- 响应式 ---------------- */
+
+@media (max-width: 1000px) {
+  .regions { grid-template-columns: repeat(2, 1fr); }
+  .signals { grid-template-columns: 1fr; }
+  .hero { grid-template-columns: 1fr; }
+  .hero-main { border-right: none; border-bottom: 1px solid var(--rule); padding: 24px 0 26px; }
+  .hero-side { padding: 24px 0 26px; }
+  .panel-grid { grid-template-columns: 1fr; gap: 34px; }
+}
+
+@media (max-width: 720px) {
+  body { font-size: 15.5px; }
+  .topbar-in, .masthead, .block, .lede, .hero, .nav-in, .footer-in, .pager, .archive { padding-left: 18px; padding-right: 18px; }
+  .masthead { padding-top: 24px; }
+  .masthead h1 { font-size: 44px; }
+  .masthead-meta .tagline { margin-left: 0; width: 100%; }
+  .regions { grid-template-columns: 1fr; }
+  .items { grid-template-columns: 1fr; }
+  .reading { grid-template-columns: 1fr; }
+  .brief-list { columns: 1; }
+  .personal { grid-template-columns: 1fr; }
+  .block { padding-top: 38px; }
+  .block-head { flex-wrap: wrap; }
+  .block-head .intro { text-align: left; margin-left: 0; max-width: none; }
+  .analysis { padding-top: 34px; padding-bottom: 36px; }
+  .analysis .body p { font-size: 16px; }
+  .footer-in { grid-template-columns: 1fr; }
+  .arch-item { grid-template-columns: 1fr; gap: 6px; }
+  .lede { padding-top: 30px; }
+}
+
+@media print {
+  .topbar, .nav, .progress, .ticker-wrap, .pager { display: none; }
+  body { background: #fff; color: #000; }
+  .deep { background: #fff; color: #000; }
+  .analysis .body p, .analysis h3, .analysis .thesis { color: #000; }
+}
+
+</style>
+</head>
+<body data-prev="2026-11-18.html" data-next="">
+<div class="progress" id="progress"></div>
+<header class="topbar">
+  <div class="topbar-in">
+    <span class="brand">资<i>·</i>讯</span>
+    <span>2026-11-19</span>
+    <span class="spacer"></span>
+    <a href="2026-11-18.html" title="上一期">← 上一期</a>
+    <span></span>
+    <a href="archive.html">往期</a>
+    <a href="feed.xml" title="订阅">RSS</a>
+    <button class="icon-btn" id="copy-btn" title="复制本页链接">⧉</button>
+    <button class="icon-btn" id="theme-btn" title="切换深浅色" aria-label="切换深浅色">☾</button>
+  </div>
+</header>
+<div class="masthead">
+  <div class="eyebrow"><span>PERSONAL INTELLIGENCE</span><span class="line"></span><span>晨刊</span></div>
+  <h1>资讯<small>每 日 全 球 情 报 简 报</small></h1>
+  <div class="masthead-meta">
+    <span class="date">2026-11-19　星期四</span>
+    <span class="issue">第 016 期</span>
+    <span>约 17 分钟</span>
+    <span class="tagline">一个人读的全球情报简报</span>
+  </div>
+</div>
+<section class="lede">
+  <p>今天最该记住的是：AI资本竞赛已进入“定价—管制—执法”三线并行的新阶段，市场对算力资产的定价开始与出口管制风险直接挂钩。Anthropic以83美元定价、募资813亿美元上市，估值约1.4万亿至1.5万亿美元，但同日美股仍下跌，说明巨额IPO不再自动等于风险偏好回升。与此同时，美国众院委员会就微软拟向字节跳动提供OpenAI模型的报道要求简报，华为刑事案进入陪审团审议，显示AI与技术的跨境流动正被国会和司法渠道同时收紧。</p>
+  <p class="note">上一期线索中，AI资本开支由公司治理升级为出口管制执法，今天微软—字节跳动问询与华为陪审团审议构成两条可核查的执法线索；赫格塞斯问责因众院程序性阻止弹劾动议而证伪；美伊谈判仍待周五验证；英国央行决议今晚见分晓。</p>
+</section>
+<section class="brief" id="brief">
+  <p class="brief-label">三分钟速览 · In Brief</p>
+  <ol class="brief-list"><li><b>01</b><span>Anthropic以每股83美元完成IPO，募资813亿美元，估值约1.4万亿至1.5万亿美元，但美股当日仍走低。</span></li><li><b>02</b><span>美众院中共战略竞争特别委员会要求微软就拟向字节跳动提供AI云服务的报道作简报。</span></li><li><b>03</b><span>华为在美刑事案结束两个月庭审，陪审团开始审议，判决方向将检验出口管制执法强度。</span></li><li><b>04</b><span>以色列在加沙“黄线”之外发动罕见地面行动，哈马斯指其违反停火；美财政部追加对真主党制裁。</span></li><li><b>05</b><span>国际法院就缅甸罗兴亚人问题作出历史性种族灭绝裁决，为首次有国家被国际法院认定犯种族灭绝。</span></li></ol>
+</section>
+<section class="hero"><div class="hero-main">
+    <span class="kicker">头条</span>
+    <h2>Anthropic上市定价83美元、募资813亿美元，AI资产定价与管制风险首次同框</h2>
+    <p class="dek">成立五年的Anthropic将IPO发行价定在每股83美元，募资813亿美元，估值约1.4万亿至1.5万亿美元，成为AI领域最大规模上市。但同日美股在英伟达亮眼财报与Anthropic IPO双重利好下仍下跌，显示市场对AI资本开支的可持续性存疑。更关键的是，美国众院委员会就微软拟向字节跳动提供OpenAI模型服务要求简报，AI跨境算力与模型流动正被纳入出口管制执法视野。</p>
+    <ul><li>IPO定价83美元、募资813亿美元，估值约1.4万亿至1.5万亿美元，为AI最大规模上市。</li><li>英伟达财报与Anthropic IPO双利好下美股仍跌，市场对AI资本开支可持续性存疑。</li><li>众院委员会要求微软就拟向字节跳动提供AI云服务作简报，管制执法从公司治理升级。</li></ul>
+    <div class="meta"><span class="tag">升级</span><a class="src" href="https://www.npr.org/2026/11/18/nx-s1-6046212/anthropic-record-ipo-price" target="_blank" rel="noopener">NPR ↗</a></div>
+  </div><div class="hero-side"><div class="item">
+      <span class="kicker">头条</span>
+      <h3>华为刑事案进入陪审团审议，出口管制执法进入司法裁决窗口</h3>
+      <p>美国政府对华为的刑事案在经历两个月庭审后，陪审团于周三开始审议。该案是近年来最受关注的出口管制与科技竞争诉讼之一，裁决结果将直接影响美国对华技术执法的可信度与力度。与此同时，众院委员会就微软拟向字节跳动提供OpenAI模型服务要求简报，显示国会与司法两条渠道正同步收紧AI与技术的跨境流动。</p>
+      <a class="src" href="https://www.scmp.com/news/us/article/3374967/huawei-case-enters-jury-deliberations-after-2-month-battle-us-courtroom" target="_blank" rel="noopener">SCMP ↗</a>
+    </div><div class="item">
+      <span class="kicker">头条</span>
+      <h3>以色列在加沙“黄线”外发动罕见地面行动，停火框架承压</h3>
+      <p>以色列军方在加沙“黄线”之外发动罕见地面行动，称正在拆除一条“恐怖隧道”，哈马斯谴责此举为“公然”违反停火。同日美国财政部以真主党利用慈善机构为“幌子”筹款为由追加制裁，显示美方在推动降级的同时继续对伊朗代理人施压。两条线并行，停火框架的脆弱性与美伊谈判的待验证状态相互叠加。</p>
+      <a class="src" href="https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">BBC World ↗</a>
+    </div></div></section>
+<nav class="nav"><div class="nav-in"><a href="#world">全球扫描</a><a href="#signals">信号</a><a href="#s01">宏观 · 政策</a><a href="#s02">市场 · 资产</a><a href="#s03">科技 · AI</a><a href="#s04">产业 · 半导体</a><a href="#s05">能源 · 气候</a><a href="#s06">医药 · 健康</a><a href="#s07">商业 · 公司</a><a href="#s08">科学 · 社会</a><a href="#deep">深读</a><a href="#personal">与你</a><a href="#threads">线索</a><a href="#data">数据</a><a href="#reading">阅读</a></div></nav>
+<section class="block" id="world">
+  <div class="block-head"><span class="no">00</span><h2>全球扫描</h2>
+    <p class="intro">六个区域，各取当天最值得知道的两三件事。不追求齐全，只保留会改变判断的部分。</p></div>
+  <div class="regions"><article class="region">
+      <header><h3>美国</h3><span class="en">United States</span></header>
+      <p class="r-sum">AI上市与管制执法并行，国会领导层更替落定。</p>
+      <div class="ritem"><h4>众院委员会要求微软就字节跳动AI交易作简报</h4><p>众院中共战略竞争特别委员会主席穆勒纳尔表示，已要求微软向议员简报，说明据报洽谈向字节跳动出售AI云服务一事。此前有报道称微软可能允许字节跳动通过Azure使用OpenAI模型，国会正把AI模型跨境流动纳入审查。</p></div><div class="ritem"><h4>杰弗里斯获民主党提名出任众院议长</h4><p>民主党提名哈基姆·杰弗里斯为众院议长人选，为其在明年1月民主党接管众院后成为首位领导该院的黑人议员铺路。同日刘云平获选众院民主党党团主席，成为首位担任该职的台裔暨亚裔美国人。</p></div>
+    </article><article class="region">
+      <header><h3>欧洲</h3><span class="en">Europe</span></header>
+      <p class="r-sum">乌克兰打击克里米亚大桥，AI假视频混杂传播。</p>
+      <div class="ritem"><h4>乌克兰以中继无人机绕过星链限制打击克里米亚大桥</h4><p>乌克兰使用自制中继无人机技术，绕过星链限制对克里米亚大桥实施打击，并借鉴对手的战场经验。法国24事实核查指出，网上流传的多段“大桥受损”视频为AI生成，并非真实画面。</p></div><div class="ritem"><h4>利摩日市政厅纵火后重建，筹款逾170万欧元</h4><p>法国中部利摩日市政厅在10月17日骚乱中遭纵火焚毁，重建工作正在进行，已筹集超过170万欧元。该事件显示地方财政与公共设施在骚乱后的恢复压力。</p></div>
+    </article><article class="region">
+      <header><h3>中东</h3><span class="en">Middle East</span></header>
+      <p class="r-sum">以军越线行动与美对真主党制裁并行，停火承压。</p>
+      <div class="ritem"><h4>以军在加沙“黄线”外发动罕见地面行动</h4><p>以色列军方在加沙“黄线”之外发动罕见地面行动，称正在拆除一条“恐怖隧道”，哈马斯谴责此举为“公然”违反停火。该行动考验现有停火框架的约束力。</p></div><div class="ritem"><h4>美财政部追加对真主党制裁</h4><p>美国财政部以真主党利用慈善组织作为筹款“幌子”为由追加制裁，加大对其压力。此举与美伊谈判并行，显示美方在推动降级的同时继续对伊朗代理人施压。</p></div>
+    </article><article class="region">
+      <header><h3>亚太</h3><span class="en">Asia-Pacific</span></header>
+      <p class="r-sum">缅甸种族灭绝裁决创先例，印尼对华婚姻贩运持续。</p>
+      <div class="ritem"><h4>国际法院就缅甸罗兴亚人问题作出历史性种族灭绝裁决</h4><p>国际法院就缅甸对罗兴亚人的暴行作出裁决，为首次有国家被国际法院认定犯种族灭绝。该判决将影响国际法上国家责任的认定标准与后续追责路径。</p></div><div class="ritem"><h4>印尼对华婚姻贩运在多次打击后仍存续</h4><p>分析人士称，尽管当局多次打击，将印尼女性贩运至中国结婚的做法仍存续，经济困境是主要驱动因素。报道提及“新娘目录”与假婚礼等操作手法。</p></div>
+    </article><article class="region">
+      <header><h3>中国</h3><span class="en">China</span></header>
+      <p class="r-sum">华为案进入陪审团审议，中美关系承压。</p>
+      <div class="ritem"><h4>华为刑事案进入陪审团审议</h4><p>美国政府对华为的刑事案在两个月庭审后进入陪审团审议，该案是近年来最受关注的出口管制与科技竞争诉讼之一，裁决将检验美国对华技术执法的司法可信度。</p></div><div class="ritem"><h4>习特关系面临国会更强硬对华政策压力</h4><p>随着国会在AI芯片管制等问题上施压加大，特朗普与习近平的个人关系面临迄今最严峻考验。报道称，华盛顿要求更强硬对华政策的呼声上升，AI芯片与出口管制是核心议题。</p></div>
+    </article><article class="region">
+      <header><h3>全球南方</h3><span class="en">Global South</span></header>
+      <p class="r-sum">塞内加尔移民船倾覆，总统被执政党排除。</p>
+      <div class="ritem"><h4>塞内加尔海域移民船倾覆至少一人死亡</h4><p>塞内加尔海域一艘移民船倾覆，造成至少一人死亡。数天前另一艘船在同一海域倾覆，西班牙已宣布移民紧急状态，西非移民路线压力持续上升。</p></div><div class="ritem"><h4>塞内加尔总统法耶被执政党排除</h4><p>塞内加尔总统巴西鲁·迪奥马耶·法耶被排除出执政党，其与强势前总理兼导师的政治决裂正式化。该事件将影响该国执政联盟的稳定性与政策连续性。</p></div>
+    </article></div>
+</section>
+<section class="block" id="signals">
+  <div class="block-head"><span class="no">SIG</span><h2>被低估的信号</h2>
+    <p class="intro">三条没上头条、但会改变判断的细节。信号不等于结论，标注了它可能错在哪。</p></div>
+  <div class="signals"><article class="signal">
+      <div class="idx">01</div>
+      <h3>AI资产定价与出口管制首次同框</h3>
+      <p>Anthropic以每股83美元定价、募资813亿美元、估值约1.4万亿至1.5万亿美元，成为AI领域最大规模IPO；同日美股在英伟达亮眼财报与IPO双重利好下仍下跌。</p>
+      <p class="why"><b>为什么重要</b>　一级市场为AI支付创纪录溢价，二级市场却用下跌表达对资本开支可持续性的怀疑，两套定价逻辑出现裂口。更关键的是，众院委员会就微软拟向字节跳动提供OpenAI模型服务要求简报，模型跨境流动被纳入出口管制执法视野，AI估值从此要计入管制折价。</p>
+    </article><article class="signal">
+      <div class="idx">02</div>
+      <h3>出口管制执法进入司法裁决窗口</h3>
+      <p>美国政府对华为的刑事案在两个月庭审后，陪审团周三开始审议；同期国会就微软与字节跳动的AI服务洽谈要求简报。</p>
+      <p class="why"><b>为什么重要</b>　司法与国会两条渠道同步收紧技术跨境流动，裁决结果将直接影响美国对华技术执法的可信度与力度。对企业而言，合规风险从行政裁量转向可判例化的刑事风险，跨境云与模型服务的合同结构、客户尽调与地区切分都需重新评估。</p>
+    </article><article class="signal">
+      <div class="idx">03</div>
+      <h3>停火框架的脆弱性被两条线同时验证</h3>
+      <p>以色列军方在加沙“黄线”之外发动罕见地面行动，称拆除一条“恐怖隧道”，哈马斯谴责为“公然”违反停火；同日美财政部以真主党利用慈善机构为“幌子”筹款为由追加制裁。</p>
+      <p class="why"><b>为什么重要</b>　军事降级与金融施压并行，说明停火并非冲突终点而是管理工具。地面行动测试停火的地理边界，制裁测试伊朗代理人的资金链，两者叠加使美伊谈判处于待验证状态。对能源与航运而言，风险溢价难以系统性回落，任何一方误判都可能重新定价。</p>
+    </article></div>
+</section>
+<section class="block" id="s01">
+  <div class="block-head"><span class="no">01</span><h2>宏观 · 政策</h2>
+    <p class="intro">华盛顿对华政策压力上升，司法与立法渠道同步收紧。</p></div>
+  <div class="items"><article class="entry">
+      <h3>习特关系面临国会压力测试</h3>
+      <p>美中领导人之间的个人默契正遭遇迄今最严峻考验，国会就AI芯片管制等议题持续施压。报道指出，随着对华强硬呼声在华盛顿升温，两国关系的稳定器正从首脑互动转向部门博弈，政策不确定性上升。</p>
+      <div class="meta"><span class="tag">中美关系</span><a class="src" href="https://www.scmp.com/news/china/diplomacy/article/3374969/xi-trump-ties-tested-calls-grow-washington-tougher-china-policy" target="_blank" rel="noopener">SCMP ↗</a></div>
+    </article><article class="entry">
+      <h3>刘云平当选美众院民主党团主席</h3>
+      <p>联邦众议员刘云平获选众院民主党党团主席，成为美国国会首位担任党团主席的台裔暨亚裔美国人，并在众院民主党领导层中排名第四。这一人事变化为科技与移民议题的党内议程增添新的亚裔视角。</p>
+      <div class="meta"><span class="tag">人事</span><a class="src" href="https://www.cna.com.tw/news/aopl/202611190014.aspx" target="_blank" rel="noopener">中央社 ↗</a></div>
+    </article></div>
+</section>
+<section class="block" id="s02">
+  <div class="block-head"><span class="no">02</span><h2>市场 · 资产</h2>
+    <p class="intro">AI双重利好未能托住股指，市场开始质疑资本开支。</p></div>
+  <div class="items"><article class="entry">
+      <h3>英伟达财报与Anthropic IPO双利好下美股仍跌</h3>
+      <p>美股在英伟达亮眼业绩与Anthropic大规模IPO双重利好下依然走低，市场对AI资本开支可持续性的疑虑压过短期业绩惊喜。资金在AI叙事与估值纪律之间重新权衡，波动率与成交量同步放大。</p>
+      <div class="meta"><span class="tag">美股</span><a class="src" href="https://www.channelnewsasia.com/world/stocks-slide-despite-bumper-nvidia-profits-anthropic-ipo-6563861" target="_blank" rel="noopener">CNA ↗</a></div>
+    </article><article class="entry">
+      <h3>交易日内市场在英伟达、Anthropic与纪要间分化</h3>
+      <p>当日盘面受英伟达财报、Anthropic定价与政策纪要三重因素交织影响，板块表现分化。投资者在AI硬件链与软件应用之间调仓，利率路径的表述同样牵动估值分母。</p>
+      <div class="meta"><span class="tag">盘面</span><a class="src" href="https://www.channelnewsasia.com/business/trading-day-markets-mixed-in-nvidia-anthropic-minutes-swirl-6563926" target="_blank" rel="noopener">CNA ↗</a></div>
+    </article></div>
+</section>
+<section class="block" id="s03">
+  <div class="block-head"><span class="no">03</span><h2>科技 · AI</h2>
+    <p class="intro">模型能力竞赛与跨境流动管制同时加速。</p></div>
+  <div class="items"><article class="entry">
+      <h3>Anthropic定价83美元，估值约1.4万亿美元</h3>
+      <p>成立五年的Anthropic将IPO发行价定为每股83美元，募资813亿美元，估值约1.4万亿至1.5万亿美元，成为AI领域最大规模上市。公司在AI泡沫担忧与市场波动中完成定价，需求强劲。</p>
+      <div class="meta"><span class="tag">IPO</span><a class="src" href="https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">BBC ↗</a></div>
+    </article><article class="entry">
+      <h3>美众院委员会要求微软就字节跳动AI交易简报</h3>
+      <p>众院“美国与中共战略竞争特别委员会”主席穆勒纳尔表示，已要求微软向议员简报，说明据报拟向字节跳动出售AI云端服务一事。此前有报道称微软可能通过Azure让字节跳动使用OpenAI模型。</p>
+      <div class="meta"><span class="tag">出口管制</span><a class="src" href="https://www.cna.com.tw/news/aopl/202611190011.aspx" target="_blank" rel="noopener">中央社 ↗</a></div>
+    </article></div>
+</section>
+<section class="block" id="s04">
+  <div class="block-head"><span class="no">04</span><h2>产业 · 半导体</h2>
+    <p class="intro">技术执法从行政裁量走向司法与国会双轨。</p></div>
+  <div class="items"><article class="entry">
+      <h3>华为刑事案进入陪审团审议</h3>
+      <p>美国政府对华为的刑事案在经历两个月庭审后，陪审团周三开始审议。该案是近年最受关注的出口管制与科技竞争诉讼之一，裁决将检验美国对华技术执法的力度与可信度。</p>
+      <div class="meta"><span class="tag">诉讼</span><a class="src" href="https://www.scmp.com/news/us/article/3374967/huawei-case-enters-jury-deliberations-after-2-month-battle-us-courtroom" target="_blank" rel="noopener">SCMP ↗</a></div>
+    </article><article class="entry">
+      <h3>Palo Alto上调年度指引并签45亿美元算力交易</h3>
+      <p>Palo Alto上调全年业绩预测，并签署价值45亿美元的Applied Compute相关交易，显示安全厂商正把AI算力与安全服务捆绑销售，企业级安全预算继续向平台化供应商集中。</p>
+      <div class="meta"><span class="tag">安全</span><a class="src" href="https://www.channelnewsasia.com/business/palo-alto-raises-annual-forecast-signs-45-billion-deal-applied-compute-6563836" target="_blank" rel="noopener">CNA ↗</a></div>
+    </article></div>
+</section>
+<section class="block" id="s05">
+  <div class="block-head"><span class="no">05</span><h2>能源 · 气候</h2>
+    <p class="intro">1.5°C目标失守后，化石燃料阵营公开争夺话语权。</p></div>
+  <div class="items"><article class="entry">
+      <h3>OPEC在COP31为化石燃料发声</h3>
+      <p>OPEC在COP31气候谈判中公开为化石燃料辩护，与推动加速退出的阵营形成正面交锋。产油国试图把谈判焦点从“淘汰”转向“投资与安全”，能源转型的时间表因此更难写进文本。</p>
+      <div class="meta"><span class="tag">COP31</span><a class="src" href="https://www.channelnewsasia.com/world/opec-speaks-up-fossil-fuels-cop31-climate-talks-6563766" target="_blank" rel="noopener">CNA ↗</a></div>
+    </article><article class="entry">
+      <h3>地球已越过全球升温目标，接下来怎么办</h3>
+      <p>评论指出，这是首个处于1.5°C超调时代的COP气候会议，给气候运动提出严峻问题：目标失守后，政策重心需从承诺转向适应融资与损失损害的实际落地。</p>
+      <div class="meta"><span class="tag">气候政策</span><a class="src" href="https://www.channelnewsasia.com/commentary/15degc-target-un-climate-summit-cop31-6562066" target="_blank" rel="noopener">CNA ↗</a></div>
+    </article></div>
+</section>
+<section class="block" id="s06">
+  <div class="block-head"><span class="no">06</span><h2>医药 · 健康</h2>
+    <p class="intro">监管人事动荡，公共卫生议程出现空档。</p></div>
+  <div class="items"><article class="entry">
+      <h3>特朗普放弃FDA提名人选，参院撤下NSF人选表决</h3>
+      <p>特朗普放弃其FDA提名人选，参议院亦取消对NSF人选的投票。参议员卡西迪称“此刻需要领导力与坚毅”。关键监管与科研岗位空缺延长，药品审评与基础研究预算节奏面临不确定性。</p>
+      <div class="meta"><span class="tag">监管人事</span><a class="src" href="https://arstechnica.com/health/2026/11/trump-abandons-his-fda-nominee-and-senate-scraps-vote-on-his-nsf-pick/" target="_blank" rel="noopener">Ars Technica ↗</a></div>
+    </article><article class="entry">
+      <h3>实验室检测：解压玩具里到底有什么</h3>
+      <p>节目将18件解压玩具送检，专家识别出泄漏、高温暴晒等情形下的潜在危害，并给出家长可采取的保护措施。检测结果提示，软质玩具的化学与热风险需要更明确的标识与抽检。</p>
+      <div class="meta"><span class="tag">消费品安全</span><a class="src" href="https://www.channelnewsasia.com/cna-insider/insider/inside-squishy-toys-lab-tests-safe-chemical-heat-risks-6563631" target="_blank" rel="noopener">CNA ↗</a></div>
+    </article></div>
+</section>
+<section class="block" id="s07">
+  <div class="block-head"><span class="no">07</span><h2>商业 · 公司</h2>
+    <p class="intro">AI造富效应与平台内容治理同时成为焦点。</p></div>
+  <div class="items"><article class="entry">
+      <h3>Anthropic IPO将造就数千名百万富翁</h3>
+      <p>Anthropic上市定价使公司估值升至约1.5万亿美元，早期员工与投资人的持股大幅升值，预计将产生数千名百万富翁。财富效应也在重塑AI人才市场的薪酬结构与流动性。</p>
+      <div class="meta"><span class="tag">IPO</span><a class="src" href="https://www.channelnewsasia.com/business/anthropic-ipo-mint-thousands-millionaires-6563771" target="_blank" rel="noopener">CNA ↗</a></div>
+    </article><article class="entry">
+      <h3>Netflix CEO承认应用可能埋没好内容</h3>
+      <p>Netflix首席执行官萨兰多斯承认，应用可能把你真正想看的内容埋在你不想看的内容之下，并谈到流媒体在让热门剧集被有效发现方面存在缺口。推荐与编排的效率正成为留存率的关键变量。</p>
+      <div class="meta"><span class="tag">流媒体</span><a class="src" href="https://arstechnica.com/gadgets/2026/11/netflix-ceo-admits-app-may-bury-stuff-you-want-to-watch-under-stuff-you-dont/" target="_blank" rel="noopener">Ars Technica ↗</a></div>
+    </article></div>
+</section>
+<section class="block" id="s08">
+  <div class="block-head"><span class="no">08</span><h2>科学 · 社会</h2>
+    <p class="intro">深空里程碑与网络虚假信息同场上演。</p></div>
+  <div class="items"><article class="entry">
+      <h3>旅行者1号达到一光日距离</h3>
+      <p>1977年发射的旅行者1号在发射近50年后，与地球距离达到一光日，创下人造物体最远纪录。这一里程碑既是工程耐力的证明，也提醒深空通信的时延极限。</p>
+      <div class="meta"><span class="tag">深空</span><a class="src" href="https://www.aljazeera.com/news/2026/11/18/nasas-voyager-1-hits-record-one-light-day-distance-50-years-after-launch?traffic_source=rss" target="_blank" rel="noopener">Al Jazeera ↗</a></div>
+    </article><article class="entry">
+      <h3>克里米亚大桥遇袭后AI假视频扩散</h3>
+      <p>乌克兰袭击连接俄罗斯与克里米亚的刻赤大桥后，网上流传多段AI生成的虚假损毁画面。事实核查显示并非所有戏剧性影像为真，战时信息环境的可信度成本进一步上升。</p>
+      <div class="meta"><span class="tag">虚假信息</span><a class="src" href="https://www.france24.com/en/tv-shows/truth-or-fake/20261118-crimea-bridge-strike-fact-checking-fake-videos-of-damage-after-ukraine-s-attack" target="_blank" rel="noopener">France 24 ↗</a></div>
+    </article></div>
+</section>
+<section class="deep" id="deep">
+  <div class="block-head"><span class="no">DEEP</span><h2>三段深读</h2>
+    <p class="intro">每篇都给论点、证据、反方与观察点。观点可以不同意，事实必须可核对。</p></div>
+  <article class="analysis">
+    <span class="kicker">深度 01 · 政治与资产</span>
+    <h3>83美元的定价，与一条正在收紧的管制线</h3>
+    <p class="thesis">Anthropic的IPO把AI资产推上历史级估值，但同一天国会就微软向字节跳动提供模型服务要求简报，说明这类资产的定价分母里，第一次被明确写入了跨境管制的政治风险。</p>
+    <div class="body"><p>成立五年的Anthropic把IPO发行价定在每股83美元，募资813亿美元，估值约1.4万亿至1.5万亿美元，成为AI领域最大规模上市。这个数字本身是资本市场对通用模型公司的一次公开定价，也是对过去两年私募轮次估值的一次确认。但定价发生在监管口径正在变化的时点，资产的价格与资产的合法性边界同时被摆上台面。</p><p>同一天，美股在英伟达亮眼财报与Anthropic IPO双重利好下仍然下跌。这不是对单一公司的否定，而是市场对AI资本开支可持续性的怀疑开始压过对收入故事的追捧。当最优质的AI资产上市都无法带动指数，说明投资者在重新计算回报周期，而不是在重新计算想象力。</p><p>更关键的一条线在国会。众院委员会就微软拟向字节跳动提供OpenAI模型服务要求简报，这意味着模型跨境流动正被纳入出口管制的执法视野。过去管的是芯片和算力硬件，现在问的是模型服务算不算技术出口。一旦这个口子被正式定义，AI公司的收入地图就要按地缘政治重新画一遍。</p><p>对资产定价的含义是直接的：估值模型里的可服务市场不再由需求决定，而由许可决定。一家AI公司的增长曲线如果依赖跨境交付，它的风险溢价就该包含执法不确定性。83美元的发行价里，这部分溢价目前可能被低估，因为执法还没有形成判例。</p><p>政治与资产的耦合在这里表现为时间差：IPO定价用的是昨天的监管环境，而国会与司法两条渠道正在同步收紧明天的规则。投资者买的是五年后的现金流，却只能用今天的合规框架去折现。这个错配不会立刻反映在股价上，但会在下一次执法行动时集中释放。</p></div>
+    <div class="counter"><b>反方</b>　反方观点认为，管制风险被过度定价。模型服务与硬件不同，交付可拆分、可本地化，执法难以覆盖全部路径；且Anthropic的客户以美国企业为主，跨境敞口有限。若国会简报最终未形成规则，当前的风险折价反而构成买点。</div>
+    <p class="watch-label">接下来盯什么</p><ul class="watch"><li>众院委员会对微软—字节跳动模型服务的简报结论是否转化为立法或执法指引</li><li>Anthropic上市后首份财报中跨境收入占比与合规披露口径</li><li>美股在AI利好下持续走弱是否演变为对资本开支的集体重估</li></ul>
+  </article><article class="analysis">
+    <span class="kicker">深度 02 · 科技与资本</span>
+    <h3>算力还在扩张，回报开始被追问</h3>
+    <p class="thesis">英伟达财报与Anthropic上市同日发生，却没能托住美股，说明AI资本开支的叙事已从“谁来买单”切换到“多久回本”，资本市场的耐心正在被折旧周期重新校准。</p>
+    <div class="body"><p>英伟达交出亮眼财报，Anthropic完成史上最大AI上市，两件事叠在同一天，按理是资本开支链条最强的一组信号。但美股仍然下跌。这个背离比任何单一数字都重要：它说明买方不再用收入增速给AI资产定价，而开始用投资回收期来折算。</p><p>机制在于资本开支的会计性质。数据中心、GPU集群、电力合同都是前置投入，折旧在报表前端，收入在后端。当利率不低、折旧年限又被质疑偏长时，同样的资本开支会被市场按更短的回报窗口来贴现。英伟达卖得越好，下游的资本开支就越重，回报压力反而越集中。</p><p>Anthropic的813亿美元募资是这个逻辑的放大器。一级市场愿意给1.4万亿至1.5万亿美元的估值，等于承认模型公司具备平台级现金流潜力；但上市后它必须按季度证明推理成本可控、企业客户留存、毛利率能爬升。私募可以讲的故事，公开市场要按数字验收。</p><p>另一条被低估的线是模型服务的跨境交付。众院委员会要求微软就向字节跳动提供OpenAI模型服务作简报，意味着模型即服务可能被当作技术出口来管。对资本开支的影响是结构性的：如果可服务市场被许可切分，算力扩张的规模经济就要按区域重算，单位回报下降。</p><p>把三条线并起来看，AI资本开支正进入验证期：硬件端仍在扩张，模型端刚被公开定价，监管端开始界定边界。三者中任何一条收紧，都会让另外两条的回报假设打折。市场当天的下跌，是对这种联动的一次提前反应，而不是对某份财报的否定。</p></div>
+    <div class="counter"><b>反方</b>　看多一方会说，回调只是估值消化，不是逻辑逆转。英伟达订单能见度仍高，Anthropic募资超额说明机构需求真实，AI渗透率仍在早期。若推理成本继续下降、企业付费率上升，当前的回调会被证明是加仓窗口。</div>
+    <p class="watch-label">接下来盯什么</p><ul class="watch"><li>Anthropic上市后推理成本与毛利率的季度披露</li><li>主要云厂商下一季度资本开支指引是否上调或延后</li><li>模型服务跨境交付是否被正式纳入出口管制清单</li></ul>
+  </article><article class="analysis">
+    <span class="kicker">深度 03 · 宏观与能源</span>
+    <h3>停火很脆，油价很稳，通胀的尾部风险在别处</h3>
+    <p class="thesis">加沙“黄线”外的地面行动与美财政部对真主党筹款网络的制裁同时发生，说明降级与施压并行；对宏观而言，这意味着能源供给的风险溢价不会消失，但也暂不足以推高油价，通胀的尾部风险更多来自财政与制裁链条而非战场。</p>
+    <div class="body"><p>以色列军方在加沙“黄线”之外发动罕见地面行动，称正在拆除一条“恐怖隧道”，哈马斯谴责此举公然违反停火。同一天，美国财政部以真主党利用慈善机构为幌子筹款为由追加制裁。两条线并行：一条是军事上的有限升级，一条是金融上的持续施压。</p><p>对能源市场而言，关键不是加沙本身，而是冲突是否外溢到伊朗与霍尔木兹海峡。目前看，地面行动被限定在特定区域，制裁指向筹款网络而非石油出口，供给中断的概率没有实质抬升。油价因此缺乏持续上行的催化，风险溢价停留在期权市场而非现货价格。</p><p>机制上，这类地缘事件对通胀的传导要经过三个环节：油价、航运保险、企业预期。前两个目前温和，第三个才是隐患。企业在地缘不确定性下会提前备货、拉长库存周期，这会推高核心商品的短期价格黏性，让央行在降息路径上更谨慎。</p><p>财政是另一条更实的线。制裁执行需要行政资源，军事行动需要预算，两者都指向美国财政的持续支出压力。在利率不低的背景下，财政扩张对长端利率的支撑，比油价对通胀的推动更值得关注。地缘风险在这里转化为期限溢价，而不是CPI。</p><p>把三条线合起来：停火框架脆弱但未破裂，制裁在加压但未触及原油，财政在扩张但未失控。宏观结论是通胀的尾部风险被推迟而非消除。对央行而言，这意味着降息可以继续，但步伐会被地缘与财政的双重不确定性拖住，能源价格暂时不是主要矛盾。</p></div>
+    <div class="counter"><b>反方</b>　反方会强调，地缘事件的价格影响往往是非线性的。一旦地面行动扩大或伊朗被直接卷入，油价可以在数日内跳升，航运保费与保险成本会迅速传导至核心通胀。当前油价的平静，可能只是市场对反复升级的钝化，而非风险真实下降。</div>
+    <p class="watch-label">接下来盯什么</p><ul class="watch"><li>加沙地面行动是否扩展至“黄线”以外更大范围及伊朗表态</li><li>美国财政部对真主党筹款网络的制裁是否延伸至能源相关实体</li><li>油价与航运保险费率的背离是否持续扩大</li></ul>
+  </article>
+</section>
+<section class="block" id="personal">
+  <div class="block-head"><span class="no">YOU</span><h2>与你有关</h2>
+    <p class="intro">把宏观翻译成个人决策：换汇、房贷、工作。只谈机制，不给建议。</p></div>
+  <div class="personal"><article class="pcard"><h3>盯住AI算力租赁商的交付节奏</h3><p>Anthropic上市定价与美股下跌同框，说明市场开始区分“AI叙事”与“算力交付”。上一期线索提示IREN推迟交付，今天应继续观察是否扩散至其他算力租赁商，以及十天内董事会是否披露内部审计。</p></article><article class="pcard"><h3>英国央行今晚20:00决议</h3><p>若以7比2通过加息，则2月再加一次为基准情形，终端利率4.25%。这是上一期新增线索，今晚即可验证，需关注投票分歧与声明措辞对英镑与英债的传导。</p></article><article class="pcard"><h3>美伊谈判周五验证窗口</h3><p>周五是否给出可核查的降级路径是关键。若只是推迟，油价可能回到95至100美元区间。今日以军越线行动与美对真主党制裁并行，增加了“推迟而非降级”的概率。</p></article></div>
+</section>
+<section class="block" id="threads">
+  <div class="block-head"><span class="no">THREAD</span><h2>线索追踪</h2>
+    <p class="intro">昨天的问题，今天有没有答案。状态：新增 / 升级 / 待验证 / 证伪。</p></div>
+  <table class="data threads">
+    <thead><tr><th style="width:22%">线索</th><th style="width:16%">状态</th><th>下一步看什么</th></tr></thead>
+    <tbody><tr><td>AI资本开支</td><td><span class="chip up">升级</span></td><td class="note-cell">从公司治理升级为出口管制执法；看十天内董事会是否披露内部审计，以及IREN推迟交付是否扩散至其他算力租赁商。</td></tr><tr><td>赫格塞斯问责</td><td><span class="chip dead">证伪</span></td><td class="note-cell">众院程序性阻止弹劾动议；转看参院是否另开听证、司法渠道是否接手，战争权力法案是否进入排期。</td></tr><tr><td>美伊谈判</td><td><span class="chip watch">待验证</span></td><td class="note-cell">周五是否给出可核查的降级路径；若只是推迟，油价回到95至100美元区间。</td></tr><tr><td>英国央行加息</td><td><span class="chip new">新增</span></td><td class="note-cell">今晚20:00决议；若7比2通过，则2月再加一次为基准，终端利率4.25%。</td></tr><tr><td>关税撤销</td><td><span class="chip watch">待验证</span></td><td class="note-cell">民主党表态积极，但参院60票门槛与总统否决权仍在；短期更可能是听证而非立法。</td></tr></tbody>
+  </table>
+</section>
+<section class="block" id="data">
+  <div class="block-head"><span class="no">DATA</span><h2>数字与日程</h2>
+    <p class="intro">收盘价、收益率与今日待发布数据。口径不一致的地方，正文里已经写明。</p></div>
+  <div class="panel-grid">
+    <div><p class="data-note" style="margin-top:0">本期未接入行情数据；文中数字均来自所引报道。</p></div>
+    
+  </div>
+</section>
+<section class="block" id="reading">
+  <div class="block-head"><span class="no">READ</span><h2>延伸阅读</h2>
+    <p class="intro">如果你想回到原始材料，从这里开始。</p></div>
+  <div class="reading"><a class="read" href="https://www.npr.org/2026/11/18/nx-s1-6046212/anthropic-record-ipo-price" target="_blank" rel="noopener">
+      <span class="r-out">NPR</span>
+      <h3>Anthropic IPO raises record $81.3 billion on strong AI demand</h3>
+      <p>IPO定价与市场反应的原始报道，含估值与发行细节。</p>
+    </a><a class="read" href="https://www.channelnewsasia.com/world/us-microsoft-bytedance-openai-access-6563751" target="_blank" rel="noopener">
+      <span class="r-out">CNA</span>
+      <h3>US lawmakers seek Microsoft briefing on reported AI deal talks with ByteDance</h3>
+      <p>国会审查AI模型跨境流动的机制与程序细节。</p>
+    </a><a class="read" href="https://www.france24.com/en/tv-shows/truth-or-fake/20261118-crimea-bridge-strike-fact-checking-fake-videos-of-damage-after-ukraine-s-attack" target="_blank" rel="noopener">
+      <span class="r-out">France 24</span>
+      <h3>Crimea bridge strike: Fact-checking fake videos of damage after Ukraine&#x27;s attack</h3>
+      <p>AI生成视频在冲突信息战中的识别与核查方法。</p>
+    </a><a class="read" href="https://www.bbc.co.uk/news/articles/c5m2l90ez144o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">
+      <span class="r-out">BBC World</span>
+      <h3>Myanmar faces historic genocide verdict at UN court over Rohingya massacres</h3>
+      <p>首次有国家被国际法院认定种族灭绝的判决要点与法律意义。</p>
+    </a></div>
+</section>
+<div class="pager"><a href="2026-11-18.html">← 2026-11-18</a><a href="archive.html">全部往期</a><span></span></div>
+<footer class="footer">
+  <div class="footer-in">
+    <div>
+      <h4>Sources</h4>
+      <div class="srcs"><span>NPR</span><span>BBC World</span><span>SCMP</span><span>CNA</span><span>中央社</span><span>Al Jazeera</span><span>France 24</span><span>Ars Technica</span></div>
+    </div>
+    <div class="fine">
+      <h4>说明</h4>
+      生成时间 2026-11-19T08:13:21+08:00　·　第 016 期<br>
+      价格为公开报道口径，可能因结算价与收盘价取样时点不同而存在差异；带「传闻」「待官宣」标记的内容尚未被官方确认。<br>
+      本页为个人学习用途的信息整理，不构成投资建议。键盘 ← → 可翻页。
+    </div>
+  </div>
+</footer>
+<a id="to-top" href="#" title="回到顶部" style="position:fixed;right:18px;bottom:18px;width:38px;height:38px;display:flex;align-items:center;justify-content:center;border:1px solid var(--rule-strong);background:var(--paper);color:var(--muted);opacity:0;transition:opacity .2s;z-index:50">↑</a>
+<script>/* 资讯 · 个人情报台 — 交互层（无依赖） */
+(function () {
+  'use strict';
+
+  var root = document.documentElement;
+
+  /* ---------- 主题 ---------- */
+  var KEY = 'zixun-theme';
+  function applyTheme(t) {
+    root.setAttribute('data-theme', t);
+    var b = document.getElementById('theme-btn');
+    if (b) b.textContent = t === 'dark' ? '☀' : '☾';
+  }
+  var saved = null;
+  try { saved = localStorage.getItem(KEY); } catch (e) {}
+  if (!saved && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) saved = 'dark';
+  var q = new URLSearchParams(location.search).get('theme');
+  applyTheme(q === 'dark' || q === 'light' ? q : (saved || 'light'));
+
+  document.addEventListener('click', function (e) {
+    var t = e.target.closest && e.target.closest('#theme-btn');
+    if (t) {
+      var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      applyTheme(next);
+      try { localStorage.setItem(KEY, next); } catch (e2) {}
+    }
+    var c = e.target.closest && e.target.closest('#copy-btn');
+    if (c) {
+      var url = location.href;
+      if (navigator.clipboard) navigator.clipboard.writeText(url);
+      var old = c.textContent;
+      c.textContent = '已复制';
+      setTimeout(function () { c.textContent = old; }, 1400);
+    }
+  });
+
+  /* ---------- 阅读进度 ---------- */
+  var bar = document.querySelector('.progress');
+  function onScroll() {
+    var h = document.documentElement.scrollHeight - window.innerHeight;
+    var p = h > 0 ? (window.scrollY / h) * 100 : 0;
+    if (bar) bar.style.width = p.toFixed(2) + '%';
+    var top = document.getElementById('to-top');
+    if (top) top.style.opacity = window.scrollY > 900 ? '1' : '0';
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  /* ---------- 目录高亮 ---------- */
+  var links = Array.prototype.slice.call(document.querySelectorAll('.nav a[href^="#"]'));
+  var targets = links.map(function (a) { return document.querySelector(a.getAttribute('href')); });
+  if ('IntersectionObserver' in window && targets.length) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (!en.isIntersecting) return;
+        var i = targets.indexOf(en.target);
+        if (i < 0) return;
+        links.forEach(function (l) { l.classList.remove('active'); });
+        links[i].classList.add('active');
+        if (links[i].scrollIntoView) {
+          links[i].scrollIntoView({ block: 'nearest', inline: 'center', behavior: 'smooth' });
+        }
+      });
+    }, { rootMargin: '-15% 0px -70% 0px', threshold: 0 });
+    targets.forEach(function (t) { if (t) io.observe(t); });
+  }
+
+  /* ---------- 键盘翻页 ---------- */
+  document.addEventListener('keydown', function (e) {
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+    var prev = document.body.getAttribute('data-prev');
+    var next = document.body.getAttribute('data-next');
+    if (e.key === 'ArrowLeft' && prev) location.href = prev;
+    if (e.key === 'ArrowRight' && next) location.href = next;
+  });
+})();
+</script>
+</body></html>
