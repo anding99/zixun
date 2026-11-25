@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>世界课 · 第021课 · 黄仁勋被请回英伟达，是董事会需要他，还是他需要董事会？</title>
+<meta name="description" content="黄仁勋被请回英伟达，是董事会需要他，还是他需要董事会？">
+<meta property="og:title" content="世界课 · 第021课 · 黄仁勋被请回英伟达，是董事会需要他，还是他需要董事会？">
+<style>
+:root{
+  --paper:#f5f1e6; --paper2:#faf7ee; --ink:#1b1a17; --ink2:#3d3a33;
+  --muted:#7a7365; --rule:#dbd2bd; --accent:#24405e; --warm:#a9502c; --soft:#e9e1cf;
+  --serif:"Songti SC","STSong","SimSun","Noto Serif CJK SC",Georgia,serif;
+  --sans:"Microsoft YaHei","PingFang SC","Hiragino Sans GB",system-ui,sans-serif;
+  --mono:"Cascadia Mono",Consolas,monospace;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:var(--paper);color:var(--ink);
+  font-family:var(--sans);font-size:16px;line-height:1.9;
+  -webkit-font-smoothing:antialiased;
+}
+body::before{
+  content:"";position:fixed;inset:0;pointer-events:none;opacity:.55;
+  background:radial-gradient(900px 420px at 12% -8%,rgba(36,64,94,.07),transparent 70%),
+             radial-gradient(700px 380px at 95% 4%,rgba(169,80,44,.05),transparent 70%);
+}
+a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+a:hover{color:var(--accent);border-bottom-color:var(--accent)}
+::selection{background:var(--accent);color:#fff}
+
+.wrap{max-width:760px;margin:0 auto;padding:0 26px;position:relative;z-index:1}
+
+.topbar{border-bottom:1px solid var(--rule);background:rgba(245,241,230,.86);backdrop-filter:blur(8px);position:sticky;top:0;z-index:10}
+.topbar .in{max-width:760px;margin:0 auto;padding:10px 26px;display:flex;gap:14px;align-items:baseline;font-size:12px;color:var(--muted);letter-spacing:.06em}
+.topbar b{font-family:var(--serif);font-size:14px;letter-spacing:.24em;color:var(--ink)}
+.topbar .sp{flex:1}
+
+header.mast{padding:56px 0 26px}
+.eyebrow{font-family:var(--mono);font-size:10px;letter-spacing:.24em;color:var(--muted);text-transform:uppercase;display:flex;align-items:center;gap:12px}
+.eyebrow::after{content:"";flex:1;height:1px;background:var(--rule)}
+h1{font-family:var(--serif);font-weight:900;font-size:clamp(34px,6vw,52px);letter-spacing:.06em;line-height:1.1;margin:14px 0 6px}
+.sub{font-size:13px;color:var(--muted);letter-spacing:.22em}
+.meta{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:baseline;margin-top:22px;padding-top:14px;border-top:2px solid var(--ink);font-size:12.5px;color:var(--ink2)}
+.meta .no{font-family:var(--mono);color:var(--warm);letter-spacing:.1em}
+.meta .week{margin-left:auto;color:var(--muted)}
+
+.weekbar{margin:26px 0 0;padding:10px 14px;background:var(--soft);border-left:3px solid var(--warm);font-size:13px;color:var(--ink2)}
+.weekbar b{font-family:var(--serif);font-size:15px;letter-spacing:.06em}
+
+.question{padding:44px 0 10px}
+.q-label{font-family:var(--mono);font-size:10px;letter-spacing:.22em;color:var(--warm);text-transform:uppercase}
+.question h2{font-family:var(--serif);font-weight:900;font-size:clamp(26px,4.2vw,36px);line-height:1.45;margin:12px 0 0;letter-spacing:.01em}
+.answer{font-family:var(--serif);font-size:18px;line-height:2;color:var(--ink2);margin:22px 0 0;padding-left:18px;border-left:2px solid var(--accent)}
+.answer b{color:var(--ink)}
+
+section{padding-top:38px}
+h3.label{font-family:var(--mono);font-size:10px;letter-spacing:.22em;color:var(--warm);text-transform:uppercase;margin:0 0 10px;display:flex;align-items:center;gap:10px}
+h3.label::after{content:"";flex:1;height:1px;background:var(--rule)}
+h2.title{font-family:var(--serif);font-size:26px;line-height:1.5;margin:0 0 18px;font-weight:700}
+.body p{font-family:var(--serif);font-size:17px;line-height:2.05;margin:0 0 18px;text-align:justify}
+.dropcap{float:left;font-size:3.2em;line-height:.9;padding:8px 12px 0 0;color:var(--warm);font-weight:700}
+.body b{font-weight:700}
+
+.pull{margin:26px 0;padding:18px 20px;border-top:1px solid var(--ink);border-bottom:1px solid var(--ink);font-family:var(--serif);font-size:19px;line-height:1.9;color:var(--ink);text-align:center}
+
+.counter{margin-top:22px;padding:18px 20px;border:1px solid var(--rule);background:var(--paper2);font-size:14px;line-height:1.9;color:var(--ink2)}
+.counter b{font-family:var(--mono);font-size:10px;letter-spacing:.18em;color:var(--warm);display:block;margin-bottom:6px}
+
+.world{margin-top:38px;padding:24px 0 8px;border-top:2px solid var(--ink);border-bottom:1px solid var(--rule)}
+.world .w-label{font-family:var(--mono);font-size:10px;letter-spacing:.22em;color:var(--warm);text-transform:uppercase;display:flex;gap:10px;align-items:center}
+.world .w-label .date{color:var(--muted);letter-spacing:.1em}
+.world h3{font-family:var(--serif);font-size:23px;line-height:1.55;margin:10px 0 14px;font-weight:700}
+.world p{font-family:var(--serif);font-size:16.5px;line-height:2;margin:0 0 14px;text-align:justify;color:var(--ink2)}
+.world p b{color:var(--ink)}
+.world .miss{margin-top:16px;padding:12px 15px;background:var(--paper2);border-left:2px solid var(--warm);font-size:14px;line-height:1.85;color:var(--ink2)}
+.world .miss b{font-family:var(--mono);font-size:9.5px;letter-spacing:.18em;color:var(--warm);display:block;margin-bottom:4px}
+
+.kid{margin-top:34px;padding:24px 24px 20px;background:var(--accent);color:#f4efe2;border-radius:2px}
+.kid .k-label{font-family:var(--mono);font-size:10px;letter-spacing:.22em;color:#c9b48f;text-transform:uppercase}
+.kid h3{font-family:var(--serif);font-size:22px;margin:8px 0 14px;color:#fff;font-weight:700}
+.kid ol{margin:0;padding-left:20px;font-family:var(--serif);font-size:16.5px;line-height:1.95}
+.kid li{margin-bottom:10px}
+.kid .exp{margin-top:16px;padding-top:14px;border-top:1px solid rgba(244,239,226,.28);font-size:13.5px;color:#e4d8bf}
+.kid .exp b{color:#f0c9a8}
+
+.reading ul{list-style:none;margin:0;padding:0}
+.reading li{padding:14px 0;border-bottom:1px solid var(--rule)}
+.reading .out{font-family:var(--mono);font-size:10px;letter-spacing:.16em;color:var(--warm);text-transform:uppercase}
+.reading .rt{font-family:var(--serif);font-size:17px;display:block;margin:3px 0 2px}
+.reading .rn{font-size:12.5px;color:var(--muted);line-height:1.7}
+
+.threads{margin-top:34px;padding-top:20px;border-top:2px solid var(--ink)}
+.threads h3{font-family:var(--serif);font-size:18px;margin:0 0 12px}
+.threads li{font-size:13.5px;color:var(--ink2);margin-bottom:8px;padding-left:16px;position:relative;line-height:1.75}
+.threads li::before{content:"○";position:absolute;left:0;top:2px;color:var(--warm);font-size:9px}
+.threads ul{list-style:none;margin:0;padding:0}
+
+footer{margin-top:56px;padding:22px 0 46px;border-top:1px solid var(--rule);font-size:12px;color:var(--muted);line-height:1.9}
+footer .fine{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
+
+@media(max-width:640px){
+  .wrap{padding:0 18px}
+  header.mast{padding-top:36px}
+  .answer{font-size:16.5px}
+  .body p{font-size:16px}
+  .dropcap{font-size:2.4em;padding:4px 8px 0 0}
+  .kid{padding:20px 18px}
+  .meta .week{margin-left:0;width:100%}
+}
+@media print{
+  .topbar{display:none}
+  body{background:#fff}
+  .kid{background:#eee;color:#000}
+  .kid h3,.kid li,.kid .exp{color:#000}
+}
+.arch{max-width:760px;margin:0 auto;padding:0 26px 60px}
+.arch a{display:block;padding:18px 0;border-bottom:1px solid var(--rule);border-left:none}
+.arch a:hover{background:var(--paper2)}
+.arch .d{font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:.08em}
+.arch .q{font-family:var(--serif);font-size:19px;line-height:1.6;margin:4px 0 2px;color:var(--ink)}
+.arch .t{font-size:12.5px;color:var(--muted)}
+</style>
+</head>
+<body><div class="topbar"><div class="in">
+  <b>世界课</b><span>每日一课</span><span class="sp"></span>
+  <a href="2026-11-24.html">← 上一课</a><span></span><a href="archive.html">往期</a>
+  <span>第 021 课</span><span>2026-11-25</span>
+</div></div><div class="wrap">
+<header class="mast">
+  <div class="eyebrow"><span>WORLD LESSONS · FOR A CURIOUS NINE-YEAR-OLD</span></div>
+  <h1>世界课</h1>
+  <div class="sub">给 父 与 子 的 每 日 一 课</div>
+  <div class="meta">
+    <span>2026-11-25　星期三</span>
+    <span class="no">第 021 课</span>
+    <span>约 8 分钟</span>
+    <span class="week">第 03 周 · 激励</span>
+  </div>
+  <div class="weekbar"><b>本周主题：激励</b>　人不是按道理行动，是按激励行动。这一周，我们看规则如何悄悄改变人的行为。</div>
+</header>
+<div class="question">
+  <div class="q-label">今日一问 · Wednesday , 人物</div>
+  <h2>黄仁勋被请回英伟达，是董事会需要他，还是他需要董事会？</h2>
+  <p class="answer">两边都需要，但更准确地说，是英伟达的股价和供应链需要“黄仁勋”这个名字。机制不显然的地方在于：现代大公司里，创始人早已不是靠股权控制公司，而是靠“不可替代的叙事”获得议价权——投资人相信只有他能稳住客户、供应商和员工，董事会就不敢换人。这种权力不是写在章程里的，是在一次次危机里被市场“投票”确认的。所以他复职后股价先涨后跌，正说明市场买的是信心，不是能力。</p>
+</div>
+<section>
+  <h3 class="label">人物 · Portrait</h3>
+  <h2 class="title">被需要，是最强的激励，也是最重的枷锁</h2>
+  <div class="body"><p>2026年11月，英伟达共同创始人黄仁勋因涉及多起婚外情辞职，仅11天就在特朗普公开施压下戏剧性复职。复职当天股价大涨，随后几天回吐，投资者开始重新盯住政治与治理风险。11月24日，他在全员大会上向员工道歉，承认违反公司行为准则，说自己每天接受心理治疗，并否认复职是白宫施压的结果。同一周，纽约陪审团裁定华为窃取商业机密罪名成立。两条新闻并排看，很有意思：一家公司的命运，越来越系在一个人身上。</p><p>为什么一个人能这么快被请回来？机制在于“不可替代性”被市场定价。董事会算的不是道德账，是风险账：换人，客户会观望，供应链会迟疑，股价会跌。当一个人的名字本身成了资产，他就获得了超出章程的权力。而这种权力不是他争来的，是别人“需要”出来的。激励在这里变了形——不是奖金和头衔在推他，是几万人的饭碗和几万亿市值在拉他。被需要，比被奖励更能让人回到位置上。</p><p>历史上有过类似的例子。1997年乔布斯回到濒临破产的苹果，董事会同样不是因为喜欢他，而是因为找不到第二个能讲清公司该做什么的人。他回来第一件事是砍掉七成产品线，把资源压到四款产品上。这个决定当时被骂得很惨，但正是“只有他能做这个决定”的处境，给了他做决定的胆量。黄仁勋的处境不同：乔布斯是被请来救火，他是被请回来稳住火。前者要改变，后者只要不塌。</p><p>但这条逻辑有边界。被需要的人，也最容易被同一份需要绑住。他不能随便退，因为一退市场就崩；他不能随便认错，因为认错就是承认资产有瑕疵。黄仁勋道歉时说自己“并非能凌驾法律之上的科技圈大佬”，这句话本身就是在拆解那层叙事。反过来说，如果一家公司离开某个人就转不动，那说明它的激励结构是坏的——它奖励的是“离不开”，而不是“做得好”。乔布斯之后的苹果能继续走，恰恰因为库克不需要成为乔布斯。</p><p>所以推论是：判断一个组织健不健康，不看它有没有英雄，看它能不能在没有英雄时照常运转。对个人也一样——如果你被需要，先分清那是你的能力，还是别人的恐惧。能力可以带走，恐惧带不走。黄仁勋的11天，是一堂关于“被需要”的公开课：它给你位置，也给你定价；它让你回来，也让你不敢走。真正的激励，应该来自你想做什么，而不是别人怕你不在。</p><p></p></div>
+  <div class="pull">被需要给你位置，也给你定价；能分清这两件事的人，才拿得回自己的方向盘。</div>
+  <div class="counter"><b>反方 · 最强的那个版本</b>最强的反方会说：把黄仁勋复职讲成“被需要的激励”，太温情了。真实情况是政治与资本的合谋——特朗普公开施压，科技高管对政治的投资“明显在回本”，董事会顺水推舟。这不是市场对能力的定价，是权力对规则的覆盖。若照这个读法，11天复职不是激励故事，而是治理失败的证据：一个人重要到不能倒，恰恰说明制度没有接住他。这个反方成立的地方在于，它指出了“被需要”背后可能是恐惧和利益，而不是信任。</div>
+</section>
+<section class="world">
+  <div class="w-label"><span>World Watch · 世界观察</span><span class="date">2026-11-25</span></div>
+  <h3>华为在纽约被定罪，争的到底是什么</h3>
+  <p>11月24日，纽约一个陪审团裁定华为窃取商业机密、就伊朗业务欺骗银行等罪名成立，但洗钱共谋和妨碍司法两项无罪。这场审判持续数月，是近年来美国对中国大型科技公司最受关注的一起刑事案件。判决出来后，华为方面表示将上诉。</p><p>机制上，这类案件的关键往往不在“有没有做”，而在“证据链能不能在陪审团面前站住”。商业机密案要证明三件事：秘密确实存在、被告接触过、并且使用了它。检方赢在能把技术细节讲成普通人听得懂的故事；辩方输在部分指控被拆开后，剩下的罪名仍然成立。</p><p>被忽略的是：有罪与无罪并存，说明陪审团是逐条判断的，不是整体表态。这既不是“全面定罪”，也不是“政治迫害”四个字能概括的。它更像一次法律程序对复杂商业行为的切片。</p><p>这对理解世界有什么用：看跨国科技纠纷，别只看结论，要看罪名清单。哪条成立、哪条不成立，往往比“赢了还是输了”更能说明双方真正的争点在哪里。</p>
+  <div class="miss"><b>被忽略的一点</b>这对理解世界有什么用：看跨国科技纠纷，别只看结论，要看罪名清单。哪条成立、哪条不成立，往往比“赢了还是输了”更能说明双方真正的争点在哪里。</div>
+</section>
+<section class="kid">
+  <div class="k-label">For a nine-year-old · 今晚可以问的三个问题</div>
+  <h3>不用讲道理，只问他怎么看</h3>
+  <ol><li>如果一支球队少了某个队员就总输，你觉得这是那个队员厉害，还是球队有问题？</li><li>你有没有过“别人非要你做，你才去做”的时候？那时候你心里是什么感觉？</li><li>一个人做错事以后又被请回来，你觉得应该先看他能不能做好，还是先看别人怕不怕他不在？</li></ol>
+  <div class="exp"><b>一个五分钟的小实验</b>：拿一张纸，写下家里三件“只有某个人会做”的事，比如只有妈妈会修打印机。然后讨论：如果这个人不在一周，哪件会真的出问题？哪件其实只是没人试过？</div>
+</section>
+<section class="reading"><h3 class="label">Read · 延伸</h3><ul><li>
+      <span class="out">CNA 评论</span>
+      <a class="rt" href="https://www.channelnewsasia.com/commentary/jensen-huang-returns-nvidia-ceo-donald-trump-6577756" target="_blank" rel="noopener">Jensen Huang should never have been too big to fail at Nvidia</a>
+      <span class="rn">反方视角：一个人不该重要到不能倒。</span>
+    </li><li>
+      <span class="out">SCMP</span>
+      <a class="rt" href="https://www.scmp.com/news/world/united-states-canada/article/3375675/nvidias-jensen-huang-apologises-staff-says-he-therapy" target="_blank" rel="noopener">Nvidia&#x27;s Jensen Huang says he is in therapy, as comeback rally fades</a>
+      <span class="rn">复职后的股价与道歉，事实层面最完整的一篇。</span>
+    </li><li>
+      <span class="out">书</span>
+      <a class="rt" href="#" target="_blank" rel="noopener">《创新者的窘境》克莱顿·克里斯坦森</a>
+      <span class="rn">讲组织为什么离不开某种成功路径，可与“离不开某个人”对照读。</span>
+    </li></ul></section>
+<div class="threads"><h3>长期线索 · 值得盯几年</h3><ul><li>创始人个人品牌与公司治理的边界：当一个人的名字成为资产，董事会还能不能正常换人。</li><li>美国法院对跨国科技公司的逐条定罪模式，会不会成为后续案件的模板。</li><li>“被需要”作为一种隐性激励，在家庭和学校里如何悄悄塑造孩子的动机。</li></ul></div>
+<footer><div class="fine">
+    <span>世界课 · 第 021 课 · 2026-11-25</span>
+    <span>事实 / 推断 / 猜测，三种语气已尽量分开。不构成任何建议。</span>
+  </div></footer>
+</div></body></html>
