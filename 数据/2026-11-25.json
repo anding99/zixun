@@ -1,0 +1,567 @@
+{
+  "lede": "今天最该记住的一件事，是市场对英伟达的定价开始从“黄仁勋回归”转向“治理风险折价”。黄仁勋复职11天后公开道歉、承认违反公司行为准则并称正接受心理治疗，公司股价当日下跌约7%，AI板块随之下挫；与此同时，司法部长拒绝确认是否曾对黄仁勋立案，国会两党则把调查范围扩大到白宫与公司董事会之间。资本开支叙事未变，但定价锚已从算力需求转向“谁在为谁背书”。",
+  "editor_note": "两条旧线索今日给出方向：AI资本开支升级，因治理调查叠加交付与转口疑云；赫格塞斯问责证伪，众院程序性阻止后转看参院。英国央行与关税撤销仍待验证，素材未含结果。",
+  "brief": [
+    "纽约陪审团裁定华为12项罪名中10项成立，涉伊朗业务欺骗银行与窃取商业机密，共谋勒索罪名不成立。",
+    "Shein同意支付1亿美元，了结美国关于航运与客户服务的相关指控。",
+    "欧盟对油电混合动力车设临时进口配额，12月1日生效，系10月对华贸易协议后续动作。",
+    "芝加哥奥黑尔机场地面雷达故障，约350架次航班延误，撞上感恩节出行高峰。",
+    "刚果（金）反政府武装在与政府军激战后停止向布尼亚推进，称履行乌干达斡旋承诺。"
+  ],
+  "top": [
+    {
+      "kicker": "头条",
+      "title": "黄仁勋道歉、股价回落：英伟达治理风险开始被定价",
+      "summary": "黄仁勋在全员大会上为违反公司行为准则道歉，称每日接受心理治疗，否认复职系川普施压董事会，并强调自己不能凌驾法律。当日英伟达股价下跌约7%，AI板块同步走弱，此前复职引发的涨势迅速消退。司法部长布兰奇拒绝确认是否曾对其立案，国会两党则就白宫介入企业人事开启新的调查线。",
+      "points": [
+        "复职仅11天即公开道歉，个人合规问题与公司治理被捆绑定价。",
+        "司法部态度含糊，与总统所称“彻底调查”形成信息缺口，市场以抛售回应。",
+        "国会调查扩至白宫与董事会关系，公司内部审计与转口链条成为下一验证点。"
+      ],
+      "source": {
+        "name": "中央社",
+        "url": "https://www.cna.com.tw/news/aopl/202611250012.aspx"
+      },
+      "status": "升级"
+    },
+    {
+      "kicker": "司法",
+      "title": "华为在美被定罪：10项成立、勒索共谋脱罪",
+      "summary": "布鲁克林联邦陪审团认定华为在12项罪名中10项成立，包括就伊朗业务欺骗银行、窃取美国公司商业机密；最重的犯罪集团共谋勒索指控不成立。判决将出口管制与银行欺诈两条线合并为一次可执行的司法结论，后续量刑与民事索赔将决定其在美业务的现实边界。",
+      "points": [
+        "定罪集中在银行欺诈与商业秘密，绕开了更难证明的组织性犯罪指控。",
+        "判决为出口管制执法提供判例，但未直接触及芯片供应链本身。",
+        "量刑与上诉周期较长，短期影响更多体现在合规成本与客户信心。"
+      ],
+      "source": {
+        "name": "CNA",
+        "url": "https://www.channelnewsasia.com/world/huawei-convicted-us-criminal-trial-iran-business-trade-secrets-6579566"
+      },
+      "status": "新增"
+    },
+    {
+      "kicker": "贸易",
+      "title": "欧盟混动配额12月1日生效，对华协议进入执行段",
+      "summary": "欧盟宣布对油电混合动力车实施临时进口配额，12月1日起生效，明确以保护境内车企为目标。这是10月中欧贸易协议后的进一步动作，意味着协议从框架进入可核查的数量管理阶段，中国车企在欧洲的混动窗口被压缩。",
+      "points": [
+        "配额针对混动车而非纯电，堵住此前规避关税的产品路径。",
+        "临时措施留有谈判空间，但执行起点已定，短期出口节奏受扰。",
+        "后续看配额分配细则与是否延伸至零部件。"
+      ],
+      "source": {
+        "name": "中央社",
+        "url": "https://www.cna.com.tw/news/aopl/202611250013.aspx"
+      },
+      "status": "新增"
+    }
+  ],
+  "regions": [
+    {
+      "name": "美国",
+      "en": "United States",
+      "summary": "英伟达治理风波与华为定罪同日落地，司法与政治边界同时被测试。",
+      "items": [
+        {
+          "title": "CIA与ODNI曝出网络安全事件",
+          "text": "知情人士称，中情局与国家情报总监办公室发现网络事件，部分非机密信息外泄。事件指向情报机构外围系统的防护薄弱环节，后续看是否涉及承包商与是否触发跨部门审查。",
+          "source": {
+            "name": "中央社",
+            "url": "https://www.cna.com.tw/news/aopl/202611250016.aspx"
+          }
+        },
+        {
+          "title": "芝加哥雷达故障致350架次延误",
+          "text": "联邦航空总署称地面雷达系统出现问题，飞往奥黑尔机场的航班延误，正值感恩节出行高峰。空管基础设施老化与人力紧张叠加，短时故障即放大为区域性拥堵。",
+          "source": {
+            "name": "中央社",
+            "url": "https://www.cna.com.tw/news/aopl/202611250014.aspx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "欧洲",
+      "en": "Europe",
+      "summary": "欧盟以配额工具保护本土车企，贸易协议进入数量管理阶段。",
+      "items": [
+        {
+          "title": "欧盟对混动车设临时进口配额",
+          "text": "措施12月1日生效，针对油电混合动力车，是10月中欧贸易协议后的进一步行动。配额把关税壁垒转为数量壁垒，执行细则与分配方式将决定实际收紧幅度。",
+          "source": {
+            "name": "中央社",
+            "url": "https://www.cna.com.tw/news/aopl/202611250013.aspx"
+          }
+        },
+        {
+          "title": "微软云故障内部复盘曝光",
+          "text": "内部备忘录显示公司启动“Code Red”整改，并设定一小时内恢复的目标。历史性宕机暴露工程协同的“战争迷雾”，后续看整改是否改变多租户架构的故障隔离设计。",
+          "source": {
+            "name": "Ars Technica",
+            "url": "https://arstechnica.com/gadgets/2026/11/microsofts-historic-cloud-outage-exposed-an-engineering-fog-of-war/"
+          }
+        }
+      ]
+    },
+    {
+      "name": "中东",
+      "en": "Middle East",
+      "summary": "以色列组阁立场分裂仍在，美伊降级路径缺乏可核查节点。",
+      "items": [
+        {
+          "title": "美伊谈判窗口取决于周五节点",
+          "text": "以色列组阁中的立场分歧为谈判提供空间，但可核查的降级路径尚未出现。若周五前无实质安排，油价回到95至100美元区间的风险上升，这是本期最需盯住的时间点。",
+          "source": {
+            "name": "France 24",
+            "url": "https://www.france24.com/en/tv-shows/spotlight/20261124-did-nvidia-knowingly-send-chips-to-china-cutout-was-there-pay-to-play-involving-trump-lutnick"
+          }
+        },
+        {
+          "title": "伊朗业务定罪牵动制裁执行",
+          "text": "华为因就伊朗业务欺骗银行被定罪，说明制裁执行正从行政罚转向刑事判例。中东业务的合规成本将随之抬升，转口与代理结构成为下一轮审查重点。",
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/economy/2026/11/24/chinese-tech-giant-huawei-found-guilty-of-conspiracy-to-steal-trade-secrets?traffic_source=rss"
+          }
+        }
+      ]
+    },
+    {
+      "name": "亚太",
+      "en": "Asia Pacific",
+      "summary": "韩国人事调整与俄军机逼近同时发生，安全与外交同步再平衡。",
+      "items": [
+        {
+          "title": "李在明在G20前清理“自主派”",
+          "text": "首尔改组外交与安全高层，意在修复对美关系并降低其对华关系的连带摩擦。人事先行意味着政策取向调整，后续看对美协商议题与对华沟通节奏。",
+          "source": {
+            "name": "SCMP",
+            "url": "https://www.scmp.com/week-asia/politics/article/3375638/south-koreas-lee-clears-out-self-reliance-camp-ahead-trump-g20-summit"
+          }
+        },
+        {
+          "title": "俄军机接近引发韩国空袭警报",
+          "text": "俄军机接近韩国空域，居民被要求避险。事件与朝俄军事互动背景叠加，短时摩擦可能推高东北亚空域识别与拦截的常态化成本。",
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/aje-onl-nf_russian-jets-spark-air-raid-alert-in-south-korea-241126?traffic_source=rss"
+          }
+        }
+      ]
+    },
+    {
+      "name": "中国",
+      "en": "China",
+      "summary": "车企加速电池自供，华为在美司法受挫形成两条外溢线。",
+      "items": [
+        {
+          "title": "小鹏加码自产电池包",
+          "text": "在亏损扩大背景下，小鹏仍扩大电池包制造，寻求供应链独立。宁德时代对整车厂的绑定松动，意味着成本与议价结构重排，后续看自供比例与毛利改善。",
+          "source": {
+            "name": "SCMP",
+            "url": "https://www.scmp.com/business/china-evs/article/3375583/catls-grip-chinese-ev-makers-loosens-xpeng-doubles-down-battery-production"
+          }
+        },
+        {
+          "title": "华为在美被定罪的外溢影响",
+          "text": "10项罪名成立虽未触及组织性犯罪指控，但银行欺诈与商业秘密定罪将抬高其海外合规成本。后续看量刑、民事索赔与供应商的合规审查是否收紧。",
+          "source": {
+            "name": "BBC World",
+            "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss"
+          }
+        }
+      ]
+    },
+    {
+      "name": "全球南方",
+      "en": "Global South",
+      "summary": "刚果（金）战事暂缓，巴西锂谷争夺比亚迪落地。",
+      "items": [
+        {
+          "title": "刚果（金）反政府武装停止推进",
+          "text": "在与政府军激战后，该武装停止向布尼亚推进，称履行乌干达斡旋承诺。停火能否转为可核查安排，决定东部矿产运输与平民返乡的恢复节奏。",
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/24/rebel-group-retreats-in-dr-congo-after-heavy-clashes-with-government-forces?traffic_source=rss"
+          }
+        },
+        {
+          "title": "巴西三州争夺比亚迪工厂",
+          "text": "米纳斯吉拉斯州将于明年1月与比亚迪签署谅解备忘录，争夺电动巴士工厂落地。地方补贴与锂资源配套成为筹码，后续看州际竞标条件与投资规模。",
+          "source": {
+            "name": "SCMP",
+            "url": "https://www.scmp.com/news/china/diplomacy/article/3375674/brazils-lithium-valley-makes-its-play-byd-three-states-fight-over-new-ev-plant"
+          }
+        }
+      ]
+    }
+  ],
+  "personal": [
+    {
+      "title": "盯住英伟达董事会审计披露",
+      "text": "复职合法性已从公司治理问题变成政治调查对象。未来十天若董事会内部审计披露调查范围或时间表，将决定股价是修复还是继续折价；反之，信息真空本身就是风险。",
+      "source": {
+        "name": "SCMP",
+        "url": "https://www.scmp.com/news/world/united-states-canada/article/3375675/nvidias-jensen-huang-apologises-staff-says-he-therapy"
+      }
+    },
+    {
+      "title": "周五是美伊降级路径的核查点",
+      "text": "若周五前无可核查的降级安排，油价回到95至100美元区间的概率上升。可把周五作为观察节点，而非把组阁分歧当作缓和信号。",
+      "source": {
+        "name": "France 24",
+        "url": "https://www.france24.com/en/tv-shows/spotlight/20261124-did-nvidia-knowingly-send-chips-to-china-cutout-was-there-pay-to-play-involving-trump-lutnick"
+      }
+    },
+    {
+      "title": "混动配额细则决定出口节奏",
+      "text": "12月1日生效的配额是数量工具，实际影响取决于分配方式与是否延伸至零部件。若细则按企业配额分配，头部车企的相对优势可能反而扩大。",
+      "source": {
+        "name": "中央社",
+        "url": "https://www.cna.com.tw/news/aopl/202611250013.aspx"
+      }
+    }
+  ],
+  "threads": [
+    {
+      "name": "AI资本开支",
+      "status": "升级",
+      "note": "看十天内英伟达董事会内部审计披露、Megaspeed黑名单是否扩至更多转口商、IREN交付推迟是否扩散。"
+    },
+    {
+      "name": "英伟达治理调查",
+      "status": "新增",
+      "note": "看司法部是否正式立案、国会听证排期，以及白宫与董事会沟通记录是否被要求提交。"
+    },
+    {
+      "name": "美伊谈判",
+      "status": "升级",
+      "note": "以色列组阁立场分裂提供窗口，看周五是否给出可核查降级路径，否则油价回到95至100美元区间。"
+    },
+    {
+      "name": "赫格塞斯问责",
+      "status": "证伪",
+      "note": "众院程序性阻止，转看参院听证、司法接手与战争权力法案排期。"
+    },
+    {
+      "name": "关税撤销",
+      "status": "待验证",
+      "note": "看参院是否排期听证，60票门槛与总统否决权决定短期只能走听证而非立法。"
+    }
+  ],
+  "reading": [
+    {
+      "title": "Why Asia’s AI rally faces a tougher road even after Jensen Huang’s comeback",
+      "outlet": "SCMP",
+      "note": "拆解亚洲芯片股涨势与英伟达人事风波之间的脆弱联动。",
+      "url": "https://www.scmp.com/business/markets/article/3375601/why-asias-ai-rally-faces-tougher-road-even-after-jensen-huangs-comeback"
+    },
+    {
+      "title": "Jensen Huang should never have been too big to fail at Nvidia",
+      "outlet": "CNA / Bloomberg Opinion",
+      "note": "从“大到不能倒”角度讨论创始人风险与董事会独立性。",
+      "url": "https://www.channelnewsasia.com/commentary/jensen-huang-returns-nvidia-ceo-donald-trump-6577756"
+    },
+    {
+      "title": "Half of NASA's aging Mars fleet knocked offline by technical issues",
+      "outlet": "Ars Technica",
+      "note": "老化的深空基础设施如何被燃料与通信瓶颈同时约束。",
+      "url": "https://arstechnica.com/space/2026/11/half-of-nasas-aging-mars-fleet-knocked-offline-by-technical-issues/"
+    }
+  ],
+  "sources": [
+    "中央社",
+    "CNA",
+    "SCMP",
+    "BBC World",
+    "Al Jazeera",
+    "France 24",
+    "Ars Technica"
+  ],
+  "sections": [
+    {
+      "no": "01",
+      "name": "宏观 · 政策",
+      "intro": "贸易与司法两条线同时收紧，政策从表态转入可执行环节。",
+      "items": [
+        {
+          "title": "欧盟混动配额12月1日生效",
+          "text": "欧盟宣布对油电混合动力车实施临时进口配额，自12月1日起生效，明确以保护境内车企为目标。这是10月中欧贸易协议后的进一步行动，协议从框架进入可核查的数量管理阶段。",
+          "tag": "贸易",
+          "source": {
+            "name": "中央社",
+            "url": "https://www.cna.com.tw/news/aopl/202611250013.aspx"
+          }
+        },
+        {
+          "title": "国会扩大对白宫介入企业人事的调查",
+          "text": "川普力促黄仁勋复职引发两党议员抨击，美媒称此举在国会调查中开启新战线，川普本人与这位科技巨头同时成为议员锁定目标。",
+          "tag": "监管",
+          "source": {
+            "name": "中央社",
+            "url": "https://www.cna.com.tw/news/aopl/202611250015.aspx"
+          }
+        }
+      ]
+    },
+    {
+      "no": "02",
+      "name": "市场 · 资产",
+      "intro": "AI交易退潮，龙头股价与情绪同步回摆。",
+      "items": [
+        {
+          "title": "英伟达跌约7%，AI抛售重启",
+          "text": "英伟达与Anthropic显著收低，AI板块卖压再起。复职引发的历史性涨势迅速失去动能，投资者重新聚焦政治与治理风险。",
+          "tag": "美股",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/world/stocks-wall-street-nvidia-anthropic-ai-6579601"
+          }
+        },
+        {
+          "title": "亚洲AI行情前路更难",
+          "text": "分析人士警告，即便黄仁勋回归安抚了情绪，推动亚洲芯片股今年上涨的AI热潮也难以简单延续，估值与订单能见度面临再检验。",
+          "tag": "亚太",
+          "source": {
+            "name": "SCMP",
+            "url": "https://www.scmp.com/business/markets/article/3375601/why-asias-ai-rally-faces-tougher-road-even-after-jensen-huangs-comeback"
+          }
+        }
+      ]
+    },
+    {
+      "no": "03",
+      "name": "科技 · AI",
+      "intro": "人事风波之外，AI的工程与叙事都在被重新审视。",
+      "items": [
+        {
+          "title": "黄仁勋致歉并称接受心理治疗",
+          "text": "黄仁勋在全员大会上为违反公司行为准则道歉，透露每日接受心理治疗，称自己不能凌驾法律，并否认复职是川普向董事会施压的结果。",
+          "tag": "公司治理",
+          "source": {
+            "name": "中央社",
+            "url": "https://www.cna.com.tw/news/aopl/202611250012.aspx"
+          }
+        },
+        {
+          "title": "微软云故障暴露工程“战争迷雾”",
+          "text": "内部备忘录显示，微软史上最严重云中断后启动“Code Red”整改，并设定一小时内恢复的激进目标，反映出超大规模基础设施的脆弱性。",
+          "tag": "基础设施",
+          "source": {
+            "name": "Ars Technica",
+            "url": "https://arstechnica.com/gadgets/2026/11/microsofts-historic-cloud-outage-exposed-an-engineering-fog-of-war/"
+          }
+        }
+      ]
+    },
+    {
+      "no": "04",
+      "name": "产业 · 半导体",
+      "intro": "芯片地缘与供应链自主两条主线继续交织。",
+      "items": [
+        {
+          "title": "华为在美被定罪：10项成立",
+          "text": "布鲁克林联邦陪审团认定华为12项罪名中10项成立，包括欺骗银行隐瞒伊朗业务、窃取美国公司商业机密；最重的犯罪集团共谋勒索指控不成立。",
+          "tag": "司法",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/world/huawei-convicted-us-criminal-trial-iran-business-trade-secrets-6579566"
+          }
+        },
+        {
+          "title": "宁德时代松动，小鹏加码自产电池",
+          "text": "小鹏在亏损扩大之际仍扩大电池包制造，寻求更高供应链独立性，反映车企在电池环节持续“去单一大供应商化”。",
+          "tag": "供应链",
+          "source": {
+            "name": "SCMP",
+            "url": "https://www.scmp.com/business/china-evs/article/3375583/catls-grip-chinese-ev-makers-loosens-xpeng-doubles-down-battery-production"
+          }
+        }
+      ]
+    },
+    {
+      "no": "05",
+      "name": "能源 · 气候",
+      "intro": "资源争夺与循环经济政策同时推进。",
+      "items": [
+        {
+          "title": "巴西“锂谷”争夺比亚迪工厂",
+          "text": "巴西米纳斯吉拉斯州将于1月与比亚迪签署谅解备忘录，三个州正竞争新的电动车工厂落地，资源产地与整车产能的绑定在加速。",
+          "tag": "资源",
+          "source": {
+            "name": "SCMP",
+            "url": "https://www.scmp.com/news/china/diplomacy/article/3375674/brazils-lithium-valley-makes-its-play-byd-three-states-fight-over-new-ev-plant"
+          }
+        },
+        {
+          "title": "新加坡饮料容器押金争议",
+          "text": "每个容器10分钱的返还计划上线后争议不断，评论指出回收机布局与便利性问题是民众不满的主因，循环经济政策的执行细节决定接受度。",
+          "tag": "循环经济",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/commentary/bcrs-machines-10-cent-deposit-beverage-container-recycling-6577771"
+          }
+        }
+      ]
+    },
+    {
+      "no": "06",
+      "name": "医药 · 健康",
+      "intro": "早筛与特殊教育支持成为健康议题的两端。",
+      "items": [
+        {
+          "title": "心脏病与中风风险可提前数十年识别",
+          "text": "爱丁堡大学研究显示，心脏病与中风风险可在症状出现前数十年被检测出来，为更早期的干预与分层管理提供依据。",
+          "tag": "早筛",
+          "source": {
+            "name": "University of Edinburgh",
+            "url": "https://www.ed.ac.uk/news/heart-attack-and-stroke-risk-detectable-decades-in-advance"
+          }
+        },
+        {
+          "title": "阅读障碍干预：从培训教师到养育女儿",
+          "text": "新加坡阅读障碍协会专家长期推动教师培训与评估工具开发，但陪伴自己女儿成长的过程让她对干预方式有了不同理解。",
+          "tag": "特殊教育",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/women/dyslexia-association-singapore-intervention-specialist-6542581"
+          }
+        }
+      ]
+    },
+    {
+      "no": "07",
+      "name": "商业 · 公司",
+      "intro": "合规成本与渠道波动重塑公司经营。",
+      "items": [
+        {
+          "title": "Shein付1亿美元和解美国航运与客服指控",
+          "text": "Shein同意支付1亿美元，就美国关于航运与客户服务的相关指控达成和解，跨境电商的合规成本进一步显性化。",
+          "tag": "合规",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/world/shein-100-million-settle-us-shipping-customer-service-claims-6579131"
+          }
+        },
+        {
+          "title": "GTA VI发布后PS5全岛售罄",
+          "text": "新加坡零售商每日接到数十次询问，索尼尚未公布PS5补货时间，显示大作对硬件需求的拉动仍然直接而集中。",
+          "tag": "消费电子",
+          "source": {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/singapore/ps5-restock-gta-6-sony-6578581"
+          }
+        }
+      ]
+    },
+    {
+      "no": "08",
+      "name": "科学 · 社会",
+      "intro": "太空资产老化与网络空间风险同时显现。",
+      "items": [
+        {
+          "title": "NASA火星舰队半数因故障离线",
+          "text": "毅力号向地球传输数据出现问题，奥德赛号燃料快速消耗，NASA老化火星资产同时遭遇技术瓶颈，深空任务的冗余设计再受考验。",
+          "tag": "航天",
+          "source": {
+            "name": "Ars Technica",
+            "url": "https://arstechnica.com/space/2026/11/half-of-nasas-aging-mars-fleet-knocked-offline-by-technical-issues/"
+          }
+        },
+        {
+          "title": "CIA非机密系统遭网络攻击",
+          "text": "知情人士称CIA与国家情报总监办公室发现网络安全事件，部分非机密信息曝光，情报机构的边界防护再次成为关注点。",
+          "tag": "网络安全",
+          "source": {
+            "name": "中央社",
+            "url": "https://www.cna.com.tw/news/aopl/202611250016.aspx"
+          }
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "title": "英伟达治理折价开始显性化",
+      "text": "黄仁勋为违反公司行为准则道歉、称每日接受心理治疗，并否认复职系白宫施压；当日英伟达股价跌约7%，AI板块同步走弱，复职以来的涨势迅速消退。",
+      "why": "市场此前把创始人回归当作利好，如今开始为“人事与政治介入”定价。司法部长拒答是否立案、国会两党另开调查线，意味着不确定性将持续数月，AI龙头的估值要额外承担治理风险溢价。"
+    },
+    {
+      "title": "华为在美获可执行司法结论",
+      "text": "布鲁克林联邦陪审团认定华为12项罪名中10项成立，包括就伊朗业务欺骗银行、窃取美国公司商业机密；最重的犯罪集团共谋勒索指控不成立。",
+      "why": "判决把出口管制与银行欺诈两条线合并为一次可落地的司法结论，后续量刑与民事索赔将划定其在美业务的现实边界，也为其他跨境科技企业提供合规定价参照。"
+    },
+    {
+      "title": "欧盟混动配额把协议推入执行段",
+      "text": "欧盟宣布对油电混合动力车实施临时进口配额，12月1日起生效，明确以保护境内车企为目标，是10月中欧贸易协议后的进一步动作。",
+      "why": "框架协议一旦转为可核查的数量管理，中国车企在欧洲的混动窗口就被压缩。配额而非关税意味着摩擦更隐蔽、更持续，出口排产与本地化节奏都要重算。"
+    }
+  ],
+  "analysis": [
+    {
+      "kicker": "深度 01 · 政治与资产",
+      "title": "当白宫介入企业人事：英伟达道歉背后的治理定价",
+      "thesis": "黄仁勋道歉与英伟达股价回落，标志着市场开始将政治干预企业治理的风险纳入资产定价。",
+      "body": [
+        "英伟达首席执行官黄仁勋在全员大会上为违反公司行为准则道歉，并否认复职系川普施压董事会，强调自己不能凌驾法律。当日英伟达股价下跌约7%，AI板块同步走弱，此前因复职消息引发的涨势迅速消退。司法部长布兰奇拒绝确认是否曾对其立案，国会两党则就白宫介入企业人事开启新的调查线。",
+        "这一事件的核心并非个人行为失范，而是企业治理边界与政治权力的模糊。黄仁勋的道歉与否认，试图将事件定性为个人合规问题，但国会调查的启动意味着白宫与董事会之间的互动被置于法律与公众审视之下。市场对此的反应是迅速的：股价下跌不仅反映对管理层稳定性的担忧，更包含对政治风险溢价的重新评估。",
+        "从资产定价机制看，投资者通常为企业治理折价，但政治干预带来的不确定性更难量化。当企业人事决策可能受外部政治力量影响时，未来的战略连续性、合规成本与监管风险均会上升。英伟达作为AI龙头，其估值高度依赖长期增长预期，任何治理瑕疵都可能被放大为对AI叙事可信度的质疑，进而波及整个板块。",
+        "国会两党的调查线将决定这一风险的持续时间与深度。若调查聚焦于程序正义与信息披露，市场或能逐步消化；若升级为对白宫与企业关系的系统性审查，则可能引发更广泛的科技股治理重估。司法部长的模糊表态进一步增加了不确定性，使投资者难以判断法律风险的边界。",
+        "对资产配置而言，这一事件提示政治风险正从宏观层面向微观企业渗透。科技巨头不再仅是商业实体，其人事与战略决策日益成为政治博弈的焦点。投资者需要将治理质量与政治韧性纳入分析框架，而非仅关注财务与业务指标。英伟达的案例可能成为后续类似事件的定价模板。"
+      ],
+      "counter": "有观点认为，黄仁勋的个人道歉与复职风波属于孤立事件，股价下跌更多是前期涨幅过大后的技术性回调，而非治理风险的系统性重定价。若国会调查未能发现实质违规，市场情绪可能快速修复。",
+      "watch": [
+        "国会两党调查的进展与听证安排",
+        "司法部是否正式立案及布兰奇的后续表态",
+        "英伟达董事会独立性与公司治理披露变化"
+      ]
+    },
+    {
+      "kicker": "深度 02 · 科技与资本",
+      "title": "华为在美被定罪：出口管制与银行欺诈的司法合流",
+      "thesis": "华为在美被定罪将出口管制与银行欺诈两条线合并为一次可执行的司法结论，其量刑与民事索赔将决定在美业务的现实边界。",
+      "body": [
+        "布鲁克林联邦陪审团认定华为在12项罪名中10项成立，包括就伊朗业务欺骗银行、窃取美国公司商业机密；最重的犯罪集团共谋勒索指控不成立。这一判决将出口管制违规与银行欺诈两条法律路径合并，形成对华为在美行为的司法定性，后续量刑与民事索赔将决定其业务的现实边界。",
+        "从法律机制看，银行欺诈定罪意味着华为被认定通过误导金融机构规避制裁，这触及美国金融体系的合规底线。出口管制违规则直接关联国家安全。两者合并后，司法结论更具可执行性：不仅可能面临罚款与监管措施，还可能触发连锁的民事索赔与合同违约风险。",
+        "对科技与资本而言，这一判决加剧了全球供应链的合规成本。华为在美业务本就受限，但定罪将影响其与第三国金融机构、供应商的合作关系。银行与合作伙伴可能因合规顾虑而收紧交易，进一步压缩华为的国际空间。同时，美国公司商业机密被窃的认定，可能引发相关企业的民事索赔。",
+        "最重的勒索共谋指控不成立，表明陪审团在部分指控上持保留态度，这或为华为在上诉中提供空间。然而，10项成立已足以构成实质性法律风险。量刑阶段将考量违规的严重性与合作态度，而民事索赔的规模可能远超刑事罚金，成为更大的财务负担。",
+        "对资本市场而言，华为并非上市公司，但其供应链与客户涉及众多上市企业。判决可能引发对相关供应商的重新评估，尤其是那些依赖华为订单或与其有技术合作的公司。此外，这一案例强化了美国出口管制的域外效力，其他科技企业需重新审视自身合规体系，资本开支中合规投入的比例可能上升。"
+      ],
+      "counter": "有分析认为，华为在美业务已极为有限，定罪的实际财务影响可控，且上诉过程可能长达数年，短期市场冲击有限。此外，勒索共谋指控不成立可能被解读为部分胜利，削弱判决的威慑力。",
+      "watch": [
+        "量刑听证会日期与可能的罚金规模",
+        "美国公司提起民事索赔的进展",
+        "华为上诉策略及对供应链的连带影响"
+      ]
+    },
+    {
+      "kicker": "深度 03 · 宏观与能源",
+      "title": "欧盟混动配额生效：贸易协议执行段的宏观涟漪",
+      "thesis": "欧盟对华混动配额12月1日生效，标志着中欧贸易协议从框架进入可核查的数量管理阶段，其宏观影响将体现在贸易流、通胀与产业政策上。",
+      "body": [
+        "欧盟宣布对油电混合动力车实施临时进口配额，12月1日起生效，明确以保护境内车企为目标。这是10月中欧贸易协议后的进一步动作，意味着协议从框架进入可核查的数量管理阶段，中国车企在欧洲的混动窗口被压缩。配额作为非关税壁垒，将直接改变贸易流与价格结构。",
+        "从宏观机制看，配额限制进口数量，可能推高欧洲市场混动车的价格，进而影响通胀读数。尽管混动车在CPI中权重有限，但汽车作为耐用品，其价格变动会通过消费与投资渠道传导。同时，配额保护境内车企，可能延缓其电动化转型，影响长期生产率与能源转型节奏。",
+        "对中欧贸易而言，协议执行段的开启意味着双方进入履约与监督的博弈。欧盟以配额管理进口，中国可能寻求对等安排或诉诸WTO争端解决。这一过程将增加贸易政策的不确定性，影响企业投资决策。汽车产业链跨境布局复杂，配额可能促使中国车企加速在欧洲本地化生产，改变资本流动方向。",
+        "能源视角下，混动配额与欧盟的减排目标存在张力。混动车作为过渡技术，其进口受限可能短期减少燃油消耗，但若保护政策延缓电动车普及，长期碳排放路径或偏离目标。欧盟在产业保护与气候承诺之间的平衡，将影响其能源政策与碳市场预期。",
+        "对宏观政策而言，这一配额是贸易政策工具在产业竞争中的运用，可能引发其他行业的效仿，增加全球贸易摩擦风险。央行需关注其对通胀与增长的双向影响，而财政政策可能需支持受影响车企的转型。配额的实际执行力度与中方反应，将决定其宏观涟漪的广度。"
+      ],
+      "counter": "有观点认为，混动配额规模有限，对整体贸易与通胀影响微弱，更多是象征性保护措施。且中国车企可能通过本地化生产规避配额，实际贸易流改变不大，宏观效应被高估。",
+      "watch": [
+        "配额具体数量与执行细则的公布",
+        "中国商务部的回应及可能的反制措施",
+        "欧洲混动车价格与销量的月度变化"
+      ]
+    }
+  ],
+  "date": "2026-11-25",
+  "issue": 22,
+  "edition": "晨刊",
+  "generated_at": "2026-11-25T08:09:21+08:00",
+  "weekday": "星期三",
+  "tagline": "一个人读的全球情报简报",
+  "numbers": {
+    "rows": [],
+    "note": ""
+  },
+  "calendar": [],
+  "ticker": []
+}
