@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-27",
+  "weekday": "星期五",
+  "weekday_index": 4,
+  "issue": 23,
+  "week": 4,
+  "theme": "复利",
+  "theme_note": "小的、持续的东西，最后会赢过大的、一次性的东西。这一周，我们看时间如何放大差异。",
+  "minutes": 6,
+  "question": "今天世界上发生的事，哪一件会在五年后还被提起？",
+  "answer": "今天这期没有写成。下面的三条原始报道，是素材里最重要的三件事；明天会补上完整的一课。",
+  "column": {
+    "kind": "现场",
+    "kind_en": "Field Notes",
+    "title": "今日三条原始报道",
+    "body": [
+      "What does gut health have to do with your skin?。Emerging research into the gut-skin axis is exploring how the microbiome, immune system and skin may influence one anoth",
+      "Hong Kong couple arrested for allegedly tampering with passport。Hong Kong’s Immigration Department has arrested a woman and her boyfriend for allegedly altering a travel document unlaw",
+      "Dollar lingers near 22-month peak as AI worries simmer。"
+    ],
+    "pull": ""
+  },
+  "world": {
+    "title": "",
+    "paras": [],
+    "miss": ""
+  },
+  "counter": "",
+  "kid": {
+    "questions": [
+      "今天你听到的最奇怪的一件事是什么？",
+      "它为什么会发生？",
+      "如果是你，会怎么做？"
+    ],
+    "experiment": ""
+  },
+  "reading": [
+    {
+      "out": "CNA",
+      "title": "What does gut health have to do with your skin?",
+      "note": "Emerging research into the gut-skin axis is exploring how the microbiome, immune",
+      "url": "https://www.channelnewsasia.com/advertorial/what-does-gut-health-have-do-your-skin-6502451"
+    },
+    {
+      "out": "SCMP",
+      "title": "Hong Kong couple arrested for allegedly tampering with passport",
+      "note": "Hong Kong’s Immigration Department has arrested a woman and her boyfriend for al",
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3375967/hong-kong-couple-arrested-allegedly-tampering-passport"
+    },
+    {
+      "out": "CNA",
+      "title": "Dollar lingers near 22-month peak as AI worries simmer",
+      "note": "",
+      "url": "https://www.channelnewsasia.com/business/dollar-lingers-near-22-month-peak-ai-worries-simmer-6586331"
+    }
+  ],
+  "threads": [
+    "世界的注意力从哪里来，又去了哪里。"
+  ],
+  "sources": [
+    "CNA",
+    "SCMP"
+  ]
+}
